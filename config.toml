@@ -1,0 +1,43 @@
+baseURL = "localhost:1313"
+languageCode = "en-us"
+title = "Friedger Pool"
+theme = "lodi"
+
+[params]
+    theme_color = "#574CDD"
+    description = "Stack your STX with Friedger"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "stacking@friedger.de"
+    twitter = "fmdroid"
+    github = "friedger"
+
+[params.nav]
+    enable = true
+
+[params.hero]
+    enable = true
+    avatar = "friedgermask.png"
+    subtitle = "Hi! I'm Friedger, join my stacking pool using the Stacks Wallet."
+    hero_right = ["**I am contributor to Stacks from Europe since 2018.**", 
+    "I worked on the Android SDK back in 2018. Since then, I submitted many patches, test libraries and tools as soon as they are available, developed Blockstack apps, mines some Stacks earlier this year and deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.", 
+    "I am inspired by all work that helps to bring back a user-owned internet. Therefore, I offer this stacking pool.", 
+    "You can reach my on discord (friedger#0185) and discuss more details",
+    "As delegatee, I don't make any APY promises about the payouts. It depends on how much the miners will send. We do not know.", 
+    "My Delegatee address:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
+    "My Bitcoin address:", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)"]    
+    resume = "https://www.hiro.so/wallet"
+
+[params.process]
+    enable = true
+    title = "The Stacking Pool"
+    subtitle = "Transparent and Fair"
+
+[params.case_studies]
+    enable = false
+    title = "Case Studies"
+    subtitle = "Selected Works"
+
+[params.footer]
+    enable = true

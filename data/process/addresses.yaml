@@ -1,0 +1,4 @@
+weight: 1
+title: "Addresses"
+icon: "book.svg"
+description: "The Stacks address is the same address that deployed the first user contract on mainnet. Rewards are sent to me in Bitcoins. I am using the BTC address corresponding to my stx address."

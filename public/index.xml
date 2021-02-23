@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Friedger Pool</title>
+    <link>localhost:1313/</link>
+    <description>Recent content on Friedger Pool</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cope | Alexis Collado</title>
+      <link>localhost:1313/cope/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/cope/</guid>
+      <description>The Challenge A startup called Cope hired me to create a minimum viable product for their new idea — tracking mental health. It was the first project where I handled mobile app design, and I was very excited to learn the intricacies of the iOS platform.
+My clients John and Kat have done some preliminary interviews with psychologists and psychiatrists to get their side of the picture. They have established a user persona, a business model canvas, and several startup prep work for the product to take off.</description>
+    </item>
+    
+    <item>
+      <title>360 Pro | Alexis Collado</title>
+      <link>localhost:1313/360pro/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/360pro/</guid>
+      <description>The Challenge Meeting with Chappy Callanta of 360 Pro led us to discover the root problem — the implementation of their performance testing framework. The gym uses a Numbers document on one iPad to record all tests, and relies on inefficient manual procedures to do the work. The document calculates a total pro score based on an athlete&amp;rsquo;s performance for specific exercises, but the coach using it has to refer to several norms before assigning a pro score.</description>
+    </item>
+    
+    <item>
+      <title>TEDxADMU | Alexis Collado</title>
+      <link>localhost:1313/tedx/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/tedx/</guid>
+      <description>Context The Ateneo Junior Marketing Association always outsourced their website development to different organizations in the university. This year, they chose User Experience Society, the organization I founded to create a strong digital presence for their flagship event. TEDxADMU is acclaimed among the youth and is marked by the many up and coming trailblazers in the Philippine community.
+The Challenge TEDxADMU always faced the same problems every year. How can we elevate the number of applications we receive?</description>
+    </item>
+    
+  </channel>
+</rss>

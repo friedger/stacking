@@ -1,0 +1,83 @@
+baseURL = "localhost:1313"
+languageCode = "en-us"
+title = "My Portfolio Website"
+theme = "hugo-lodi-theme"
+# googleAnalytics = "UA-XXXXXXXX-Y"
+
+[params]
+    # head theme color
+    theme_color = ""
+
+    # head description
+    # This is what appears on the preview when posting this site on Facebook for example
+    description = ""
+
+    # head photo
+    # This is what appears on the preview when posting this site on Facebook for example
+    description_photo = "portfolio.jpg"
+
+    # favicon image (512x512px), place this in the static/img folder
+    favicon = "favicon.png"
+
+    # logo image (204x204px), place this in the static/img folder
+    # this appears on the top left of the navigation
+    logo = "logo.png"
+
+    # Email
+    # email = ""
+
+    # Facebook username
+    # facebook = ""
+
+    # Twitter username
+    # twitter = "asdf"
+
+    # Dribbble username
+    # dribbble = ""
+
+    # LinkedIn URL
+    # linkedin = ""
+
+    # Medium username
+    # medium = "asdf"
+
+    # Github username
+    # github = ""
+
+    # Google Scholar URL
+    # googlescholar = ""
+
+[params.nav]
+    enable = true
+
+[params.hero]
+    enable = true
+
+    # Place this image in the static/img folder
+    avatar = "avatar.jpg"
+    subtitle = "Hi! I'm Juan, a front-end developer from Manila."
+
+    # Each element in this array makes a new <p> tag
+    # You can write this text in markdown
+    hero_right = [
+    "**This is a bold paragraph** and it's amazing.",
+    "This is my [GitHub](https://github.com/xaviablaza). It's pretty cool.",
+    "I also do a lot of coding if you didn't already know.",
+    "I study at XYZ University and I expect to graduate in 2050.",
+    "Please enjoy the rest of my website."]
+
+    # Link to your resume, place your PDF in the /static folder
+    resume = "resume.pdf"
+
+[params.process]
+    enable = true
+    title = "My Process"
+    subtitle = "Full Process Design"
+
+[params.case_studies]
+    enable = true
+    title = "Case Studies"
+    subtitle = "Selected Works"
+
+[params.footer]
+    enable = true
