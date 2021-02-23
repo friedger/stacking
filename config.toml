@@ -1,4 +1,4 @@
-baseURL = "https://friedger-pool.netlify.app"
+baseURL = "https://friedger-pool.netlify.app/"
 languageCode = "en-us"
 title = "Friedger Pool"
 theme = "lodi"
