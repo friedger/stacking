@@ -25,6 +25,7 @@ theme = "lodi"
     "I am inspired by all work that helps to bring back a user-owned internet. Therefore, I offer this stacking pool.", 
     "You can reach my on discord (friedger#0185) and discuss more details",
     "As delegatee, I don't make any APY promises about the payouts. It depends on how much the miners will send. We do not know.", 
+    "Please do delegate **more than 100 STX** to the pool. Payouts less than 1 STX are not really managable.",
     "My Delegatee address:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
     "My Bitcoin address:", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)"]    
     resume = "https://www.hiro.so/wallet"
