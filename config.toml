@@ -19,17 +19,22 @@ theme = "lodi"
 [params.hero]
     enable = true
     avatar = "friedgermask.png"
-    subtitle = "Hi! Pool members, reward cycle #3 is starting soon. The pool is closed now for the coming cycle."
-    hero_right = ["**I am contributor to Stacks from Europe since 2018.**", 
-    "I worked on the Android SDK back in 2018. Since then, I submitted many patches, test libraries and tools as soon as they are available, developed Blockstack apps, mines some Stacks earlier this year and deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.", 
-    "I am inspired by all work that helps to bring back a user-owned internet. Therefore, I offer this stacking pool.", 
-    "You can reach my on discord (friedger#0185) and discuss more details",
-    "As delegatee, I don't make any APY promises about the payouts. It depends on how much the miners will send. We do not know.",     
-    "**THE POOL IS NOW CLOSED FOR CYCLE #3**",
-    "To manage the pool I use the smart contract [**Pool Tool**](https://gitlab.com/riot.ai/clarity-pool-registry) [on mainnet](https://explorer.stacks.co/txid/0xb207840aed70713bc6e61df631efe4b6cfcb34c93b1ad1ca2a0ae2fa0f014694?chain=mainnet)",
-    "My Delegatee address:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
-    "My Bitcoin address:", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)"]    
-    resume = "https://stacking.club/"
+    subtitle = "Hi! I'm Friedger, join my stacking pool using the Stacks Wallet."
+    hero_right = ["**I have been a contributor to Stacks since 2018, and am based out of Europe.**", 
+    "I worked on the Android SDK back in 2018. Since then, I have submitted many patches, test libraries and tools as they have become available. I have developed Stacks apps, have mined Stacks earlier this year, and even deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.",
+    "I am inspired by all work that helps to bring back a user-owned internet. I offer this stacking pool as a stepping stone to achieving that vision.",
+    "You can reach me on discord (friedger#0185) to provide feedback and ask questions.",
+    "As delegatee, I cannot make any APY promises about the payouts. It depends on how much the miners transfer. We do not know in advance, but you can view stacking.club to get an idea.",
+    "**THE POOL IS NOW OPEN FOR CYCLE #4** (begins at Bitcoin block 674350)",
+    "To have a legal framework, I operate this pool as the company [OpenIntents](https://openintents.org), a German-based entrepreneurial company with limited liability.",
+    "You can use one of the Friedger Pool delegatee addresses here:",
+    "Locking for 1 cycle:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
+    "Locking for 3 cycles:", "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)",
+    "Locking for 6 cycles:", "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)",
+    "Locking for 12 cycles:", "[**SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7**](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet)",
+    "You can track Bitcoin earnings here, which gets converted to STX and paid to you 2 days after the last reward was received:",
+    "Bitcoin address:", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)"]    
+    resume = "https://www.hiro.so/wallet"
 
 [params.process]
     enable = true

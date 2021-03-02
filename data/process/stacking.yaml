@@ -1,4 +1,4 @@
-weight: 2
+weight: 3
 title: "Stacking"
 icon: "wand.svg"
-description: "I only stack your stacks when the expected minimum is met using my best effort. I offer to stack your stacks for 1 cycle only. You will miss the next cycle. Therefore, I suggest to stack half of your stacking amount with my pool, the other one with Boom Pool next cycle."
+description: "We only stack your stacks when the expected minimum is met using our best effort. Note, that the protocol requires that your stacks cool down for one cycle after your locking period."
