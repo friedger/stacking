@@ -23,8 +23,9 @@ theme = "lodi"
     hero_right = ["**I have been a contributor to Stacks since 2018, and am based out of Europe.**", 
     "I worked on the Android SDK back in 2018. Since then, I have submitted many patches, test libraries and tools as they have become available. I have developed Stacks apps, have mined Stacks earlier this year, and even deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.",
     "I am inspired by all work that helps to bring back a user-owned internet. I offer this stacking pool as a stepping stone to achieving that vision.",
-    "You can reach me on discord (friedger#0185) to provide feedback and ask questions.",
+    "You can reach me on discord (friedger Ӿ#0185) to provide feedback and ask questions.",
     "As delegatee, I cannot make any APY promises about the payouts. It depends on how much the miners transfer. We do not know in advance, but you can view stacking.club to get an idea.",
+    "From cycle #4 onwards, we will introduce a pool fees to cover parts of the running costs. It is 10% of the rewards if the pool size 1m STX or below, otherwise 8%.",
     "**THE POOL IS NOW OPEN FOR CYCLE #4** (begins at Bitcoin block 674350)",
     "To have a legal framework, I operate this pool as the company [OpenIntents](https://openintents.org), a German-based entrepreneurial company with limited liability.",
     "You can use one of the Friedger Pool delegatee addresses here:",
@@ -43,7 +44,7 @@ theme = "lodi"
 
 [params.case_studies]
     enable = false
-    title = "Case Studies"
+    title = "Cycles"
     subtitle = "Selected Works"
 
 [params.footer]

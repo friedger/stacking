@@ -22,8 +22,7 @@ a:hover {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-
+  transform: translateY(-3px);
 }
 
 footer {
@@ -32,7 +31,7 @@ footer {
   margin: 0 auto;
   display: flex !important;
   justify-content: space-between;
-  border-bottom: 1px solid #F0F0F0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .main-navigation {
@@ -42,17 +41,17 @@ footer {
   height: 68px;
   padding: 0;
   margin: 0;
-  border-top: 1px solid #F0F0F0;
-  border-bottom: 1px solid #F0F0F0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .sub-navigation {
@@ -84,13 +83,13 @@ footer {
   text-align: center !important;
   display: -ms-flexbox;
   display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  border-left: 1px solid #F0F0F0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-left: 1px solid #f0f0f0;
 }
 
 .icons a:first-child {
@@ -114,8 +113,9 @@ footer {
   }
 }
 
-.logo:hover, .main-navigation-link:hover {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+.logo:hover,
+.main-navigation-link:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 .logo {
@@ -126,7 +126,7 @@ footer {
 section {
   padding-top: 70px;
   padding-bottom: 70px;
-  border-bottom: 1px solid #F0F0F0;
+  border-bottom: 1px solid #f0f0f0;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -137,10 +137,10 @@ section {
   display: flex;
   margin: 0 auto;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 1000px;
 }
 
@@ -152,8 +152,8 @@ section {
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .case-studies {
@@ -164,8 +164,8 @@ section {
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hi {
@@ -175,7 +175,7 @@ section {
 
 .subtitle {
   font-size: 28px;
-  color: #5A54AF;
+  color: #5a54af;
   font-weight: 300;
 }
 
@@ -211,20 +211,20 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          /*justify-content: space-between;*/
+  -ms-flex-pack: justify;
+  /*justify-content: space-between;*/
 }
 
 .download-resume {
   /* Rectangle 3: */
   display: inline-block;
   margin-top: 20px;
-  background: #5A54AF;
+  background: #5a54af;
   /* Download Resume: */
   font-family: Roboto;
   font-size: 15px;
   /*padding: 15px 50px;*/
-  color: #C3D5FF;
+  color: #c3d5ff;
   padding: 18px 0;
   width: 296px;
   text-align: center;
@@ -257,22 +257,22 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .item-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   margin: 0;
   height: 35px;
 }
@@ -288,7 +288,7 @@ section {
 .process-item h3 {
   /* Discover: */
   font-size: 28px;
-  color: #5A54AF;
+  color: #5a54af;
   letter-spacing: 0;
 }
 
@@ -297,13 +297,13 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .case-study-item {
@@ -321,7 +321,7 @@ section {
 .case-study-item h5 {
   font-size: 13px;
   font-weight: 700;
-  color: #5A5A5A;
+  color: #5a5a5a;
   margin: 0;
   line-height: 0.3em;
   text-transform: uppercase;
@@ -337,10 +337,10 @@ section {
 .read-more {
   display: inline-block;
   width: 100%;
-  border: solid 2px #E1E1E1;
+  border: solid 2px #e1e1e1;
   padding: 18px 0;
   text-align: center;
-  color: #574CDD;
+  color: #574cdd;
   font-weight: 500;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
@@ -380,7 +380,6 @@ section {
   font-weight: 300;
   margin: 0;
   margin-top: 0.3em;
-
 }
 
 .results-content h3 {
@@ -391,7 +390,7 @@ section {
 
 .results-content hr {
   width: 30px;
-  border: 3px solid #5A54AF;
+  border: 3px solid #5a54af;
 }
 
 .main-case-study img {
@@ -408,7 +407,7 @@ section {
   font-family: Roboto;
   font-weight: bold;
   font-size: 22px;
-  color: #5A54AF;
+  color: #5a54af;
   letter-spacing: 0;
 }
 
@@ -461,6 +460,14 @@ section {
   margin-right: 1em;
 }
 
+.cycle {
+  table-layout: auto;
+  width: 100%;
+}
+.cycle td {
+  padding: 2px 10px 2px 10px;
+}
+
 @media all and (max-width: 981px) {
   .hero-left {
     margin: 0 auto;
@@ -477,10 +484,10 @@ section {
     display: block;
   }
   .case-detail-link {
-      display: block;
-      width: 100%;
-      padding:25px;
-      text-align: center;
+    display: block;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
   }
 }
 
@@ -540,7 +547,7 @@ section {
   font-size: 16px;
 }
 
-@media all and (max-width:1040px) {
+@media all and (max-width: 1040px) {
   .case-study-item {
     max-width: 48%;
     margin-top: 40px;
@@ -550,7 +557,7 @@ section {
   }
 }
 
-@media all and (max-width:980px) {
+@media all and (max-width: 980px) {
   .hero-right {
     width: 100%;
     margin-top: 30px;
@@ -568,7 +575,8 @@ section {
   .case-study-item:first-of-type {
     margin-top: 13px;
   }
-  .hi, .title {
+  .hi,
+  .title {
     font-size: 40px;
   }
   .process-item h3 {
@@ -586,14 +594,14 @@ section {
   }
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width: 500px) {
   .process-item {
     max-width: 100%;
   }
 }
 
 .active {
-  color: #574CDD !important;
+  color: #574cdd !important;
   transition: 0.2s ease-in-out;
-  border-bottom: 3px solid #574CDD;
+  border-bottom: 3px solid #574cdd;
 }
