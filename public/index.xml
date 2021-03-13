@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://pool.friedger.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Cycles</title>
       <link>https://pool.friedger.de/cycles/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pool.friedger.de/cycles/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cycles</title>
+      <link>https://pool.friedger.de/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pool.friedger.de/faq/</guid>
       <description></description>
     </item>
     
