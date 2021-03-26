@@ -31,12 +31,13 @@ theme = "lodi"
     "Locking for 1 cycle:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
     "Locking for 3 cycles:", "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)",
     "Locking for 6 cycles:", "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)",
-    "Used to be 12 cycles, now 6 cycles:" ,"[SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet)",
+    "(Used to be 12 cycles), now 6 cycles:" ,"[SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet)",
     "The more cycles you choose, the less cool down cycles you have. After each locking period, there is one cycle where you can't receive any rewards on your address. You can create a new address and delegate from there.",
-    "Also, Friedger Pool will re-stack your STXs for the next cycles without any action from you. If you want to leave the pool, just revoke in Stacks Wallet.",
+    "We start locking your STX around 500 blocks before the start of the next cycle. You can join until 200 blocks before the start. The pool will be closed around 50 blocks before the start.",
+    "Also, Friedger Pool will re-stack your STXs for the next cycles without any action from you when you chose to delegate for indefinite duration. If you want to leave the pool, just revoke in Stacks Wallet.",
     "You can track Bitcoin earnings here, which gets converted to STX and paid to you within 2 days after the last reward was received:",
-    "Bitcoin address (old):", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)",
     "Bitcoin address (new):", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
+    "Bitcoin address (old):", "[**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)",
     "More FAQs about delegated stacking at [stacks101.com](https://stacks101.com/stx-stacking/delegation)."]
     resume = "https://www.hiro.so/wallet"
 

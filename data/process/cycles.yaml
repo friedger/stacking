@@ -1,4 +1,4 @@
 weight: 1
 title: "Cycles"
 icon: "repeat.svg"
-description: "You have the option to lock your stacks for one cycle, for three cycles, for 6 cycles or 12 cycles. Use the corresponding address. Your stacks will go in one pool independent of the locked cycles."
+description: "You have the option to lock your stacks for one cycle, for three cycles or for 6 cycles. Use the corresponding address. Your stacks will go in one pool independent of the locked cycles."
