@@ -1,12 +1,19 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Landing from './pages/Landing';
 import { Connect } from '@stacks/connect-react';
-import { FRIEDGER_POOL_NFT, NETWORK } from './lib/constants';
+import { FRIEDGER_POOL_HINTS, FRIEDGER_POOL_NFT, NETWORK } from './lib/constants';
 import Auth from './components/Auth';
 import { userDataState, userSessionState, useConnect } from './lib/auth';
 import { useAtom } from 'jotai';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
-import { PostConditionMode, uintCV } from '@stacks/transactions';
+import {
+  contractPrincipalCV,
+  PostConditionMode,
+  standardPrincipalCV,
+  uintCV,
+} from '@stacks/transactions';
+import { initialMembers } from './lib/memberlist';
+import { StackingClient } from '@stacks/stacking';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -22,6 +29,7 @@ export default function App(props) {
 
   return (
     <Connect authOptions={authOptions}>
+      <h1>Members' Area</h1>
       <Auth userSession={userSession} />
       <Content userSession={userSession} />
     </Connect>
@@ -30,15 +38,20 @@ export default function App(props) {
 
 function Content({ userSession }) {
   const authenticated = userSession && userSession.isUserSignedIn();
-  const decentralizedID =
-    userSession && userSession.isUserSignedIn() && userSession.loadUserData().decentralizedID;
+  const userData = authenticated && userSession.loadUserData();
+  const decentralizedID = userData && userData.decentralizedID;
+  const stxOwnerAddress = userData && userData.profile.stxAddress.mainnet;
   const [status, setStatus] = useState();
   const [txId, setTxId] = useState();
-  const amount = useRef();
-  const receiver = useRef();
+  const [stackingStatus, setStackingStatus] = useState();
+  const amountRef = useRef();
+  const receiverRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
-
+  useEffect(() => {
+    const client = new StackingClient(stxOwnerAddress, NETWORK);
+    client.getStatus().then(s => setStackingStatus(s));
+  }, []);
   const claimNFT = async () => {
     try {
       setStatus(`Sending transaction`);
@@ -46,7 +59,7 @@ function Content({ userSession }) {
         contractAddress: FRIEDGER_POOL_NFT.address,
         contractName: FRIEDGER_POOL_NFT.name,
         functionName: 'claim',
-        functionArgs: [uintCV(amount.current.value.trim())],
+        functionArgs: [uintCV(amountRef.current.value.trim())],
         postConditionMode: PostConditionMode.Deny,
         postConditions: [],
         userSession,
@@ -62,33 +75,78 @@ function Content({ userSession }) {
       setStatus(e.toString());
     }
   };
-  const changeRewardReceiver = () => {};
+  const changeRewardReceiver = async () => {
+    try {
+      setStatus(`Sending transaction`);
+      const receiver = receiverRef.current.value.trim();
+      if (!receiver) {
+        setStatus('Enter receiver of your rewards');
+        return;
+      }
+      const receiverParts = receiver.split('.');
+      const receiverCV =
+        receiverParts.length === 1
+          ? standardPrincipalCV(receiverParts[0])
+          : contractPrincipalCV(receiverParts[0], receiverParts[1]);
+      await doContractCall({
+        contractAddress: FRIEDGER_POOL_HINTS.address,
+        contractName: FRIEDGER_POOL_HINTS.name,
+        functionName: 'set-payout-recipient',
+        functionArgs: [receiverCV],
+        postConditionMode: PostConditionMode.Deny,
+        postConditions: [],
+        userSession,
+        network: NETWORK,
+        finished: data => {
+          console.log(data);
+          setStatus(undefined);
+          setTxId(data.txId);
+        },
+      });
+    } catch (e) {
+      console.log(e);
+      setStatus(e.toString());
+    }
+  };
   return (
     <>
       {!authenticated && <Landing />}
       {decentralizedID && (
-        <div>
+        <>
           <section>
-            <h5>Claim Friedger Pool NFT</h5>
-            Pay what you want (to Friedger)
-            <div>
-              <input ref={amount} placeholder="5 STX" />
-              <button className="read_more" onClick={claimNFT}>
-                Claim
-              </button>
-            </div>
-          </section>
-          <section>
+            {stackingStatus &&
+              (stackingStatus.stacked ? (
+                <>You stacked 120 STX until cycle #9.</>
+              ) : (
+                <>You are currently not stacking.</>
+              ))}
+            {initialMembers.findIndex(m => m === stxOwnerAddress) >= 0 && (
+              <>
+                <h5>Claim Friedger Pool NFT</h5>
+                Pay what you want (to Friedger)
+                <div>
+                  <input ref={amountRef} placeholder="5 STX" />
+                  <button className="btn btn-outline-primary" type="button" onClick={claimNFT}>
+                    Claim
+                  </button>
+                </div>
+              </>
+            )}
             <h5>Change reward receiver</h5>
-            Enter the Stacks address that the pool admin should use for your reward payout.
+            Enter the Stacks address that you want the pool admin to use for your reward payout.
             <div>
-              <input ref={receiver} placeholder="SP1234.." />
-              <button className="read_more" onClick={changeRewardReceiver}>
+              <input ref={receiverRef} placeholder="SP1234.." />
+              <button
+                className="btn btn-outline-primary"
+                type="button"
+                onClick={changeRewardReceiver}
+              >
                 Submit
               </button>
             </div>
+            {status && <div>{status}</div>}
           </section>
-        </div>
+        </>
       )}
     </>
   );

@@ -11,7 +11,6 @@ export default function Landing(props) {
       <div className="jumbotron jumbotron-fluid pt-3 mb-0">
         <div className="container">
           <div className="panel-landing text-center mt-3">
-            <h1 className="landing-heading">Members Only</h1>
             <p className="lead">Enjoy the exclusive Friedger Pool membership!</p>
 
             <p className="card-link mb-5">
