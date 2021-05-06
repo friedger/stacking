@@ -6,6 +6,9 @@
   </url><url>
     <loc>https://pool.friedger.de/faq/</loc>
   </url><url>
+    <loc>https://pool.friedger.de/members/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://pool.friedger.de/categories/</loc>
   </url><url>
     <loc>https://pool.friedger.de/cycles/</loc>

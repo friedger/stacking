@@ -1,0 +1,4 @@
+weight: 4
+title: "Payouts"
+icon: "ui.svg"
+description: "We will payout rewards in STX within 2 days after the last reward was received. It will be proportional to your contribution to the pool. We use the coingecko value of BTC/STX at the time of payout."

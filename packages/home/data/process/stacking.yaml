@@ -1,0 +1,4 @@
+weight: 3
+title: "Stacking"
+icon: "wand.svg"
+description: "We only stack your stacks when the expected minimum is met using our best effort. Note, that the protocol requires that your stacks cool down for one cycle after your locking period."

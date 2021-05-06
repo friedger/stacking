@@ -1,0 +1,14 @@
+{
+  "name": "Friedger Pool",
+  "description": "Transparent and fair stacking pool",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "395x395",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "author": "friedgerpool.id"
+}
