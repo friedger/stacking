@@ -5,7 +5,7 @@
   </head>
   <body>
     {{ partial "nav_casestudy.html" . }}
-
+    <section><div id="react"></div></section>
     <section>
       <h1>Members' Area</h1>
       <div>
@@ -14,9 +14,9 @@
       </div>
     </section>
 
-    {{ range sort $.Site.Data.cycles "cycle" "desc"}}
-    {{ partial "cycle.html" . }}
-    {{ end }} {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }}
-    {{ end }} {{ partial "scripts.html" . }}
+    {{ range sort $.Site.Data.cycles "cycle" "desc"}} {{ partial "cycle.html" .
+    }} {{ end }} {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .
+    }} {{ end }} {{ partial "scripts.html" . }} {{partial "react-members.html" .
+    }}
   </body>
 </html>
