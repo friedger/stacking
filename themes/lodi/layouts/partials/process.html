@@ -1,0 +1,19 @@
+<section data-scroll-index="1">
+    <div class="process">
+        <div class="header">
+            <h1 class="title">{{ .Site.Params.Process.Title }}</h1>
+            <h2 class="subtitle">{{ .Site.Params.Process.Subtitle }}</h2>
+        </div>
+        <div class="process-wrapper">
+            {{ range $element := sort .Site.Data.process "weight" }}
+            <div class="process-item">
+                <figure class="item-header">
+                    <img src="svg/{{ $element.icon }}">
+                    <h3>{{ $element.title }}</h3>
+                </figure>
+                <p>{{ $element.description }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
