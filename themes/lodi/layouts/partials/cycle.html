@@ -1,6 +1,7 @@
 <section class="cycle">
   <h2>Cycle {{ .cycle }}</h2>
   {{.count}} addresses with {{ div .total 1000000 | lang.NumFmt 0 }} STX locked
+  {{ if .payout }} <br/>Payout: {{div .payout 1000000 | lang.NumFmt 6 }} STX ({{ div .payout .total |  mul 100 | lang.NumFmt 2}}%) {{ end}}
   <table>
     <thead>
       <tr>
