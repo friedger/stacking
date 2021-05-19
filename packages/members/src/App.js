@@ -1,13 +1,23 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Landing from './pages/Landing';
 import { Connect } from '@stacks/connect-react';
-import { FRIEDGER_POOL_HINTS, FRIEDGER_POOL_NFT, NETWORK } from './lib/constants';
+import {
+  FRIEDGER_POOL_HINTS,
+  FRIEDGER_POOL_NFT,
+  NETWORK,
+  smartContractsApi,
+} from './lib/constants';
 import Auth from './components/Auth';
 import { userDataState, userSessionState, useConnect } from './lib/auth';
 import { useAtom } from 'jotai';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import {
   contractPrincipalCV,
+  cvToHex,
+  cvToString,
+  FungibleConditionCode,
+  hexToCV,
+  makeStandardSTXPostCondition,
   PostConditionMode,
   standardPrincipalCV,
   uintCV,
@@ -16,7 +26,8 @@ import { initialMembers } from './lib/memberlist';
 import { StackingClient } from '@stacks/stacking';
 import { Amount } from './components/Amount';
 import { Address } from './components/Address';
-import { toSvg } from 'jdenticon';
+import Jdenticon from 'react-jdenticon';
+import BN from 'bn.js';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -33,15 +44,21 @@ export default function App(props) {
   const stxAddress = userData && userData.profile.stxAddress.mainnet;
   return (
     <Connect authOptions={authOptions}>
-      <h1>Member Area</h1>
-      {stxAddress ? toSvg(stxAddress, 50) : null}
-      {stxAddress && (
-        <>
-          <Address addr={stxAddress} />
-          <br />
-        </>
-      )}
-      <Auth userSession={userSession} />
+      <h1>Members' Area</h1>
+      <div style={{ display: 'flex', justifyContent: 'right' }}>
+        {stxAddress && (
+          <>
+            <div>
+              <Jdenticon size="50" value={stxAddress} />
+            </div>
+            <div>
+              <Address addr={stxAddress} />
+              <br />
+              <Auth userSession={userSession} />
+            </div>
+          </>
+        )}
+      </div>
       <Content userSession={userSession} />
     </Connect>
   );
@@ -56,29 +73,53 @@ function Content({ userSession }) {
   const [, setTxId] = useState();
   const [stackingStatus, setStackingStatus] = useState();
   const [suggestedAmount, setSuggestedAmount] = useState(10);
+  const [currentReceiver, setCurrentReceiver] = useState();
   const amountRef = useRef();
   const receiverRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
   useEffect(() => {
-    const client = new StackingClient(stxOwnerAddress, NETWORK);
-    client.getStatus().then(s => {
-      setStackingStatus(s);
-      if (s.stacked) {
-        setSuggestedAmount(Math.max(10, Math.floor(s.details.amount_microstx / 2_000_000_000))); // 0.5% * 2 * 5%
-      }
-    });
+    if (stxOwnerAddress) {
+      const client = new StackingClient(stxOwnerAddress, NETWORK);
+      client.getStatus().then(s => {
+        setStackingStatus(s);
+        if (s.stacked) {
+          setSuggestedAmount(Math.max(10, Math.floor(s.details.amount_microstx / 2_000_000_000))); // 0.5% * 2 * 5%
+        }
+      });
+      smartContractsApi
+        .getContractDataMapEntry({
+          contractAddress: FRIEDGER_POOL_HINTS.address,
+          contractName: FRIEDGER_POOL_HINTS.name,
+          mapName: 'payout-map',
+          key: cvToHex(standardPrincipalCV(stxOwnerAddress)),
+        })
+        .then(response => {
+          console.log(response);
+          if (response.data !== '0x09') {
+            const cv = hexToCV(response.data);
+            setCurrentReceiver(cvToString(cv.value));
+          }
+        });
+    }
   }, [stxOwnerAddress]);
   const claimNFT = async () => {
     try {
       setStatus(`Sending transaction`);
+      const amount = parseInt(amountRef.current.value.trim());
       await doContractCall({
         contractAddress: FRIEDGER_POOL_NFT.address,
         contractName: FRIEDGER_POOL_NFT.name,
         functionName: 'claim',
-        functionArgs: [uintCV(amountRef.current.value.trim())],
+        functionArgs: [uintCV(amount)],
         postConditionMode: PostConditionMode.Deny,
-        postConditions: [],
+        postConditions: [
+          makeStandardSTXPostCondition(
+            stxOwnerAddress,
+            FungibleConditionCode.Equal,
+            new BN(amount * 1000000)
+          ),
+        ],
         userSession,
         network: NETWORK,
         finished: data => {
@@ -135,29 +176,34 @@ function Content({ userSession }) {
               (stackingStatus.stacked ? (
                 <>
                   You stacked <Amount ustx={stackingStatus.details.amount_microstx} /> until cycle #
-                  {stackingStatus.details.first_reward_cycle +
-                    stackingStatus.details.locking_period}
-                  .
+                  {stackingStatus.details.first_reward_cycle + stackingStatus.details.lock_period}.
                 </>
               ) : (
                 <>You are currently not stacking.</>
               ))}
             {initialMembers.findIndex(m => m === stxOwnerAddress) >= 0 && (
               <>
+                <br />
+                <img width="100px" src="/nft.webp" />
                 <h5>Claim Friedger Pool NFT</h5>
-                Pay what you want (to Friedger)
+                Pay what you want (to Friedger in STX)
                 <div>
-                  <input ref={amountRef} placeholder={`${suggestedAmount} STX`} />
+                  <input
+                    ref={amountRef}
+                    defaultValue={suggestedAmount}
+                    placeholder={`${suggestedAmount} STX`}
+                  />
                   <button className="btn btn-outline-primary" type="button" onClick={claimNFT}>
-                    Claim
+                    Claim and Pay
                   </button>
                 </div>
               </>
             )}
             <h5>Change reward receiver</h5>
-            Enter the Stacks address that you want the pool admin to use for your reward payout.
+            Where should the pool admin send your rewards? <br />
+            Enter a Stacks address.
             <div>
-              <input ref={receiverRef} placeholder="SP1234.." />
+              <input ref={receiverRef} model={currentReceiver} placeholder="SP1234.." />
               <button
                 className="btn btn-outline-primary"
                 type="button"

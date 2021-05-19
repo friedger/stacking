@@ -29,7 +29,7 @@ export const useConnect = () => {
     manifestPath: '/manifest.json',
     appDetails: {
       name: 'Pool Registry',
-      icon: '/pool-registry.png',
+      icon: '/logo.png',
     },
   };
 
