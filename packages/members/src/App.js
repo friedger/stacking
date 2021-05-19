@@ -14,11 +14,14 @@ import {
 } from '@stacks/transactions';
 import { initialMembers } from './lib/memberlist';
 import { StackingClient } from '@stacks/stacking';
+import { Amount } from './components/Amount';
+import { Address } from './components/Address';
+import {} from 'react-jdenticon';
 
 export default function App(props) {
   const { authOptions } = useConnect();
   const [userSession] = useAtom(userSessionState);
-  const [, setUserData] = useAtom(userDataState);
+  const [userData, setUserData] = useAtom(userDataState);
   useEffect(() => {
     if (userSession?.isUserSignedIn()) {
       setUserData(userSession.loadUserData());
@@ -27,9 +30,17 @@ export default function App(props) {
     }
   }, [userSession, setUserData]);
 
+  const stxAddress = userData && userData.profile.stxAddress.mainnet;
   return (
     <Connect authOptions={authOptions}>
-      <h1>Members' Area</h1>
+      <h1>Member Area</h1>
+      {stxAddress ? <svg width="50" data-jdenticon-value={stxAddress} /> : null}
+      {stxAddress && (
+        <>
+          <Address addr={stxAddress} />
+          <br />
+        </>
+      )}
       <Auth userSession={userSession} />
       <Content userSession={userSession} />
     </Connect>
@@ -42,16 +53,22 @@ function Content({ userSession }) {
   const decentralizedID = userData && userData.decentralizedID;
   const stxOwnerAddress = userData && userData.profile.stxAddress.mainnet;
   const [status, setStatus] = useState();
-  const [txId, setTxId] = useState();
+  const [, setTxId] = useState();
   const [stackingStatus, setStackingStatus] = useState();
+  const [suggestedAmount, setSuggestedAmount] = useState(10);
   const amountRef = useRef();
   const receiverRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
   useEffect(() => {
     const client = new StackingClient(stxOwnerAddress, NETWORK);
-    client.getStatus().then(s => setStackingStatus(s));
-  }, []);
+    client.getStatus().then(s => {
+      setStackingStatus(s);
+      if (s.stacked) {
+        setSuggestedAmount(Math.max(10, Math.floor(s.details.amount_microstx / 2_000_000_000))); // 0.5% * 2 * 5%
+      }
+    });
+  }, [stxOwnerAddress]);
   const claimNFT = async () => {
     try {
       setStatus(`Sending transaction`);
@@ -116,7 +133,12 @@ function Content({ userSession }) {
           <section>
             {stackingStatus &&
               (stackingStatus.stacked ? (
-                <>You stacked 120 STX until cycle #9.</>
+                <>
+                  You stacked <Amount ustx={stackingStatus.details.amount_microstx} /> until cycle #
+                  {stackingStatus.details.first_reward_cycle +
+                    stackingStatus.details.locking_period}
+                  .
+                </>
               ) : (
                 <>You are currently not stacking.</>
               ))}
@@ -125,7 +147,7 @@ function Content({ userSession }) {
                 <h5>Claim Friedger Pool NFT</h5>
                 Pay what you want (to Friedger)
                 <div>
-                  <input ref={amountRef} placeholder="5 STX" />
+                  <input ref={amountRef} placeholder={`${suggestedAmount} STX`} />
                   <button className="btn btn-outline-primary" type="button" onClick={claimNFT}>
                     Claim
                   </button>
