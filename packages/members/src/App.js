@@ -16,7 +16,7 @@ import { initialMembers } from './lib/memberlist';
 import { StackingClient } from '@stacks/stacking';
 import { Amount } from './components/Amount';
 import { Address } from './components/Address';
-import {} from 'react-jdenticon';
+import { toSvg } from 'jdenticon';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -34,7 +34,7 @@ export default function App(props) {
   return (
     <Connect authOptions={authOptions}>
       <h1>Member Area</h1>
-      {stxAddress ? <svg width="50" data-jdenticon-value={stxAddress} /> : null}
+      {stxAddress ? toSvg(stxAddress, 50) : null}
       {stxAddress && (
         <>
           <Address addr={stxAddress} />
