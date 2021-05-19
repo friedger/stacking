@@ -184,7 +184,7 @@ function Content({ userSession }) {
             {initialMembers.findIndex(m => m === stxOwnerAddress) >= 0 && (
               <>
                 <br />
-                <img width="100px" src="/nft.webp" />
+                <img width="100px" src="/nft-preview.webp" alt="" />
                 <h5>Claim Friedger Pool NFT</h5>
                 Pay what you want (to Friedger in STX)
                 <div>
