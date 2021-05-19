@@ -2,7 +2,7 @@ cd packages/home
 hugo -D
 cp public/members/index.html ../members/public
 cd ../members
-yarn build
+SKIP_PREFLIGHT_CHECK=true yarn build
 cd ../..
 cp -r packages/home/public .
 cp -r packages/members/build/static public
