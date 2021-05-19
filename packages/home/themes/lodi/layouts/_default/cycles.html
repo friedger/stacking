@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_casestudy.html" . }}
+  </head>
+  <body>
+    {{ partial "nav_cycles.html" . }}
+    <section>
+      <h1>On-Chain Cycle Data</h1>
+      <div>
+        Users delegate to Friedger Pool. The pool admin will lock and commit the
+        stacks every cycle. The details for each cycle are listed below.
+      </div>
+    </section>
+
+    {{ range sort $.Site.Data.cycles "cycle" "desc"}} {{ partial "cycle.html" .
+    }} {{ end }} {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .
+    }} {{ end }} {{ partial "scripts.html" . }} {{partial "react-members.html" .
+    }}
+  </body>
+</html>

@@ -6,7 +6,11 @@
   </url><url>
     <loc>https://pool.friedger.de/faq/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>https://pool.friedger.de/payouts/1/</loc>
+=======
+    <loc>https://pool.friedger.de/members/</loc>
+>>>>>>> dev
   </url><url>
     <loc>https://pool.friedger.de/categories/</loc>
   </url><url>

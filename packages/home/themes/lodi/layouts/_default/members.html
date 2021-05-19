@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_casestudy.html" . }}
+  </head>
+  <body>
+    {{ partial "nav_members.html" . }}
+    <section>
+      <div class="content-case-study">{{ .Content }}</div>
+    </section>
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .
+    }} {{ end }} {{ partial "scripts.html" . }}
+  </body>
+</html>
