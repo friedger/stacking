@@ -41,7 +41,7 @@ jobs:
           cd ../..
           cp -r packages/home/public .
           cp -r packages/members/build/static public
-          cp packages/members/build/* public/members
+          cp packages/members/build/* public/members | true
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
