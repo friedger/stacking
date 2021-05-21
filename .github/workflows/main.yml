@@ -41,11 +41,14 @@ jobs:
           cd ../..
           cp -r packages/home/public .
           cp -r packages/members/build/static public
-          cp packages/members/build/* public/members | true
+          cp packages/members/build/* public/members | true 
           
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: ./public
+      - name: Netlify Actions  
+        uses: nwtgck/actions-netlify@v1.2.2
+        with:
+          # Publish directory
+         publish-dir: ./public          
