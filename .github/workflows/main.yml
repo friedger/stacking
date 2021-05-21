@@ -42,11 +42,6 @@ jobs:
           cp -r packages/home/public .
           cp -r packages/members/build/static public
           cp packages/members/build/* public/members | true 
-          
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.3
-        with:
-          path: ./public
       - name: Netlify Actions  
         uses: nwtgck/actions-netlify@v1.2.2
         with:
