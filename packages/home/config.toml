@@ -26,7 +26,7 @@ theme = "lodi"
     "You can reach me on discord (friedger.btc#0185) to provide feedback and ask questions.",
     "As delegatee, I cannot make any APY promises about the payouts. It depends on how much the miners transfer. We do not know in advance, but you can view stacking.club to get an idea.",
     "This pool is run for the community, there are no fees.",
-    "**THE POOL IS NOW OPEN FOR CYCLE #10** (begins at Bitcoin block 686950)",
+    "**THE POOL IS NOW CLOSED FOR CYCLE #10** (begins at Bitcoin block 686950)",
     "With the upcoming hardfork for Stacks 2.1 around block #700000, all addresses will only lock until cycle #15. Thereafter, we start with Stacks 2.1 a better service that you will hopefully like as much as the current one.",
     "You can use one of the Friedger Pool delegatee addresses here:",
     "**Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**",
