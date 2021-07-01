@@ -40,7 +40,7 @@ theme = "lodi"
     "Also, Friedger Pool will re-stack your STXs for the next cycles without any action from you when you chose to delegate for indefinite duration. If you want to leave the pool, just revoke in Stacks Wallet.",
     "You can track Bitcoin earnings here, which gets converted to STX and paid to you within 2 days after the last reward was received:",
     "Bitcoin address:", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
-    "The deprecated address [SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet) has reached end of use and Stacks on this address won't be restacked. Also the old Bitcoin address [**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF) won't receive any rewards anymore.",
+    "The deprecated address [SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet) has reached end of use and Stacks on this address won't be re-stacked. Also the old Bitcoin address [**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF) won't receive any rewards anymore.",
     "More FAQs about delegated stacking at [stacks101.com](https://stacks101.com/stx-stacking/delegation)."]
     resume = "https://www.hiro.so/wallet"
 
