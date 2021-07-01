@@ -30,6 +30,7 @@
     "react-input-switch": "^2.2.2",
     "react-jdenticon": "^0.0.9",
     "react-router-dom": "^5.2.0",
+    "typescript": "^4.3.5",
     "web-vitals": "^1.0.1"
   },
   "prettier": "@stacks/prettier-config",

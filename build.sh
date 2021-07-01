@@ -1,3 +1,4 @@
+rm -r public
 cd packages/home
 hugo -D
 cp public/members/index.html ../members/public

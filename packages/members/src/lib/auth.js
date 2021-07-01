@@ -28,8 +28,8 @@ export const useConnect = () => {
     redirectTo: '/',
     manifestPath: '/manifest.json',
     appDetails: {
-      name: 'Pool Registry',
-      icon: '/logo.png',
+      name: 'Friedger Pool Members',
+      icon: 'https://pool.friedger.de/img/logo.png',
     },
   };
 
@@ -38,7 +38,7 @@ export const useConnect = () => {
   };
 
   const handleSignOut = useCallback(() => {
-    userSession?.signUserOut("/");
+    userSession?.signUserOut('/');
   }, [userSession]);
 
   return { handleOpenAuth, handleSignOut, authOptions };
