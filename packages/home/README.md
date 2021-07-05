@@ -10,7 +10,7 @@ Cycle specifc data is contained in data folder, one file for each cycle.
 install [hugo](https://gohugo.io/)
 
 ### Run locally
-1. run `hugo -D server`
+1. run `hugo server -p 51000`
 
 ### Deployment
 1. run `hugo -D`
