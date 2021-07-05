@@ -1,0 +1,28 @@
+  <div class="flex items-center">
+    <div class="mr-8">
+      <h1>
+        {{ .Site.Params.Hero.title }}
+      </h1>
+      {{ partial "social.html" . }}
+    </div>
+    {{ if isset .Site.Params.Hero "avatar" }}
+      <img class="mb-8 w-24 rounded-full" src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" alt="Friedger" />
+    {{ end }}
+  </div>
+
+  <h3>{{ .Site.Params.Hero.subtitle }}</h3>
+</section>
+
+<section class="hero__text">
+  {{ range $paragraph := .Site.Params.Hero.text }}
+  <p>{{ $paragraph | markdownify }}</p>
+  {{ end }}
+</section>
+
+{{ if isset .Site.Params.Hero "wallet" }}
+<section class="wallet__button">
+
+  <button href="{{ .Site.Params.Hero.Resume }}" target="blank" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
+    Use Stacks Wallet
+</button>
+{{ end }}

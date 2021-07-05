@@ -1,0 +1,31 @@
+{{ if isset .Site.Params.Pool "prefix" }}
+  <div class="mt-14 mb-5">
+  {{ range $paragraph := .Site.Params.Pool.prefix }}
+    <p>{{ $paragraph | markdownify }}</p>
+  {{ end }}
+  </div>
+{{ end }}
+
+{{ if isset .Site.Params.Pool "row" }}
+<div class="flex justify-center">
+  <div class="bg-white rounded-lg w-full">
+    <ul class="divide-y border border-gray-200 rounded-xl divide-gray-200 shadow-sm">
+      {{ range .Site.Params.Pool.row }}
+      <li class="p-4">
+        <p class="pb-5">{{ .period }}</p>
+        {{ .address | markdownify}}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
+
+{{ if isset .Site.Params.Pool "suffix" }}
+  <div class="mt-14 mb-5">
+    {{ range $paragraph := .Site.Params.Pool.suffix }}
+      <p>{{ $paragraph | markdownify }}</p>
+    {{ end }}
+  </div>
+{{ end }}
+

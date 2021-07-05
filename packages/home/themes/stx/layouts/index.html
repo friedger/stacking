@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div class="relative z-10 flex flex-col items-center bg-gray-50">
+
+      <div class="sticky z-20 top-0 h-28 py-2 px-0 md:px-10 grid gap-0 w-full bg-white">
+        <div class="px-0 md:px-8">
+          <div class="flex overflow-hidden justify-between items-center">
+            <a href="{{ .Site.BaseURL }}">
+              <img class="logo h-24" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}">
+            </a>
+            {{ if .Site.Params.nav.enable }} 
+              {{ partial "nav.html" . }} 
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-auto grid gap-0 w-full my-10">
+
+          <div class="p-5 md:p-20 flex flex-col bg-white rounded-lg">
+
+            <section id="about" class="hero__intro">
+              {{ if .Site.Params.Hero.enable }}
+                {{ partial "hero.html" . }}
+              {{ end }}
+
+              {{ if .Site.Params.process.enable }}
+                {{ partial "process.html" . }}
+              {{ end }}
+
+            </section>
+
+            <section id="pool" class="pool">
+              {{ if .Site.Params.info_pane.enable }}
+                {{ partial "pool-info_pane.html" . }}
+              {{ end }}
+
+              {{ if .Site.Params.pool.enable }}
+                {{ partial "pool.html" . }}
+              {{ end }}
+              
+            </section>
+
+          </div>
+
+      </div>
+
+    </div>
+
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
