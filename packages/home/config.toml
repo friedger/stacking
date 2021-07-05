@@ -1,10 +1,13 @@
 baseURL = "https://pool.friedger.de/"
 languageCode = "en-us"
 title = "Friedger Pool"
-theme = "lodi"
+theme = "stx"
+
+[build]
+  writeStats = true
 
 [params]
-    theme_color = "#574CDD"
+    theme_color = "#4f46e5"
     description = "Stack your STX with Friedger"
     description_photo = "portfolio.jpg"
     favicon = "favicon.ico"
@@ -12,6 +15,7 @@ theme = "lodi"
     email = "stacking@friedger.de"
     twitter = "fmdroid"
     github = "friedger"
+    discord = "friedger.btc#0185"
 
 [params.nav]
     enable = true
@@ -19,30 +23,58 @@ theme = "lodi"
 [params.hero]
     enable = true
     avatar = "friedgermask.png"
-    subtitle = "Hi! I'm Friedger, join my stacking pool using the Stacks Wallet."
-    hero_right = ["**I have been a contributor to Stacks since 2018, and am based out of Europe.**",
+    title = "Hi! I'm Friedger"
+    subtitle = "Join my stacking pool using the Stacks Wallet."
+    text = [
+    "**I have been a contributor to Stacks since 2018, and am based out of Europe.**",
     "I worked on the Android SDK back in 2018. Since then, I have submitted many patches, test libraries and tools as they have become available. I have developed Stacks apps, have mined Stacks earlier this year, and even deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.",
     "I am inspired by all work that helps to bring back a user-owned internet. I offer this stacking pool as a stepping stone to achieving that vision.",
     "You can reach me on discord (friedger.btc#0185) to provide feedback and ask questions.",
     "As delegatee, I cannot make any APY promises about the payouts. It depends on how much the miners transfer. We do not know in advance, but you can view stacking.club to get an idea.",
     "This pool is run for the community, there are no fees.",
-    "**THE POOL IS NOW OPEN FOR CYCLE #12** (begins at Bitcoin block 691150)",
-    "When we know more about the upcoming hardfork for Stacks 2.1 we might update our stacking strategy to provide you the best stacking service.",
-    "You can use one of the Friedger Pool delegatee addresses here:",
-    "**Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**",
-    "Locking for 1 cycle:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
-    "Locking for 3 cycles:", "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)",
-    "Locking for 6 cycles:", "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)",
-    "Locking for 12 cycles (even beyond block #700000):", "[**SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ**](https://explorer.stacks.co/address/SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ)",
-    "The more cycles you choose, the less cool down cycles you have. After each locking period, there is one cycle where you can't receive any rewards on your address. You can create a new address and delegate from there.",
+    ]
+    wallet = "https://www.hiro.so/wallet"
+
+# Pool Section
+[params.pool]
+    enable = true
+
+    # Text before table
+    prefix = ["You can use one of the Friedger Pool delegatee addresses here: **Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**"]
+    
+    # Text after table
+    suffix = ["The more cycles you choose, the less cool down cycles you have. After each locking period, there is one cycle where you can't receive any rewards on your address. You can create a new address and delegate from there.",
     "Please do not stack less than 40 STX. Small payouts are hard to manage.",
     "We start locking your STX around 500 blocks before the start of the next cycle. You can join until 200 blocks before the start. The pool will be closed around 50 blocks before the start.",
     "Also, Friedger Pool will re-stack your STXs for the next cycles without any action from you when you chose to delegate for indefinite duration. If you want to leave the pool, just revoke in Stacks Wallet.",
     "You can track Bitcoin earnings here, which gets converted to STX and paid to you within 2 days after the last reward was received:",
-    "Bitcoin address:", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
-    "The deprecated address [SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet) has reached end of use and Stacks on this address won't be re-stacked. Also the old Bitcoin address [**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF) won't receive any rewards anymore.",
+    "Bitcoin address (new):", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
+    "The deprecated address [SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7](https://explorer.stacks.co/address/SPCKCVQ6FTZJQYJ42FGE0FCJ1Y1QMTAK0P2WMGX7?chain=mainnet) is still maintained, also the old Bitcoin address [**1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF**](https://www.blockchain.com/btc/address/1AJm7XWhbPTFqgtJT6oS9wQ3XThk7rA2yF)",
     "More FAQs about delegated stacking at [stacks101.com](https://stacks101.com/stx-stacking/delegation)."]
-    resume = "https://www.hiro.so/wallet"
+
+    # Display Pool addresses here   
+    [[params.pool.row]]
+      period = "Locking for 1 cycle:"
+      address = "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)"
+    # You can make more rows by copy and pasting the code above
+
+    [[params.pool.row]]
+      period =  "Locking for 3 cycles:"
+      address = "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)"
+
+    [[params.pool.row]]
+      period =  "Locking for 6 cycles:"
+      address = "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)"
+
+    [[params.pool.row]]
+      period =  "Locking for 8 cycles, until cycle #15 (just before block #700000):"
+      address = "[**SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ**](https://explorer.stacks.co/address/SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ)"
+    
+
+[params.info_pane]
+    enable = true
+    text_left = "**THE POOL IS NOW CLOSED FOR CYCLE #9** (begins at Bitcoin block 684850)"
+    text_right = "When we know more about the upcoming hardfork for Stacks 2.1 we might update our stacking strategy to provide you the best stacking service."
 
 [params.process]
     enable = true
