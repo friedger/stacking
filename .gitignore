@@ -1,2 +1,16 @@
 node_modules
 packages/members/build
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+config.codekit3
+/min
+
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+### macOS ###
+# General
+.DS_Store
