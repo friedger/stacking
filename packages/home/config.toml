@@ -30,7 +30,7 @@ theme = "lodi"
     "When we know more about the upcoming hardfork for Stacks 2.1 we might update our stacking strategy to provide you the best stacking service.",
     "You can use one of the Friedger Pool delegatee addresses here:",
     "**Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**",
-    "Locking for 1 cycle:", "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
+    "Locking for 1 cycle:", "via [**Boomboxes**](https://boom.money) or [**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
     "Locking for 3 cycles:", "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)",
     "Locking for 6 cycles:", "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)",
     "Locking for 12 cycles (even beyond block #700000):", "[**SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ**](https://explorer.stacks.co/address/SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ)",
