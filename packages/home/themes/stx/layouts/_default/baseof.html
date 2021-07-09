@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+    {{ partial "head.html" . }}
+  <body>
+    <div class="relative z-10 flex flex-col items-center bg-gray-50">
+
+      {{ partial "header/header.html" . }}
+
+      <div class="container mx-auto grid gap-0 w-full my-10">
+        <div class="p-5 md:p-20 flex flex-col bg-white rounded-lg">
+
+          {{- block "main" . }}{{- end }}
+        
+        </div>
+      </div>
+
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

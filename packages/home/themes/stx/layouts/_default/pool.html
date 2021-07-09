@@ -1,3 +1,10 @@
+{{ define "main" }}
+
+ <section id="pool" class="pool">
+{{ if .Site.Params.info_pane.enable }}
+      {{ partial "pool-info_pane.html" . }}
+{{ end }}
+
 {{ if isset .Site.Params.Pool "prefix" }}
   <div class="mt-14 mb-5">
   {{ range $paragraph := .Site.Params.Pool.prefix }}
@@ -27,5 +34,8 @@
       <p>{{ $paragraph | markdownify }}</p>
     {{ end }}
   </div>
+{{ end }}
+</section>
+
 {{ end }}
 

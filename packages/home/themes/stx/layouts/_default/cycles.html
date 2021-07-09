@@ -1,46 +1,18 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body>
-    <div class="relative z-10 flex flex-col items-center bg-gray-50">
-      <div class="sticky z-20 top-0 h-28 py-2 px-0 md:px-10 grid gap-0 w-full bg-white">
-        <div class="px-0 md:px-8">
-          <div class="flex overflow-hidden justify-between items-center">
-            <a href="{{ .Site.BaseURL }}">
-              <img class="logo h-24" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}">
-            </a>
-            {{ if .Site.Params.nav.enable }}
-            {{ partial "nav.html" . }}
-            {{ partial "nav_cycles.html" . }}
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      
-      <div class="container mx-auto grid gap-0 w-full my-10">
-      
-        <div class="overflow-hidden p-5 md:p-20 flex flex-col bg-white rounded-lg">
+{{ define "main" }}      
+  <section>
+    <h1>On-Chain Cycle Data</h1>
+    <p>
+      Users delegate to Friedger Pool. The pool admin will lock and commit the
+      stacks every cycle. The details for each cycle are listed below.
+    </p>
+  </section>
 
-          <section>
-            <h1>On-Chain Cycle Data</h1>
-            <p>
-              Users delegate to Friedger Pool. The pool admin will lock and commit the
-              stacks every cycle. The details for each cycle are listed below.
-            </p>
-          </section>
+  <div class="overflow-auto">
+  {{ range sort $.Site.Data.cycles "cycle" "desc"}} 
+    {{ partial "cycle.html" .}} 
+  {{ end }} 
+  </div>
 
-          <div class="overflow-auto">
-          {{ range sort $.Site.Data.cycles "cycle" "desc"}} 
-            {{ partial "cycle.html" .}} 
-          {{ end }} 
-          </div>
-
-          <!-- {{ partial "scripts.html" . }}  -->
-          {{partial "react-members.html" .}}
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+  <!-- {{ partial "scripts.html" . }}  -->
+  {{partial "react-members.html" .}}
+{{ end }}
