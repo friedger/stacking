@@ -2,6 +2,7 @@ baseURL = "https://pool.friedger.de/"
 languageCode = "en-us"
 title = "Friedger Pool"
 theme = "stx"
+disableKinds = ["taxonomy", "term"]
 
 [build]
   writeStats = true
