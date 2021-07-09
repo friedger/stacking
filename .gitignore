@@ -1,6 +1,12 @@
 node_modules
 packages/members/build
 
+### Hugo ###
+# Generated files by hugo
+packages/home/public/
+packages/home/resources/_gen/
+packages/home/hugo_stats.json
+
 ### CodeKit ###
 # General CodeKit files to ignore
 config.codekit
