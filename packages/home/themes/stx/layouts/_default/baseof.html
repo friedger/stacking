@@ -16,6 +16,9 @@
       </div>
 
     </div>
+    {{- $currentPage := . -}}
+    {{- if eq $currentPage.RelPermalink "/cycles/" -}}
     {{ partial "scripts.html" . }}
+    {{- end -}}
   </body>
 </html>
