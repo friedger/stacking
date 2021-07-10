@@ -1,16 +1,36 @@
-<!-- <script src="{{ .Site.BaseURL }}js/jquery-1.js"></script>
-<script src="{{ .Site.BaseURL }}js/stickUp.js"></script>
-<script src="{{ .Site.BaseURL }}js/scrollIt.js"></script>
 <script>
-  jQuery(function ($) {
-    $(document).ready(function () {
-      $(".main-navigation").stickUp({});
-    });
+
+  document.addEventListener('DOMContentLoaded', function () {
+
+    const $num_of_cycles = document.querySelectorAll('.cycle').length + 2; //Cycles data starts from #3
+    const $older = document.querySelector('.older-cycle');
+    const $newer = document.querySelector('.newer-cycle');
+    let $current_cycle = 0;
+
+    function show_hide() {
+
+      ($current_cycle == $num_of_cycles) ? $newer.style.display = 'none' : $newer.style.display = '';
+      ($current_cycle == 3) ? $older.style.display = 'none' : $older.style.display = '';
+
+    }
+
+    //if url hash ? grab Cycle number from url : we start at max (latest) Cycle
+    (window.location.hash) ? $current_cycle = parseInt(window.location.hash.split('-')[1]) : $current_cycle = $num_of_cycles;
+
+    $older.addEventListener('click', (e) => {
+      e.target.setAttribute('href', `#cycle-${$current_cycle - 1}`);
+      $current_cycle --;
+      show_hide();
+    })
+
+    $newer.addEventListener('click', (e) => {
+      ($current_cycle == ($num_of_cycles - 1)) ? e.target.setAttribute('href', '#') : e.target.setAttribute('href', `#cycle-${$current_cycle + 1}`);
+      $current_cycle ++;
+      show_hide();
+    })
+
+    show_hide();
+
   });
-  $(function () {
-    $.scrollIt({
-      topOffset: -70, // offste (in px) for fixed top navigation
-      easing: "ease-in-out",
-    });
-  });
-</script> -->
+
+</script>
