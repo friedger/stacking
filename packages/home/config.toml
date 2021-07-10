@@ -13,10 +13,6 @@ disableKinds = ["taxonomy", "term"]
     description_photo = "portfolio.jpg"
     favicon = "favicon.ico"
     logo = "logo.png"
-    email = "stacking@friedger.de"
-    twitter = "fmdroid"
-    github = "friedger"
-    discord = "friedger.btc#0185"
 
 [params.nav]
     enable = true
