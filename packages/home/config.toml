@@ -52,7 +52,7 @@ disableKinds = ["taxonomy", "term"]
     # Display Pool addresses here   
     [[params.pool.row]]
       period = "Locking for 1 cycle:"
-      address = "[**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)"
+      address = "via [**Boomboxes**](https://boom.money) or [**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)"
     # You can make more rows by copy and pasting the code above
 
     [[params.pool.row]]
@@ -70,7 +70,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params.info_pane]
     enable = true
-    text_left = "**THE POOL IS NOW CLOSED FOR CYCLE #9** (begins at Bitcoin block 684850)"
+    text_left = "**THE POOL IS NOW OPEN FOR CYCLE #12** (begins at Bitcoin block 691150)"
     text_right = "When we know more about the upcoming hardfork for Stacks 2.1 we might update our stacking strategy to provide you the best stacking service."
 
 [params.process]
