@@ -34,7 +34,7 @@
 
     a {
         max-width: 15rem;
-        @apply text-indigo-600 underline font-normal bg-transparent cursor-pointer block md:inline whitespace-nowrap overflow-hidden overflow-ellipsis md:max-w-none
+        @apply text-indigo-600 underline font-normal bg-transparent cursor-pointer block md:inline-flex whitespace-nowrap overflow-hidden overflow-ellipsis md:max-w-none
     }
 
     a strong {
