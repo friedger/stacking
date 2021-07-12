@@ -63,7 +63,7 @@
 @layer components {
 
     .sub-navigation a {
-        @apply flex mr-4 items-center text-sm no-underline;
+        @apply hidden mr-4 items-center text-sm no-underline;
     }
 
     .social a svg {

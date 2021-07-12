@@ -5,31 +5,36 @@
     const $num_of_cycles = document.querySelectorAll('.cycle').length + 2; //Cycles data starts from #3
     const $older = document.querySelector('.older-cycle');
     const $newer = document.querySelector('.newer-cycle');
+    const $cycle_nav_items = document.querySelectorAll('.cycle-navigation-item');
     let $current_cycle = 0;
 
-    function show_hide() {
+    function enable_disable() {
 
-      ($current_cycle == $num_of_cycles) ? $newer.style.display = 'none' : $newer.style.display = '';
-      ($current_cycle == 3) ? $older.style.display = 'none' : $older.style.display = '';
+      ($current_cycle == $num_of_cycles) ? Object.assign($newer.style, { color: "gray", cursor: "default", pointerEvents: "none" })  : Object.assign($newer.style, { color: "{{ .Params.currenColor }}", cursor: "pointer", pointerEvents: "auto" });
+      ($current_cycle == 3) ? Object.assign($older.style, { color: "gray", cursor: "default", pointerEvents: "none" }) : Object.assign($older.style, { color: "{{ .Params.currenColor }}", cursor: "pointer", pointerEvents: "auto" });
 
     }
 
-    //if url hash ? grab Cycle number from url : we start at max (latest) Cycle
-    (window.location.hash) ? $current_cycle = parseInt(window.location.hash.split('-')[1]) : $current_cycle = $num_of_cycles;
+    // if url hash && has contains number ? grab Cycle number from url : we start at max (latest) Cycle
+    (window.location.hash && /\d/.test(window.location.hash)) ? $current_cycle = parseInt(window.location.hash.split('-')[1]) : $current_cycle = $num_of_cycles;
 
     $older.addEventListener('click', (e) => {
       e.target.setAttribute('href', `#cycle-${$current_cycle - 1}`);
       $current_cycle --;
-      show_hide();
+      enable_disable();
     })
 
     $newer.addEventListener('click', (e) => {
       ($current_cycle == ($num_of_cycles - 1)) ? e.target.setAttribute('href', '#') : e.target.setAttribute('href', `#cycle-${$current_cycle + 1}`);
       $current_cycle ++;
-      show_hide();
+      enable_disable();
     })
 
-    show_hide();
+    enable_disable();
+
+    $cycle_nav_items.forEach((e) => {
+          e.style.display = 'flex';
+    });
 
   });
 
