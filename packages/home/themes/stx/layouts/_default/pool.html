@@ -16,7 +16,7 @@
 {{ if isset .Site.Params.Pool "row" }}
 <div class="flex justify-center">
   <div class="bg-white rounded-lg w-full">
-    <ul class="divide-y border border-gray-200 rounded-xl divide-gray-200 shadow-sm">
+    <ul class="pool-locking-addresses-list divide-y border border-gray-200 rounded-xl divide-gray-200 shadow-sm">
       {{ range .Site.Params.Pool.row }}
       <li class="p-4">
         <p class="pb-5">{{ .period }}</p>
