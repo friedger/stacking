@@ -13,7 +13,11 @@
   "dependencies": {
     "@stacks/connect": "^5",
     "@types/node": "^15.0.2",
+    "autoprefixer": "^10.2.6",
     "install": "^0.13.0",
-    "npm": "^7.11.2"
+    "npm": "^7.11.2",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
   }
 }

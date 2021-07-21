@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <section id="about" class="hero__intro">
+    {{ if .Site.Params.Hero.enable }}
+      {{ partial "home/hero.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.process.enable }}
+      {{ partial "home/process.html" . }}
+    {{ end }}
+
+  </section>
+{{ end }}

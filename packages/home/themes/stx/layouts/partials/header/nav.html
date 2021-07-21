@@ -1,0 +1,9 @@
+
+<nav class="flex flex-col md:flex-row">
+    {{- range .Site.Menus.main -}}
+    <a href="{{ .URL }}">
+        {{ .Pre }}
+        {{ .Name }}
+    </a>
+    {{- end -}}
+</nav>
