@@ -1,0 +1,7 @@
+<div class="social mt-2 flex">
+  {{- range .Site.Menus.social -}}
+    <a href="{{ .URL }}">
+      {{ .Pre }}
+    </a>
+  {{- end -}}
+</div>
