@@ -8,12 +8,17 @@
 	scroll-behavior: smooth;
     }
 
-    h1 {
-        @apply font-serif text-4xl font-medium tracking-tight no-underline
+    section {
+        scroll-margin-top: 150px;
+        @apply prose max-w-none mb-14
     }
 
-    h2 {
-        @apply font-serif text-3xl font-medium tracking-tight leading-7 text-left
+    section h1 {
+        @apply font-serif text-4xl font-medium
+    }
+
+    section h2 {
+        @apply font-serif text-3xl font-medium
     }
 
     h3 {
@@ -21,11 +26,11 @@
     }
 
     p {
-        @apply font-serif font-extralight leading-7
+        @apply font-serif font-extralight
     }
 
     strong {
-        @apply inline-block font-normal mb-2 
+        @apply inline-block font-normal 
     }
 
     button {
@@ -53,11 +58,6 @@
     nav a svg {
         @apply mr-0 ml-2 md:mr-1 md:ml-0
     }
-
-    section {
-        scroll-margin-top: 150px;
-        @apply mb-14
-    }
 }
 
 @layer components {
@@ -77,8 +77,8 @@
     .cycle {
         @apply pt-5
     }
+
+    .pool-locking-addresses-list li::before {
+        display: none;
+    }
 }
-
-
-
-
