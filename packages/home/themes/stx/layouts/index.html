@@ -3,10 +3,11 @@
     {{ if .Site.Params.Hero.enable }}
       {{ partial "home/hero.html" . }}
     {{ end }}
+  </section>
 
+  <section id="process">
     {{ if .Site.Params.process.enable }}
       {{ partial "home/process.html" . }}
     {{ end }}
-
   </section>
 {{ end }}
