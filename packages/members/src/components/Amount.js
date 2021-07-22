@@ -1,10 +1,10 @@
 export function Amount({ ustx, className }) {
-  if (isNaN(ustx)) {
+  if (typeof ustx !== "bigint") {
     return ustx;
   }
   return (
     <span className={className}>
-      {(ustx / 1000000).toLocaleString(undefined, {
+      {(ustx / 1000000n).toLocaleString(undefined, {
         style: 'decimal',
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,

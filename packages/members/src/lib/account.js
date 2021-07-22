@@ -12,8 +12,6 @@ import {
   standardPrincipalCV,
   hexToCV,
 } from '@stacks/transactions';
-import { Storage } from '@stacks/storage';
-import { STX_JSON_PATH } from '../UserSession';
 import {
   accountsApi,
   BNS_CONTRACT_NAME,
