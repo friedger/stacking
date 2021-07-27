@@ -69,5 +69,8 @@
   },
   "engines": {
     "node": "14"
+  },
+  "resolutions": {
+    "@stacks/transactions": "1.4.1"
   }
 }
