@@ -32,11 +32,13 @@ import BN from 'bn.js';
 import { fetchDelegationState } from './lib/stackingState';
 import { DelegationState } from './components/DelegationState';
 import { StackingStatus } from './components/StackingStatus';
+import { SubmitRewardTx } from './components/SubmitRewardTx';
 
 export default function App(props) {
   const { authOptions } = useConnect();
   const [userSession] = useAtom(userSessionState);
   const [userData, setUserData] = useAtom(userDataState);
+
   useEffect(() => {
     if (userSession?.isUserSignedIn()) {
       setUserData(userSession.loadUserData());
@@ -244,6 +246,24 @@ function Content({ userSession }) {
               >
                 Submit
               </button>
+            </div>
+            <h4>Submit Bitcoin reward transaction</h4>
+            For on-chain auditing, we are minting wrapped BTC reward tokens that represent the
+            Bitcoin rewards. The total of reward tokens will determine the total of payout in the
+            future. For now, this is only to help you auditing the pool. <br />
+            The Bitcoin transaction must contain be a reward transaction for our Bitcoin reward
+            address{' '}
+            <a
+              href="https://mempool.space/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq"
+              target="_blank"
+              rel="noreferrer"
+            >
+              33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq
+            </a>
+            .<br />
+            Before submitting a tx please make sure that it wasn't submitted before.
+            <div>
+              <SubmitRewardTx />
             </div>
             {status && <div>{status}</div>}
           </section>

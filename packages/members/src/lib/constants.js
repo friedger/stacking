@@ -19,9 +19,18 @@ export const FRIEDGER_POOL_HINTS = {
   address: 'SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9',
   name: 'friedgerpool-payout-hints',
 };
+export const CLARITY_BITCOIN_CONTRACT = {
+  address: 'SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9',
+  name: 'clarity-bitcoin-lib-v1',
+};
+
+export const FPWR_CONTRACT = {
+  address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
+  name: 'fpwr-v0',
+};
 
 export const authOrigin = 'https://app.blockstack.org';
-
+export const chainSuffix = "?chain=mainnet"
 export const STACK_API_URL = 'https://stacks-node-api.mainnet.stacks.co';
 export const STACKS_API_WS_URL = 'ws://stacks-node-api.mainnet.stacks.co/';
 export const STACKS_API_ACCOUNTS_URL = `${STACK_API_URL}/v2/accounts`;
