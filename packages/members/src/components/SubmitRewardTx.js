@@ -1,9 +1,8 @@
-import { cvToString, PostConditionMode } from '@stacks/connect/node_modules/@stacks/transactions';
 import { useRef, useState } from 'react';
 import { paramsFromTx, wasTxMined } from '../lib/btcTransactions';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import { FPWR_CONTRACT, NETWORK } from '../lib/constants';
-import { AnchorMode } from '@stacks/transactions';
+import { AnchorMode, cvToString, PostConditionMode } from '@stacks/transactions';
 import { TxStatus } from './TxStatus';
 
 export function SubmitRewardTx({ userSession }) {
