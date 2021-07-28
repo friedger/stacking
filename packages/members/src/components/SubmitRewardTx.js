@@ -1,9 +1,20 @@
 import { useRef, useState } from 'react';
-import { paramsFromTx, wasTxMined } from '../lib/btcTransactions';
+import {
+  getReversedTxId,
+  paramsFromTx,
+  parseBlockHeader,
+  verifyBlockHeader,
+  verifyBlockHeader2,
+  verifyMerkleProof,
+  verifyMerkleProof2,
+  wasTxMined,
+  wasTxMinedFromHex,
+} from '../lib/btcTransactions';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import { FPWR_CONTRACT, NETWORK } from '../lib/constants';
 import { AnchorMode, cvToString, PostConditionMode } from '@stacks/transactions';
 import { TxStatus } from './TxStatus';
+import { wasSubmitted } from '../lib/wrappedRewards';
 
 export function SubmitRewardTx({ userSession }) {
   const { doContractCall } = useStacksJsConnect();
@@ -15,15 +26,31 @@ export function SubmitRewardTx({ userSession }) {
 
   const verifyAction = async () => {
     const btcTxId = txidRef.current.value.trim();
-    const { txCV, proofCV, block, blockCV, headerPartsCV } = await paramsFromTx(btcTxId);
+
+    const { txCV, proofCV, block, blockCV, headerPartsCV, header, headerParts, stxHeight } =
+      await paramsFromTx(btcTxId);
     console.log({
       btcTxId,
       block,
       proofCV: cvToString(proofCV),
       blockCV: cvToString(blockCV),
       txCV: cvToString(txCV),
+      stxHeight,
     });
-    const results = await Promise.all([wasTxMined(headerPartsCV, txCV, proofCV)]);
+    const alreadyDone = false && (await wasSubmitted(txCV));
+    if (alreadyDone) {
+      return;
+    }
+    const results = await Promise.all([
+      getReversedTxId(txCV),
+      verifyMerkleProof(btcTxId, block, proofCV),
+      verifyMerkleProof2(txCV, headerPartsCV, proofCV),
+      verifyBlockHeader(headerParts, stxHeight),
+      verifyBlockHeader2(blockCV),
+      wasTxMinedFromHex(blockCV, txCV, proofCV),
+      parseBlockHeader(header),
+      wasTxMined(headerPartsCV, txCV, proofCV),
+    ]);
     console.log({ r: results.map(r => cvToString(r)) });
     setChanged(false);
   };
@@ -70,7 +97,7 @@ export function SubmitRewardTx({ userSession }) {
 
   return (
     <>
-      <input ref={txidRef} model={txid} placeholder="0x12345" />
+      <input ref={txidRef} model={txid} placeholder="tx id in hex like abc12345" />
       <button
         className="btn btn-outline-primary"
         type="button"
@@ -84,6 +111,7 @@ export function SubmitRewardTx({ userSession }) {
         />
         {changed ? 'Verify' : 'Submit'}
       </button>
+      <br />
       {txid && <TxStatus txId={txid} />}
     </>
   );

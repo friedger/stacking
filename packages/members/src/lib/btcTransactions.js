@@ -11,11 +11,7 @@ import reverse from 'buffer-reverse';
 import SHA256 from 'crypto-js/sha256';
 import { Transaction } from 'bitcoinjs-lib';
 
-import {
-  CLARITY_BITCOIN_CONTRACT,
-  CONTRACT_ADDRESS,
-  NETWORK,
-} from './constants';
+import { CLARITY_BITCOIN_CONTRACT, CONTRACT_ADDRESS, NETWORK } from './constants';
 
 export async function getReversedTxId(txCV) {
   const result = await callReadOnlyFunction({
@@ -30,7 +26,6 @@ export async function getReversedTxId(txCV) {
   console.log('getReversedTxId', cvToString(result));
   return result;
 }
-
 
 export async function concatTransaction(txPartsCV) {
   const result = await callReadOnlyFunction({
@@ -105,16 +100,12 @@ export async function verifyMerkleProof(txId, block, proofCV) {
   return result;
 }
 
-export async function verifyMerkleProof2(txCV, blockCV, proofCV) {
+export async function verifyMerkleProof2(txCV, headerPartsCV, proofCV) {
   const result = await callReadOnlyFunction({
     contractAddress: CLARITY_BITCOIN_CONTRACT.address,
     contractName: CLARITY_BITCOIN_CONTRACT.name,
     functionName: 'verify-merkle-proof',
-    functionArgs: [
-      await getReversedTxId(txCV),
-      blockCV.data["merkle-root"],
-      proofCV,
-    ],
+    functionArgs: [await getReversedTxId(txCV), headerPartsCV.data['merkle-root'], proofCV],
     senderAddress: CONTRACT_ADDRESS,
     network: NETWORK,
   });
@@ -149,14 +140,14 @@ export async function parseBlockHeader(blockHeader) {
   return result;
 }
 
-export async function verifyBlockHeader(parts, blockHeight) {
+export async function verifyBlockHeader(parts, stacksBlockHeight) {
   const result = await callReadOnlyFunction({
     contractAddress: CLARITY_BITCOIN_CONTRACT.address,
     contractName: CLARITY_BITCOIN_CONTRACT.name,
     functionName: 'verify-block-header',
     functionArgs: [
       bufferCV(Buffer.from(parts[0] + parts[1] + parts[2] + parts[3] + parts[4] + parts[5], 'hex')),
-      uintCV(blockHeight),
+      uintCV(stacksBlockHeight),
     ],
     senderAddress: CONTRACT_ADDRESS,
     network: NETWORK,
@@ -170,10 +161,7 @@ export async function verifyBlockHeader2(blockCV) {
     contractAddress: CLARITY_BITCOIN_CONTRACT.address,
     contractName: CLARITY_BITCOIN_CONTRACT.name,
     functionName: 'verify-block-header',
-    functionArgs: [
-      blockCV.data["header"],
-      blockCV.data["height"],
-    ],
+    functionArgs: [blockCV.data['header'], blockCV.data['height']],
     senderAddress: CONTRACT_ADDRESS,
     network: NETWORK,
   });
@@ -193,8 +181,8 @@ function numberToBuffer(value, size) {
 // "0200000001fbfaf2992b0ec1c24b237c7c8a8e6dfee0d19d18544e76cfa3e6ae4d20d7e2650000000000fdffffff02d8290800000000001976a914dd2c7d66ea6df0629fc222929311d0eb7d9146b588ac42a14700000000001600142a551add041ec0ffd755b5a993afa7a11ca59b0b1a900a00"
 // without witness
 function txForHash(tx) {
-  const transaction = Transaction.fromHex(tx)
-  return transaction.__toBuffer(undefined, undefined, false).toString("hex")
+  const transaction = Transaction.fromHex(tx);
+  return transaction.__toBuffer(undefined, undefined, false).toString('hex');
 }
 
 export async function paramsFromTx(btcTxId, stxHeight) {
@@ -228,7 +216,7 @@ export async function paramsFromTx(btcTxId, stxHeight) {
               hash: bufferCV(reverse(Buffer.from(input.prev_hash, 'hex'))),
               index: bufferCV(numberToBuffer(input.output_index, 4)),
             }),
-            scriptSig: bufferCV(Buffer.from("", 'hex')),
+            scriptSig: bufferCV(Buffer.from('', 'hex')),
             sequence: bufferCV(numberToBuffer(input.sequence, 4)),
           });
         }
@@ -329,5 +317,6 @@ export async function paramsFromTx(btcTxId, stxHeight) {
     headerParts,
     headerPartsCV,
     stacksBlock,
+    stxHeight: height,
   };
 }

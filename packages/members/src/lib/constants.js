@@ -26,7 +26,7 @@ export const CLARITY_BITCOIN_CONTRACT = {
 
 export const FPWR_CONTRACT = {
   address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
-  name: 'fpwr-v0',
+  name: 'fpwr-v00',
 };
 
 export const authOrigin = 'https://app.blockstack.org';
