@@ -20,15 +20,18 @@ export function SubmitRewardTx({ userSession }) {
   const { doContractCall } = useStacksJsConnect();
 
   const txidRef = useRef();
+  const stxHeightRef = useRef();
   const [txid, setTxid] = useState();
+  const [stacksHeight, setStacksHeight] = useState();
   const [loading, setLoading] = useState(false);
   const [changed, setChanged] = useState(true);
+  const [verifyResult, setVerifyResult] = useState();
 
   const verifyAction = async () => {
     const btcTxId = txidRef.current.value.trim();
 
     const { txCV, proofCV, block, blockCV, headerPartsCV, header, headerParts, stxHeight } =
-      await paramsFromTx(btcTxId);
+      await paramsFromTx(btcTxId, stxHeightRef.current.value.trim());
     console.log({
       btcTxId,
       block,
@@ -52,6 +55,7 @@ export function SubmitRewardTx({ userSession }) {
       wasTxMined(headerPartsCV, txCV, proofCV),
     ]);
     console.log({ r: results.map(r => cvToString(r)) });
+    setVerifyResult(results[results.length - 1]);
     setChanged(false);
   };
 
@@ -59,7 +63,10 @@ export function SubmitRewardTx({ userSession }) {
     setLoading(true);
 
     const btcTxId = txidRef.current.value.trim();
-    const { txPartsCV, proofCV, headerPartsCV } = await paramsFromTx(btcTxId);
+    const { txPartsCV, proofCV, headerPartsCV } = await paramsFromTx(
+      btcTxId,
+      stxHeightRef.current.value.trim()
+    );
 
     const functionArgs = [
       // block
@@ -97,7 +104,19 @@ export function SubmitRewardTx({ userSession }) {
 
   return (
     <>
-      <input ref={txidRef} model={txid} placeholder="tx id in hex like abc12345" />
+      <input
+        ref={stxHeightRef}
+        model={stacksHeight}
+        onChange={() => setChanged(true)}
+        placeholder="stacks block height"
+      />
+      <br />
+      <input
+        ref={txidRef}
+        model={txid}
+        onChange={() => setChanged(true)}
+        placeholder="tx id in hex like abc12345"
+      />
       <button
         className="btn btn-outline-primary"
         type="button"
@@ -112,6 +131,7 @@ export function SubmitRewardTx({ userSession }) {
         {changed ? 'Verify' : 'Submit'}
       </button>
       <br />
+      {verifyResult && cvToString(verifyResult)}
       {txid && <TxStatus txId={txid} />}
     </>
   );

@@ -247,10 +247,10 @@ function Content({ userSession }) {
                 Submit
               </button>
             </div>
-            {false && (
+            {true && (
               <>
                 <h4>Submit Bitcoin reward transaction</h4>
-                For on-chain auditing, we are minting wrapped BTC reward tokens that represent the
+                For on-chain auditing, we are minting wrapped reward tokens that represent the
                 Bitcoin rewards. The total of reward tokens will determine the total of payout in
                 the future. For now, this is only to help you auditing the pool. <br />
                 The Bitcoin transaction must contain be a reward transaction for our Bitcoin reward
