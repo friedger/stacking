@@ -27,8 +27,8 @@ export function Amount({ ustx, className }) {
         <>
           {(ustxNumber / 1000000).toLocaleString(undefined, {
             style: 'decimal',
-            minimumFractionDigits: 0,
-            maximumFractionDigits: 0,
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
           })}
           Ӿ
         </>
@@ -42,8 +42,8 @@ export function Amount({ ustx, className }) {
     <span className={className}>
       {(ustx / 1000000n).toLocaleString(undefined, {
         style: 'decimal',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
       })}
       Ӿ
     </span>

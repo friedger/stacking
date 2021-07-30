@@ -4,6 +4,7 @@ import {
   AccountsApi,
   Configuration,
   InfoApi,
+  BlocksApi,
 } from '@stacks/blockchain-api-client';
 import { StacksMainnet } from '@stacks/network';
 
@@ -26,11 +27,11 @@ export const CLARITY_BITCOIN_CONTRACT = {
 
 export const FPWR_CONTRACT = {
   address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
-  name: 'fpwr-v02',
+  name: 'fpwr-v03',
 };
 
 export const authOrigin = 'https://app.blockstack.org';
-export const chainSuffix = "?chain=mainnet"
+export const chainSuffix = '?chain=mainnet';
 export const STACK_API_URL = 'https://stacks-node-api.mainnet.stacks.co';
 export const STACKS_API_WS_URL = 'ws://stacks-node-api.mainnet.stacks.co/';
 export const STACKS_API_ACCOUNTS_URL = `${STACK_API_URL}/v2/accounts`;
@@ -44,3 +45,4 @@ export const accountsApi = new AccountsApi(config);
 export const smartContractsApi = new SmartContractsApi(config);
 export const transactionsApi = new TransactionsApi(config);
 export const infoApi = new InfoApi(config);
+export const blocksApi = new BlocksApi(config);

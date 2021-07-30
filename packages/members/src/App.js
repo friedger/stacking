@@ -33,6 +33,7 @@ import { fetchDelegationState } from './lib/stackingState';
 import { DelegationState } from './components/DelegationState';
 import { StackingStatus } from './components/StackingStatus';
 import { SubmitRewardTx } from './components/SubmitRewardTx';
+import { FprwMintTxList } from './components/FprwMintTxList';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -266,6 +267,9 @@ function Content({ userSession }) {
                 Before submitting a tx please make sure that it wasn't submitted before.
                 <div>
                   <SubmitRewardTx />
+                </div>
+                <div>
+                  <FprwMintTxList />
                 </div>
               </>
             )}

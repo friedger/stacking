@@ -11,7 +11,7 @@ import reverse from 'buffer-reverse';
 import SHA256 from 'crypto-js/sha256';
 import { Transaction } from 'bitcoinjs-lib';
 
-import { CLARITY_BITCOIN_CONTRACT, CONTRACT_ADDRESS, NETWORK } from './constants';
+import { blocksApi, CLARITY_BITCOIN_CONTRACT, CONTRACT_ADDRESS, NETWORK } from './constants';
 
 export async function getReversedTxId(txCV) {
   const result = await callReadOnlyFunction({
@@ -185,12 +185,25 @@ function txForHash(tx) {
   return transaction.__toBuffer(undefined, undefined, false).toString('hex');
 }
 
+async function getStxBlock(bitcoinBlockHeight) {
+  let stxBlock;
+  let limit = 30
+  let offset = 0;
+  while (!stxBlock) {
+    const blockListResponse = await blocksApi.getBlockList({ offset, limit });
+    stxBlock = blockListResponse.results.find(b => b.burn_block_height === bitcoinBlockHeight);
+    offset += limit;
+    if (offset > blockListResponse.total) return undefined;
+  }
+  return stxBlock;
+}
+
 export async function paramsFromTx(btcTxId, stxHeight) {
   const tx = await (
     await fetch(`https://api.blockcypher.com/v1/btc/main/txs/${btcTxId}?limit=50&includeHex=true`)
   ).json();
 
-  console.log({ out: tx.outputs[0] });
+  console.log({ out: tx.outputs[0], tx });
 
   // tx hex without witness
   const txCV = bufferCV(MerkleTree.bufferify(txForHash(tx.hex)));
@@ -236,11 +249,10 @@ export async function paramsFromTx(btcTxId, stxHeight) {
   let height;
   let stacksBlock;
   if (!stxHeight) {
-    const stacksBlockHash = tx.outputs[0].data_hex.substr(6, 64);
-    const stacksBlockResponse = await fetch(
-      `https://stacks-node-api.mainnet.stacks.co/extended/v1/block/0x${stacksBlockHash}`
-    );
-    stacksBlock = await stacksBlockResponse.json();
+    console.log('try to find stx height');
+    const bitcoinBlockHeight = tx.block_height;
+    stacksBlock = await getStxBlock(bitcoinBlockHeight);
+    console.log({ stacksBlock });
     height = stacksBlock.height;
   } else {
     const stacksBlockResponse = await fetch(

@@ -20,9 +20,7 @@ export function SubmitRewardTx({ userSession }) {
   const { doContractCall } = useStacksJsConnect();
 
   const txidRef = useRef();
-  const stxHeightRef = useRef();
   const [txid, setTxid] = useState();
-  const [stacksHeight, setStacksHeight] = useState();
   const [loading, setLoading] = useState(false);
   const [changed, setChanged] = useState(true);
   const [verifyResult, setVerifyResult] = useState();
@@ -31,7 +29,7 @@ export function SubmitRewardTx({ userSession }) {
     const btcTxId = txidRef.current.value.trim();
 
     const { txCV, proofCV, block, blockCV, headerPartsCV, header, headerParts, stxHeight } =
-      await paramsFromTx(btcTxId, stxHeightRef.current.value.trim());
+      await paramsFromTx(btcTxId);
     console.log({
       btcTxId,
       block,
@@ -40,18 +38,19 @@ export function SubmitRewardTx({ userSession }) {
       txCV: cvToString(txCV),
       stxHeight,
     });
-    const alreadyDone = false && (await wasSubmitted(txCV));
+    const alreadyDone = await wasSubmitted(txCV);
     if (alreadyDone) {
+      setVerifyResult('already submitted');
       return;
     }
     const results = await Promise.all([
-      getReversedTxId(txCV),
+      /* getReversedTxId(txCV),
       verifyMerkleProof(btcTxId, block, proofCV),
       verifyMerkleProof2(txCV, headerPartsCV, proofCV),
       verifyBlockHeader(headerParts, stxHeight),
       verifyBlockHeader2(blockCV),
       wasTxMinedFromHex(blockCV, txCV, proofCV),
-      parseBlockHeader(header),
+      parseBlockHeader(header),*/
       wasTxMined(headerPartsCV, txCV, proofCV),
     ]);
     console.log({ r: results.map(r => cvToString(r)) });
@@ -63,10 +62,7 @@ export function SubmitRewardTx({ userSession }) {
     setLoading(true);
 
     const btcTxId = txidRef.current.value.trim();
-    const { txPartsCV, proofCV, headerPartsCV } = await paramsFromTx(
-      btcTxId,
-      stxHeightRef.current.value.trim()
-    );
+    const { txPartsCV, proofCV, headerPartsCV } = await paramsFromTx(btcTxId);
 
     const functionArgs = [
       // block
@@ -104,13 +100,6 @@ export function SubmitRewardTx({ userSession }) {
 
   return (
     <>
-      <input
-        ref={stxHeightRef}
-        model={stacksHeight}
-        onChange={() => setChanged(true)}
-        placeholder="stacks block height"
-      />
-      <br />
       <input
         ref={txidRef}
         model={txid}
