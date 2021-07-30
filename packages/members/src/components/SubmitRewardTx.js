@@ -26,6 +26,7 @@ export function SubmitRewardTx({ userSession }) {
   const [verifyResult, setVerifyResult] = useState();
 
   const verifyAction = async () => {
+    setLoading(true);
     const btcTxId = txidRef.current.value.trim();
 
     const { txCV, proofCV, block, blockCV, headerPartsCV, header, headerParts, stxHeight } =
@@ -56,6 +57,7 @@ export function SubmitRewardTx({ userSession }) {
     console.log({ r: results.map(r => cvToString(r)) });
     setVerifyResult(results[results.length - 1]);
     setChanged(false);
+    setLoading(false);
   };
 
   const submitAction = async () => {
