@@ -11,7 +11,7 @@ import {
   wasTxMinedFromHex,
 } from '../lib/btcTransactions';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
-import { FPWR_CONTRACT, NETWORK } from '../lib/constants';
+import { FPWR_03_CONTRACT, NETWORK } from '../lib/constants';
 import { AnchorMode, cvToString, PostConditionMode } from '@stacks/transactions';
 import { TxStatus } from './TxStatus';
 import { wasSubmitted } from '../lib/wrappedRewards';
@@ -77,8 +77,8 @@ export function SubmitRewardTx({ userSession }) {
     try {
       // submit
       await doContractCall({
-        contractAddress: FPWR_CONTRACT.address,
-        contractName: FPWR_CONTRACT.name,
+        contractAddress: FPWR_03_CONTRACT.address,
+        contractName: FPWR_03_CONTRACT.name,
         functionName: 'mint',
         functionArgs,
         postConditionMode: PostConditionMode.Deny,

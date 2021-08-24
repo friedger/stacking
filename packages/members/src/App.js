@@ -2,6 +2,10 @@ import React, { useEffect, useState, useRef } from 'react';
 import Landing from './pages/Landing';
 import { Connect } from '@stacks/connect-react';
 import {
+  FPWR_03_CONTRACT,
+  FPWR_03_DEPOT_CONTRACT,
+  FPWR_04_CONTRACT,
+  FPWR_04_DEPOT_CONTRACT,
   FRIEDGER_POOL_HINTS,
   FRIEDGER_POOL_NFT,
   NETWORK,
@@ -33,7 +37,8 @@ import { fetchDelegationState } from './lib/stackingState';
 import { DelegationState } from './components/DelegationState';
 import { StackingStatus } from './components/StackingStatus';
 import { SubmitRewardTx } from './components/SubmitRewardTx';
-import { FprwMintTxList } from './components/FprwMintTxList';
+import { FpwrMintTxList } from './components/FpwrMintTxList';
+import { ClaimRewards } from './components/ClaimRewards';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -248,6 +253,28 @@ function Content({ userSession }) {
                 Submit
               </button>
             </div>
+            <hr />
+            <div>
+              <h4>Claim Stacking Rewards Tokens</h4>
+                The reward tokens are for auditing only. They do not have a value. Your Stacking
+                rewards are transferred as usual directly to your Stacks wallet.
+
+              <ClaimRewards
+                stxOwnerAddress={stxOwnerAddress}
+                userSession={userSession}
+                cycle={13}
+                tokenContract={FPWR_03_CONTRACT}
+                depotContract={FPWR_03_DEPOT_CONTRACT}
+              />
+              <ClaimRewards
+                stxOwnerAddress={stxOwnerAddress}
+                userSession={userSession}
+                cycle={14}
+                tokenContract={FPWR_04_CONTRACT}
+                depotContract={FPWR_04_DEPOT_CONTRACT}
+              />
+            </div>
+            <hr />
             {true && (
               <>
                 <h4>Submit Bitcoin reward transaction</h4>
@@ -264,12 +291,18 @@ function Content({ userSession }) {
                   33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq
                 </a>
                 .<br />
-                Before submitting a tx please make sure that it wasn't submitted before.
+                {false && (
+                  <>
+                    Before submitting a tx please make sure that it wasn't submitted before.
+                    <div>
+                      <SubmitRewardTx />
+                    </div>
+                  </>
+                )}
+                Currently, no new txs can be submitted because tests for cycle #13 have been
+                completed.
                 <div>
-                  <SubmitRewardTx />
-                </div>
-                <div>
-                  <FprwMintTxList />
+                  <FpwrMintTxList stxOwnerAddress={stxOwnerAddress} userSession={userSession} />
                 </div>
               </>
             )}

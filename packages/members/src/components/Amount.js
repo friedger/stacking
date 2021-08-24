@@ -1,7 +1,7 @@
 import { ClarityType, hexToCV } from '@stacks/transactions';
 import BN from 'bn.js';
 
-function ustxToNumber(ustx) {
+export function tokenAmountToNumber(ustx) {
   if (typeof ustx === 'object' && ustx.data) {
     const ustxCV = hexToCV(ustx.data);
     if (ustxCV.type === ClarityType.UInt) {
@@ -14,6 +14,8 @@ function ustxToNumber(ustx) {
   } else if (typeof ustx === 'string') {
     const bn = new BN(ustx);
     return bn.toNumber();
+  } else if (typeof ustx === 'number') {
+    return ustx;
   } else {
     return null;
   }
@@ -21,7 +23,7 @@ function ustxToNumber(ustx) {
 
 export function Amount({ ustx, className }) {
   if (typeof ustx !== 'bigint') {
-    const ustxNumber = ustxToNumber(ustx);
+    const ustxNumber = tokenAmountToNumber(ustx);
     if (ustxNumber) {
       return (
         <>
@@ -46,6 +48,38 @@ export function Amount({ ustx, className }) {
         maximumFractionDigits: 2,
       })}
       Ӿ
+    </span>
+  );
+}
+
+export function AmountBTC({ sats, tokenSymbol, className }) {
+  console.log({ sats });
+  if (typeof sats !== 'bigint') {
+    const satsNumber = tokenAmountToNumber(sats);
+    if (satsNumber) {
+      return (
+        <>
+          {(satsNumber / 100_000_000).toLocaleString(undefined, {
+            style: 'decimal',
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 8,
+          })}{' '}
+          {tokenSymbol || 'BTC'}
+        </>
+      );
+    } else {
+      console.log({ sats });
+      return sats;
+    }
+  }
+  return (
+    <span className={className}>
+      {(sats / 100_000_000).toLocaleString(undefined, {
+        style: 'decimal',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 8,
+      })}{' '}
+      {tokenSymbol || 'BTC'}
     </span>
   );
 }

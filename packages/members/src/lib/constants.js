@@ -25,9 +25,24 @@ export const CLARITY_BITCOIN_CONTRACT = {
   name: 'clarity-bitcoin-lib-v1',
 };
 
-export const FPWR_CONTRACT = {
+export const FPWR_03_CONTRACT = {
   address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
   name: 'fpwr-v03',
+};
+
+export const FPWR_03_DEPOT_CONTRACT = {
+  address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
+  name: 'fpwr-v03-depot',
+};
+
+export const FPWR_04_CONTRACT = {
+  address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
+  name: 'fpwr-v04',
+};
+
+export const FPWR_04_DEPOT_CONTRACT = {
+  address: 'SP1JSH2FPE8BWNTP228YZ1AZZ0HE0064PS6RXRAY4',
+  name: 'fpwr-v04-depot',
 };
 
 export const authOrigin = 'https://app.blockstack.org';
