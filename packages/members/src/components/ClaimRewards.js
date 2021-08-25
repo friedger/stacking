@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NETWORK } from '../lib/constants';
-import { fetchDepot, fetchDepotBalance } from '../lib/wrappedRewards';
+import { fetchDepot, fetchDepotBalance, fetchTokenBalance } from '../lib/wrappedRewards';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import {
   AnchorMode,
@@ -27,6 +27,7 @@ export function ClaimRewards({
   const [txid, setTxid] = useState();
   const [depotValue, setDepotValue] = useState();
   const [depotBalance, setDepotBalance] = useState();
+  const [tokenBalance, setTokenBalance] = useState();
 
   const { doContractCall } = useStacksJsConnect();
 
@@ -36,10 +37,14 @@ export function ClaimRewards({
       setDepotValue(response);
     });
     fetchDepotBalance(stxOwnerAddress, depotContract).then(response => {
-      console.log({ r: response });
+      console.log({ depotBalance: response });
       setDepotBalance(response ? tokenAmountToNumber(response.value) : null);
     });
-  }, [stxOwnerAddress, depotContract]);
+    fetchTokenBalance(stxOwnerAddress, tokenContract).then(response => {
+      console.log({ tokenBalance: response }, tokenContract);
+      setTokenBalance(response ? tokenAmountToNumber(response) : null);
+    });
+  }, [stxOwnerAddress, depotContract, tokenContract]);
 
   const claimAction = async () => {
     setLoading(true);
@@ -83,7 +88,8 @@ export function ClaimRewards({
       <h5>Cycle #{cycle}</h5>
       {depotValue && (
         <>
-          Total verified on-chain: {depotValue.data['tokens'].value.value.toNumber() / 100_000_000}
+          {cycle === 13 ? <>Total verified on-chain</> : <>Total rewards</>}:{' '}
+          {depotValue.data['tokens'].value.value.toNumber() / 100_000_000}
           <br />
           Total claimed: {depotValue.data['total-claimed'].value.toNumber() / 100_000_000}
           <br />
@@ -110,6 +116,13 @@ export function ClaimRewards({
         </>
       ) : (
         <>
+          {tokenBalance && (
+            <>
+              Your balance of wrapped reward tokens is:{' '}
+              <AmountBTC sats={tokenBalance} tokenSymbol="FPWR-v04" />
+              <br />
+            </>
+          )}
           {depotBalance ? (
             <>
               Your balance of claimable rewards is:{' '}
@@ -132,7 +145,7 @@ export function ClaimRewards({
               )}
             </>
           ) : (
-            ''
+            'No tokens to claim.'
           )}
         </>
       )}

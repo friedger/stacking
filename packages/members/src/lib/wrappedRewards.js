@@ -67,3 +67,19 @@ export async function fetchDepotBalance(stacker, depotContract) {
     return response.value.value; // unwrapped ok and unwrap optional of type uintCV
   }
 }
+
+export async function fetchTokenBalance(stacker, tokenContract) {
+  const response = await callReadOnlyFunction({
+    contractAddress: tokenContract.address,
+    contractName: tokenContract.name,
+    functionName: 'get-balance',
+    functionArgs: [standardPrincipalCV(stacker)],
+    senderAddress: tokenContract.address,
+  });
+  console.log({ response });
+  if (response.type === ClarityType.ResponseErr || response.value.type === ClarityType.OptionalNone) {
+    return undefined;
+  } else {
+    return response.value.value; // unwrapped ok and unwrap optional of type uintCV
+  }
+}
