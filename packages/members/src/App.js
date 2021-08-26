@@ -256,9 +256,8 @@ function Content({ userSession }) {
             <hr />
             <div>
               <h4>Claim Stacking Rewards Tokens</h4>
-                The reward tokens are for auditing only. They do not have a value. Your Stacking
-                rewards are transferred as usual directly to your Stacks wallet.
-
+              The reward tokens are for auditing only. They do not have a value. Your Stacking
+              rewards are transferred as usual directly to your Stacks wallet.
               <ClaimRewards
                 stxOwnerAddress={stxOwnerAddress}
                 userSession={userSession}

@@ -1,9 +1,11 @@
 import React from 'react';
+import { ClaimRewards } from '../components/ClaimRewards';
 import { useConnect } from '../lib/auth';
+import { FPWR_04_CONTRACT, FPWR_04_DEPOT_CONTRACT } from '../lib/constants';
 
 // Landing page demonstrating Blockstack connect for registration
 
-export default function Landing(props) {
+export default function Landing() {
   const { handleOpenAuth } = useConnect();
 
   return (
@@ -17,6 +19,13 @@ export default function Landing(props) {
                 Start now
               </button>
             </p>
+            <hr />
+            <h4>Check Stacking rewards</h4>
+            <ClaimRewards
+              cycle={14}
+              tokenContract={FPWR_04_CONTRACT}
+              depotContract={FPWR_04_DEPOT_CONTRACT}
+            />
           </div>
         </div>
       </div>

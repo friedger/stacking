@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { NETWORK } from '../lib/constants';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { bnsApi, NETWORK } from '../lib/constants';
 import { fetchDepot, fetchDepotBalance, fetchTokenBalance } from '../lib/wrappedRewards';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import {
   AnchorMode,
-  ClarityType,
   createAssetInfo,
   FungibleConditionCode,
   makeContractFungiblePostCondition,
@@ -12,7 +11,7 @@ import {
 } from '@stacks/transactions';
 import { TxStatus } from './TxStatus';
 import BN from 'bn.js';
-import { Amount, AmountBTC, tokenAmountToNumber } from './Amount';
+import { AmountBTC, tokenAmountToNumber } from './Amount';
 
 export function ClaimRewards({
   userSession,
@@ -28,23 +27,51 @@ export function ClaimRewards({
   const [depotValue, setDepotValue] = useState();
   const [depotBalance, setDepotBalance] = useState();
   const [tokenBalance, setTokenBalance] = useState();
+  const [stxAddress, setStxAddress] = useState();
+  const stxAddressRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
+
+  const fetchBalances = useCallback(
+    async stxAddress => {
+      let [addressOrName, namespace] = stxAddress.split('.');
+      if (namespace) {
+        try {
+          const info = await bnsApi.getNameInfo({ name: stxAddress });
+          console.log({ info });
+          if (info) {
+            addressOrName = info.address;
+          }
+        } catch (e) {
+          console.log(e);
+        }
+      }
+      fetchDepotBalance(addressOrName, depotContract).then(response => {
+        console.log({ depotBalance: response });
+        setDepotBalance(response ? tokenAmountToNumber(response.value) : null);
+      });
+      fetchTokenBalance(addressOrName, tokenContract).then(response => {
+        console.log({ tokenBalance: response }, tokenContract);
+        setTokenBalance(response ? tokenAmountToNumber(response) : null);
+      });
+    },
+    [depotContract, tokenContract]
+  );
 
   useEffect(() => {
     setLoading(true);
     fetchDepot(depotContract).then(response => {
       setDepotValue(response);
     });
-    fetchDepotBalance(stxOwnerAddress, depotContract).then(response => {
-      console.log({ depotBalance: response });
-      setDepotBalance(response ? tokenAmountToNumber(response.value) : null);
-    });
-    fetchTokenBalance(stxOwnerAddress, tokenContract).then(response => {
-      console.log({ tokenBalance: response }, tokenContract);
-      setTokenBalance(response ? tokenAmountToNumber(response) : null);
-    });
-  }, [stxOwnerAddress, depotContract, tokenContract]);
+    if (stxOwnerAddress) {
+      fetchBalances(stxOwnerAddress, depotContract, tokenContract);
+    } else {
+      const address = new URLSearchParams(window.location.search).get('address');
+      if (address) {
+        fetchBalances(address, depotContract, tokenContract);
+      }
+    }
+  }, [stxOwnerAddress, depotContract, tokenContract, fetchBalances]);
 
   const claimAction = async () => {
     setLoading(true);
@@ -98,6 +125,26 @@ export function ClaimRewards({
         </>
       )}
       <br />
+      {!stxOwnerAddress && (
+        <div>
+          Check wrapped rewards for address:{' '}
+          <input
+            ref={stxAddressRef}
+            model={stxAddress}
+            placeholder="SP1234.."
+            defaultValue={new URLSearchParams(window.location.search).get('address')}
+          />
+          <button
+            className="btn btn-outline-primary"
+            type="button"
+            onClick={() => {
+              fetchBalances(stxAddressRef.current.value);
+            }}
+          >
+            Submit
+          </button>
+        </div>
+      )}
       {cycle === 13 ? (
         <>
           1.68265349 wrapped rewards have been minted through verified BTC rewards transactions.
@@ -116,10 +163,15 @@ export function ClaimRewards({
         </>
       ) : (
         <>
-          {tokenBalance && (
+          {tokenBalance ? (
             <>
               Your balance of wrapped reward tokens is:{' '}
               <AmountBTC sats={tokenBalance} tokenSymbol="FPWR-v04" />
+              <br />
+            </>
+          ) : (
+            <>
+              Your have no wrapped reward tokens.
               <br />
             </>
           )}
