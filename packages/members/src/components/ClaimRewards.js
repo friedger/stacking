@@ -112,17 +112,32 @@ export function ClaimRewards({
 
   return (
     <div>
-      <h5>Cycle #{cycle}</h5>
+      <h5 className="mt-2">Cycle #{cycle}</h5>
       {depotValue && (
-        <>
-          {cycle === 13 ? <>Total verified on-chain</> : <>Total rewards</>}:{' '}
-          {depotValue.data['tokens'].value.value.toNumber() / 100_000_000}
-          <br />
-          Total claimed: {depotValue.data['total-claimed'].value.toNumber() / 100_000_000}
-          <br />
-          Total payout: {depotValue.data['total-rewards'].value.toNumber() / 100_000_000}
-          <br />
-        </>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              {cycle === 13 ? <>Total verified on-chain</> : <>Total rewards</>}:
+            </div>
+            <div className="col">
+              {' '}
+              {depotValue.data['tokens'].value.value.toNumber() / 100_000_000}
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">Total claimed:</div>
+            <div className="col">
+              {' '}
+              {depotValue.data['total-claimed'].value.toNumber() / 100_000_000}
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">Total payout</div>
+            <div className="col">
+              {depotValue.data['total-rewards'].value.toNumber() / 100_000_000}
+            </div>
+          </div>
+        </div>
       )}
       <br />
       {!stxOwnerAddress && (
