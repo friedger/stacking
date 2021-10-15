@@ -37,7 +37,7 @@ theme = "lodi"
     "Locking for 12 cycles (even beyond block #700000):", "[**SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ**](https://explorer.stacks.co/address/SP700C57YJFD5RGHK0GN46478WBAM2KG3A4MN2QJ)",
     "The more cycles you choose, the less cool down cycles you have. After each locking period, there is one cycle where you can't receive any rewards on your address. You can create a new address and delegate from there.",
     "Please do not stack less than 40 STX. Small payouts are hard to manage.",
-    "We start locking your STX around 500 blocks before the start of the next cycle. You can join until 200 blocks before the start. The pool will be closed around 50 blocks before the start.",
+    "We start locking your STX around 1000 blocks before the start of the next cycle. You can join until 200 blocks before the start. The pool will be closed around 50 blocks before the start.",
     "Also, Friedger Pool will re-stack your STXs for the next cycles without any action from you when you chose to delegate for indefinite duration. If you want to leave the pool, just revoke in Stacks Wallet.",
     "You can track Bitcoin earnings here, which gets converted to STX and paid to you within 2 days after the last reward was received:",
     "Bitcoin address:", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
