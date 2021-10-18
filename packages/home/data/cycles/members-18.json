@@ -5869,8 +5869,9 @@
       "amount": 100000000,
       "stacker": "SP1WQGAGQZJQ35PW7X7XWK85XAC1TEJN0R2D1B3T2",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32596
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5880,8 +5881,9 @@
       "amount": 21000000000,
       "stacker": "SP3KZ1XDJT57BK81JWX1VFT3V70DYSZA8SQYQPAK",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5891,8 +5893,9 @@
       "amount": 500000000,
       "stacker": "SP10QMXJ0QSA4C3W71HXBBMRW44CYS0W8Y0NR1W9D",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5902,8 +5905,9 @@
       "amount": 1000000000,
       "stacker": "SP3Y9SWNSPDX6K6TFCFWTX3B3V4K3GB7KXB669GT4",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5913,8 +5917,9 @@
       "amount": 302713610,
       "stacker": "SP2N9ZWY8RMEY48F63XM2AG5FQ44WYGMEP90FB7FG",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5924,8 +5929,9 @@
       "amount": 2400123893,
       "stacker": "SP1XFY0522GKA44AWPAR6064HR3ECZ6H15BH7FCJF",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-05T05:00:31.000Z",
@@ -5935,8 +5941,9 @@
       "amount": 71836400,
       "stacker": "SP39X5BK7AKN9JPCR5P35CBWV713EWVK2MPWNG9YP",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32554
     },
     {
       "timestamp": "2021-10-04T21:40:12.000Z",
@@ -5946,8 +5953,9 @@
       "amount": 15000000000,
       "stacker": "SP3X72ZMKA6RBNKKY2C9532FWRDZFGC4A1E2WPT9S",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32509
     },
     {
       "timestamp": "2021-10-04T12:26:43.000Z",
@@ -5957,8 +5965,9 @@
       "amount": 29999000000,
       "stacker": "SP02PVE4QWPVYPJ89R303GWWWEHK1B4CJ4NGNBGA",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32448
     },
     {
       "timestamp": "2021-10-04T12:26:43.000Z",
@@ -5968,8 +5977,9 @@
       "amount": 850000000,
       "stacker": "SP29RBHQYVGV00E13PX5XRZ49ZCJRAXH66XPAGY0Q",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32448
     },
     {
       "timestamp": "2021-10-04T12:26:43.000Z",
@@ -5979,8 +5989,9 @@
       "amount": 725000000,
       "stacker": "SP3HE17BGF7JGZKZEXH2CKTQN94HJK246BA4697KD",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32448
     },
     {
       "timestamp": "2021-10-04T12:26:43.000Z",
@@ -5990,8 +6001,9 @@
       "amount": 391000000,
       "stacker": "SP2XT29WVDF1ZB8W136D1Z29X413YCWKJTZHJDM85",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32448
     },
     {
       "timestamp": "2021-10-04T12:26:43.000Z",
@@ -6001,8 +6013,9 @@
       "amount": 50000000,
       "stacker": "SP2SNDNWSY1H1XWJZMYR049C9HT330BQ9N4YKCBDJ",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32448
     },
     {
       "timestamp": "2021-10-04T12:20:54.000Z",
@@ -6012,8 +6025,9 @@
       "amount": 100000000,
       "stacker": "SP2KZP5A60XT5DECG961THSXGSAN3CMZ10QB23V4J",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 32447
     },
     {
       "timestamp": "2021-10-04T12:20:54.000Z",
@@ -6023,8 +6037,9 @@
       "amount": 99403276,
       "stacker": "SP2S7MKS888DDNN27CMYYWNT71VD3GCNZN29H4A4R",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32447
     },
     {
       "timestamp": "2021-10-04T12:20:54.000Z",
@@ -6034,8 +6049,9 @@
       "amount": 657280519,
       "stacker": "SP1YK5SMRQ9RCGGW2P2W5B160H8B8KEG670BDFRZE",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32447
     },
     {
       "timestamp": "2021-10-04T12:20:54.000Z",
@@ -6045,8 +6061,9 @@
       "amount": 79000093400,
       "stacker": "SP1WGVYWSZJM1EKH1TYB2BH3W4ZPEJBMW1N2B9FG0",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32447
     },
     {
       "timestamp": "2021-10-04T08:36:22.000Z",
@@ -6056,8 +6073,9 @@
       "amount": 1700000000,
       "stacker": "SPGYJRQS05AABGE8EY4SCF0M70RBW8MB90VBF2DA",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32432
     },
     {
       "timestamp": "2021-10-04T08:36:22.000Z",
@@ -6067,8 +6085,9 @@
       "amount": 601917188,
       "stacker": "SP16ET7MWCSWMTSM4SEPCNH51SWJP11FEMQKFREBP",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32432
     },
     {
       "timestamp": "2021-10-04T08:36:22.000Z",
@@ -6078,8 +6097,9 @@
       "amount": 12762028104,
       "stacker": "SP2V8R0YTE7FNGQ0JA3DW9V1N3CX7FP72J3RFDYF4",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32432
     },
     {
       "timestamp": "2021-10-04T08:36:22.000Z",
@@ -6089,8 +6109,9 @@
       "amount": 456227900,
       "stacker": "SP1BPJ6ZC1PAWHRHSZN96C95VJ9JW3CBD9TWV75P5",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32432
     },
     {
       "timestamp": "2021-10-04T08:31:29.000Z",
@@ -6100,8 +6121,9 @@
       "amount": 15000000000,
       "stacker": "SP2KKDNDBEKZRJTHBSA81112F93JE9YVTTB1198K3",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32431
     },
     {
       "timestamp": "2021-10-04T08:24:54.000Z",
@@ -6111,8 +6133,9 @@
       "amount": 809609434,
       "stacker": "SP1E7FXQDENVDMPM5XG3M5KXFKCBQGNKTHPAAMM1M",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32430
     },
     {
       "timestamp": "2021-10-04T08:24:54.000Z",
@@ -6122,8 +6145,9 @@
       "amount": 799000000,
       "stacker": "SP23ZCZD56FB9ETX7Q4Q6NBGED4QXH1X6Z8ATV27R",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32430
     },
     {
       "timestamp": "2021-10-04T08:24:54.000Z",
@@ -6133,8 +6157,9 @@
       "amount": 4200000000,
       "stacker": "SP2M7K3YM8813404G1R7AXV106CPWH0Z5ZA80JVAV",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32430
     },
     {
       "timestamp": "2021-10-04T07:50:41.000Z",
@@ -6144,8 +6169,9 @@
       "amount": 177370504,
       "stacker": "SP22X406SDPBBW5X64719Z2MNBSJJCHZ090HVFERY",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32427
     },
     {
       "timestamp": "2021-10-04T07:41:12.000Z",
@@ -6155,8 +6181,9 @@
       "amount": 99913600,
       "stacker": "SPZZBQP5RTD2XYM0R4JR18SME0E4CZBH5BKAYCCZ",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32425
     },
     {
       "timestamp": "2021-10-04T07:41:12.000Z",
@@ -6166,8 +6193,9 @@
       "amount": 800000000,
       "stacker": "SP3HDNJETR7P82GA9JZBAT2VB5TCGF39N09F6ARB3",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32425
     },
     {
       "timestamp": "2021-10-04T07:41:12.000Z",
@@ -6177,8 +6205,9 @@
       "amount": 100000000000,
       "stacker": "SPP604AHXN6DAYY0TGZKWMFGNHVV4TFAK8MGVG4S",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32425
     },
     {
       "timestamp": "2021-10-04T07:41:12.000Z",
@@ -6188,8 +6217,9 @@
       "amount": 282892908,
       "stacker": "SP3CC8V5PV064PW6PM42CW7DCGWE1P156H9GFRMC8",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32425
     },
     {
       "timestamp": "2021-10-04T07:41:12.000Z",
@@ -6199,8 +6229,9 @@
       "amount": 1609000000,
       "stacker": "SP2S8CB3STYS096T0DH8RYYWJ7GD182485XP6DRTD",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32425
     },
     {
       "timestamp": "2021-10-04T07:29:39.000Z",
@@ -6210,8 +6241,9 @@
       "amount": 513037086,
       "stacker": "SP2NQGA98701EEMYA2TF8PN6HR378GC0RJRVE5R5Y",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32422
     },
     {
       "timestamp": "2021-10-04T07:29:39.000Z",
@@ -6221,8 +6253,9 @@
       "amount": 1600000000,
       "stacker": "SP3PXG7E4NYRP89K14PN3C14JBW4SB6MCAF83F70J",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32422
     },
     {
       "timestamp": "2021-10-04T07:29:39.000Z",
@@ -6232,8 +6265,9 @@
       "amount": 990000000,
       "stacker": "SP3D9QZY2R45V1V7WZR2853M1HBJWF5NGF9GBWSEF",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32422
     },
     {
       "timestamp": "2021-10-04T07:29:39.000Z",
@@ -6243,8 +6277,9 @@
       "amount": 17130000000,
       "stacker": "SP9CCHSTHY07ZJ5SDSQS3R45307EHSAWD3D4F7SK",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32422
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6254,8 +6289,9 @@
       "amount": 9660000000,
       "stacker": "SP15WQKM4S91N65RQ0P73Q84JD0Z1VXXN763E5CRA",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6265,8 +6301,9 @@
       "amount": 280820400,
       "stacker": "SPA35YEHEZTD69PPZYHSVNRR7R0X47D084XCQGTD",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6276,8 +6313,9 @@
       "amount": 120000000,
       "stacker": "SP2XHGM962KV10GC345CY1J4CGD4QPX4A8J0GT34W",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6287,8 +6325,9 @@
       "amount": 12770376279,
       "stacker": "SP35B2E55ZAPX8023JYK4RVYHFH06Q8QBBEJYKK0D",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6298,8 +6337,9 @@
       "amount": 7216000000,
       "stacker": "SP1MMN6JXP0RYHZ762QZGKAQHNQFKVHEBZ9XAM0FP",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6309,8 +6349,9 @@
       "amount": 8700000000,
       "stacker": "SP3AQK4YGWEPJX24ZJ2635SQJHYT3XYQE8KNVMWXP",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6320,8 +6361,9 @@
       "amount": 4800000000,
       "stacker": "SPW199R1SM59YAKBY8MGDZZZEBHCRKHQ9W0ZC8Y2",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6331,8 +6373,9 @@
       "amount": 729000000,
       "stacker": "SPTEANBR2BHAYP085C7WTBZJ1J8932WNFRDEW9A6",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6342,8 +6385,9 @@
       "amount": 26000000000,
       "stacker": "SPXQS1T1T2BKGSHH8H75PVFEY0R1X39F0B3MQWTJ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6353,8 +6397,9 @@
       "amount": 30000000000,
       "stacker": "SP1FCVMBP2XWJFXJ2VJJ5P2MBD4PKK9R5SPG87EB8",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6364,8 +6409,9 @@
       "amount": 88000000000,
       "stacker": "SP1DBCVQ5MZ2AABHVSBXQ2T9D97F3XYNE3T2KXBZM",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6375,8 +6421,9 @@
       "amount": 31000000000,
       "stacker": "SP2BCBV9JXJ0GGZT8MBAAK93MZJN6JGMJ9HRVKNTP",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6386,8 +6433,9 @@
       "amount": 53956866,
       "stacker": "SP3G3RK0SKJKR3KE3MV7N229TGYK15BR4CPY93EY1",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6397,8 +6445,9 @@
       "amount": 11369776400,
       "stacker": "SP26JFEX02PSM119G3FS44Z9083A2YCWEJJKXWN1F",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6408,8 +6457,9 @@
       "amount": 25000000000,
       "stacker": "SP2C5YKXRKA6EZKQ7DYFNWBF0SZSBPYTPYAGX8Z0R",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6419,8 +6469,9 @@
       "amount": 2844113230,
       "stacker": "SP38ZQ7EPVQN37RJ8QM2GSP3GB73501W4E7PM05GK",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6430,8 +6481,9 @@
       "amount": 2604947500,
       "stacker": "SP3MYA03FV6QZQ8CDYJD6W7Q4TR4EKNRHZ5P5Q9KZ",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6441,8 +6493,9 @@
       "amount": 1750000000,
       "stacker": "SP3EYC57DC1K6NNNCPKSFJWHYG8F5MRX3X1Q1AJJ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6452,8 +6505,9 @@
       "amount": 84080000000,
       "stacker": "SP20JP55PTASXDR7J9K6ZR629WGASKQFW7X1M4HPK",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6463,8 +6517,9 @@
       "amount": 15000000000,
       "stacker": "SP3SY8A81VT8H3XZBH3XRZ1232Q396AKKH11YMPAM",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6474,8 +6529,9 @@
       "amount": 3631620138,
       "stacker": "SP2WR6KMXZA4953GHW1B9YXWSJYYJANM2M6B0GPZS",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-10-04T07:03:59.000Z",
@@ -6485,8 +6541,9 @@
       "amount": 520364588,
       "stacker": "SP31WG1RDCABM0AESH0B29F6NSSM6860FMDMJN3RV",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 32420
     },
     {
       "timestamp": "2021-09-30T16:26:25.000Z",
@@ -6496,8 +6553,9 @@
       "amount": 4000000000,
       "stacker": "SP2RS9ETEB643MQWX25771YKXRAZRG0NGK4RQWDYG",
       "unlock": 712250,
-      "rewardCycle": 17,
-      "lockingPeriod": 5
+      "rewardCycle": 18,
+      "lockingPeriod": 4,
+      "blockHeight": 31905
     },
     {
       "timestamp": "2021-09-30T16:26:25.000Z",
@@ -6507,8 +6565,9 @@
       "amount": 6425000000,
       "stacker": "SP14VQZ21G8E8P6J2YRKDY082HYZQDQEZDD21115A",
       "unlock": 726950,
-      "rewardCycle": 17,
-      "lockingPeriod": 12
+      "rewardCycle": 18,
+      "lockingPeriod": 11,
+      "blockHeight": 31905
     },
     {
       "timestamp": "2021-09-30T16:26:25.000Z",
@@ -6518,8 +6577,9 @@
       "amount": 10000000000,
       "stacker": "SP2HCRHTXSTBFD039S6C7C9R3XXYT3AWJ14ZDZ6AG",
       "unlock": 726950,
-      "rewardCycle": 17,
-      "lockingPeriod": 12
+      "rewardCycle": 18,
+      "lockingPeriod": 11,
+      "blockHeight": 31905
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6529,8 +6589,9 @@
       "amount": 1061000000,
       "stacker": "SP222A8XAM81EF2ZZQ0RKNDR7VVHH7Q8XT85CH0VJ",
       "unlock": 726950,
-      "rewardCycle": 17,
-      "lockingPeriod": 12
+      "rewardCycle": 18,
+      "lockingPeriod": 11,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6540,8 +6601,9 @@
       "amount": 9696000000,
       "stacker": "SP1F08G43V43PM4TRVJZGN25BRJYHPKHJ05MMT702",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6551,8 +6613,9 @@
       "amount": 3915070421,
       "stacker": "SP3MZ7H88AMDE6BN245TRGFG80TYXBXJS6BZC939P",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6562,8 +6625,9 @@
       "amount": 3325906805,
       "stacker": "SP3XBDJ3GFXM4Z8V9A45CSTA4B6J97XP0XMMCDKZ1",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6573,8 +6637,9 @@
       "amount": 100000000,
       "stacker": "SP2RSAY7BE1BBS8RK790PW912V0HW6HPQ2NVN9NK7",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:54:01.000Z",
@@ -6584,8 +6649,9 @@
       "amount": 347969914,
       "stacker": "SP2Z9J2EWW2GVVABK4ZJE9217WB5KJ11T6WHQ027",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31901
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6595,8 +6661,9 @@
       "amount": 2103251,
       "stacker": "SP19G9WQRD1339RZJG6VNYWB15XV8FFS1JKEVR02P",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6606,8 +6673,9 @@
       "amount": 24916486671,
       "stacker": "SP3N9YCF8QA4365WRDP328M7SHWP00ZKX2G06R553",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6617,8 +6685,9 @@
       "amount": 10333465284,
       "stacker": "SPE2CZE4YMD638RXN0YHC1KFFN98JN23N7645NWC",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6628,8 +6697,9 @@
       "amount": 159467000,
       "stacker": "SP2DDWM6XF1JGGQP3Z3DJ133T4WVZZ3VVD9V5V2JF",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6639,8 +6709,9 @@
       "amount": 14909065780,
       "stacker": "SP3WNYR6YD1YHGEJ5P6BS6Z1P91HNCYXQ5WGWMXRA",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6650,8 +6721,9 @@
       "amount": 102520000,
       "stacker": "SP2P8T691BF1QP0EQJN851PFTX8G574SDEWQ316JD",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6661,8 +6733,9 @@
       "amount": 1300000000,
       "stacker": "SP1G32VX0G5Z3A67XYQR2VWFJ6DKZ7XGD9QRHFEMJ",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6672,8 +6745,9 @@
       "amount": 86128551,
       "stacker": "SP1H89WC043MQYRAVRT5WNJQB2RYT1MJK6FNZRAA9",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6683,8 +6757,9 @@
       "amount": 450000000,
       "stacker": "SP2S0948DSAHCG5J5P2CF5WRW6V1BNJFS7XFRA5ZN",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6694,8 +6769,9 @@
       "amount": 549974826,
       "stacker": "SP21AAGC12RHADK7YRARRBZG4MKZE5NYCCRFQQHZW",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6705,8 +6781,9 @@
       "amount": 20400000000,
       "stacker": "SP2D6YQGFA525N9D4K45XMT3MWEPN69VQ048JRN6V",
       "unlock": 714350,
-      "rewardCycle": 17,
-      "lockingPeriod": 6
+      "rewardCycle": 18,
+      "lockingPeriod": 5,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6716,8 +6793,9 @@
       "amount": 239917484,
       "stacker": "SP3RDDRG118N8NP1M3PCDV7GNCTSGM08HMG0NMT18",
       "unlock": 714350,
-      "rewardCycle": 17,
-      "lockingPeriod": 6
+      "rewardCycle": 18,
+      "lockingPeriod": 5,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6727,8 +6805,9 @@
       "amount": 23958246934,
       "stacker": "SP3RMG8BC8QPB1B0JCNGK01R8TWBJ32YBZ81B8EGY",
       "unlock": 714350,
-      "rewardCycle": 17,
-      "lockingPeriod": 6
+      "rewardCycle": 18,
+      "lockingPeriod": 5,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6738,8 +6817,9 @@
       "amount": 20000000000,
       "stacker": "SP1YT9M182DVK1VEZ66490TYFN7XMAD0Z9XX8JCPW",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6749,8 +6829,9 @@
       "amount": 14080000000,
       "stacker": "SP2JBZAZZEXKVZF9XWZ5FGS6BHFA4SC13E69EHFVT",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6760,8 +6841,9 @@
       "amount": 14900000000,
       "stacker": "SPVX6QNDK0KG2QYPAN4WC2P0MG8SXV0EVQQ8ZEWS",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6771,8 +6853,9 @@
       "amount": 3900000000,
       "stacker": "SPXN4THK2N60AC2AWQ4N7NAQ1EMTCESX30X19R76",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6782,8 +6865,9 @@
       "amount": 1700000000,
       "stacker": "SP29BSG7A2R7M9KA6FCHBCWPSX9WXVDY4FATDCRY2",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6793,8 +6877,9 @@
       "amount": 468250000,
       "stacker": "SP3RVD6FMPEWN79JA3ZXA2XG8NHB12YEVGCDXB9GX",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6804,8 +6889,9 @@
       "amount": 257750900,
       "stacker": "SP1RW26AHWCMHS21T3AZ6HVSQGNVMHZY8H1VSAQMC",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6815,8 +6901,9 @@
       "amount": 20009000000,
       "stacker": "SP2NWGMBV60XJRMTCDBCSE5C6AZWT1RYP1FT192E8",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6826,8 +6913,9 @@
       "amount": 3455999500,
       "stacker": "SP29M8K1E5TRG6MVKYC5MT6QDN9AWY7DQ82EM1AS",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T15:00:00.000Z",
@@ -6837,8 +6925,9 @@
       "amount": 111000000,
       "stacker": "SP26C5BYEMVKYZ6F73BRWXTXDR0PKKNW6YXBSJ032",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31897
     },
     {
       "timestamp": "2021-09-30T14:50:23.000Z",
@@ -6848,8 +6937,9 @@
       "amount": 282945000000,
       "stacker": "SP1WSVW2RMFTYQ2GEYFWM748T6XCHFSFM2965RP26",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31896
     },
     {
       "timestamp": "2021-09-30T14:39:32.000Z",
@@ -6859,8 +6949,9 @@
       "amount": 15000000000,
       "stacker": "SP1YYH0AWRNX1KCSMR16P35641B9XRPH5H7ZSMQFB",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31895
     },
     {
       "timestamp": "2021-09-30T14:29:04.000Z",
@@ -6870,8 +6961,9 @@
       "amount": 637609700,
       "stacker": "SP13CVRW0SDNK2HBG121BXGQ74HWM0CZ4AX0N5HGR",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31894
     },
     {
       "timestamp": "2021-09-30T14:29:04.000Z",
@@ -6881,8 +6973,9 @@
       "amount": 25701759136,
       "stacker": "SP1FKQBT65X7Z6MYASAJ4H2YBFMWSE4FCRBTD64GR",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31894
     },
     {
       "timestamp": "2021-09-30T14:22:53.000Z",
@@ -6892,8 +6985,9 @@
       "amount": 600000000,
       "stacker": "SP37SJ9A2JRQ92YGTC6AK6362YCG31HVFEYJSQM73",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31893
     },
     {
       "timestamp": "2021-09-30T14:22:53.000Z",
@@ -6903,8 +6997,9 @@
       "amount": 9999000000,
       "stacker": "SP1BG56DGHRKCCQW5YE857JCMS97YFS0PEVWNJZB7",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31893
     },
     {
       "timestamp": "2021-09-30T14:19:06.000Z",
@@ -6914,8 +7009,9 @@
       "amount": 101000000,
       "stacker": "SP2JHNHQJ25VCD18EYWFG7EEQ5B3S2WTQQAP98QY0",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31892
     },
     {
       "timestamp": "2021-09-30T14:19:06.000Z",
@@ -6925,8 +7021,9 @@
       "amount": 499000000,
       "stacker": "SP1F4NFM0JTZNMGSBYJ7FAQW1G2AANTQEEQXT7DMX",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31892
     },
     {
       "timestamp": "2021-09-30T14:19:06.000Z",
@@ -6936,8 +7033,9 @@
       "amount": 127356282,
       "stacker": "SP31H0WM99Q64MNDJFPHS12W3TFYZNAST4QBS3P20",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31892
     },
     {
       "timestamp": "2021-09-30T14:11:52.000Z",
@@ -6947,8 +7045,9 @@
       "amount": 815181000,
       "stacker": "SP11FJKWFGZNHAJNW9V0W0H060BCCTH42R1GH1FJM",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31891
     },
     {
       "timestamp": "2021-09-30T14:11:52.000Z",
@@ -6958,8 +7057,9 @@
       "amount": 8283181563,
       "stacker": "SP19QC5FV0E94VS5NSY27CY4K2E1ERFPCTETT9XRM",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31891
     },
     {
       "timestamp": "2021-09-30T14:00:53.000Z",
@@ -6969,8 +7069,9 @@
       "amount": 36956995437,
       "stacker": "SP3HC0EGZVD11ZQ3J5XCCEK7KCC1JG042XCZGE330",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31890
     },
     {
       "timestamp": "2021-09-30T14:00:53.000Z",
@@ -6980,8 +7081,9 @@
       "amount": 1354726698,
       "stacker": "SP177JHCWZMGA3WHNF6GEMT32Q163S1MCK4NVNHPV",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31890
     },
     {
       "timestamp": "2021-09-30T13:36:41.000Z",
@@ -6991,8 +7093,9 @@
       "amount": 433239619,
       "stacker": "SPFBRN5J8M8GAGZ04KBPNK6WV10NRNMA4F8X0S7R",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31889
     },
     {
       "timestamp": "2021-09-30T13:36:41.000Z",
@@ -7002,8 +7105,9 @@
       "amount": 6510170500,
       "stacker": "SPXEWV8F500APDQYYXYMY3ZZ9HN5D3NVVBPJBYZT",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31889
     },
     {
       "timestamp": "2021-09-30T13:04:01.000Z",
@@ -7013,8 +7117,9 @@
       "amount": 104000000,
       "stacker": "SP79JMAGQVWMVWRXG2AE5GF8Z27VF1W4KZ3J03WG",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31885
     },
     {
       "timestamp": "2021-09-30T13:04:01.000Z",
@@ -7024,8 +7129,9 @@
       "amount": 6033121,
       "stacker": "SP1A967GSS8V1HCGQWTWDHFRQP51K1Z7S8CA4YJYR",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31885
     },
     {
       "timestamp": "2021-09-30T12:53:24.000Z",
@@ -7035,8 +7141,9 @@
       "amount": 78313038870,
       "stacker": "SPN0JJGCSQH7E8CFFJVXQPPK5JRCE4AW4VHXWH7Q",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31884
     },
     {
       "timestamp": "2021-09-30T12:53:24.000Z",
@@ -7046,8 +7153,9 @@
       "amount": 126589007,
       "stacker": "SP16AD227F5E1CZW5RV2P2486QWRJ9YZHC1YC91HN",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31884
     },
     {
       "timestamp": "2021-09-30T12:53:24.000Z",
@@ -7057,8 +7165,9 @@
       "amount": 3750000000,
       "stacker": "SP1JAEZK28MB2HKN9S0J0XQHKPEDFFDNEQQ88GV3J",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31884
     },
     {
       "timestamp": "2021-09-30T12:23:17.000Z",
@@ -7068,8 +7177,9 @@
       "amount": 319000000,
       "stacker": "SP2AYX0GWJNGD30RPF6Q4R6DQ1RK95KP4X68AXWFR",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31883
     },
     {
       "timestamp": "2021-09-30T12:23:17.000Z",
@@ -7079,8 +7189,9 @@
       "amount": 1018554467,
       "stacker": "SP5MGP6F3MNGZXZV91ZWARKHYZ84GD16DNTPTV02",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31883
     },
     {
       "timestamp": "2021-09-30T12:23:17.000Z",
@@ -7090,8 +7201,9 @@
       "amount": 127975000000,
       "stacker": "SP2HHYDBYM5A8ZWTJ8XNXYXWCHDDFTQE8KCZMG0C1",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31883
     },
     {
       "timestamp": "2021-09-30T12:23:17.000Z",
@@ -7101,8 +7213,9 @@
       "amount": 1000263247,
       "stacker": "SP1D689AY8RYSFE2CXZEVS02HGXA8FEB1MJRREZSJ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31883
     },
     {
       "timestamp": "2021-09-30T12:23:17.000Z",
@@ -7112,8 +7225,9 @@
       "amount": 3000982000,
       "stacker": "SP1S2F20VGWTMRYR0DQBD7CX1S3T8WFAKFA9JC8NA",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31883
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7123,8 +7237,9 @@
       "amount": 1400945179,
       "stacker": "SP1CMQEFW3QSJDYWFH3SG0K874CM2QDGEM5A9V1XC",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7134,8 +7249,9 @@
       "amount": 750000000,
       "stacker": "SPJNENCDWEFTK62S668JM3WNTVNESWB9TB1KE0NC",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7145,8 +7261,9 @@
       "amount": 1629063600,
       "stacker": "SP095PYRGCA1NT2AK6K1GS4AMTM8YMTSH3KCVNS7",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7156,8 +7273,9 @@
       "amount": 1007490800,
       "stacker": "SP25344BKZ51EGQ90D0438MQBT9EH92HWGMJ4617K",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7167,8 +7285,9 @@
       "amount": 4191000000,
       "stacker": "SP2MKG2PRWF159EJ5BCVS3WS9KVHQVX385CGRB381",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7178,8 +7297,9 @@
       "amount": 4701429499,
       "stacker": "SPD6MWFRND2Z015YEER9KWPW2WGPAEWK9PYKPHFK",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7189,8 +7309,9 @@
       "amount": 4038858600,
       "stacker": "SP363SW1P5ZW7E4G9T2BSM27A0MB7CSBRPNRNPSQD",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7200,8 +7321,9 @@
       "amount": 1200000000,
       "stacker": "SPZWKC7GN140C3GVPXHW4JXT2CD51HAFQRJ63MNK",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7211,8 +7333,9 @@
       "amount": 762353252,
       "stacker": "SP328YDZCWYGN7865XXCTR4MHRAT7AK6CJ9EYENAK",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7222,8 +7345,9 @@
       "amount": 99913600,
       "stacker": "SP1T2SV6451HSZPJH9YBFWDM69ZPEVXM86HM597XJ",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7233,8 +7357,9 @@
       "amount": 319320400,
       "stacker": "SP31P2CS2FTE5QHZC2PHM0NA4DWC8NN4VR5G9EC58",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7244,8 +7369,9 @@
       "amount": 890000000,
       "stacker": "SPDMR92YNHQGXFKHZRVNH6JHNT1YMTXV5CY5148S",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7255,8 +7381,9 @@
       "amount": 75655771987,
       "stacker": "SP2NGSDATV6J1WYQKQDFVEKJFYATWF8R18DRANAAJ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7266,8 +7393,9 @@
       "amount": 200000000,
       "stacker": "SP2MAGHWK255EXCQ2ZSVBT31Z3CH702N6N6WSHX9G",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7277,8 +7405,9 @@
       "amount": 790769854,
       "stacker": "SP2D71SFBCAX1VE664GKQP2Y7YMRDW6YJGVQVXB1T",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7288,8 +7417,9 @@
       "amount": 353064873,
       "stacker": "SP3PC8FC87VT7XD6RPPAKGTB3D6MPSTED7GE3DC5H",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7299,8 +7429,9 @@
       "amount": 12000000000,
       "stacker": "SP19SEQ9TX2KT2SR6KVTZ2WT67FTXTWEMW611E98D",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7310,8 +7441,9 @@
       "amount": 1300000000,
       "stacker": "SP2A54X7G1JXYK5VQN4C5KHDHJV8RFJ9RJTSCVZGW",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7321,8 +7453,9 @@
       "amount": 419377867,
       "stacker": "SP398G10ZQ4Y7E1TEJARVMTMW971RNPRSMH5Y2CC2",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7332,8 +7465,9 @@
       "amount": 238000000,
       "stacker": "SP34N3FF1DFSJ9H9W3DHCNS9XH29MA6TXADJ5XK1Z",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7343,8 +7477,9 @@
       "amount": 8569542543,
       "stacker": "SPDPK90G0EY4ADP5P5Y1Z9MTZPASQZJ8VMVAGKA3",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7354,8 +7489,9 @@
       "amount": 474000000,
       "stacker": "SP3CP1DD0BH9EA9PX08DWBAYV9RCEH2R0PDM90TNT",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7365,8 +7501,9 @@
       "amount": 10011213004,
       "stacker": "SP1VM1T9GAHR8W469SG59Z7ZY63CQDXN92W45A7GV",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7376,8 +7513,9 @@
       "amount": 2777777780,
       "stacker": "SP5MH8XDDB4DP0EH5P0YB3MEGVGQTNCJWC8BZHJX",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7387,8 +7525,9 @@
       "amount": 5500000000,
       "stacker": "SPDR2VQWVZY7M1BMQ98Q815DSG75NNCPEC2XEKJQ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7398,8 +7537,9 @@
       "amount": 135864000,
       "stacker": "SP1FZEDKMD9736NAWS1V6Z33KBKKY4WN9JHJXCQX6",
       "unlock": 708050,
-      "rewardCycle": 17,
-      "lockingPeriod": 3
+      "rewardCycle": 18,
+      "lockingPeriod": 2,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7409,8 +7549,9 @@
       "amount": 10011099801,
       "stacker": "SPPQGH7QA834ZYNWJYARDYK2ADPG4PS6JRN02X16",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T11:30:39.000Z",
@@ -7420,8 +7561,9 @@
       "amount": 70080000,
       "stacker": "SP3522EFPGWE6Z10A18Z7HZZNS1CNNEDF8HYAMWNQ",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31877
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7431,8 +7573,9 @@
       "amount": 514011499,
       "stacker": "SP1D0JZJJ2WN02T4CG5VCH5HDWN9AHV9MFRZF1EDB",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7442,8 +7585,9 @@
       "amount": 18000000000,
       "stacker": "SP3AEM26JN09V9PKBWN23XF6T7KVGQQSRTSXPFQ3K",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7453,8 +7597,9 @@
       "amount": 6100000000,
       "stacker": "SP3ZQXZ6MZD3FPPFTQ9V04P715572SCKXF78XGGBH",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7464,8 +7609,9 @@
       "amount": 10960854919,
       "stacker": "SP2Q6VFBNKNER27VSRWNWQAVT9AG9AQFEX8QBF7D0",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7475,8 +7621,9 @@
       "amount": 14606608336,
       "stacker": "SPW5PT8HV1BW8YKXR1RFA97BHAJ3KF2ETACT4ZF1",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7486,8 +7633,9 @@
       "amount": 690000000,
       "stacker": "SP1ND85KBQ2864904CCDWZ0DRQAPKB4C1RRNNC6KN",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7497,8 +7645,9 @@
       "amount": 465000000,
       "stacker": "SP3HGJHZA26QKAH0F6R7XKAQ38P866Y6830H2F03F",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7508,8 +7657,9 @@
       "amount": 50000000,
       "stacker": "SP3Y2B5A919GEGMKMFY5HVP28302RQZAVYGQHSGXF",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7519,8 +7669,9 @@
       "amount": 131433783767,
       "stacker": "SP5RWG04BKT7M4FZQHJNKQ9HZH0FK7YQKADVMQ5P",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7530,8 +7681,9 @@
       "amount": 2600000000,
       "stacker": "SPQGDR03N7JG8PHZRPNEJDFGMBYPZKK2T9QCEJPR",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7541,8 +7693,9 @@
       "amount": 400000000,
       "stacker": "SP12AJVMZYZQEV0MRT25SWDSG244BWFK10YMBN7DY",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7552,8 +7705,9 @@
       "amount": 6915804571,
       "stacker": "SP14E544B2FY8BSKTV5V7W8NCRYX2B7NXRQ7B7NJ9",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:50:39.000Z",
@@ -7563,8 +7717,9 @@
       "amount": 802000000,
       "stacker": "SPEM57TP3NDA4AJWD4DADY5RMH4DTW223ECAE8XX",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31876
     },
     {
       "timestamp": "2021-09-30T10:39:49.000Z",
@@ -7574,8 +7729,9 @@
       "amount": 142905195,
       "stacker": "SP3QQ9SFYVVB31JKSNHMZ8YWZNE1KQDMNX6K5XP9F",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31875
     },
     {
       "timestamp": "2021-09-30T10:39:49.000Z",
@@ -7585,8 +7741,9 @@
       "amount": 2350000000,
       "stacker": "SP31SXJHBV3YN94HQX7NR7TV9RBM8NSNYAGXG9R6X",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31875
     },
     {
       "timestamp": "2021-09-30T10:39:49.000Z",
@@ -7596,8 +7753,9 @@
       "amount": 1200000000,
       "stacker": "SPM0GY8Z4NYTNB7DZH164FZ4P83CCNXSGD79CFX5",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31875
     },
     {
       "timestamp": "2021-09-30T10:39:49.000Z",
@@ -7607,8 +7765,9 @@
       "amount": 4289022600,
       "stacker": "SP1A2VA8BMXJP5X20576TQKGZ69JDAHZ5TA280QRN",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31875
     },
     {
       "timestamp": "2021-09-30T10:39:49.000Z",
@@ -7618,8 +7777,9 @@
       "amount": 1001000000,
       "stacker": "SP3GJAHBDCGC1WF2VYG3Z631EV2Y5MCG2Z3DG2PC",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31875
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7629,8 +7789,9 @@
       "amount": 699827201,
       "stacker": "SP15JBFGB9JG5H3H58N730ASP137ZPNCVWPH5KFDD",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7640,8 +7801,9 @@
       "amount": 2665000000,
       "stacker": "SP577ZEF98DA5R0VNMF5NNV91HY655C3YK4Z3XY1",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7651,8 +7813,9 @@
       "amount": 1500000000,
       "stacker": "SPWE4ZR7WHPG80DZ49RBPWMYK9Q8VCJW6PV8XDNQ",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7662,8 +7825,9 @@
       "amount": 999913601,
       "stacker": "SP24AH629ASMM2YQJ6GEKTGQF04FQ8QX439S0T4QY",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7673,8 +7837,9 @@
       "amount": 2855346,
       "stacker": "SP3RBN4KZAQCTCBF3A8BEEX7AKSK09K5JR1GEV9TW",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7684,8 +7849,9 @@
       "amount": 10000000000,
       "stacker": "SP3NYWC8VD73RCF5XPBDYZ8REHTSTRJSC4ZC50TS2",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7695,8 +7861,9 @@
       "amount": 899913600,
       "stacker": "SP2MSKMDG9SP540SVVDAZ6XJASRQNAHFD7R8ZE6C9",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7706,8 +7873,9 @@
       "amount": 100000000,
       "stacker": "SP1DDAHJXNZ5CZM3MH02VR0K9CQHT0STV0HPDTW6S",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7717,8 +7885,9 @@
       "amount": 6133000000,
       "stacker": "SP2B3CVHPVWAPDGE7ZF4329QY2RNJC2W88WVN95P7",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7728,8 +7897,9 @@
       "amount": 899913600,
       "stacker": "SP16WXBH9DFMP0FDGWBZ1MCE89XNZG637PSEVBKH7",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7739,8 +7909,9 @@
       "amount": 300000000,
       "stacker": "SP2CR3AJ2MNQKG708PJ6K9G13W34NM2N66P1WDJCD",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7750,8 +7921,9 @@
       "amount": 940000000,
       "stacker": "SP3V8YRS1KED7VKNB9N93FFYYZWNZ5GT1BD2PDJW5",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7761,8 +7933,9 @@
       "amount": 478986041,
       "stacker": "SP10GH0ED2YA6AN2BT94N75KMVJAC3DGARD5W4HQM",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:24:07.000Z",
@@ -7772,8 +7945,9 @@
       "amount": 10000000000,
       "stacker": "SP1293BDR2HFT5SS1MET8Y1QNCAPM2Q171C0H1GP4",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31874
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7783,8 +7957,9 @@
       "amount": 10000000000,
       "stacker": "SP2ECDCY4MQ36SGA8K6FP2AXQ45GCAD0KJ61VR4V6",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7794,8 +7969,9 @@
       "amount": 101431003,
       "stacker": "SP14E7SG6ET2PPYB43Q6KMXCYFAWS4Q4EHDBRJ3JX",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7805,8 +7981,9 @@
       "amount": 100000000,
       "stacker": "SPK89WAW8NGX7JYXHRYJVCDBVZXNSJVF0YSP8035",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7816,8 +7993,9 @@
       "amount": 50000000,
       "stacker": "SP3ANB7VV0FWVHK6YYMDKR0K13D0RS5Y7AZRF59CY",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7827,8 +8005,9 @@
       "amount": 1000000000,
       "stacker": "SP1GWJCXF5EHAKBYXC6Q06SDDC7D3PJ5KTX64XDQK",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7838,8 +8017,9 @@
       "amount": 112034100,
       "stacker": "SPZWN809HND1QNX76H5KEGQ3NPE4H9FYAKV4529H",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:18:16.000Z",
@@ -7849,8 +8029,9 @@
       "amount": 65000000,
       "stacker": "SP0DX2BGGHBW2T0EFPAJAQKMRJRT19VZ1B1RFC5J",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31873
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7860,8 +8041,9 @@
       "amount": 213816829,
       "stacker": "SP3W58EX72XE1P83BC8KY16DQGCAVRYTWXA8BEJ97",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7871,8 +8053,9 @@
       "amount": 62600000,
       "stacker": "SP3W2YT1DE2XPRB6HT5GJX0GV2KK6CDB0V2D982WS",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7882,8 +8065,9 @@
       "amount": 1000000000,
       "stacker": "SP2FCCA7EACJN5RNHJJCEKX0ZSP2G9KKGRDZGHNXA",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7893,8 +8077,9 @@
       "amount": 90000000,
       "stacker": "SP39Y9XN64HY0NZ6JRJ23PP69XTH3JQ9BHRQTF4XN",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7904,8 +8089,9 @@
       "amount": 98000000,
       "stacker": "SP1RJHCH7SDMDDKRAA3066SGPN5YDXMWM63RSC0GK",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7915,8 +8101,9 @@
       "amount": 10001000000,
       "stacker": "SP3ZJDWDGPMRX0DZEFX38DF5K7RZS5TP06AHWYZCH",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7926,8 +8113,9 @@
       "amount": 2024322621,
       "stacker": "SP3J4VWZJZ32GZCFPXY2GP2XPS6TQBYQ57EE8EEBC",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7937,8 +8125,9 @@
       "amount": 1144000000,
       "stacker": "SPQ77MRW36WA4K26V4AGXYDH42KXTGZ0Z021YQ1G",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7948,8 +8137,9 @@
       "amount": 900119000,
       "stacker": "SP110TAR7RZE8ZTHMTMZYN76KT4440CS1KADFCG2B",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7959,8 +8149,9 @@
       "amount": 4006992091,
       "stacker": "SP2052DB94HVS84BJ0C4JW5RSD7WXGJWFRZC0MQBF",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T10:02:21.000Z",
@@ -7970,8 +8161,9 @@
       "amount": 797112600,
       "stacker": "SP2G7T402CH9CM9NSWN4C5F5D7N7A0X7QSTQX5M4D",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31871
     },
     {
       "timestamp": "2021-09-30T09:29:26.000Z",
@@ -7981,8 +8173,9 @@
       "amount": 1234000000,
       "stacker": "SP1436K3A0WJA3FF924WRSTGEQFYRQZ06BJS9GPE0",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31867
     },
     {
       "timestamp": "2021-09-30T09:29:26.000Z",
@@ -7992,8 +8185,9 @@
       "amount": 320000000,
       "stacker": "SP1MMPE32750H0YJZYF6E7P6393QWHPGN6HX7Y5NY",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31867
     },
     {
       "timestamp": "2021-09-30T09:29:26.000Z",
@@ -8003,8 +8197,9 @@
       "amount": 392921800,
       "stacker": "SP1FAEF7P8AMFB69WC53YV6SPHZ763WZDF8B42SWD",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31867
     },
     {
       "timestamp": "2021-09-30T09:29:26.000Z",
@@ -8014,8 +8209,9 @@
       "amount": 1000000000,
       "stacker": "SP1E4798MP7RNHPVSBM954MSS5EJNM1AC3R53DC31",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31867
     },
     {
       "timestamp": "2021-09-30T09:25:56.000Z",
@@ -8025,8 +8221,9 @@
       "amount": 1870574332,
       "stacker": "SP1FQ0447Y6E26TP1MZ629PVPDP0YQTQ3Z3Z0TNET",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31866
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8036,8 +8233,9 @@
       "amount": 282000000000,
       "stacker": "SPD37TP58PBP2A31BGTSZJKH2P9456249QCV4E9E",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8047,8 +8245,9 @@
       "amount": 12171800744,
       "stacker": "SP1E2X629S0HHF0CK3JD1JM0MD9T26ND5RDB3BA48",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8058,8 +8257,9 @@
       "amount": 8444543841,
       "stacker": "SP10J007GGWBFTNNP2FWJQKAGYX01YAPWJKNDC6DC",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8069,8 +8269,9 @@
       "amount": 100000000,
       "stacker": "SP36XYET7R607JNT2QKT4TD4WRV2S032C54NGW074",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8080,8 +8281,9 @@
       "amount": 146500000000,
       "stacker": "SPVXWPY3CV52WE3QP6K4KMB0CTR5KHQRCDTW411H",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8091,8 +8293,9 @@
       "amount": 7000000000,
       "stacker": "SP119GBG8NJWRY1JSDRE10QQRCMVQFNDHXH6N1MT8",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8102,8 +8305,9 @@
       "amount": 72000000000,
       "stacker": "SP3VVK9ZH3BP89YFMHHHVVW420T46NCG1MQT7B2SX",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T09:18:49.000Z",
@@ -8113,8 +8317,9 @@
       "amount": 111500000,
       "stacker": "SP3QCCPSC6TTXBY4ZWFDYJ6R4YE6H8WP5AH7DWEWB",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31865
     },
     {
       "timestamp": "2021-09-30T08:40:05.000Z",
@@ -8124,8 +8329,9 @@
       "amount": 350000000,
       "stacker": "SPA6115JWWJ1M4ZSKS7MA9DT2H5JY8XP8ZRNKM1J",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31863
     },
     {
       "timestamp": "2021-09-30T08:40:05.000Z",
@@ -8135,8 +8341,9 @@
       "amount": 500000000,
       "stacker": "SPDTYPY70YDDSCDC71GTZR5ZA2FB50SN89HWJMXT",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31863
     },
     {
       "timestamp": "2021-09-30T08:40:05.000Z",
@@ -8146,8 +8353,9 @@
       "amount": 63322400,
       "stacker": "SP187MYHXAQ90FESXYN1JZT9WSGPFTJEBSPD1F7MQ",
       "unlock": 710150,
-      "rewardCycle": 17,
-      "lockingPeriod": 4
+      "rewardCycle": 18,
+      "lockingPeriod": 3,
+      "blockHeight": 31863
     },
     {
       "timestamp": "2021-09-30T08:40:05.000Z",
@@ -8157,8 +8365,9 @@
       "amount": 200000000,
       "stacker": "SP3K7E4990NJ7PNDPHJKECCNEWAGSCMPA43KVXSPK",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31863
     },
     {
       "timestamp": "2021-09-30T08:40:05.000Z",
@@ -8168,8 +8377,9 @@
       "amount": 51389541217,
       "stacker": "SP1B151BKRWR1GRENGR0ACTDCN6EQ66XDB5PYZ9SM",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31863
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8179,8 +8389,9 @@
       "amount": 83300000000,
       "stacker": "SP3ZVY1FJED9TPJNE3TB0CSRT0131H1NQ6D32PKTJ",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8190,8 +8401,9 @@
       "amount": 4323000000,
       "stacker": "SP3A43EW9CHB1CD03D2J5M53CAN6WS605H493P3GM",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8201,8 +8413,9 @@
       "amount": 7800000000,
       "stacker": "SPDZB0D7JD4HTQ1GQSN3A12MW5WJNP9MN1P5MCVN",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8212,8 +8425,9 @@
       "amount": 83332000000,
       "stacker": "SP234AE3DZW6SA9ZB3X3MA924246VKA9W01HK1R31",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8223,8 +8437,9 @@
       "amount": 103000000,
       "stacker": "SP20TQN8NT410B0RX1QEJNVCTGB3C133QGFSQWFC1",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8234,8 +8449,9 @@
       "amount": 25614397070,
       "stacker": "SPQ2HN9TYF8ZYY9D3G45NGYA9GHA6QZHQ8AXF5QM",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8245,8 +8461,9 @@
       "amount": 24000000000,
       "stacker": "SP3VEXZNRR67NMBE8SCX9B5G87P2YNBW1GXB1VA1N",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:33:58.000Z",
@@ -8256,8 +8473,9 @@
       "amount": 1499000000,
       "stacker": "SP2ZRAWGZXYXRKR4QT6NP56JMETFQNEASHBD0AGZV",
       "unlock": 716450,
-      "rewardCycle": 17,
-      "lockingPeriod": 7
+      "rewardCycle": 18,
+      "lockingPeriod": 6,
+      "blockHeight": 31862
     },
     {
       "timestamp": "2021-09-30T08:26:04.000Z",
@@ -8267,8 +8485,9 @@
       "amount": 865453637,
       "stacker": "SP133KNDMRPNN149DZ3342H3BMM97WXMKFKJCWG7J",
       "unlock": 729050,
-      "rewardCycle": 17,
-      "lockingPeriod": 13
+      "rewardCycle": 18,
+      "lockingPeriod": 12,
+      "blockHeight": 31861
     },
     {
       "timestamp": "2021-09-30T08:26:04.000Z",
@@ -8278,8 +8497,9 @@
       "amount": 15000000000,
       "stacker": "SP1653EB7EM1Q7CZ1CMC8J0W93SD8HZT4XR9659CF",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31861
     },
     {
       "timestamp": "2021-09-30T08:04:21.000Z",
@@ -8289,8 +8509,9 @@
       "amount": 4195000000,
       "stacker": "SP2P8F44XMN79VRTMAFATGFM3Z23AAJA41937GPD2",
       "unlock": 705950,
-      "rewardCycle": 17,
-      "lockingPeriod": 2
+      "rewardCycle": 18,
+      "lockingPeriod": 1,
+      "blockHeight": 31859
     },
     {
       "timestamp": "2021-09-20T20:54:25.000Z",
@@ -8301,7 +8522,8 @@
       "stacker": "SP39T8HQ7FEVF8PGC2PCDJ1W55KR8HNXPJGZ5X4KN",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30677
     },
     {
       "timestamp": "2021-09-20T20:54:25.000Z",
@@ -8312,7 +8534,8 @@
       "stacker": "SP3Y4AGDAVS5EE07RQCESZD3JQ28VJTGTT31MKW9N",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30677
     },
     {
       "timestamp": "2021-09-20T20:54:25.000Z",
@@ -8323,7 +8546,8 @@
       "stacker": "SP1Z7XZD0AH8B2MW443QAXAMS4K7NC65Y5YZQSJ4B",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30677
     },
     {
       "timestamp": "2021-09-20T20:54:25.000Z",
@@ -8334,7 +8558,8 @@
       "stacker": "SP3JWWPWSFBKK9QSPECST6P8ZXVDT5MPSTRYANG20",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30677
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8345,7 +8570,8 @@
       "stacker": "SP123TY61PFFAEZBX3PNH7KG3663B3GBW440NMYX0",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8356,7 +8582,8 @@
       "stacker": "SPKSFGN8Q2G0BWPCPZ0DYTSJJ24YE6B969DCN529",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8367,7 +8594,8 @@
       "stacker": "SP3YA0EF7PRABNV24E6VJG5F6A1KZ7R4JCER4MXQV",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8378,7 +8606,8 @@
       "stacker": "SP281EDFY54S0GCDTKPEKP6K32Y8VTJ6DC4KXTFY3",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8389,7 +8618,8 @@
       "stacker": "SPZ98APM7DHEBTE4MW94KVJKK2XTEX7JSBJD7KX0",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:47:13.000Z",
@@ -8400,7 +8630,8 @@
       "stacker": "SP32XD1F46VPYGWSWFXGBKM2JWNK5TWKSNWB6PK7J",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30676
     },
     {
       "timestamp": "2021-09-20T20:39:00.000Z",
@@ -8411,7 +8642,8 @@
       "stacker": "SP3JYTEYFKCY12WTY7TNRCQ392D1WF0YTPV71P0EM",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30675
     },
     {
       "timestamp": "2021-09-20T20:39:00.000Z",
@@ -8422,7 +8654,8 @@
       "stacker": "SP1E7DEJG95E0EBZFFGEFGE0QX6Y0CR5V79615FB2",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30675
     },
     {
       "timestamp": "2021-09-20T18:28:03.000Z",
@@ -8433,7 +8666,8 @@
       "stacker": "SP1R96YQBWDPBA1JV7NHH5AWH37XS7C3QJXVMB0WT",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30666
     },
     {
       "timestamp": "2021-09-20T18:28:03.000Z",
@@ -8444,7 +8678,8 @@
       "stacker": "SP11064NRV0ZDMCPB84BKDZFRV7TW1E7BE0E4N727",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30666
     },
     {
       "timestamp": "2021-09-20T18:28:03.000Z",
@@ -8455,7 +8690,8 @@
       "stacker": "SP3FCPJBCDM3X1580E4Y2MMRM4HDT46VFPXFDGQ7Z",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30666
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8466,7 +8702,8 @@
       "stacker": "SP27CZZXCA3RJWDETG473C2EZXBPF4VGBX5315AMH",
       "unlock": 710150,
       "rewardCycle": 17,
-      "lockingPeriod": 4
+      "lockingPeriod": 4,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8477,7 +8714,8 @@
       "stacker": "SP3GJ9MFSJ9ANQPZ6G32A49SC7427PG26PNJFEGWP",
       "unlock": 710150,
       "rewardCycle": 17,
-      "lockingPeriod": 4
+      "lockingPeriod": 4,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8488,7 +8726,8 @@
       "stacker": "SPR2007PW01HXGGCQEVAER49FACAYDMYF4FG1MVX",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8499,7 +8738,8 @@
       "stacker": "SP230QYRFBT9JFB92PKVH85CVRX6CFVZ30JSJF3DC",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8510,7 +8750,8 @@
       "stacker": "SP1A86KRVMMXD3QFXRWHWKNAEW07A6KTDX21SK40F",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8521,7 +8762,8 @@
       "stacker": "SPJYE321XPCZ73EKM5GHZGC5ACBPS4KHGB4E4GGJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:04:20.000Z",
@@ -8532,7 +8774,8 @@
       "stacker": "SP2S329QQRTMXWQK664XS2Z6JQTPAZVPGGB4ZRFK7",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30665
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8543,7 +8786,8 @@
       "stacker": "SP974N9DZY7K5G235D6RZ2BCPXD39JYANSHT46XP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8554,7 +8798,8 @@
       "stacker": "SP234PQ03KV02KSJ1338AQVAHXR83QXSTG58W3HPS",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8565,7 +8810,8 @@
       "stacker": "SPWAFVPKPWQRTZ4A9N03JSEX3RBC2XFZ6SCVTPFY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8576,7 +8822,8 @@
       "stacker": "SP79YX144B1ATGCT64CX3S4KWRNPWP2GTZ0E2W52",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8587,7 +8834,8 @@
       "stacker": "SP1JXH5KVPWJGCCCWZ4808ZKSY3656YAYBFM0YWTZ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T18:02:40.000Z",
@@ -8598,7 +8846,8 @@
       "stacker": "SP163N1MEHWYZGVMC2TVK85QJRCPJS4ZWXT9XXPW5",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30664
     },
     {
       "timestamp": "2021-09-20T17:58:35.000Z",
@@ -8609,7 +8858,8 @@
       "stacker": "SP3BKHQAH1Q7RV09G5EFFSE5DN92YHPBPZNW27VEQ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30663
     },
     {
       "timestamp": "2021-09-20T17:49:49.000Z",
@@ -8620,7 +8870,8 @@
       "stacker": "SP2TWDJZK2C257R9Y761K890B6A7DR25XPRQ2W4F6",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30662
     },
     {
       "timestamp": "2021-09-20T17:49:49.000Z",
@@ -8631,7 +8882,8 @@
       "stacker": "SP1T4W78G06T6SFWPKP8K53QK2GQT41J6PT4Z8712",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30662
     },
     {
       "timestamp": "2021-09-20T17:23:11.000Z",
@@ -8642,7 +8894,8 @@
       "stacker": "SP1DM5S40X3N3HEK00HB3CJN67SY4HDPR2KDE13G4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30661
     },
     {
       "timestamp": "2021-09-20T17:23:11.000Z",
@@ -8653,7 +8906,8 @@
       "stacker": "SP1RJV4R7EHJSN3SBMS4YM7JNV9KTETCXZ7HB9J9D",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30661
     },
     {
       "timestamp": "2021-09-20T17:07:59.000Z",
@@ -8664,7 +8918,8 @@
       "stacker": "SP05B7QCFWHM92VZ8ZF0MH876DT9QRJXPKGBW9J7",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30660
     },
     {
       "timestamp": "2021-09-20T16:33:02.000Z",
@@ -8675,7 +8930,8 @@
       "stacker": "SPGVB97NR397Q4SDD3NZSFTB2JQ43HWQF0G1Y9MP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30659
     },
     {
       "timestamp": "2021-09-20T16:33:02.000Z",
@@ -8686,7 +8942,8 @@
       "stacker": "SP2RV5159EWMZ4MHSX1SRC76Y220ZJQD3PR8TPS05",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30659
     },
     {
       "timestamp": "2021-09-20T16:33:02.000Z",
@@ -8697,7 +8954,8 @@
       "stacker": "SP31VE6HPV8HW93YZG10S15SGZV3FVRJD33KTVKP8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30659
     },
     {
       "timestamp": "2021-09-20T16:33:02.000Z",
@@ -8708,7 +8966,8 @@
       "stacker": "SPHQWKF9P6F8WSB4ND472Y3JZ00B5PDEV08ZKJPG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30659
     },
     {
       "timestamp": "2021-09-20T16:30:38.000Z",
@@ -8719,7 +8978,8 @@
       "stacker": "SP39J255HZFVJPBCB2NN72CER1XPJ93M2XJRYZKEX",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30658
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8730,7 +8990,8 @@
       "stacker": "SP2Y7X7HFPTPMH63QKS030RCX7JG7PYH0X0MAFPF2",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8741,7 +9002,8 @@
       "stacker": "SP10KKR9MMVTRXP2Z1R2G3XJ64DBKWDGADW28B90G",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8752,7 +9014,8 @@
       "stacker": "SP3W1A04QMJN64CEXA7YQJ3Z0HQKYAD7PZPVFXQ5B",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8763,7 +9026,8 @@
       "stacker": "SP1NT4GVJGNF7VB7K9C14F5X13BJ3RWH7AXVGD8CP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8774,7 +9038,8 @@
       "stacker": "SP36VKJEBKSS0QXFE1J9W4FFT8KYMP2T009JQD5X9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8785,7 +9050,8 @@
       "stacker": "SP3G3P9VZNC51JQKRM73BTWWPERS2RQZK0TD56658",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8796,7 +9062,8 @@
       "stacker": "SPGCZMNZ2ERMS21756RSRASW85MMABZCX72DXT13",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8807,7 +9074,8 @@
       "stacker": "SPZYARQK04SAFCEW3TAXZVGC22R5SEWG93R38JX8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8818,7 +9086,8 @@
       "stacker": "SP28J58SJE8PQKN3EHR3831G25WNJZ0VGXV43T0DE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8829,7 +9098,8 @@
       "stacker": "SP12FMQ1QEVXZY145CGDBK884V0ARD20AR1D9E3E1",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8840,7 +9110,8 @@
       "stacker": "SP3DXK41AYEAWRZKSVN8YPYRCX53P5QFAKN4HVN5A",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8851,7 +9122,8 @@
       "stacker": "SP7DDSGBN4AH1VZYDCQHTECAADH7W6DBV07ADRYK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8862,7 +9134,8 @@
       "stacker": "SPGR13361HQZAFMJXH68QEJMYF5X6XPQS5Z07CPR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8873,7 +9146,8 @@
       "stacker": "SP1048V27R6H3CEZ2CZJR9J5E34EZ0G9NX6K3MQGV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8884,7 +9158,8 @@
       "stacker": "SP24BWRQ04KH2X0W5ER3E99AWCKA97CQ9035Y5CHK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:37:02.000Z",
@@ -8895,7 +9170,8 @@
       "stacker": "SPQ7YDT8P32ZNASZ31C35N9PT6DRJJ4WV9A72AGG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30652
     },
     {
       "timestamp": "2021-09-20T15:34:19.000Z",
@@ -8906,7 +9182,8 @@
       "stacker": "SP1DYT4AMSY3X59C00XJSZWQ3194JK8B76Z8KZZ6N",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30651
     },
     {
       "timestamp": "2021-09-20T15:34:19.000Z",
@@ -8917,7 +9194,8 @@
       "stacker": "SP1NB012JS7TR1QNS03G3VC2CEWRFTYC96QCKBSDC",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30651
     },
     {
       "timestamp": "2021-09-20T15:34:19.000Z",
@@ -8928,7 +9206,8 @@
       "stacker": "SP4ES8Q50TVGQQGDECP84TY54H88K812Y55A79V6",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30651
     },
     {
       "timestamp": "2021-09-20T15:34:19.000Z",
@@ -8939,7 +9218,8 @@
       "stacker": "SP2FNB0X7GGPYR032EPSV244EQX88BA954RC7C7JJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30651
     },
     {
       "timestamp": "2021-09-20T15:32:29.000Z",
@@ -8950,7 +9230,8 @@
       "stacker": "SP2CXVC7F2XKS03MZA5R8J5EQVWNJHHKDARHVKM6G",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30650
     },
     {
       "timestamp": "2021-09-20T15:32:29.000Z",
@@ -8961,7 +9242,8 @@
       "stacker": "SP5VP30C815HTBQ0YDAFKM2JBXY6GVAEECWAMTY2",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30650
     },
     {
       "timestamp": "2021-09-20T15:16:58.000Z",
@@ -8972,7 +9254,8 @@
       "stacker": "SP1QWH0C4HDA4DW63MS8KHT9M2GK03CYATG7Y99NZ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30648
     },
     {
       "timestamp": "2021-09-20T15:10:20.000Z",
@@ -8983,7 +9266,8 @@
       "stacker": "SP203KT3RVJ0QA5Y6NFZ6TD885CEZAHWWTWSSFJ86",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30647
     },
     {
       "timestamp": "2021-09-20T15:10:20.000Z",
@@ -8994,7 +9278,8 @@
       "stacker": "SP1H9MJPE1XAK4ZQ5VY9TTAAFAYNMAW1D5XTGP21Q",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30647
     },
     {
       "timestamp": "2021-09-20T15:10:20.000Z",
@@ -9005,7 +9290,8 @@
       "stacker": "SP31CJVJ97QM9G1XERNC9KAHCW22DRBRDXK670X8M",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30647
     },
     {
       "timestamp": "2021-09-20T14:38:58.000Z",
@@ -9016,7 +9302,8 @@
       "stacker": "SPPW1RX5YQKVNFXHKWS27RBS1HAVZGH1HX5HWNA2",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30646
     },
     {
       "timestamp": "2021-09-20T14:26:06.000Z",
@@ -9027,7 +9314,8 @@
       "stacker": "SPB4APH5MRYWJY4FQH821QTYVDQ80CYHRSXBRJXK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30645
     },
     {
       "timestamp": "2021-09-20T14:26:06.000Z",
@@ -9038,7 +9326,8 @@
       "stacker": "SP3910KBW2WAXNDM5VXWGH0JR3JFD245YWM9BA5HE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30645
     },
     {
       "timestamp": "2021-09-20T12:29:40.000Z",
@@ -9049,7 +9338,8 @@
       "stacker": "SP38BCJ7FBSKX51KPHF3EA5R80X1HV9TVRNPC57G5",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30636
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9060,7 +9350,8 @@
       "stacker": "SP1TKYDEXSVKT6CWHDPJBB02W33FDMWXPE7PWMMBR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9071,7 +9362,8 @@
       "stacker": "SP1H7WT9M2K2DQ5DNDA2XZPDQAY36845MJBMQXR3T",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9082,7 +9374,8 @@
       "stacker": "SP3GD3SWMNXTE99T9XS828C6C8QVRQ4VX5Y2CQ2TY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9093,7 +9386,8 @@
       "stacker": "SP1X7BCH9EEV6FD0149V1YK2E3N4JWPDBHJ762AM4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9104,7 +9398,8 @@
       "stacker": "SP35HH3HT89V6M5R1VJKFHVTVV5GVBDPXFD3FE8YF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9115,7 +9410,8 @@
       "stacker": "SP1KSSPD2EXDAWS6XXJPGZKFC3ZBP7GRB6HAF7FCH",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9126,7 +9422,8 @@
       "stacker": "SP2YM3X1PN4BAXRBP9MEGZX0149HVGKDNJTMJWXCW",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9137,7 +9434,8 @@
       "stacker": "SP2M7R24J80SZZ34CNQ1SCGFWE3WFF5HRXGRRTGBK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9148,7 +9446,8 @@
       "stacker": "SP3X72XHEZC1W9V160CPEER59J8WC9JV2S1NT4YTW",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:26:08.000Z",
@@ -9159,7 +9458,8 @@
       "stacker": "SP16QMACGFYWNZ8R4C25XBPNFJEEPNR7NTR3WNH68",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30635
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9170,7 +9470,8 @@
       "stacker": "SP2NDDGXHY8GJ0EYZYX7GGFK6VS4CW202VSWW7K12",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9181,7 +9482,8 @@
       "stacker": "SP1NZ4JGVCQ0RMPZRGPKCB2GPQEA9KBNM1XY4JTNN",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9192,7 +9494,8 @@
       "stacker": "SP3J95NW5RYPVFTVA9KJ09Z06NWESZ2G1DP0CW2QP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9203,7 +9506,8 @@
       "stacker": "SP1TVK9WQE2TEB12G6X5FYPHAKEK7TW95FGZFWBXB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9214,7 +9518,8 @@
       "stacker": "SPWE6JW213WW1NJZC3YY8ANG42NC81P5EYQ3GF58",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9225,7 +9530,8 @@
       "stacker": "SP19HGBCW0ETF5ZC3D9PWGBNC8R7V6EHA8FRMX223",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9236,7 +9542,8 @@
       "stacker": "SP3V6FD33Z1K9D24MQME9DKWK04XMV3CBGM8442VA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9247,7 +9554,8 @@
       "stacker": "SP13DDTCP3QNCYHP6G9F68FS6W5G2HH8PEDPG1C7F",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9258,7 +9566,8 @@
       "stacker": "SP1DF01GG34BMYZSWZNVV987T58HG3HAPJFEB9GKA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9269,7 +9578,8 @@
       "stacker": "SPE08J79SX6TRQ135P38N700J49PRPH8WR87K3S1",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:24:13.000Z",
@@ -9280,7 +9590,8 @@
       "stacker": "SP3EPMBH15QP3B9SW299RFV85GWZFHEKH5S711YMX",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30634
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9291,7 +9602,8 @@
       "stacker": "SP228WEAEMYX21RW0TT5T38THPNDYPPGGVW2RP570",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9302,7 +9614,8 @@
       "stacker": "SP1NFRJJFQAA5AB4R8RDA3F0WEBZHK0HQSKW1PPNY",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9313,7 +9626,8 @@
       "stacker": "SP1P15MFQAQW6WH84XGWN0RTYKGPAQWJJ301E0T1N",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9324,7 +9638,8 @@
       "stacker": "SP2NBXF74TF55MDJDD3K2JA157ACTXY4HMHXEJR9A",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9335,7 +9650,8 @@
       "stacker": "SP3AHCKMVXT7XV1NT5WA3J740KHBSBAE56M9D7618",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9346,7 +9662,8 @@
       "stacker": "SPTFVW7ZS2E0GBWFHA3SKHN1A8J4RZFGAK6MA6PB",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T12:09:52.000Z",
@@ -9357,7 +9674,8 @@
       "stacker": "SP2Z3YXD327PKXF0P5BYASZHNV0H7VTDJCN8BTEMP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30633
     },
     {
       "timestamp": "2021-09-20T11:23:37.000Z",
@@ -9368,7 +9686,8 @@
       "stacker": "SP325DAYKWK2AST79G24TTJ9E28CBEESGRG9XWCAF",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30632
     },
     {
       "timestamp": "2021-09-20T11:23:37.000Z",
@@ -9379,7 +9698,8 @@
       "stacker": "SPTA23KDEP8CP8K0DNNAT9FXH1J0PN0QB2AP9Z2Q",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30632
     },
     {
       "timestamp": "2021-09-20T11:23:37.000Z",
@@ -9390,7 +9710,8 @@
       "stacker": "SPKN4AYXSV5VTS1KP4DWKVQMZDHQW2YKP01CP1DZ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30632
     },
     {
       "timestamp": "2021-09-20T11:23:37.000Z",
@@ -9401,7 +9722,8 @@
       "stacker": "SPYF9PC72BSWS0DGA33FR24GCG81MG1Z96463H68",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30632
     },
     {
       "timestamp": "2021-09-20T11:23:37.000Z",
@@ -9412,7 +9734,8 @@
       "stacker": "SP20YYV3WFHRH8ESQKTS6SHXTNE5NFMZQP8WZDB7T",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30632
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9423,7 +9746,8 @@
       "stacker": "SP3Q2A8K9XXWFAXQS6KQ7HH45Z0EXYNJ74A5FRM0J",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9434,7 +9758,8 @@
       "stacker": "SP6X9GTAK7RPKNKY5F0S3JQFDSW7EZHJY2NHZ3XE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9445,7 +9770,8 @@
       "stacker": "SP3XW1K133K0ZXK3PB0RTGR78BTR6CMV8QXFAZND9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9456,7 +9782,8 @@
       "stacker": "SP2303ZSNEZ6WXXCYN5ZPNT4H6R70W5B2YCTHH979",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9467,7 +9794,8 @@
       "stacker": "SPF9EPKMB6QD1NCY6SN83CFBYJ68TVH084VWYJ5Z",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9478,7 +9806,8 @@
       "stacker": "SP1XZZJVMKNVTB8DCD0TDNJJWVMAW1PW9VRA28MNA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9489,7 +9818,8 @@
       "stacker": "SP1FMZKRCRFW3HBZJ2468WN1ZW84KNM3F467EW72N",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9500,7 +9830,8 @@
       "stacker": "SP291790V8B9QTKWG12ZZ1KFH3EMDG3RG2WY0B5AJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9511,7 +9842,8 @@
       "stacker": "SP1VYB1F11CV3EKDNZZWCHRJAXZMWZ7T66XSJ89WV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:47:39.000Z",
@@ -9522,7 +9854,8 @@
       "stacker": "SP1NTQZDBVDBD9NXRGM00QW9YFZQQWE6K9VQGX0R6",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30627
     },
     {
       "timestamp": "2021-09-20T10:44:28.000Z",
@@ -9533,7 +9866,8 @@
       "stacker": "SP1K8X8E3H42DSN2X56WMJB5N2JJK6VTPAN86YXWM",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30626
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9544,7 +9878,8 @@
       "stacker": "SPW0TQV2FDRJ8PV8E4C5BH1V7NY4BVM0RCCETQ5S",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9555,7 +9890,8 @@
       "stacker": "SPBPK39DT4VVX3PYZ3Q258SRJJT6WGS3Q5XP8N3R",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9566,7 +9902,8 @@
       "stacker": "SP1W6KTB2478W5M6Q45DRAN5BCAH5PAPQHK4T6JSQ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9577,7 +9914,8 @@
       "stacker": "SP17RJTW2FERBBRBC0HQH70BDQETKT76C2QRCAAS4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9588,7 +9926,8 @@
       "stacker": "SP2YE90VMZ7MX0FM37VYSPNYJ6AQ6E9VT3WKF2WCK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:32:21.000Z",
@@ -9599,7 +9938,8 @@
       "stacker": "SP2A4E2TCMGNEVBMQEBM407D9X8BDWQNH80JQPE94",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30625
     },
     {
       "timestamp": "2021-09-20T10:23:48.000Z",
@@ -9610,7 +9950,8 @@
       "stacker": "SP2YP3DHSJE3BNBNMSCKJGCYWF75Z7HP7JXVD03VK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30624
     },
     {
       "timestamp": "2021-09-20T10:23:48.000Z",
@@ -9621,7 +9962,8 @@
       "stacker": "SPS6P76N4K900PJW6WJZ9GYGJN0DPK6W71N9454E",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30624
     },
     {
       "timestamp": "2021-09-20T10:19:38.000Z",
@@ -9632,7 +9974,8 @@
       "stacker": "SP2BZQ48MADDN62X044NNJCNXF5BA33C3BFQ3TZJW",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30623
     },
     {
       "timestamp": "2021-09-20T10:19:38.000Z",
@@ -9643,7 +9986,8 @@
       "stacker": "SP1C9ATTN4C6EKXBA8GRESM4FKPZ3XWWZERM0DFQS",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30623
     },
     {
       "timestamp": "2021-09-20T10:13:00.000Z",
@@ -9654,7 +9998,8 @@
       "stacker": "SP23AQGMPTXDKVVJWS3Y2SJRDZ9W1VFJ01GS5SYWK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30622
     },
     {
       "timestamp": "2021-09-20T10:13:00.000Z",
@@ -9665,7 +10010,8 @@
       "stacker": "SP38B9FJ2WA1XHG28YQE2F2TJDSEPA5HM9B7HH15T",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30622
     },
     {
       "timestamp": "2021-09-20T10:11:13.000Z",
@@ -9676,7 +10022,8 @@
       "stacker": "SP9D3QPRKERQJVQRJXM0W8BPXYX5PWED2A6R0TQX",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30621
     },
     {
       "timestamp": "2021-09-20T10:11:13.000Z",
@@ -9687,7 +10034,8 @@
       "stacker": "SP3YD8HXCQ64CE58FBD6ZPV2Y1HA7SCW17FY5F88F",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30621
     },
     {
       "timestamp": "2021-09-20T10:11:13.000Z",
@@ -9698,7 +10046,8 @@
       "stacker": "SPT60RGHCRSSS78VBY60ZKS9YH3KMPNPSRQMSC6W",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30621
     },
     {
       "timestamp": "2021-09-20T10:11:13.000Z",
@@ -9709,7 +10058,8 @@
       "stacker": "SP2H3S83AHDQR4M1PCHYTBQ533GSEA06WXGB3D41S",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30621
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9720,7 +10070,8 @@
       "stacker": "SP1RNCSDJ30G1RB3X2R6WE20G0D3XYJK8JG5HWSVH",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9731,7 +10082,8 @@
       "stacker": "SPJ4ZKTTJ5386K1GYNJEZ5ZRNWY2E9BJN4FAKWV3",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9742,7 +10094,8 @@
       "stacker": "SP2DKANM80E92JBR66ZD7GF8D0W2DG381MVXQ9WJ4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9753,7 +10106,8 @@
       "stacker": "SP3X8JVWXVWVEVKTMAAR4S9SBQ9AWW6AST1GW1JQF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9764,7 +10118,8 @@
       "stacker": "SP1ERSFZ6WM74Q93MK8G9Y91MJZHC9HCNZJ8G0P50",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9775,7 +10130,8 @@
       "stacker": "SP20VCAYC7SG7EEH9EMWS6EF1Q6YTPNRQ1J2XJXME",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9786,7 +10142,8 @@
       "stacker": "SPQ8VA0WJ93A8PYPTEQK6TH87E6Z7AXBJWEB7TGD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9797,7 +10154,8 @@
       "stacker": "SP2G62WN9ZJN5V12Z7BCVQ576PHDKW9XAYD8ZB2WR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9808,7 +10166,8 @@
       "stacker": "SP2AGJQ8TFTNW59BJWNCVXZG2T5WRSSB5TMSSAJBD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:26:59.000Z",
@@ -9819,7 +10178,8 @@
       "stacker": "SP345Y9MWHM2DBQR00N7AP0ZSSMYXHNPJHJQEZW7Y",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30616
     },
     {
       "timestamp": "2021-09-20T09:13:17.000Z",
@@ -9830,7 +10190,8 @@
       "stacker": "SP14E7FZ5PSR0TFZSW3HGHQE0K2B6KEV2PEZF0K13",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30615
     },
     {
       "timestamp": "2021-09-20T09:13:17.000Z",
@@ -9841,7 +10202,8 @@
       "stacker": "SP3B3E2W7RDBT5XH6VEB2H96CJHF5AH6G0DW14HV4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30615
     },
     {
       "timestamp": "2021-09-20T09:13:17.000Z",
@@ -9852,7 +10214,8 @@
       "stacker": "SPH4914T7R0NW69MZFF52QZQYQRYBBCE1KJ0B6NW",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30615
     },
     {
       "timestamp": "2021-09-20T09:13:17.000Z",
@@ -9863,7 +10226,8 @@
       "stacker": "SP2KKWMN139G697TH9DTEXCVG0GX009D4M7744NBK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30615
     },
     {
       "timestamp": "2021-09-20T09:07:04.000Z",
@@ -9874,7 +10238,8 @@
       "stacker": "SP2YQFV5G13R21KVS4CB27Q6QKCR7YTZEXWCAQAB4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30614
     },
     {
       "timestamp": "2021-09-20T09:07:04.000Z",
@@ -9885,7 +10250,8 @@
       "stacker": "SP18N0G993R9CTCS2QVQ4B2WVBX205VX99YE7SDQZ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30614
     },
     {
       "timestamp": "2021-09-20T09:03:54.000Z",
@@ -9896,7 +10262,8 @@
       "stacker": "SP7BT27X0RK05HEYS4KEZ3JZ75AFMAZK216FREHK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30613
     },
     {
       "timestamp": "2021-09-20T09:03:54.000Z",
@@ -9907,7 +10274,8 @@
       "stacker": "SP3E2HT6RE513NY8CJWNCCVE01EGWSD5YKS3EAP45",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30613
     },
     {
       "timestamp": "2021-09-20T09:03:54.000Z",
@@ -9918,7 +10286,8 @@
       "stacker": "SP2A5AS2R64DKVNG723YB9C5XGT79VE303DY7FTKB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30613
     },
     {
       "timestamp": "2021-09-20T09:03:54.000Z",
@@ -9929,7 +10298,8 @@
       "stacker": "SP2GAR9S7V6ZRWBKHXY982QR3W41YC0C58WBF2302",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30613
     },
     {
       "timestamp": "2021-09-20T09:03:54.000Z",
@@ -9940,7 +10310,8 @@
       "stacker": "SP2YD13Y0HSNE5S4VRVVZJ98CRT2RAK4QNF2TFV5X",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30613
     },
     {
       "timestamp": "2021-09-20T08:53:44.000Z",
@@ -9951,7 +10322,8 @@
       "stacker": "SP31RCGY1X1TJ1FMEJS19MGPQ3H9YX00XF9Q862FF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30612
     },
     {
       "timestamp": "2021-09-20T08:53:44.000Z",
@@ -9962,7 +10334,8 @@
       "stacker": "SP3F7VS37MF0QABT3A30SMZR9941HCBK63XX8BM07",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30612
     },
     {
       "timestamp": "2021-09-20T08:42:16.000Z",
@@ -9973,7 +10346,8 @@
       "stacker": "SP2NW9S583M4HVE4VY4HXS5H35DD62M114ZMMKX19",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30611
     },
     {
       "timestamp": "2021-09-20T08:42:16.000Z",
@@ -9984,7 +10358,8 @@
       "stacker": "SP26JR84XVG01R2BXTZNEXGCY90CH1JKS1NGNSHKR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30611
     },
     {
       "timestamp": "2021-09-20T08:42:16.000Z",
@@ -9995,7 +10370,8 @@
       "stacker": "SP1800QPPK4CYGAVQCPP2MG2NZ9XE9NBBD417097M",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30611
     },
     {
       "timestamp": "2021-09-20T08:42:16.000Z",
@@ -10006,7 +10382,8 @@
       "stacker": "SP1MSP21S9ZCNJ49KMGZ4WBDJ07P7DF94T6ZQXF0T",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30611
     },
     {
       "timestamp": "2021-09-20T08:34:39.000Z",
@@ -10017,7 +10394,8 @@
       "stacker": "SP1YZKJSXWFRN01EJKDMKFRXE5X2WT91K3Q9EPX1T",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30610
     },
     {
       "timestamp": "2021-09-20T08:34:39.000Z",
@@ -10028,7 +10406,8 @@
       "stacker": "SP16591Q84J98EV7DVZ6K32QF13GFNMYKAEQRTKGD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30610
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10039,7 +10418,8 @@
       "stacker": "SP21SKQASJP2QZPHRNTA78Z80JHS449FAFRD63HKA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10050,7 +10430,8 @@
       "stacker": "SPCPAA3CQGFEVNMSHPBERJK20G9G7V687QKD1WV4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10061,7 +10442,8 @@
       "stacker": "SP3E172SMDDE5WX23N8FZD13ERJKQQVCFVPSJEHYD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10072,7 +10454,8 @@
       "stacker": "SP1T0YT5NRBVXGKG1BXC4R0EBKA762469EKQBP1B3",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10083,7 +10466,8 @@
       "stacker": "SP5TF80S5BKE9B4PHM8YJ2CPZ1FNA4W8RWS3R808",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10094,7 +10478,8 @@
       "stacker": "SP2RE2PYH40MM1VZKA5ABE2FWSAK1V3VP47E9J939",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10105,7 +10490,8 @@
       "stacker": "SP2XZGHNNJQ7RV73BJ2XGNW4SDDWMD1FWPJ248Z40",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10116,7 +10502,8 @@
       "stacker": "SP1ZMG8Z5Z5CTT3B9FCZ50XPYBZDY4JC4STP5D4HM",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10127,7 +10514,8 @@
       "stacker": "SPY308X2A9NX2A0PXRFKA1SK8A1VW3B998JGY0QG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:20:06.000Z",
@@ -10138,7 +10526,8 @@
       "stacker": "SP2MGRSQPBE8TMSQ8YJ92D49YZCWR38QDE27AE2K9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30602
     },
     {
       "timestamp": "2021-09-20T06:09:31.000Z",
@@ -10149,7 +10538,8 @@
       "stacker": "SP1VSF9NRDSDN4TNZH592D10TNNSDG46NKMYMS8D6",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30600
     },
     {
       "timestamp": "2021-09-20T06:09:31.000Z",
@@ -10160,7 +10550,8 @@
       "stacker": "SPJ5JRQ54X70RB7WEATQ3G64ZGMGMBAWKVKNH9S8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30600
     },
     {
       "timestamp": "2021-09-20T06:09:31.000Z",
@@ -10171,7 +10562,8 @@
       "stacker": "SPHEHJQJZ7ZA70B9NWMAZ26XJVVTFM29H87XD9RP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30600
     },
     {
       "timestamp": "2021-09-20T06:04:51.000Z",
@@ -10182,7 +10574,8 @@
       "stacker": "SP11S56GZ7HSN2KRMXMSFS77JKAW9H8A6CAHG4N3C",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30599
     },
     {
       "timestamp": "2021-09-20T06:04:51.000Z",
@@ -10193,7 +10586,8 @@
       "stacker": "SP3TZ2FG2J95SGQDANJ0T1FCHW2Y6G33XMESR6YGA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30599
     },
     {
       "timestamp": "2021-09-20T06:04:51.000Z",
@@ -10204,7 +10598,8 @@
       "stacker": "SPQ0W9WG9Q4F62GD9Q8HZCQ106P8Y0PSZSS6NCK1",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30599
     },
     {
       "timestamp": "2021-09-20T06:04:51.000Z",
@@ -10215,7 +10610,8 @@
       "stacker": "SP33DYS4T3EXMEZDRR11PVZCY3A9GSKX11K4TKFK4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30599
     },
     {
       "timestamp": "2021-09-20T05:55:40.000Z",
@@ -10226,7 +10622,8 @@
       "stacker": "SP1Q8BN056GVDXN9PH5RJJX4833HW58T8N411CG84",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30598
     },
     {
       "timestamp": "2021-09-20T05:55:40.000Z",
@@ -10237,7 +10634,8 @@
       "stacker": "SPTM55382XG1YSCRVW26ZP3SE2QWAYHW55FM7ZTZ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30598
     },
     {
       "timestamp": "2021-09-20T05:35:34.000Z",
@@ -10248,7 +10646,8 @@
       "stacker": "SP3YCW89P1KGT572GCBZSZVWJ3KRVW2FC87EF55Q",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30597
     },
     {
       "timestamp": "2021-09-20T05:35:34.000Z",
@@ -10259,7 +10658,8 @@
       "stacker": "SP2YT8N7DG7HV4E2R7KGK8B3E7E2WRG96WEJ679M7",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30597
     },
     {
       "timestamp": "2021-09-20T05:35:34.000Z",
@@ -10270,7 +10670,8 @@
       "stacker": "SP2VN0FYET4FVX4PGS8F9W1HHD19Y5345V36JS1MB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30597
     },
     {
       "timestamp": "2021-09-20T05:27:23.000Z",
@@ -10281,7 +10682,8 @@
       "stacker": "SP3ETCVKJW9DWNPRRB5B4FZB0AJKRMZV4DDBZSG49",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30596
     },
     {
       "timestamp": "2021-09-20T05:27:23.000Z",
@@ -10292,7 +10694,8 @@
       "stacker": "SP26ZR5724VDTX5TW7AY19TNRSFSEWV4QF8YR95P5",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30596
     },
     {
       "timestamp": "2021-09-20T05:15:03.000Z",
@@ -10303,7 +10706,8 @@
       "stacker": "SP161M0CXN7P2YKHQVR27VYPKN561GTCBJD40MM0X",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30595
     },
     {
       "timestamp": "2021-09-20T05:15:03.000Z",
@@ -10314,7 +10718,8 @@
       "stacker": "SP2TAEYN1PK0GDAAD0B9SY1SXRAWGJ22Q3AR19NTF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30595
     },
     {
       "timestamp": "2021-09-20T05:15:03.000Z",
@@ -10325,7 +10730,8 @@
       "stacker": "SP2NDH9PHYAS2JVRJDZ0JT4TJH9X8NDMPCQZ2TS03",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30595
     },
     {
       "timestamp": "2021-09-20T04:21:49.000Z",
@@ -10336,7 +10742,8 @@
       "stacker": "SPA6RK5YYW4E2ND6SCG59CE49E0HXQ2WFT09CTTD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30591
     },
     {
       "timestamp": "2021-09-20T04:17:38.000Z",
@@ -10347,7 +10754,8 @@
       "stacker": "SPVWPD7QXKN45D95DD9D2B901F1RZYTQNN1QER11",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30590
     },
     {
       "timestamp": "2021-09-20T04:08:31.000Z",
@@ -10358,7 +10766,8 @@
       "stacker": "SPVY9Z2G538K8X00STRE0D631EXGB5THRRCTQZHM",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30588
     },
     {
       "timestamp": "2021-09-20T03:39:26.000Z",
@@ -10369,7 +10778,8 @@
       "stacker": "SP3YKRRY7DEAHMB509W6CEPW0R8V07ABBQK90TA9E",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30586
     },
     {
       "timestamp": "2021-09-20T03:36:24.000Z",
@@ -10380,7 +10790,8 @@
       "stacker": "SP2174DDHF5P1W6ZKKBHHJFWKG60RXHF7MY9MF9NS",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30585
     },
     {
       "timestamp": "2021-09-20T03:36:24.000Z",
@@ -10391,7 +10802,8 @@
       "stacker": "SP3Y9D1G8TX3XAGR11WHNWHR0158N3BMJTD5ZTAR8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30585
     },
     {
       "timestamp": "2021-09-20T03:23:35.000Z",
@@ -10402,7 +10814,8 @@
       "stacker": "SP1JQNDN0J0YH55ZFCRGAPN4GS5QN3EBET1YQFN75",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30584
     },
     {
       "timestamp": "2021-09-20T03:23:35.000Z",
@@ -10413,7 +10826,8 @@
       "stacker": "SP15090Q3HEWMTFZ5214THSKF6R9E279FRG99HDXB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30584
     },
     {
       "timestamp": "2021-09-20T03:23:35.000Z",
@@ -10424,7 +10838,8 @@
       "stacker": "SP385XFGN4RGE8ECSKTKNWXJJAF3PXW7Y76EBYH1V",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30584
     },
     {
       "timestamp": "2021-09-20T03:21:54.000Z",
@@ -10435,7 +10850,8 @@
       "stacker": "SP1E7GSFHYDKGT41M68CQQWR73WDERJTNRFCC7T53",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30583
     },
     {
       "timestamp": "2021-09-20T03:08:20.000Z",
@@ -10446,7 +10862,8 @@
       "stacker": "SP2G3PZ4QAMK1038EJG1PRQBHAQPV3ND1GHQ2BXN1",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30581
     },
     {
       "timestamp": "2021-09-20T03:01:13.000Z",
@@ -10457,7 +10874,8 @@
       "stacker": "SP3V7VRBQ1RM91ET1PQJQSTZ13BPMRMTGPARCPF6M",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30580
     },
     {
       "timestamp": "2021-09-20T02:54:12.000Z",
@@ -10468,7 +10886,8 @@
       "stacker": "SP3PGGKN8TE24R69WET22PHDEPM8RYNX22KN05728",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30579
     },
     {
       "timestamp": "2021-09-20T02:27:59.000Z",
@@ -10479,7 +10898,8 @@
       "stacker": "SP3XDJG4MPTG5V0DC5JHNA0DCHD0EXAX4SXWD4CZB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30577
     },
     {
       "timestamp": "2021-09-20T02:17:52.000Z",
@@ -10490,7 +10910,8 @@
       "stacker": "SPWM7PQ0RVY1KESMHQEKJMSWC7FA2VAJZCA4AN8X",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30575
     },
     {
       "timestamp": "2021-09-20T02:14:54.000Z",
@@ -10501,7 +10922,8 @@
       "stacker": "SP1CM3RBT8MZ4M7R2D58EZ6487MB4025NB8C3VN5W",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30574
     },
     {
       "timestamp": "2021-09-20T02:14:54.000Z",
@@ -10512,7 +10934,8 @@
       "stacker": "SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30574
     },
     {
       "timestamp": "2021-09-20T01:57:24.000Z",
@@ -10523,7 +10946,8 @@
       "stacker": "SP34BJFAF6J2Y49C29JZ4SBT0ECR7K0PNHMXZQ8KY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30573
     },
     {
       "timestamp": "2021-09-20T01:57:24.000Z",
@@ -10534,7 +10958,8 @@
       "stacker": "SP1SP7MQ4ZCM4H8Z16XCK4RFT1JAQV15XMJGKR7EC",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30573
     },
     {
       "timestamp": "2021-09-20T01:15:36.000Z",
@@ -10545,7 +10970,8 @@
       "stacker": "SP2X9H7BQ0XPH2P3FV0KZYQ4NXWHYGSFAGMED9YS7",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30568
     },
     {
       "timestamp": "2021-09-20T01:15:36.000Z",
@@ -10556,7 +10982,8 @@
       "stacker": "SP1F2T7WDY688R8TPGRPA8DAD2DFW3FVX70M51WV2",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30568
     },
     {
       "timestamp": "2021-09-20T01:15:36.000Z",
@@ -10567,7 +10994,8 @@
       "stacker": "SP2MGBYR5XYZMKYG8JSY9JZKTW8XAVEWBK1JF3CKV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30568
     },
     {
       "timestamp": "2021-09-20T01:15:36.000Z",
@@ -10578,7 +11006,8 @@
       "stacker": "SP3RY185H0R8TNX4PGRYFZ07AV001N23N1FJX9MEE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30568
     },
     {
       "timestamp": "2021-09-20T00:27:12.000Z",
@@ -10589,7 +11018,8 @@
       "stacker": "SP1MBQ2FVRJ6P20K7MBFTWHN8QVDHNJ36AHKKMKN7",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30564
     },
     {
       "timestamp": "2021-09-20T00:27:12.000Z",
@@ -10600,7 +11030,8 @@
       "stacker": "SP06QC626XTXDQ2D6X6SV2E5SVMNKHNRHYSAMN4M",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30564
     },
     {
       "timestamp": "2021-09-19T23:53:43.000Z",
@@ -10611,7 +11042,8 @@
       "stacker": "SP1NBTJP11RS3J8H7D762H431VB6KY5HCSS03WP44",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30563
     },
     {
       "timestamp": "2021-09-19T23:34:32.000Z",
@@ -10622,7 +11054,8 @@
       "stacker": "SP1S2F7AVTDKQVDNEKJ9C03KD853C55W7B7EHWESF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30562
     },
     {
       "timestamp": "2021-09-19T23:34:32.000Z",
@@ -10633,7 +11066,8 @@
       "stacker": "SPASD4TMZ7X1MC1D9T2WVS06KYACQS34Q5NGNZCJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30562
     },
     {
       "timestamp": "2021-09-19T23:10:28.000Z",
@@ -10644,7 +11078,8 @@
       "stacker": "SPPTSW5X1YE02C7F17H2G764Z3MY5945G49X1R8W",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30561
     },
     {
       "timestamp": "2021-09-19T23:10:28.000Z",
@@ -10655,7 +11090,8 @@
       "stacker": "SP1X8WW487EKRXW0A0A4M57VCXAEZHX51XJMZ2SZX",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30561
     },
     {
       "timestamp": "2021-09-19T23:10:28.000Z",
@@ -10666,7 +11102,8 @@
       "stacker": "SP1Z46A6DNM5RZDW7DDTFXCQ2S6Z4HEHPK3PG1GMG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30561
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10677,7 +11114,8 @@
       "stacker": "SP3P46TVPHD8C1E649TN718G87Z27B303NM74BYHH",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10688,7 +11126,8 @@
       "stacker": "SP3R6TB47MKW0GZPWKEWV5X9A1E16BERV36Z5E5H0",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10699,7 +11138,8 @@
       "stacker": "SP30DJZ09XM85RW7C0PTATS2PAE3ZHVAFKAXGX3GV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10710,7 +11150,8 @@
       "stacker": "SP3AR99A98N8MNQD8GX3SV1AGDJNYGACTW141GMVS",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10721,7 +11162,8 @@
       "stacker": "SP3ZDNWECBET6AVZHJ9S5CM5N1VB4YH699EBX7A0K",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10732,7 +11174,8 @@
       "stacker": "SP2J0Z0C54R721YQWPWYPJKK3RPRFV7HD1JFX92NY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10743,7 +11186,8 @@
       "stacker": "SP3P23KESVHSRXX73RXTM2VV1KJY4434KAC0J8NSH",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10754,7 +11198,8 @@
       "stacker": "SPVQRRSSK4MDZENBJ5A23A3F0QK73P5QRFVWPVHS",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10765,7 +11210,8 @@
       "stacker": "SP9BF59DAGB3BM7XMG5XW9F179QM9F73SZNCW7CA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10776,7 +11222,8 @@
       "stacker": "SPFCGD437B2PACG45271XBX22VQF6T1X1CM18Z8W",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10787,7 +11234,8 @@
       "stacker": "SP1AYQ57DG25H6PJFQQAC0X001JAPBJT8G54FKAZC",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10798,7 +11246,8 @@
       "stacker": "SP0DXBZ3HPRVXBK6D001710G1317V2TNQXJ8TCW3",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10809,7 +11258,8 @@
       "stacker": "SP1C8Y8MHE6PV82GF16YXC0VKPYAD5FRY6VHJ9K1R",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10820,7 +11270,8 @@
       "stacker": "SP2H95PWNF5W2RY4902DF6X1RRW50KHJMXJK41T2P",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:52:53.000Z",
@@ -10831,7 +11282,8 @@
       "stacker": "SP1Z3RWWW0EC2CGQSYBGMW4AFBXKG4439EATTM0H8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30559
     },
     {
       "timestamp": "2021-09-19T22:11:16.000Z",
@@ -10842,7 +11294,8 @@
       "stacker": "SP1B6KW31PKRWG17FB3PG1WZV6JCCWMQDGAZVQDQ5",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30558
     },
     {
       "timestamp": "2021-09-19T21:39:30.000Z",
@@ -10853,7 +11306,8 @@
       "stacker": "SP1VV9EB6Y90MJXTM7TRMNPDDE8D4ST44RCHMR325",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30557
     },
     {
       "timestamp": "2021-09-19T20:53:24.000Z",
@@ -10864,7 +11318,8 @@
       "stacker": "SP2HXDWK2HSJXS04TYDB3FETF5WHFZEHXMSEBBHDP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30556
     },
     {
       "timestamp": "2021-09-19T20:41:34.000Z",
@@ -10875,7 +11330,8 @@
       "stacker": "SP1QFG8R4AFG87EZ44XJP4M4HVE8BS5GZYCN6YT8Y",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30555
     },
     {
       "timestamp": "2021-09-19T20:41:34.000Z",
@@ -10886,7 +11342,8 @@
       "stacker": "SP2NBBJCJACV10EXRGY71EDZ3P2DH3VDCZHTR12AB",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30555
     },
     {
       "timestamp": "2021-09-19T20:07:25.000Z",
@@ -10897,7 +11354,8 @@
       "stacker": "SP1PN51Q6YTEACZ1CFNFP2P9VPA36KMD58KV152K3",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30554
     },
     {
       "timestamp": "2021-09-19T20:04:05.000Z",
@@ -10908,7 +11366,8 @@
       "stacker": "SP9TN8DRZZYDY4HN6QKHGAGHKN6B8DPAV69P64W8",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30553
     },
     {
       "timestamp": "2021-09-19T20:04:05.000Z",
@@ -10919,7 +11378,8 @@
       "stacker": "SP3QG6M0Q7XP9G8HK4R4EPT2MBVMC34WGQQQEF4BH",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30553
     },
     {
       "timestamp": "2021-09-19T20:04:05.000Z",
@@ -10930,7 +11390,8 @@
       "stacker": "SP1T2RFHPX4STER2Q6P4531S2R0VA2PD3NW0Q4YRD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30553
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10941,7 +11402,8 @@
       "stacker": "SP2N8ZGAGRDJX7S2KRW3V8KSBSTK90T50A701PX3D",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10952,7 +11414,8 @@
       "stacker": "SP2Z9B5BXTH61CHSZRP49KJC8N0E2H3000A1RPXF9",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10963,7 +11426,8 @@
       "stacker": "SP38XSJ91XTY6ARN2W58AKKPBJAJ0AM02W1QJ497F",
       "unlock": 705950,
       "rewardCycle": 17,
-      "lockingPeriod": 2
+      "lockingPeriod": 2,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10974,7 +11438,8 @@
       "stacker": "SP37B25MQXMZRBKY98G24NPWDAHYZCF562KXJWTKD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10985,7 +11450,8 @@
       "stacker": "SP2R5Z4H838BJ7879ZA1N94585QTYF87T98QCX4RJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -10996,7 +11462,8 @@
       "stacker": "SP3WPFEKYXMVPTF3SWRKXF0274C5EZ50F1E8R1A83",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:57:35.000Z",
@@ -11007,7 +11474,8 @@
       "stacker": "SP2VAF7TRBY5BDQZW6R9JK8WGM0RVVRCQMK0B448Q",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30552
     },
     {
       "timestamp": "2021-09-19T19:43:48.000Z",
@@ -11018,7 +11486,8 @@
       "stacker": "SP1VG8VKTD4A3GCB71FW84NHMYFCR0YKT55DPH67D",
       "unlock": 712250,
       "rewardCycle": 17,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 30551
     },
     {
       "timestamp": "2021-09-19T19:43:48.000Z",
@@ -11029,7 +11498,8 @@
       "stacker": "SP1JSE79G093C17XZNAQAVBKAX2K551KGVDZC5Z76",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30551
     },
     {
       "timestamp": "2021-09-19T19:33:35.000Z",
@@ -11040,7 +11510,8 @@
       "stacker": "SPC30NARAGTSQ4DEER9NM4CV7CWH2JMJZBKJ90G9",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30550
     },
     {
       "timestamp": "2021-09-19T19:33:35.000Z",
@@ -11051,7 +11522,8 @@
       "stacker": "SP2Q2JBWWKE54MHR9NEZ6JTRD0SVQHDWVW0DKR5J6",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30550
     },
     {
       "timestamp": "2021-09-19T19:33:35.000Z",
@@ -11062,7 +11534,8 @@
       "stacker": "SP2XCP47GZGNDFX0KMWSEPE79XFNS317Q2J1DRTG9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30550
     },
     {
       "timestamp": "2021-09-19T19:31:04.000Z",
@@ -11073,7 +11546,8 @@
       "stacker": "SPX9SYWK9TQ598S505X2GCXXET55BAC3RRGV80VS",
       "unlock": 712250,
       "rewardCycle": 17,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 30549
     },
     {
       "timestamp": "2021-09-19T19:31:04.000Z",
@@ -11084,7 +11558,8 @@
       "stacker": "SP9FBRFC028FW65C6CB8ZWQG2C62Z9DVQGX0DPVD",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30549
     },
     {
       "timestamp": "2021-09-19T19:31:04.000Z",
@@ -11095,7 +11570,8 @@
       "stacker": "SP4YP71BM8WW494GK370XH8NH0XBN9BCCSRNPKQV",
       "unlock": 712250,
       "rewardCycle": 17,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 30549
     },
     {
       "timestamp": "2021-09-19T19:27:02.000Z",
@@ -11106,7 +11582,8 @@
       "stacker": "SP39R665A2QVHTQFBH44JSV7KQ7C8JVRF6H58B1AA",
       "unlock": 712250,
       "rewardCycle": 17,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 30548
     },
     {
       "timestamp": "2021-09-19T19:16:27.000Z",
@@ -11117,7 +11594,8 @@
       "stacker": "SP15AQJ5H89DBVMRR17YTFN7W07P51SYKW2N8AFGT",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30547
     },
     {
       "timestamp": "2021-09-19T19:16:27.000Z",
@@ -11128,7 +11606,8 @@
       "stacker": "SP1EPGJCPYTKX9W7YHT010J5HMVWG0N8K627PD77",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30547
     },
     {
       "timestamp": "2021-09-19T19:16:27.000Z",
@@ -11139,7 +11618,8 @@
       "stacker": "SP344KKNJ86Q7H592V9VTY4KG2V5QS1CGQFNRP3QZ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30547
     },
     {
       "timestamp": "2021-09-19T19:16:27.000Z",
@@ -11150,7 +11630,8 @@
       "stacker": "SP3G14Q01145WWEPBM5W9E4K2R3EGAGERZCZB30AR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30547
     },
     {
       "timestamp": "2021-09-19T19:16:27.000Z",
@@ -11161,7 +11642,8 @@
       "stacker": "SP2F8CGYWGEGJ9RCSW1AYZ3H16SEZD3JPZ3QFYJ7F",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30547
     },
     {
       "timestamp": "2021-09-19T18:53:04.000Z",
@@ -11172,7 +11654,8 @@
       "stacker": "SP1X2WX4RS1GBDF3KNS4XXJ718XRPJ77A4XNXH2ZY",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30546
     },
     {
       "timestamp": "2021-09-19T18:53:04.000Z",
@@ -11183,7 +11666,8 @@
       "stacker": "SP318F556QJFG6FJ0WDZF95E4SDKMH7CN3934T6AE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30546
     },
     {
       "timestamp": "2021-09-19T18:53:04.000Z",
@@ -11194,7 +11678,8 @@
       "stacker": "SP6EN6QX558F5CSGE6Y7QTXMGEWN1SVBTPEF4NYN",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30546
     },
     {
       "timestamp": "2021-09-19T18:37:28.000Z",
@@ -11205,7 +11690,8 @@
       "stacker": "SP3KWVT3CTP9KDQPGACJVBPR1T22S2AZE77FQ8VEW",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30545
     },
     {
       "timestamp": "2021-09-19T18:37:28.000Z",
@@ -11216,7 +11702,8 @@
       "stacker": "SP2C0X9138TWKDXX49KB47H7EXW6N2KN87K3P1KBQ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30545
     },
     {
       "timestamp": "2021-09-19T18:37:28.000Z",
@@ -11227,7 +11714,8 @@
       "stacker": "SP1T22VF1MNNN0VKMXQR0P720Y6E8K8CADV8D3Q65",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30545
     },
     {
       "timestamp": "2021-09-19T18:37:28.000Z",
@@ -11238,7 +11726,8 @@
       "stacker": "SP1R1HND0ZXGFZXQCRKQ1PNR1ADA7ZJHJMKVJ1HCJ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30545
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11249,7 +11738,8 @@
       "stacker": "SP288MJ5DG6BQFTBRB3M5CH1V48PTWA7A3JJNQ1RH",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11260,7 +11750,8 @@
       "stacker": "SP124ZXWG28W9JP8R6JTQE4RV780F15RV54PX6WQD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11271,7 +11762,8 @@
       "stacker": "SP3VNN4Q8RMPND3GQS9XMT9NSZFK5XNDJ3XRFN3MJ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11282,7 +11774,8 @@
       "stacker": "SP3CWKWPNWMFF9M2F0KWQ5ESVJ4YF8P6ST2RTFXJF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11293,7 +11786,8 @@
       "stacker": "SP3EM588P7KEHSJ20Y5Y9TYRJHBHST3TCQ4SSQYTF",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11304,7 +11798,8 @@
       "stacker": "SP18JPHTY1KTDS42T3A3CK887SSR44Q7A9KYDKC1K",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11315,7 +11810,8 @@
       "stacker": "SP2078SXX7WH1V3EFHDGW38DMM3EFNSJNN1ABQWY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11326,7 +11822,8 @@
       "stacker": "SPP39B6RGNGXD42ZCDF8XDCT6RWNQ322M58NBKSG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11337,7 +11834,8 @@
       "stacker": "SP3RR32X868M7ZHRKEQ1YF2XE5J669XNV06F38PQ9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11348,7 +11846,8 @@
       "stacker": "SPK74J69608GTG8J93CZY5Q67A6XZ86687GCZSWE",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11359,7 +11858,8 @@
       "stacker": "SP3KKW5919PNHC3SBF34KA9WYK6JAHKM3ZJ2NMCZ4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:32:15.000Z",
@@ -11370,7 +11870,8 @@
       "stacker": "SP1GQCDKFH1K6YRZE0A0DPG4ZS2YDRQPCQNHXPFJ0",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30544
     },
     {
       "timestamp": "2021-09-19T18:17:24.000Z",
@@ -11381,7 +11882,8 @@
       "stacker": "SPWVJP01MFDSED9CJXD6X0PFEE5YWZXXHPZSPC6S",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30542
     },
     {
       "timestamp": "2021-09-19T18:17:24.000Z",
@@ -11392,7 +11894,8 @@
       "stacker": "SP2PXNWW3EA4WCVQS54E03T969TW51DW3SZBHFNR5",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30542
     },
     {
       "timestamp": "2021-09-19T18:17:24.000Z",
@@ -11403,7 +11906,8 @@
       "stacker": "SP39K85BYDZ9D34BRBKE60X622MA0JKQAS1NB27S8",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30542
     },
     {
       "timestamp": "2021-09-19T18:17:24.000Z",
@@ -11414,7 +11918,8 @@
       "stacker": "SPB8AQRQEQBQJACHKA7GRQ2ET0ECMH9ZA263Q7HH",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30542
     },
     {
       "timestamp": "2021-09-19T18:17:24.000Z",
@@ -11425,7 +11930,8 @@
       "stacker": "SPKFPNC8Z0RKB7CTS4RWV2KMEBYBTC8E94Q9XQ1H",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30542
     },
     {
       "timestamp": "2021-09-19T18:00:55.000Z",
@@ -11436,7 +11942,8 @@
       "stacker": "SPYZWGYD9XAGVH5BNGW9T5V4QM65QZSKGJJZMC1Q",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30541
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11447,7 +11954,8 @@
       "stacker": "SP1HB7779C8GNDQ4VT7CTN9APSKK48XJ8PJAKTGFT",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11458,7 +11966,8 @@
       "stacker": "SP15S478J9ZMR77N501EMJADSEGAFGPT0ZZ9E9R8A",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11469,7 +11978,8 @@
       "stacker": "SPBAKJP8T37GHPVMV5RX2N0EDCMX79RQXPGSJSDB",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11480,7 +11990,8 @@
       "stacker": "SP1F5DSY5TBFHXG80RV02N0CMRABSMCSM83A4STR0",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11491,7 +12002,8 @@
       "stacker": "SP1AYVSC81FQAFDYJ1RRMQAK8TWB40ETKEP1Z6M4Y",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11502,7 +12014,8 @@
       "stacker": "SPJ4SME1JBZ0682X48AJYAP5FPFBVVY4BCAMSRZ4",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:52:13.000Z",
@@ -11513,7 +12026,8 @@
       "stacker": "SP1S2EN7AHYH41P9DSYW0VM8FRHSDD77CFA3A7H3T",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30540
     },
     {
       "timestamp": "2021-09-19T17:44:16.000Z",
@@ -11524,7 +12038,8 @@
       "stacker": "SP20GSBGFKJZECGP932GQQSZT83KXF4HC7KPF65QF",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30539
     },
     {
       "timestamp": "2021-09-19T17:44:16.000Z",
@@ -11535,7 +12050,8 @@
       "stacker": "SP3JQCAYADMY9514NSTHHXWE01T6EWRNWDEACAFVY",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30539
     },
     {
       "timestamp": "2021-09-19T17:44:16.000Z",
@@ -11546,7 +12062,8 @@
       "stacker": "SP221CDNSRGS6CM4BCJGKCQDYG03JTBCF8RX42D01",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30539
     },
     {
       "timestamp": "2021-09-19T17:44:16.000Z",
@@ -11557,7 +12074,8 @@
       "stacker": "SP8R8AT0HS12MRKHMZ22J05DMTBDHRW9XJBKE5DG",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30539
     },
     {
       "timestamp": "2021-09-19T17:44:16.000Z",
@@ -11568,7 +12086,8 @@
       "stacker": "SP129N2D7NMT70Z76FKGPXTJ8Q76D8FGZ5GVXSQN7",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30539
     },
     {
       "timestamp": "2021-09-19T17:42:08.000Z",
@@ -11579,7 +12098,8 @@
       "stacker": "SP38D2F03MJ5N1VNYJXW0NN25H2743AQNXQQA9P5A",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30538
     },
     {
       "timestamp": "2021-09-19T17:42:08.000Z",
@@ -11590,7 +12110,8 @@
       "stacker": "SP2SPFMAPQJYSXFNX608E40YWEEQGWJYFJQTG76X9",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30538
     },
     {
       "timestamp": "2021-09-19T17:35:24.000Z",
@@ -11601,7 +12122,8 @@
       "stacker": "SP35RVRR6R5T15Z46KJ1KFYKVDDQKM5YC2T3A8NEP",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30536
     },
     {
       "timestamp": "2021-09-19T17:35:24.000Z",
@@ -11612,7 +12134,8 @@
       "stacker": "SP1CZPXNXB68RM9KNN4Z2DK8MBAHR1JVZ9EJ0901Y",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30536
     },
     {
       "timestamp": "2021-09-19T17:35:24.000Z",
@@ -11623,7 +12146,8 @@
       "stacker": "SP1Q3VA4YYDAFY7WQVQGZYGH0D232BM4DV2KF7T1S",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30536
     },
     {
       "timestamp": "2021-09-19T17:35:24.000Z",
@@ -11634,7 +12158,8 @@
       "stacker": "SP3YTSN86F8K72Y1VD1FZZ4CZ01YVC031S61CSRSN",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30536
     },
     {
       "timestamp": "2021-09-19T17:32:51.000Z",
@@ -11645,7 +12170,8 @@
       "stacker": "SP36JZRG7GZDGMXDXRQFXK8DJGGWHK9DJBJQ3SY0W",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30535
     },
     {
       "timestamp": "2021-09-19T17:32:51.000Z",
@@ -11656,7 +12182,8 @@
       "stacker": "SP13QPKF6QZ7N5Y6FXHM58WGBF9MR469YPXQKE5PD",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30535
     },
     {
       "timestamp": "2021-09-19T17:32:51.000Z",
@@ -11667,7 +12194,8 @@
       "stacker": "SP28GFTTNHFD1BQ1XMBNS4F3T7WC7A5D7B315Y5P4",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30535
     },
     {
       "timestamp": "2021-09-19T17:22:03.000Z",
@@ -11678,7 +12206,8 @@
       "stacker": "SP1M222VZ2ATEWGZKEKD9MPD53V68T3C94DAPYMAW",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30534
     },
     {
       "timestamp": "2021-09-19T17:22:03.000Z",
@@ -11689,7 +12218,8 @@
       "stacker": "SP34N4BJVEHDRBFYMR61AQ066474N06XWSJZJXFQK",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30534
     },
     {
       "timestamp": "2021-09-19T17:22:03.000Z",
@@ -11700,7 +12230,8 @@
       "stacker": "SP407D2TSK1VDRDWJSAF2SD2DDAA8JB7D3FFRC1A",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30534
     },
     {
       "timestamp": "2021-09-19T16:52:26.000Z",
@@ -11711,7 +12242,8 @@
       "stacker": "SP24TN44EK3MPAPQVGSGQ5EH0DGBKSHT3BKQJB924",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30533
     },
     {
       "timestamp": "2021-09-19T16:28:49.000Z",
@@ -11722,7 +12254,8 @@
       "stacker": "SPG7MY6RH1Y3X6MQ95K4V4CXEPM30P29Z3RKK1ZX",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30531
     },
     {
       "timestamp": "2021-09-19T16:28:49.000Z",
@@ -11733,7 +12266,8 @@
       "stacker": "SP3ZY5DBKBBXWJPSCV1G7SEMTPAGT7C659A42AF2A",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30531
     },
     {
       "timestamp": "2021-09-19T16:28:49.000Z",
@@ -11744,7 +12278,8 @@
       "stacker": "SP1AJ07PW3F6X8ZR2XC3DXEQXQDEJY4BJ2FBT3HJ",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30531
     },
     {
       "timestamp": "2021-09-19T16:20:31.000Z",
@@ -11755,7 +12290,8 @@
       "stacker": "SP2RE2EWMQ7H8CTD091F2Y2XHGEPVHRM0MPN4GQJP",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30530
     },
     {
       "timestamp": "2021-09-19T16:13:27.000Z",
@@ -11766,7 +12302,8 @@
       "stacker": "SP29FGB3MNDFX3KW5AE0CFF83EWQCSE20P8C7RMWJ",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30529
     },
     {
       "timestamp": "2021-09-19T16:10:33.000Z",
@@ -11777,7 +12314,8 @@
       "stacker": "SP25SQR5GE76ED6KA2ZBVHRDRQ7537R7ZT8J0FD0W",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30528
     },
     {
       "timestamp": "2021-09-19T15:59:47.000Z",
@@ -11788,7 +12326,8 @@
       "stacker": "SPG02V1E6N0XA7MMNFHJBJPNRJE2QDJ78DQ0M1WW",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30527
     },
     {
       "timestamp": "2021-09-19T15:46:42.000Z",
@@ -11799,7 +12338,8 @@
       "stacker": "SP3P1ZA7S3QF5QQAMZK3QDKQ9TPX0AZ1ZPKD118RQ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30526
     },
     {
       "timestamp": "2021-09-19T15:46:42.000Z",
@@ -11810,7 +12350,8 @@
       "stacker": "SP24HRSEHJ2Q2665K7TP9XFQM66331BE59RZGYSVH",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30526
     },
     {
       "timestamp": "2021-09-19T15:31:48.000Z",
@@ -11821,7 +12362,8 @@
       "stacker": "SPXRWVQMKMHY8CGG1BPA08P8JNAVE84TNPQ0R0HA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30525
     },
     {
       "timestamp": "2021-09-19T15:31:48.000Z",
@@ -11832,7 +12374,8 @@
       "stacker": "SP1GHMBR6NKXC8HMWWMPKGRZJ6WTZXX1SYJJNJZJA",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30525
     },
     {
       "timestamp": "2021-09-19T15:09:45.000Z",
@@ -11843,7 +12386,8 @@
       "stacker": "SP2A406QBAHT0C6P3J3VJ7JRR4VZB3E8491TWK08Y",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30524
     },
     {
       "timestamp": "2021-09-19T15:09:45.000Z",
@@ -11854,7 +12398,8 @@
       "stacker": "SP6EQ6KBBYWCSD11XNKMS0VGQCPTT0G7PVWPBYW2",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30524
     },
     {
       "timestamp": "2021-09-19T14:53:41.000Z",
@@ -11865,7 +12410,8 @@
       "stacker": "SP2G52KJHH94FDMWW75B9EEB3TRCPXD4NKMBT3NXG",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30522
     },
     {
       "timestamp": "2021-09-19T14:53:41.000Z",
@@ -11876,7 +12422,8 @@
       "stacker": "SPSS7WAYA17Y8Z5Q6GJTMH4FH4MRJ7HZZ6JPGAGR",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30522
     },
     {
       "timestamp": "2021-09-19T14:47:43.000Z",
@@ -11887,7 +12434,8 @@
       "stacker": "SP269PKK91NTCGH93RPKTT8AZ6V6ZKH7A4Q7N5F7B",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30521
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11898,7 +12446,8 @@
       "stacker": "SP23E1ZQAFFASNS8XT39E8Z3J41066J7772FWMQ9M",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11909,7 +12458,8 @@
       "stacker": "SP2TGT0R63PZDH90N2464DRCAV08VM16C93W16BEP",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11920,7 +12470,8 @@
       "stacker": "SPKQVJZM28WJT70G3AP7B0PA5EG4HJ8NH97JK42B",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11931,7 +12482,8 @@
       "stacker": "SP2H4HFERWC4208VW51BPGT9C2J74MT1W5JDBGZAZ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11942,7 +12494,8 @@
       "stacker": "SP1VM3P7H4N82DK1WDVFT50GDHZKX3ZH7XSN8KNP1",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:45:30.000Z",
@@ -11953,7 +12506,8 @@
       "stacker": "SP3MBV19ABTV3ZDY8RC1EKQC1ECN1JRBT0B1KJWEG",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30520
     },
     {
       "timestamp": "2021-09-19T14:29:20.000Z",
@@ -11964,7 +12518,8 @@
       "stacker": "SP1AV94YJEXKVJVYZPYHE5NBG8TJVMYW5YTJ47KHJ",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30519
     },
     {
       "timestamp": "2021-09-19T14:29:20.000Z",
@@ -11975,7 +12530,8 @@
       "stacker": "SP2JJJRD0TN6B7EEEK9R94H0DZX2Q7KZNHGRVB6QA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30519
     },
     {
       "timestamp": "2021-09-19T14:29:20.000Z",
@@ -11986,7 +12542,8 @@
       "stacker": "SP9GPYQE0KSYXSH7W41X7GSTX8EN6E88FPQ00BHY",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30519
     },
     {
       "timestamp": "2021-09-19T14:29:20.000Z",
@@ -11997,7 +12554,8 @@
       "stacker": "SP24K6H0FE6Q2QDKAB2YZPE220TE534SPM288D59B",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30519
     },
     {
       "timestamp": "2021-09-19T14:28:12.000Z",
@@ -12008,7 +12566,8 @@
       "stacker": "SP3MRZKM54E5JMQZYX02826Z6615N3182PDKZM0K5",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30518
     },
     {
       "timestamp": "2021-09-19T14:28:12.000Z",
@@ -12019,7 +12578,8 @@
       "stacker": "SP1EV7NSK0CV88Y2EQYMK3E75Y8MBP93W9M8WE9XV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30518
     },
     {
       "timestamp": "2021-09-19T14:10:17.000Z",
@@ -12030,7 +12590,8 @@
       "stacker": "SP1XRA74ATR3GMKNRT6E218SXWFQKBR5N634HTVCT",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30517
     },
     {
       "timestamp": "2021-09-19T14:09:26.000Z",
@@ -12041,7 +12602,8 @@
       "stacker": "SPDQXZT4CDB9BCCC53CGW0G0052EQ8ZZYK04FTCM",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30516
     },
     {
       "timestamp": "2021-09-19T14:09:26.000Z",
@@ -12052,7 +12614,8 @@
       "stacker": "SP0DM1BNWECCFCYP9WYZKMSERNXSR2QKYY10NPSQ",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30516
     },
     {
       "timestamp": "2021-09-19T13:49:15.000Z",
@@ -12063,7 +12626,8 @@
       "stacker": "SP3VF61EMENFYSS71P3EC91PP388XA6HF2YTMXXA",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30513
     },
     {
       "timestamp": "2021-09-19T13:25:25.000Z",
@@ -12074,7 +12638,8 @@
       "stacker": "SP3YG92RA9T86B074MMM1XFQNKWPP0P2TRGMRNJ2D",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30511
     },
     {
       "timestamp": "2021-09-19T13:25:25.000Z",
@@ -12085,7 +12650,8 @@
       "stacker": "SP2W6Z864GQC3SPK7XHNCVQY7V0JHVPMDYD4A0ZMB",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30511
     },
     {
       "timestamp": "2021-09-19T13:25:25.000Z",
@@ -12096,7 +12662,8 @@
       "stacker": "SP17CTSX6TK51BG6BKKVWR2Y0B55T2374XS22R1DC",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30511
     },
     {
       "timestamp": "2021-09-19T13:25:25.000Z",
@@ -12107,7 +12674,8 @@
       "stacker": "SP1NQ5AS213JFGAS78MF6BPRZ4Z6TENR59K96M67W",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30511
     },
     {
       "timestamp": "2021-09-19T13:25:25.000Z",
@@ -12118,7 +12686,8 @@
       "stacker": "SP2RW80TCDT7ZQRG95HN5GVS8XQGYR3HN7CZE8SG",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30511
     },
     {
       "timestamp": "2021-09-19T13:21:18.000Z",
@@ -12129,7 +12698,8 @@
       "stacker": "SP3V687XFTK6VEGH18NCA8EJYZZQBC1GXERFSE6Q0",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30510
     },
     {
       "timestamp": "2021-09-19T13:21:18.000Z",
@@ -12140,7 +12710,8 @@
       "stacker": "SP34EJF504TEMXY1DKZ6E14VPR7TBK21G1YV82YV4",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30510
     },
     {
       "timestamp": "2021-09-19T13:19:05.000Z",
@@ -12151,7 +12722,8 @@
       "stacker": "SP1AXVTWCWYMB7C4GBTD2JWMRFMX3R60GFJ0JE52C",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30509
     },
     {
       "timestamp": "2021-09-19T13:19:05.000Z",
@@ -12162,7 +12734,8 @@
       "stacker": "SP1NFK8N4WAAWKCHVEC2F9F8M10NQ20F7RD58DVZ9",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30509
     },
     {
       "timestamp": "2021-09-19T13:19:05.000Z",
@@ -12173,7 +12746,8 @@
       "stacker": "SP1P32Z1SWS8K7AKT857BEQJHDQ2SADQNA3KQZX93",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30509
     },
     {
       "timestamp": "2021-09-19T13:19:05.000Z",
@@ -12184,7 +12758,8 @@
       "stacker": "SP3GKN54SFM3PF27T002RHNXZP19V5KX3RFQCT86G",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30509
     },
     {
       "timestamp": "2021-09-19T13:17:07.000Z",
@@ -12195,7 +12770,8 @@
       "stacker": "SP39VZBGWRZQZW3B0K7CHRYXGFKV1MVVVXF7HVWE3",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30508
     },
     {
       "timestamp": "2021-09-19T13:17:07.000Z",
@@ -12206,7 +12782,8 @@
       "stacker": "SP1GBEGMEW20CB49DVZFW480QRZVRY2XTRVNCFX38",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30508
     },
     {
       "timestamp": "2021-09-19T13:17:07.000Z",
@@ -12217,7 +12794,8 @@
       "stacker": "SP1DQXREPJW90ZFKAEREZK76XPHKQ9KRWMQY81JAT",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30508
     },
     {
       "timestamp": "2021-09-19T13:14:24.000Z",
@@ -12228,7 +12806,8 @@
       "stacker": "SP3E6S7TDY2C19J0VNRPARX454ZWNE63S8HSN2VSZ",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30507
     },
     {
       "timestamp": "2021-09-19T13:14:24.000Z",
@@ -12239,7 +12818,8 @@
       "stacker": "SP24E88GBC3S24BGHBP58P7J6P2DETDM8AH8R5GG4",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30507
     },
     {
       "timestamp": "2021-09-19T13:14:24.000Z",
@@ -12250,7 +12830,8 @@
       "stacker": "SPEDJNSCVE2140KKFN2GA7XG43M6CGG8H3Q09RHE",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30507
     },
     {
       "timestamp": "2021-09-19T12:24:59.000Z",
@@ -12261,7 +12842,8 @@
       "stacker": "SP4SED39N27ZSFVGCMER0Y245EFEVN3ZB7SSMQGR",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30503
     },
     {
       "timestamp": "2021-09-19T12:24:59.000Z",
@@ -12272,7 +12854,8 @@
       "stacker": "SP2WZEER95DHPTKKW1NPB278080Y4XKVNBBFRK5F6",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30503
     },
     {
       "timestamp": "2021-09-19T12:17:35.000Z",
@@ -12283,7 +12866,8 @@
       "stacker": "SPNVYVN854A33V30ZJW6R1KFYDTGE777V0DGM5MG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30502
     },
     {
       "timestamp": "2021-09-19T12:17:35.000Z",
@@ -12294,7 +12878,8 @@
       "stacker": "SP1WTH4R1B3QKARZTRMZG1A2EXSXG418YA3TMD40R",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30502
     },
     {
       "timestamp": "2021-09-19T12:17:35.000Z",
@@ -12305,7 +12890,8 @@
       "stacker": "SP28FS6K7XZXJC8NMKV65W65T66C5D76TNFZWECW1",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30502
     },
     {
       "timestamp": "2021-09-19T12:17:35.000Z",
@@ -12316,7 +12902,8 @@
       "stacker": "SP3XXEB750BWA8VDNMVJ77972S21GQGD477HKV1HG",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30502
     },
     {
       "timestamp": "2021-09-19T12:17:35.000Z",
@@ -12327,7 +12914,8 @@
       "stacker": "SP2EEAV998SKPYNB8EVW9RGATB41DTEV81WEN7Y9K",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30502
     },
     {
       "timestamp": "2021-09-19T12:05:55.000Z",
@@ -12338,7 +12926,8 @@
       "stacker": "SP1KT7G7HP1G7BTFQQ7X4TFJXCJ908719BA2VBWHV",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30501
     },
     {
       "timestamp": "2021-09-19T12:05:55.000Z",
@@ -12349,7 +12938,8 @@
       "stacker": "SPF39GAR4WP9EWNDSMC8TMR8QFW5N844JHTW3N1E",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30501
     },
     {
       "timestamp": "2021-09-19T12:03:03.000Z",
@@ -12360,7 +12950,8 @@
       "stacker": "SP323Z38TTGQE4F8N08PP0BCPE3XV5FX7VJAYP32T",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30500
     },
     {
       "timestamp": "2021-09-19T12:03:03.000Z",
@@ -12371,7 +12962,8 @@
       "stacker": "SP35THPJA8N5EFB82SDRZPMHXVNS0TWXD7AMQ5ZRK",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30500
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12382,7 +12974,8 @@
       "stacker": "SPNRPD2W804W5HMNXD5RDCPF5Z5CTZZM8KCSW2ZK",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12393,7 +12986,8 @@
       "stacker": "SPX5TESXN1S4M12KF4AVF8SBP3H6WE8B55EHKM4F",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12404,7 +12998,8 @@
       "stacker": "SP1E32XK54WWBFM0QTBNT44RV69201CZMRV2ZKKA3",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12415,7 +13010,8 @@
       "stacker": "SP1239SRF7MPS2WXYDVTPJ2V4ZBE2TDCV5NY42ZAM",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12426,7 +13022,8 @@
       "stacker": "SP1VDP51TS04PWRK4DBPY64T8M1GY85Q1QX8WDVFN",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12437,7 +13034,8 @@
       "stacker": "SP1FBF62CJDWKM6CWVFK3R4R14JWAYNEF95E4Y7XD",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12448,7 +13046,8 @@
       "stacker": "SP7383KRJA9AQAY9WS1AKAPG4KAR9ERQM3586AZ3",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12459,7 +13058,8 @@
       "stacker": "SP30F2QAKR5TEN0FTK4XGPYBB8JHDRMNVE3QFKV47",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12470,7 +13070,8 @@
       "stacker": "SP2FNPHR7YE49C9B8FNKN1R0RCASHMRDEZ71PZ5JY",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12481,7 +13082,8 @@
       "stacker": "SP3DJWHZ1A091441XAK7FJAYWS5TNVPNX6DPYG5D5",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12492,7 +13094,8 @@
       "stacker": "SP344FXYA19N7RX3MSBRHKZ8R830ZVP6XB24GT605",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12503,7 +13106,8 @@
       "stacker": "SP779SC9CDWQVMTRXT0HZCEHSDBXCHNGG7BC1H9B",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:58:30.000Z",
@@ -12514,7 +13118,8 @@
       "stacker": "SP1TQ2BKXYWJ2W8DCKQSP94CTHYC8EKJT7T1Y09D8",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30499
     },
     {
       "timestamp": "2021-09-19T11:45:12.000Z",
@@ -12525,7 +13130,8 @@
       "stacker": "SP1QJBEHS9P9S3D91GWDAV1SQAA9613TWBGCC9EYS",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30497
     },
     {
       "timestamp": "2021-09-19T11:45:12.000Z",
@@ -12536,7 +13142,8 @@
       "stacker": "SPDN63QSBD50H04QC9J4KTN1HBJ1GJTPBWEJXW2H",
       "unlock": 714350,
       "rewardCycle": 17,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 30497
     },
     {
       "timestamp": "2021-09-19T11:45:12.000Z",
@@ -12547,7 +13154,8 @@
       "stacker": "SP2DVH2MW7PR0Y4KF13SR1MMB6J25HTXPYZ5E8EAT",
       "unlock": 726950,
       "rewardCycle": 17,
-      "lockingPeriod": 12
+      "lockingPeriod": 12,
+      "blockHeight": 30497
     },
     {
       "timestamp": "2021-09-19T10:44:16.000Z",
@@ -12558,7 +13166,8 @@
       "stacker": "SP2ZBSDRAYDFVH613N1MMRNGS313S7XKNSCJYZ83P",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30493
     },
     {
       "timestamp": "2021-09-19T10:39:21.000Z",
@@ -12569,7 +13178,8 @@
       "stacker": "SP661DNB6KZH6YBT1Y32NCDHNJE042ZY7B8JA9WW",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30492
     },
     {
       "timestamp": "2021-09-19T10:05:35.000Z",
@@ -12580,7 +13190,8 @@
       "stacker": "SP3MGK82ZAMSF309ME63SAF9CEW42X5JAMXYFF08S",
       "unlock": 708050,
       "rewardCycle": 17,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 30488
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12591,7 +13202,8 @@
       "stacker": "SP3NERS7EFGTX204FXRHENS86P5D1PQFFBDWDXKFD",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12602,7 +13214,8 @@
       "stacker": "SP3YG1DVJWVZR98NKEK0S5TFK4TCC9S6PHMGABFSH",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12613,7 +13226,8 @@
       "stacker": "SP7SPH7XXSS6HBFAFQ1W4HRHB70GD3XH8HM1FH0A",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12624,7 +13238,8 @@
       "stacker": "SP34J08P44743MCNFXBBV05G73B06VBR85C73B244",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12635,7 +13250,8 @@
       "stacker": "SP1B6SRJYD3WGWKZW7ZH9XY815QME67QD8DE78MC4",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12646,7 +13262,8 @@
       "stacker": "SP175VHMRBNS20JJ58SM9MWN97AKXH2EQ4CS0R1PY",
       "unlock": 705950,
       "rewardCycle": 16,
-      "lockingPeriod": 3
+      "lockingPeriod": 3,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12657,7 +13274,8 @@
       "stacker": "SP2TN0YH09880KYM3BMQBXDJNY9XV973JVMYR7122",
       "unlock": 710150,
       "rewardCycle": 16,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12668,7 +13286,8 @@
       "stacker": "SP1BCH2B11JY194A729WA8930KKJF8SCQBGS4EX27",
       "unlock": 710150,
       "rewardCycle": 16,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12679,7 +13298,8 @@
       "stacker": "SPRC0K16FT8KWDHJHYR5FHKT6A2JKA9JVKWQTR5Z",
       "unlock": 710150,
       "rewardCycle": 16,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12690,7 +13310,8 @@
       "stacker": "SP2A5V3J3R0WSKEA1FVDCQN6K3DSXQKYB105SFC5F",
       "unlock": 710150,
       "rewardCycle": 16,
-      "lockingPeriod": 5
+      "lockingPeriod": 5,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12701,7 +13322,8 @@
       "stacker": "SP10H649C3N6RFQJY7E0RN6VZHHVX3EQDKXVW3SWA",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12712,7 +13334,8 @@
       "stacker": "SP3DZ0CSG5MGE014PRKDMB9PKEV327FT8311CK3Z1",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12723,7 +13346,8 @@
       "stacker": "SP12BNN7NX1V3Q0PXX477SSEGYX1HXS232S0ZH7KT",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12734,7 +13358,8 @@
       "stacker": "SP1DCS3CBFM5V662E0SWFYM3NA2TCGZR2BS2G9D5T",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12745,7 +13370,8 @@
       "stacker": "SP3V3CPC5HXNCPY6YKBV0Z21YD0PNWYQYBG8C75HB",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12756,7 +13382,8 @@
       "stacker": "SP14F2MCDH9GMSQX4SYER14JVTN4YEC12JWAWRFKA",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12767,7 +13394,8 @@
       "stacker": "SP2EKNSMSQ3GRFM020C5QXEMCBCN4B2E51729J7WX",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12778,7 +13406,8 @@
       "stacker": "SPF2PJZYKKR6KDSMSAJ2QD0C5NBRPGK315RYJ8Q7",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-09-07T07:44:58.000Z",
@@ -12789,7 +13418,8 @@
       "stacker": "SP2YQ00HKEAG21A2V9BB63M9J4ZS4FNS6B7E3WV36",
       "unlock": 712250,
       "rewardCycle": 16,
-      "lockingPeriod": 6
+      "lockingPeriod": 6,
+      "blockHeight": 28927
     },
     {
       "timestamp": "2021-10-04T17:52:23.000Z",
