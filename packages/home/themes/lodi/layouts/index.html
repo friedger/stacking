@@ -5,12 +5,11 @@
   </head>
   <body>
     <div>
-      <section style="text-align: center;background-color:#11aa11">Holiday Break! We do not accept new members for cycle #24 and #25. <br/>
-        We invite you to join the next Boombox for a good cause. More news soon.<br/>
-        Service for existing members are running as usual.</section>
-      {{ if .Site.Params.nav.enable }} {{ partial "nav.html" . }} {{ end }} {{
-      if .Site.Params.hero.enable }} {{ partial "hero.html" . }} {{ end }} {{ if
-      .Site.Params.process.enable }} {{ partial "process.html" . }} {{ end }}
+      {{ if .Site.Params.nav.enable }} {{ partial
+      "nav.html" . }} {{ end }}
+      {{ partial "alert.html" . }} {{ if .Site.Params.hero.enable }} {{ partial
+      "hero.html" . }} {{ end }} {{ if .Site.Params.process.enable }} {{ partial
+      "process.html" . }} {{ end }}
       <section data-scroll-index="3">
         <div class="process">
           <div class="header">
@@ -19,17 +18,18 @@
           </div>
           <a href="/cycles/" class="read-more">View</a>
         </div>
-        </section>
-        <section data-scroll-index="4">
-        <div class="header">
-          <h1 class="title">Members' Area</h1>
-          <h2 class="subtitle">Manage your membership</h2>
-        </div>
-        <a href="/members/" class="read-more">Enter</a>
-      </div>
       </section>
-       {{ if .Site.Params.footer.enable }} {{ partial "footer.html"
-      . }} {{ end }}
+      <section data-scroll-index="4">
+        <div class="process">
+          <div class="header">
+            <h1 class="title">Members' Area</h1>
+            <h2 class="subtitle">Manage your membership</h2>
+          </div>
+          <a href="/members/" class="read-more">Enter</a>
+        </div>
+      </section>
+      {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end
+      }}
     </div>
 
     {{ partial "scripts.html" . }}
