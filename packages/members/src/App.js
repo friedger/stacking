@@ -253,58 +253,6 @@ function Content({ userSession }) {
                 Submit
               </button>
             </div>
-            <hr />
-            <div>
-              <h4>Claim Stacking Rewards Tokens</h4>
-              The reward tokens are for auditing only. They do not have a value. Your Stacking
-              rewards are transferred as usual directly to your Stacks wallet.
-              <ClaimRewards
-                stxOwnerAddress={stxOwnerAddress}
-                userSession={userSession}
-                cycle={13}
-                tokenContract={FPWR_03_CONTRACT}
-                depotContract={FPWR_03_DEPOT_CONTRACT}
-              />
-              <ClaimRewards
-                stxOwnerAddress={stxOwnerAddress}
-                userSession={userSession}
-                cycle={14}
-                tokenContract={FPWR_04_CONTRACT}
-                depotContract={FPWR_04_DEPOT_CONTRACT}
-              />
-            </div>
-            <hr />
-            {true && (
-              <>
-                <h4>Submit Bitcoin reward transaction</h4>
-                For on-chain auditing, we are minting wrapped reward tokens that represent the
-                Bitcoin rewards. The total of reward tokens will determine the total of payout in
-                the future. For now, this is only to help you auditing the pool. <br />
-                The Bitcoin transaction must contain be a reward transaction for our Bitcoin reward
-                address{' '}
-                <a
-                  href="https://live.blockcypher.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq
-                </a>
-                .<br />
-                {false && (
-                  <>
-                    Before submitting a tx please make sure that it wasn't submitted before.
-                    <div>
-                      <SubmitRewardTx />
-                    </div>
-                  </>
-                )}
-                Currently, no new txs can be submitted because tests for cycle #13 have been
-                completed.
-                <div>
-                  <FpwrMintTxList stxOwnerAddress={stxOwnerAddress} userSession={userSession} />
-                </div>
-              </>
-            )}
             {status && <div>{status}</div>}
           </section>
         </>
