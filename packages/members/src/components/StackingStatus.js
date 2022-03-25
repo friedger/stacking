@@ -5,7 +5,7 @@ export function StackingStatus({ stackingStatus }) {
   return stackingStatus ? (
     stackingStatus.stacked ? (
       <>
-        You stacked <Amount ustx={stackingStatus.details.amount_microstx} /> until cycle #
+        Your stacked <Amount ustx={stackingStatus.details.amount_microstx} /> will unlock 100 blocks after the start of cycle #
         {stackingStatus.details.first_reward_cycle + stackingStatus.details.lock_period}.
       </>
     ) : (
