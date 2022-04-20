@@ -8,6 +8,7 @@ import {
   FPWR_04_DEPOT_CONTRACT,
   FRIEDGER_POOL_HINTS,
   FRIEDGER_POOL_NFT,
+  FRIEDGER_POOL_XBTC,
   NETWORK,
   smartContractsApi,
 } from './lib/constants';
@@ -21,11 +22,13 @@ import {
   contractPrincipalCV,
   cvToHex,
   cvToString,
+  falseCV,
   FungibleConditionCode,
   hexToCV,
   makeStandardSTXPostCondition,
   PostConditionMode,
   standardPrincipalCV,
+  trueCV,
   uintCV,
 } from '@stacks/transactions';
 import { initialMembers } from './lib/memberlist';
@@ -39,6 +42,7 @@ import { StackingStatus } from './components/StackingStatus';
 import { SubmitRewardTx } from './components/SubmitRewardTx';
 import { FpwrMintTxList } from './components/FpwrMintTxList';
 import { ClaimRewards } from './components/ClaimRewards';
+import { PayoutState } from './components/PayoutState';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -88,8 +92,11 @@ function Content({ userSession }) {
   const [currentReceiver, setCurrentReceiver] = useState();
   const [claimableNftOwner, setClaimableNftOwner] = useState();
   const [delegationState, setDelegationState] = useState();
+  const [xbtcState, setXbtcState] = useState();
   const amountRef = useRef();
   const receiverRef = useRef();
+  const rewardCurrencyXbtcRef = useRef();
+  const rewardCurrencyStxRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
   const claimableNftIndex = initialMembers.findIndex(m => m === stxOwnerAddress);
@@ -132,6 +139,23 @@ function Content({ userSession }) {
           if (response.data !== '0x09') {
             const cv = hexToCV(response.data);
             setCurrentReceiver(cvToString(cv.value));
+          }
+        });
+
+      smartContractsApi
+        .getContractDataMapEntry({
+          contractAddress: FRIEDGER_POOL_XBTC.address,
+          contractName: FRIEDGER_POOL_XBTC.name,
+          mapName: 'xbtc-rewards',
+          key: cvToHex(standardPrincipalCV(stxOwnerAddress)),
+        })
+        .then(response => {
+          console.log(response);
+          if (response.data !== '0x09') {
+            const cv = hexToCV(response.data);
+            setXbtcState({ xbtc: cv.value.value });
+          } else {
+            setXbtcState({ xbtc: false });
           }
         });
     }
@@ -202,6 +226,32 @@ function Content({ userSession }) {
     }
   };
 
+  const changeRewardCurrency = async () => {
+    try {
+      setStatus(`Sending transaction`);
+      const rewardsInXbtc = rewardCurrencyXbtcRef.current.checked;
+      console.log(rewardCurrencyXbtcRef.current.checked, rewardCurrencyStxRef.current.checked);
+      await doContractCall({
+        contractAddress: FRIEDGER_POOL_XBTC.address,
+        contractName: FRIEDGER_POOL_XBTC.name,
+        functionName: 'set-distribution-in-xbtc',
+        functionArgs: [rewardsInXbtc ? trueCV() : falseCV()],
+        postConditionMode: PostConditionMode.Deny,
+        postConditions: [],
+        userSession,
+        network: NETWORK,
+        finished: data => {
+          console.log(data);
+          setStatus(undefined);
+          setTxId(data.txId);
+        },
+      });
+    } catch (e) {
+      console.log(e);
+      setStatus(e.toString());
+    }
+  };
+
   return (
     <>
       {!authenticated && <Landing />}
@@ -212,6 +262,9 @@ function Content({ userSession }) {
             <StackingStatus stackingStatus={stackingStatus} />
             <br />
             <DelegationState delegationState={delegationState} />
+            <br />
+            <PayoutState payoutState={xbtcState} />
+            <br />
             <br />
             <h4>Friedger Pool NFT</h4>
             <img width="150px" src="/nft-preview.webp" alt="" />
@@ -240,6 +293,38 @@ function Content({ userSession }) {
             {claimableNftIndex < 0 && (
               <>Only pool members of cycle #3 and #4 are eligible to claim the Friedger Pool NFT.</>
             )}
+            <br/>
+            <br/>
+            <h4>Change reward settings</h4>
+            Would you like to receive rewards in xBTC?
+            <div>
+              <input
+                type="radio"
+                id="xbtc"
+                name="rewards_currency"
+                value="yes"
+                ref={rewardCurrencyXbtcRef}
+              />
+              <label for="html">Yes, in xBTC.</label>
+              <br />
+              <input
+                type="radio"
+                id="stx"
+                name="rewards_currency"
+                value="no"
+                ref={rewardCurrencyStxRef}
+              />
+              <label for="css">No, in STX.</label>
+              <br />
+              <button
+                className="btn btn-outline-primary"
+                type="button"
+                onClick={changeRewardCurrency}
+              >
+                Submit
+              </button>
+            </div>
+            <br/>
             <h4>Change reward receiver</h4>
             Where should the pool admin send your rewards to? <br />
             Enter a Stacks address:
