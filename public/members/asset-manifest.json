@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.b6ccedfa.chunk.js",
-    "main.js.map": "/static/js/main.b6ccedfa.chunk.js.map",
+    "main.js": "/static/js/main.f1188721.chunk.js",
+    "main.js.map": "/static/js/main.f1188721.chunk.js.map",
     "polyfills-dom.js": "/static/js/polyfills-dom.8937127c.chunk.js",
     "polyfills-dom.js.map": "/static/js/polyfills-dom.8937127c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c378cb81.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c378cb81.js",
     "static/css/3.63ec5a3e.chunk.css",
     "static/js/3.42ba58b4.chunk.js",
-    "static/js/main.b6ccedfa.chunk.js"
+    "static/js/main.f1188721.chunk.js"
   ]
 }

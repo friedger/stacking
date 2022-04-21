@@ -92,7 +92,7 @@ function Content({ userSession }) {
   const [currentReceiver, setCurrentReceiver] = useState();
   const [claimableNftOwner, setClaimableNftOwner] = useState();
   const [delegationState, setDelegationState] = useState();
-  const [xbtcState, setXbtcState] = useState();
+  const [payoutState, setPayoutState] = useState();
   const amountRef = useRef();
   const receiverRef = useRef();
   const rewardCurrencyXbtcRef = useRef();
@@ -153,9 +153,10 @@ function Content({ userSession }) {
           console.log(response);
           if (response.data !== '0x09') {
             const cv = hexToCV(response.data);
-            setXbtcState({ xbtc: cv.value.value });
+            console.log({cvValue: cv.value})
+            setPayoutState({ xbtc: cv.value.type === ClarityType.BoolTrue });
           } else {
-            setXbtcState({ xbtc: false });
+            setPayoutState({ xbtc: false });
           }
         });
     }
@@ -263,7 +264,7 @@ function Content({ userSession }) {
             <br />
             <DelegationState delegationState={delegationState} />
             <br />
-            <PayoutState payoutState={xbtcState} />
+            <PayoutState payoutState={payoutState} />
             <br />
             <br />
             <h4>Friedger Pool NFT</h4>
