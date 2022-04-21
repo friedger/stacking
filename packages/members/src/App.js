@@ -2,10 +2,6 @@ import React, { useEffect, useState, useRef } from 'react';
 import Landing from './pages/Landing';
 import { Connect } from '@stacks/connect-react';
 import {
-  FPWR_03_CONTRACT,
-  FPWR_03_DEPOT_CONTRACT,
-  FPWR_04_CONTRACT,
-  FPWR_04_DEPOT_CONTRACT,
   FRIEDGER_POOL_HINTS,
   FRIEDGER_POOL_NFT,
   FRIEDGER_POOL_XBTC,
@@ -39,9 +35,6 @@ import BN from 'bn.js';
 import { fetchDelegationState } from './lib/stackingState';
 import { DelegationState } from './components/DelegationState';
 import { StackingStatus } from './components/StackingStatus';
-import { SubmitRewardTx } from './components/SubmitRewardTx';
-import { FpwrMintTxList } from './components/FpwrMintTxList';
-import { ClaimRewards } from './components/ClaimRewards';
 import { PayoutState } from './components/PayoutState';
 
 export default function App(props) {

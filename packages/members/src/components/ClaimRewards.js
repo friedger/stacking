@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { bnsApi, NETWORK } from '../lib/constants';
+import { namesApi, NETWORK } from '../lib/constants';
 import { fetchDepot, fetchDepotBalance, fetchTokenBalance } from '../lib/wrappedRewards';
 import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
 import {
@@ -37,7 +37,7 @@ export function ClaimRewards({
       let [addressOrName, namespace] = stxAddress.split('.');
       if (namespace) {
         try {
-          const info = await bnsApi.getNameInfo({ name: stxAddress });
+          const info = await namesApi.getNameInfo({ name: stxAddress });
           console.log({ info });
           if (info) {
             addressOrName = info.address;

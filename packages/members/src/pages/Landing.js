@@ -1,9 +1,5 @@
 import React from 'react';
-import { ClaimRewards } from '../components/ClaimRewards';
 import { useConnect } from '../lib/auth';
-import { FPWR_04_CONTRACT, FPWR_04_DEPOT_CONTRACT } from '../lib/constants';
-
-// Landing page demonstrating Blockstack connect for registration
 
 export default function Landing() {
   const { handleOpenAuth } = useConnect();
