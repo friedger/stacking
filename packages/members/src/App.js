@@ -5,6 +5,7 @@ import {
   FRIEDGER_POOL_HINTS,
   FRIEDGER_POOL_NFT,
   FRIEDGER_POOL_XBTC,
+  namesApi,
   NETWORK,
   smartContractsApi,
 } from './lib/constants';
@@ -146,7 +147,7 @@ function Content({ userSession }) {
           console.log(response);
           if (response.data !== '0x09') {
             const cv = hexToCV(response.data);
-            console.log({cvValue: cv.value})
+            console.log({ cvValue: cv.value });
             setPayoutState({ xbtc: cv.value.type === ClarityType.BoolTrue });
           } else {
             setPayoutState({ xbtc: false });
@@ -189,16 +190,36 @@ function Content({ userSession }) {
   const changeRewardReceiver = async () => {
     try {
       setStatus(`Sending transaction`);
-      const receiver = receiverRef.current.value.trim();
+      let receiver = receiverRef.current.value.trim();
       if (!receiver) {
         setStatus('Enter receiver of your rewards');
         return;
       }
+      // replace name with address
+      setStatus(`Sending transaction, checking name`);
+      const nameInfo = await namesApi
+        .getNameInfo({ name: receiver })
+        .then(r => {
+          setStatus(`Sending transaction, using ${r.address}`);
+          return r;
+        })
+        .catch(e => {
+          console.log(e);
+          return {
+            address: receiver,
+          };
+        });
+      console.log({ nameInfo });
+      if (nameInfo.address) {
+        receiver = nameInfo.address;
+      }
+      // convert to clarity value
       const receiverParts = receiver.split('.');
       const receiverCV =
         receiverParts.length === 1
           ? standardPrincipalCV(receiverParts[0])
           : contractPrincipalCV(receiverParts[0], receiverParts[1]);
+
       await doContractCall({
         contractAddress: FRIEDGER_POOL_HINTS.address,
         contractName: FRIEDGER_POOL_HINTS.name,
@@ -287,8 +308,8 @@ function Content({ userSession }) {
             {claimableNftIndex < 0 && (
               <>Only pool members of cycle #3 and #4 are eligible to claim the Friedger Pool NFT.</>
             )}
-            <br/>
-            <br/>
+            <br />
+            <br />
             <h4>Change reward settings</h4>
             Would you like to receive rewards in xBTC?
             <div>
@@ -318,10 +339,10 @@ function Content({ userSession }) {
                 Submit
               </button>
             </div>
-            <br/>
+            <br />
             <h4>Change reward receiver</h4>
             Where should the pool admin send your rewards to? <br />
-            Enter a Stacks address:
+            Enter a Stacks address or name:
             <div>
               <input ref={receiverRef} model={currentReceiver} placeholder="SP1234.." />
               <button
