@@ -320,7 +320,7 @@ function Content({ userSession }) {
                 value="yes"
                 ref={rewardCurrencyXbtcRef}
               />
-              <label for="html">Yes, in xBTC.</label>
+              <label htmlFor="xbtc">Yes, in xBTC.</label>
               <br />
               <input
                 type="radio"
@@ -329,7 +329,7 @@ function Content({ userSession }) {
                 value="no"
                 ref={rewardCurrencyStxRef}
               />
-              <label for="css">No, in STX.</label>
+              <label htmlFor="stx">No, in STX.</label>
               <br />
               <button
                 className="btn btn-outline-primary"
