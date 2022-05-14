@@ -52,6 +52,7 @@ export default function App(props) {
   }, [userSession, setUserData]);
 
   const stxAddress = userData && userData.profile.stxAddress.mainnet;
+  const stxAddressToShow = new URLSearchParams(window.location.search).get('addr') || stxAddress;
   return (
     <Connect authOptions={authOptions}>
       <h1>Members' Area</h1>
@@ -69,16 +70,17 @@ export default function App(props) {
           </>
         )}
       </div>
-      <Content userSession={userSession} />
+      <Content
+        stxAddress={stxAddress}
+        stxAddressToShow={stxAddressToShow}
+        userSession={userSession}
+      />
     </Connect>
   );
 }
 
-function Content({ userSession }) {
-  const authenticated = userSession && userSession.isUserSignedIn();
-  const userData = authenticated && userSession.loadUserData();
-  const decentralizedID = userData && userData.decentralizedID;
-  const stxOwnerAddress = userData && userData.profile.stxAddress.mainnet;
+function Content({ stxAddress, stxAddressToShow, userSession }) {
+  const authenticated = userSession.isUserSignedIn();
   const [status, setStatus] = useState();
   const [, setTxId] = useState();
   const [stackingStatus, setStackingStatus] = useState();
@@ -93,18 +95,18 @@ function Content({ userSession }) {
   const rewardCurrencyStxRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
-  const claimableNftIndex = initialMembers.findIndex(m => m === stxOwnerAddress);
+  const claimableNftIndex = initialMembers.findIndex(m => m === stxAddressToShow);
 
   useEffect(() => {
-    if (stxOwnerAddress) {
-      const client = new StackingClient(stxOwnerAddress, NETWORK);
+    if (stxAddressToShow) {
+      const client = new StackingClient(stxAddressToShow, NETWORK);
       client.getStatus().then(s => {
         setStackingStatus(s);
         if (s.stacked) {
           setSuggestedAmount(Math.max(10, Math.floor(s.details.amount_microstx / 2_000_000_000))); // 0.5% * 2 * 5%
         }
       });
-      fetchDelegationState(stxOwnerAddress).then(result => {
+      fetchDelegationState(stxAddressToShow).then(result => {
         setDelegationState(result);
       });
       if (claimableNftIndex >= 0) {
@@ -126,7 +128,7 @@ function Content({ userSession }) {
           contractAddress: FRIEDGER_POOL_HINTS.address,
           contractName: FRIEDGER_POOL_HINTS.name,
           mapName: 'payout-map',
-          key: cvToHex(standardPrincipalCV(stxOwnerAddress)),
+          key: cvToHex(standardPrincipalCV(stxAddressToShow)),
         })
         .then(response => {
           console.log(response);
@@ -141,7 +143,7 @@ function Content({ userSession }) {
           contractAddress: FRIEDGER_POOL_XBTC.address,
           contractName: FRIEDGER_POOL_XBTC.name,
           mapName: 'xbtc-rewards',
-          key: cvToHex(standardPrincipalCV(stxOwnerAddress)),
+          key: cvToHex(standardPrincipalCV(stxAddressToShow)),
         })
         .then(response => {
           console.log(response);
@@ -154,7 +156,7 @@ function Content({ userSession }) {
           }
         });
     }
-  }, [stxOwnerAddress, claimableNftIndex]);
+  }, [stxAddressToShow, claimableNftIndex]);
 
   const claimNFT = async () => {
     try {
@@ -168,7 +170,7 @@ function Content({ userSession }) {
         postConditionMode: PostConditionMode.Deny,
         postConditions: [
           makeStandardSTXPostCondition(
-            stxOwnerAddress,
+            stxAddressToShow,
             FungibleConditionCode.Equal,
             new BN(amount * 1000000)
           ),
@@ -269,11 +271,14 @@ function Content({ userSession }) {
 
   return (
     <>
-      {!authenticated && <Landing />}
-      {decentralizedID && (
+      {!stxAddressToShow && <Landing />}
+      {stxAddressToShow && (
         <>
           <section>
-            <h4>Your Membership</h4>
+            <h4>
+              Your Membership{' '}
+              {stxAddress !== stxAddressToShow && <Address addr={stxAddressToShow} />}
+            </h4>
             <StackingStatus stackingStatus={stackingStatus} />
             <br />
             <DelegationState delegationState={delegationState} />
@@ -281,78 +286,85 @@ function Content({ userSession }) {
             <PayoutState payoutState={payoutState} />
             <br />
             <br />
-            <h4>Friedger Pool NFT</h4>
-            <img width="150px" src="/nft-preview.webp" alt="" />
-            <br />
-            {!claimableNftOwner && claimableNftIndex >= 0 && (
+            {authenticated && stxAddress === stxAddressToShow && (
               <>
-                Pay what you want (to Friedger in STX)
+                <h4>Friedger Pool NFT</h4>
+                <img width="150px" src="/nft-preview.webp" alt="" />
+                <br />
+                {!claimableNftOwner && claimableNftIndex >= 0 && (
+                  <>
+                    Pay what you want (to Friedger in STX)
+                    <div>
+                      <input
+                        ref={amountRef}
+                        defaultValue={suggestedAmount}
+                        placeholder={`${suggestedAmount} STX`}
+                      />
+                      <button className="btn btn-outline-primary" type="button" onClick={claimNFT}>
+                        Claim and Pay
+                      </button>
+                    </div>
+                  </>
+                )}
+                {claimableNftOwner && (
+                  <>
+                    Your Friedger Pool NFT is owned by{' '}
+                    {claimableNftOwner === stxAddressToShow ? 'you' : claimableNftOwner}.
+                  </>
+                )}
+                {claimableNftIndex < 0 && (
+                  <>
+                    Only pool members of cycle #3 and #4 are eligible to claim the Friedger Pool
+                    NFT.
+                  </>
+                )}
+                <br />
+                <br />
+                <h4>Change reward settings</h4>
+                Would you like to receive rewards in xBTC?
                 <div>
                   <input
-                    ref={amountRef}
-                    defaultValue={suggestedAmount}
-                    placeholder={`${suggestedAmount} STX`}
+                    type="radio"
+                    id="xbtc"
+                    name="rewards_currency"
+                    value="yes"
+                    ref={rewardCurrencyXbtcRef}
                   />
-                  <button className="btn btn-outline-primary" type="button" onClick={claimNFT}>
-                    Claim and Pay
+                  <label htmlFor="xbtc">Yes, in xBTC.</label>
+                  <br />
+                  <input
+                    type="radio"
+                    id="stx"
+                    name="rewards_currency"
+                    value="no"
+                    ref={rewardCurrencyStxRef}
+                  />
+                  <label htmlFor="stx">No, in STX.</label>
+                  <br />
+                  <button
+                    className="btn btn-outline-primary"
+                    type="button"
+                    onClick={changeRewardCurrency}
+                  >
+                    Submit
+                  </button>
+                </div>
+                <br />
+                <h4>Change reward receiver</h4>
+                Where should the pool admin send your rewards to? <br />
+                Enter a Stacks address or name:
+                <div>
+                  <input ref={receiverRef} model={currentReceiver} placeholder="SP1234.." />
+                  <button
+                    className="btn btn-outline-primary"
+                    type="button"
+                    onClick={changeRewardReceiver}
+                  >
+                    Submit
                   </button>
                 </div>
               </>
             )}
-            {claimableNftOwner && (
-              <>
-                Your Friedger Pool NFT is owned by{' '}
-                {claimableNftOwner === stxOwnerAddress ? 'you' : claimableNftOwner}.
-              </>
-            )}
-            {claimableNftIndex < 0 && (
-              <>Only pool members of cycle #3 and #4 are eligible to claim the Friedger Pool NFT.</>
-            )}
-            <br />
-            <br />
-            <h4>Change reward settings</h4>
-            Would you like to receive rewards in xBTC?
-            <div>
-              <input
-                type="radio"
-                id="xbtc"
-                name="rewards_currency"
-                value="yes"
-                ref={rewardCurrencyXbtcRef}
-              />
-              <label htmlFor="xbtc">Yes, in xBTC.</label>
-              <br />
-              <input
-                type="radio"
-                id="stx"
-                name="rewards_currency"
-                value="no"
-                ref={rewardCurrencyStxRef}
-              />
-              <label htmlFor="stx">No, in STX.</label>
-              <br />
-              <button
-                className="btn btn-outline-primary"
-                type="button"
-                onClick={changeRewardCurrency}
-              >
-                Submit
-              </button>
-            </div>
-            <br />
-            <h4>Change reward receiver</h4>
-            Where should the pool admin send your rewards to? <br />
-            Enter a Stacks address or name:
-            <div>
-              <input ref={receiverRef} model={currentReceiver} placeholder="SP1234.." />
-              <button
-                className="btn btn-outline-primary"
-                type="button"
-                onClick={changeRewardReceiver}
-              >
-                Submit
-              </button>
-            </div>
             {status && <div>{status}</div>}
           </section>
         </>

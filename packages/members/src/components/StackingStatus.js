@@ -5,11 +5,15 @@ export function StackingStatus({ stackingStatus }) {
   return stackingStatus ? (
     stackingStatus.stacked ? (
       <>
-        Your stacked <Amount ustx={stackingStatus.details.amount_microstx} /> will unlock 100 blocks after the start of cycle #
+        Your stacked <Amount ustx={stackingStatus.details.amount_microstx} /> will unlock 100 blocks
+        after the start of cycle #
         {stackingStatus.details.first_reward_cycle + stackingStatus.details.lock_period}.
       </>
     ) : (
-      <>You are currently not stacking.</>
+      <>
+        You are currently not stacking. All your stx tokens are liquid and can be locked by pool
+        admins for the next cycle.
+      </>
     )
   ) : null;
 }
