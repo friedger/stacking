@@ -172,7 +172,7 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
           makeStandardSTXPostCondition(
             stxAddressToShow,
             FungibleConditionCode.Equal,
-            new BN(amount * 1_000_000) // amount in ustx
+            amount * 1_000_000 // amount in ustx
           ),
         ],
         userSession,
