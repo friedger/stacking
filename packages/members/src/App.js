@@ -166,13 +166,13 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
         contractAddress: FRIEDGER_POOL_NFT.address,
         contractName: FRIEDGER_POOL_NFT.name,
         functionName: 'claim',
-        functionArgs: [uintCV(amount * 1_000_000)],
+        functionArgs: [uintCV(amount)], // amount in stx
         postConditionMode: PostConditionMode.Deny,
         postConditions: [
           makeStandardSTXPostCondition(
             stxAddressToShow,
             FungibleConditionCode.Equal,
-            new BN(amount * 1_000_000)
+            new BN(amount * 1_000_000) // amount in ustx
           ),
         ],
         userSession,
