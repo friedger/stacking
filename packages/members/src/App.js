@@ -114,7 +114,8 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
           contractAddress: FRIEDGER_POOL_NFT.address,
           contractName: FRIEDGER_POOL_NFT.name,
           functionName: 'get-owner',
-          functionArgs: [uintCV(claimableNftIndex)],
+          functionArgs: [uintCV(claimableNftIndex + 1)], // nft index + 1 = nft id
+          senderAddress: FRIEDGER_POOL_NFT.address,
         }).then(getOwnerResult => {
           // result is always ResponseOk
           // and response value type is (optional principal)
