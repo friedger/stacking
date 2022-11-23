@@ -10,8 +10,8 @@ theme = "lodi"
     favicon = "favicon.ico"
     logo = "logo.png"
     email = "stacking@friedger.de"
-    twitter = "fmdroid"
-    github = "friedger"
+    github = "friedger/stacking"
+    mastodon = "https://bitcoinhackers.org/@friedgerpool"
 
 [params.nav]
     enable = true
