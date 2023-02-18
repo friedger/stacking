@@ -30,7 +30,7 @@ theme = "lodi"
     "If you are late, we will include you in the next cycle. The Pool re-opens immediately after the beginning of the next cycle.",
     "You can use one of the Friedger Pool delegatee addresses here:",
     "**Stacking with Stacks 2.1 starts for cycle 56.**",
-    "The new address you can use for Stacks 2.1 only after Bitcoin block 781552 will be SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP",
+    "There will be a new address you can use for Stacks 2.1 only after Bitcoin block 781552.",
     "**Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**",
     "**Do not use the addresses below after cycle 54**",
     "Locking for 1 cycle:", "via [**Boomboxes**](https://boom.money) or [**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
