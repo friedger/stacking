@@ -32,7 +32,7 @@ theme = "lodi"
     "**Stacking with Stacks 2.1 starts for cycle 56.**",
     "There will be a new address you can use for Stacks 2.1 only after Bitcoin block 781552.",
     "**Do not send any Stacks token to this address, follow the delegated stacking flow in your preferred wallet**",
-    "**Do not use the addresses below after cycle 54**",
+    "**Do not use the addresses below after cycle 55 started.**",
     "Locking for 1 cycle:", "via [**Boomboxes**](https://boom.money) or [**SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60**](https://explorer.stacks.co/address/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60?chain=mainnet)",
     "Locking for 3 cycles:", "[**SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H**](https://explorer.stacks.co/address/SP3K3ZEQVE1E914TFPFMT3A7M53MNMWZCFVQCQB0H?chain=mainnet)",
     "Locking for 6 cycles:", "[**SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y**](https://explorer.stacks.co/address/SP6K6QNYFYF57K814W4SHNGG23XNYYE1B8NV0G1Y?chain=mainnet)",
