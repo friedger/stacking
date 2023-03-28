@@ -31,19 +31,19 @@ theme = "lodi"
     "**Fast Pool (aka Friedger Pool)**",
     "The pool is now called **Fast Pool**. It is a SELF-SERVICE pool, the smart contract is the pool operator, only reward distribution is (still) trustfull.",
     "First, tell the [pox-2 stacking contract](https://explorer.stacks.co/address/SP000000000000000000002Q6VF78.pox-2?chain=mainnet) that you allow the Fast pool contract to handle your stacking.",
-    "Then use the [Fast Pool contract (v1)](https://explorer.stacks.co/txid/0xe76bed450308e50b69507d4b7bd483c8c6b525ae0f24f137e9c359a1208bfa1c?chain=mainnet) and then call delegate-stx with the desired amount.",
+    "Then use the [Fast Pool contract (v1)](https://explorer.stacks.co/txid/0xe76bed450308e50b69507d4b7bd483c8c6b525ae0f24f137e9c359a1208bfa1c?chain=mainnet) and call delegate-stx with the desired amount.",
     "For Hiro Wallet Desktop users, you can use 'SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.pox-fast-pool-v1' as pool address. (Yes, it is a contract). You need to use version 4.9 (to be released soon).",
     "Your STX token will lock immediately, you can increase the amount every cycle, you can revoke at any time and your STX tokens will unlock 1 day after the end of the cycle.",
     "**Do not send any tokens (STX or others) to the smart contract, follow the delegated stacking flow in your preferred wallet**",
     "Please do not stack less than 40 STX. Small payouts are hard to manage.",
     "You or somebody else need to renew your delegation every cycle! You have 1 week to do so, after that you can ask your friends or family to do it for your, or setup an automated script.",
-    "**The Fast Pool Documentation is work in progress.**.",
+    "**How to use Fast pool**.",
     "You can find the documentation at [app.sigle.io/friedgerpool.btc](https://app.sigle.io/friedgerpool.btc)",
     "You can track Bitcoin earnings here, which gets converted to STX and paid to you within 2 days after the last reward was received:",
     "For cycle 56 and later, Bitcoin address:", "[**bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe**](https://www.blockchain.com/btc/address/bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe)",
     "For cycle 55, Bitcoin address:", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
     "More FAQs about delegated stacking in general at [stacks101.com](https://stacks101.com/stx-stacking/delegation)."]
-    resume = "https://app.sigle.io/friedgerpool.btc"
+    resume = "https://lockstacks.com"
 
 [params.process]
     enable = true
