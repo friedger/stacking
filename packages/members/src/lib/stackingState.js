@@ -4,7 +4,7 @@ import { NETWORK, smartContractsApi } from './constants';
 export async function fetchDelegationState(ownerStxAddress) {
   const result = await smartContractsApi.getContractDataMapEntry({
     contractAddress: 'SP000000000000000000002Q6VF78',
-    contractName: 'pox',
+    contractName: 'pox-2',
     mapName: 'delegation-state',
     key: cvToHex(tupleCV({ stacker: standardPrincipalCV(ownerStxAddress) })),
     network: NETWORK,
