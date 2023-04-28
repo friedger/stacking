@@ -26,6 +26,7 @@ theme = "lodi"
     "As delegatee, I cannot make any APY promises about the payouts. It depends on how much the miners transfer. We do not know in advance, but you can view stacking.club to get an idea and view [pool.friedger.de/payouts](https://pool.friedger.de/payouts) for historical data.",
     "This pool is run for the community, there are no fees.",
     "**Fast Pool (aka Friedger Pool)**",
+    "Pool address: `SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.pox-fast-pool-v1`",
     "The pool is now called **Fast Pool**. It is a SELF-SERVICE pool, the smart contract is the pool operator, only reward distribution is (still) trustfull.",
     "The rewards are distributed as STX tokens to your address used for stacking (or the one registered in the [payout hints smart contract](https://pool.friedger.de/members/).",
     "The website [lockstacks.com](https://lockstacks.com) gives you easy access to the pool features.",
