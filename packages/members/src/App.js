@@ -32,7 +32,6 @@ import { initialMembers } from './lib/memberlist';
 import { StackingClient } from '@stacks/stacking';
 import { Address } from './components/Address';
 import Jdenticon from 'react-jdenticon';
-import BN from 'bn.js';
 import { fetchDelegationState } from './lib/stackingState';
 import { DelegationState } from './components/DelegationState';
 import { StackingStatus } from './components/StackingStatus';
