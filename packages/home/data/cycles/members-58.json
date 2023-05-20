@@ -1,7 +1,8 @@
 {
-    "cycle": 58,
-    "members": [],
-    "count": 0,
-    "total": 0,
-    "payout": 0
+  "cycle": 58,
+  "members": [],
+  "count": 0,
+  "total": 0,
+  "payout": 0,
+  "nopayout": "PoX was disabled. See SIP-022"
 }

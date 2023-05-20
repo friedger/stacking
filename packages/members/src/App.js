@@ -1,41 +1,40 @@
-import React, { useEffect, useState, useRef } from 'react';
-import Landing from './pages/Landing';
-import { Connect } from '@stacks/connect-react';
+import { Connect, useConnect as useStacksJsConnect } from '@stacks/connect-react';
+import { StackingClient } from '@stacks/stacking';
 import {
-  FRIEDGER_POOL_HINTS,
-  FRIEDGER_POOL_NFT,
-  FRIEDGER_POOL_XBTC,
-  namesApi,
-  NETWORK,
-  smartContractsApi,
-} from './lib/constants';
-import Auth from './components/Auth';
-import { userDataState, userSessionState, useConnect } from './lib/auth';
-import { useAtom } from 'jotai';
-import { useConnect as useStacksJsConnect } from '@stacks/connect-react';
-import {
-  callReadOnlyFunction,
   ClarityType,
+  FungibleConditionCode,
+  PostConditionMode,
+  callReadOnlyFunction,
   contractPrincipalCV,
   cvToHex,
   cvToString,
   falseCV,
-  FungibleConditionCode,
   hexToCV,
   makeStandardSTXPostCondition,
-  PostConditionMode,
   standardPrincipalCV,
   trueCV,
   uintCV,
 } from '@stacks/transactions';
-import { initialMembers } from './lib/memberlist';
-import { StackingClient } from '@stacks/stacking';
-import { Address } from './components/Address';
+import { useAtom } from 'jotai';
+import { useEffect, useRef, useState } from 'react';
 import Jdenticon from 'react-jdenticon';
-import { fetchDelegationState } from './lib/stackingState';
+import { Address } from './components/Address';
+import Auth from './components/Auth';
 import { DelegationState } from './components/DelegationState';
-import { StackingStatus } from './components/StackingStatus';
 import { PayoutState } from './components/PayoutState';
+import { StackingStatus } from './components/StackingStatus';
+import { useConnect, userDataState, userSessionState } from './lib/auth';
+import {
+  FRIEDGER_POOL_HINTS,
+  FRIEDGER_POOL_NFT,
+  FRIEDGER_POOL_XBTC,
+  NETWORK,
+  namesApi,
+  smartContractsApi,
+} from './lib/constants';
+import { initialMembers } from './lib/memberlist';
+import { fetchDelegationState } from './lib/stackingState';
+import Landing from './pages/Landing';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -291,6 +290,9 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                 <h4>Friedger Pool NFT</h4>
                 <img width="150px" src="/nft-preview.webp" alt="" />
                 <br />
+                Limited 375 NFT collection deployed below 10k Stacks blocks with Ordinal #65685
+                inscribed on Bitcoin.
+                <br />
                 {!claimableNftOwner && claimableNftIndex >= 0 && (
                   <>
                     Pay what you want (to Friedger in STX)
@@ -314,8 +316,10 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                 )}
                 {claimableNftIndex < 0 && (
                   <>
-                    Only pool members of cycle #3 and #4 are eligible to claim the Friedger Pool
-                    NFT.
+                    Only pool members of cycle #3 and #4 are eligible to claim the{' '}
+                    <a href="https://gamma.io/collections/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.friedger-pool-nft">
+                      Friedger Pool NFT.
+                    </a>
                   </>
                 )}
                 <br />
