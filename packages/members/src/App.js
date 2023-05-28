@@ -333,6 +333,7 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                     name="rewards_currency"
                     value="yes"
                     ref={rewardCurrencyXbtcRef}
+                    disabled
                   />
                   <label htmlFor="xbtc">Yes, in xBTC.</label>
                   <br />
@@ -342,6 +343,7 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                     name="rewards_currency"
                     value="no"
                     ref={rewardCurrencyStxRef}
+                    disabled
                   />
                   <label htmlFor="stx">No, in STX.</label>
                   <br />
@@ -349,9 +351,12 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                     className="btn btn-outline-primary"
                     type="button"
                     onClick={changeRewardCurrency}
+                    disabled
                   >
                     Submit
                   </button>
+                  <br />
+                  Currently, rewards are always distributed in STX.
                 </div>
                 <br />
                 <h4>Change reward receiver</h4>
