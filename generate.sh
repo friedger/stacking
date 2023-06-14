@@ -1,8 +1,8 @@
 #!/bin/bash
 # Basic while loop
 cd packages/home
-counter=60
-while [ $counter -le 60 ]
+counter=61
+while [ $counter -le 61 ]
 do
   hugo new cycles/$counter.md
   ((counter++))
