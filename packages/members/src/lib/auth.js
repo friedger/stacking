@@ -2,8 +2,7 @@ import { useCallback } from 'react';
 import { AppConfig, UserSession } from '@stacks/connect-react';
 import { showConnect } from '@stacks/connect';
 import { authOrigin } from './constants';
-import { atom, useAtom } from 'jotai';
-import { useUpdateAtom } from 'jotai/utils';
+import { atom, useAtom, useSetAtom } from 'jotai';
 
 const appConfig = new AppConfig(['store_write', 'publish_data']);
 export const userSessionState = atom(new UserSession({ appConfig }));
@@ -12,8 +11,8 @@ export const authResponseState = atom();
 
 export const useConnect = () => {
   const [userSession] = useAtom(userSessionState);
-  const setUserData = useUpdateAtom(userDataState);
-  const setAuthResponse = useUpdateAtom(authResponseState);
+  const setUserData = useSetAtom(userDataState);
+  const setAuthResponse = useSetAtom(authResponseState);
 
   const onFinish = async payload => {
     setAuthResponse(payload.authResponse);
