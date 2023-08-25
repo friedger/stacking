@@ -8,6 +8,9 @@
   <td style="text-align: right; padding: 8px">
     {{ div .total 1000000 | lang.NumFmt 0 }}
   </td>
+  <td style="text-align: right; padding: 8px">
+    {{ .count }}
+  </td>
   {{ if .nopayout }}
       <td colspan="2" style="text-align: center"><em>{{ .nopayout }}</em></td>
   {{ else }}
