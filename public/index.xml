@@ -6,7 +6,7 @@
     <description>Recent content on Friedger Pool</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2023 10:49:27 +0200</lastBuildDate><atom:link href="https://pool.friedger.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 21:47:00 +0200</lastBuildDate><atom:link href="https://pool.friedger.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycles</title>
       <link>https://pool.friedger.de/faq/</link>
@@ -40,6 +40,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pool.friedger.de/payouts/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cycle #67</title>
+      <link>https://pool.friedger.de/cycles/67/</link>
+      <pubDate>Sun, 10 Sep 2023 21:47:00 +0200</pubDate>
+      
+      <guid>https://pool.friedger.de/cycles/67/</guid>
       <description></description>
     </item>
     
