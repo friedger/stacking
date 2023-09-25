@@ -2722,10 +2722,10 @@
         {
             "rewardCycle": 68,
             "lockingPeriod": 1,
-            "amount": 156000000,
+            "amount": 159000000,
             "stacker": "SP224C42GYYJCG73AESYJ7RF61W2Z9Q9X8ST99WX7",
-            "txid": "0xefe4292576bf755ce85f4b420466d8d102d0f317f78fce571a1e9b53ceb88346",
-            "timestamp": "2023-09-17T11:16:40.000Z",
+            "txid": "0xa47de083a7cfee9f472a35fa9f3fc597d46a7f00b9ddda276b4d7fec28b1ddfe",
+            "timestamp": "2023-09-22T11:48:18.000Z",
             "unlock": 810950
         },
         {
@@ -8823,5 +8823,5 @@
         }
     ],
     "count": 980,
-    "total": 44559251021683
+    "total": 44559254021683
 }
