@@ -9000,8 +9000,117 @@
             "txid": "0x5a0b95cfb0d0e5d181fb592b3596e5524cd0efc55afd1d79f37fa53197d111c9",
             "timestamp": "2023-10-14T15:28:00.000Z",
             "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 567000000,
+            "stacker": "SPXM2C3P41NBK0KVNXAHN93P2HGR2MMW7M1C2N6F",
+            "txid": "0x72eb92a91658a51375a3ec65be7cd9388472b8633cd4effd1e8681a6e16a1777",
+            "timestamp": "2023-10-16T22:59:19.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 26999000000,
+            "stacker": "SPXN4THK2N60AC2AWQ4N7NAQ1EMTCESX30X19R76",
+            "txid": "0x1040f0096ac7ed5d0fe9c0b80e0aef71925e9b1cbb8ed445dd81409d079f6e1d",
+            "timestamp": "2023-10-14T15:00:50.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 115892441,
+            "stacker": "SPXNDFNMCSXYQHY7GV6E23Z448H350FFNQ3HFTJY",
+            "txid": "0x2b31f6b959777dc35266f46443ab0f10e299d118955789ce178f349b6b4f8163",
+            "timestamp": "2023-10-18T13:43:51.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 50052542165,
+            "stacker": "SPY998EE7E5RKEHC01DQ4EMCWX06VS2RVJ5N5CJ2",
+            "txid": "0x69b4030a6d32758ba70452e078e28d30780136ad2389dafa6625aee880e7e638",
+            "timestamp": "2023-10-14T14:56:07.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 2260771771,
+            "stacker": "SPYWJ4NS3D3V6RMMYH69M06MM0Q8NXADTFQ9R23G",
+            "txid": "0x604768eefa83050e4fedf110dc77fd914511f616c86f0b6c8b3cf8521f73bca3",
+            "timestamp": "2023-10-14T15:44:17.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 28999000000,
+            "stacker": "SPYZEB605PPP6CSAGVAXXPVPSWWFH0B8HBFGZKJ3",
+            "txid": "0x195da82ed028dc8cb438b2004652466efcc558866cff412388ee6e043663f7d7",
+            "timestamp": "2023-10-14T15:00:50.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 398000000,
+            "stacker": "SPZ6EEZGJR8N6RV3XFVXGSQAJNJFZ2C7YYK6TRFK",
+            "txid": "0xc05180d857a1d9a40963ba8af108de343b46afbe99842b4efc920c961d93fba8",
+            "timestamp": "2023-10-18T13:43:51.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 27726000000,
+            "stacker": "SPZEQ4ZWBMZPTCP3SJ2MDYWEB26A6YZAR6EQANGA",
+            "txid": "0x195da82ed028dc8cb438b2004652466efcc558866cff412388ee6e043663f7d7",
+            "timestamp": "2023-10-14T15:00:50.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 476746786,
+            "stacker": "SPZF34C3GRSW8QVW8JC2PED4DSJ1NTE6E3ZDJVVR",
+            "txid": "0x11c763eceb3967759c872e32a522a08b77534a8633be3e88fb6b290daadcf888",
+            "timestamp": "2023-10-19T11:07:36.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 17772216124,
+            "stacker": "SPZHW1KPJGA375T4RCY6K6ESJKTH6A88JSQM54Q9",
+            "txid": "0xc4cea80ef40b1fc2b6c28aed2e517a36446bf9899e32ac6c10fc55bcd579e624",
+            "timestamp": "2023-10-14T15:00:50.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 119000000,
+            "stacker": "SPZN4R5HNXA2PY445MMDSA2TKAGZFQ4QXG0GXG8E",
+            "txid": "0x2b31f6b959777dc35266f46443ab0f10e299d118955789ce178f349b6b4f8163",
+            "timestamp": "2023-10-18T13:43:51.000Z",
+            "unlock": 815150
+        },
+        {
+            "rewardCycle": 70,
+            "lockingPeriod": 1,
+            "amount": 499000000,
+            "stacker": "SPZN8R4FVC2PT34ARVZSBN4H45FKRSZD0DG2W29A",
+            "txid": "0x74e2ede10fd1ce2c63ca70d44f4d3777f1ac2ebfc50dd07020870c817ed3d2de",
+            "timestamp": "2023-10-16T17:31:36.000Z",
+            "unlock": 815150
         }
     ],
-    "count": 1000,
-    "total": 45421238654273
+    "count": 1012,
+    "total": 45577223823560,
+    "payout": 65139199355
 }
