@@ -1,6 +1,6 @@
 baseURL = "https://pool.friedger.de/"
 languageCode = "en-us"
-title = "Friedger Pool"
+title = "Fast Pool"
 theme = "lodi"
 
 [params]
@@ -18,7 +18,7 @@ theme = "lodi"
 [params.hero]
     enable = true
     avatar = "friedgermask.png"
-    subtitle = "Hi! I'm Friedger, join the Friedger Autonomous Self-service Trust (Fast) stacking pool using the Hiro stacking app (works with Hiro Wallet or Xverse Wallet)."
+    subtitle = "Hi! Join the FAST stacking pool using the Hiro stacking app (works with Hiro Wallet or Xverse Wallet)."
     hero_right = ["**I have been a contributor to Stacks since 2018, and am based out of Europe.**",
     "I worked on the Android SDK back in 2018. Since then, I have submitted many patches, test libraries and tools as they have become available. I have developed Stacks apps, have mined Stacks earlier in 2022, and even deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.",
     "I am inspired by all work that helps to bring back a user-owned internet. Fast Pool is another step towards this vision.",

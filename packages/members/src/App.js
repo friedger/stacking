@@ -8,12 +8,10 @@ import {
   contractPrincipalCV,
   cvToHex,
   cvToString,
-  falseCV,
   hexToCV,
   makeStandardSTXPostCondition,
   standardPrincipalCV,
-  trueCV,
-  uintCV,
+  uintCV
 } from '@stacks/transactions';
 import { useAtom } from 'jotai';
 import { useEffect, useRef, useState } from 'react';
@@ -89,8 +87,6 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
   const [payoutState, setPayoutState] = useState();
   const amountRef = useRef();
   const receiverRef = useRef();
-  const rewardCurrencyXbtcRef = useRef();
-  const rewardCurrencyStxRef = useRef();
 
   const { doContractCall } = useStacksJsConnect();
   const claimableNftIndex = initialMembers.findIndex(m => m === stxAddressToShow);
@@ -242,32 +238,6 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
     }
   };
 
-  const changeRewardCurrency = async () => {
-    try {
-      setStatus(`Sending transaction`);
-      const rewardsInXbtc = rewardCurrencyXbtcRef.current.checked;
-      console.log(rewardCurrencyXbtcRef.current.checked, rewardCurrencyStxRef.current.checked);
-      await doContractCall({
-        contractAddress: FRIEDGER_POOL_XBTC.address,
-        contractName: FRIEDGER_POOL_XBTC.name,
-        functionName: 'set-distribution-in-xbtc',
-        functionArgs: [rewardsInXbtc ? trueCV() : falseCV()],
-        postConditionMode: PostConditionMode.Deny,
-        postConditions: [],
-        userSession,
-        network: NETWORK,
-        finished: data => {
-          console.log(data);
-          setStatus(undefined);
-          setTxId(data.txId);
-        },
-      });
-    } catch (e) {
-      console.log(e);
-      setStatus(e.toString());
-    }
-  };
-
   return (
     <>
       {!stxAddressToShow && <Landing />}
@@ -324,40 +294,6 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
                 )}
                 <br />
                 <br />
-                <h4>Change reward settings</h4>
-                Would you like to receive rewards in xBTC?
-                <div>
-                  <input
-                    type="radio"
-                    id="xbtc"
-                    name="rewards_currency"
-                    value="yes"
-                    ref={rewardCurrencyXbtcRef}
-                    disabled
-                  />
-                  <label htmlFor="xbtc">Yes, in xBTC.</label>
-                  <br />
-                  <input
-                    type="radio"
-                    id="stx"
-                    name="rewards_currency"
-                    value="no"
-                    ref={rewardCurrencyStxRef}
-                    disabled
-                  />
-                  <label htmlFor="stx">No, in STX.</label>
-                  <br />
-                  <button
-                    className="btn btn-outline-primary"
-                    type="button"
-                    onClick={changeRewardCurrency}
-                    disabled
-                  >
-                    Submit
-                  </button>
-                  <br />
-                  Currently, rewards are always distributed in STX.
-                </div>
                 <br />
                 <h4>Change reward receiver</h4>
                 Where should the pool admin send your rewards to? <br />

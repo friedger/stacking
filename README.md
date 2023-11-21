@@ -1,4 +1,4 @@
-# Friedger Pool, the community pool for delegating stackers
+# Fast Pool, the community pool for delegating stackers
 
 ## Content
 Main information is stored in config.yaml file

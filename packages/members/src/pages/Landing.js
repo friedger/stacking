@@ -9,7 +9,7 @@ export default function Landing() {
       <div className="jumbotron jumbotron-fluid pt-3 mb-0">
         <div className="container">
           <div className="panel-landing text-center mt-3">
-            <p className="lead">Enjoy the exclusive Friedger Pool membership!</p>
+            <p className="lead">Enjoy the exclusive Fast Pool membership!</p>
             <p className="card-link mb-5">
               <button className="btn btn-outline-primary" type="button" onClick={handleOpenAuth}>
                 Start now

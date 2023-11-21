@@ -27,7 +27,7 @@ export const useConnect = () => {
     redirectTo: '/',
     manifestPath: '/manifest.json',
     appDetails: {
-      name: 'Friedger Pool Members',
+      name: 'Fast Pool Members',
       icon: 'https://pool.friedger.de/img/logo.png',
     },
   };
