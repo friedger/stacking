@@ -3,6 +3,7 @@ cd packages/home
 hugo -D
 cp public/members/index.html ../members/public
 cd ../members
+yarn
 SKIP_PREFLIGHT_CHECK=true yarn build
 cd ../..
 cp -r packages/home/public .
