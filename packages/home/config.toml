@@ -1,4 +1,4 @@
-baseURL = "https://pool.friedger.de/"
+baseURL = "https://fastpool.org/"
 languageCode = "en-us"
 title = "Fast Pool"
 theme = "lodi"
