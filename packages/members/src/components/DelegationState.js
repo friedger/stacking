@@ -27,7 +27,7 @@ export function DelegationState({ delegationState }) {
       </>
     ) : (
       <>
-        You are not delegating to any pool. Join now <a href="https://lockstacks.com">here</a>.
+        You are not delegating to any pool.
       </>
     )
   ) : null;

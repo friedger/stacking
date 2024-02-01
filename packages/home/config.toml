@@ -18,7 +18,7 @@ theme = "lodi"
 [params.hero]
     enable = true
     avatar = "friedger.jpg"
-    subtitle = "Hi! Join the FAST stacking pool using the Stacking app (works with Leather Wallet or Xverse Wallet)."
+    subtitle = "Join the FAST stacking pool"
     hero_right = ["**Fast Pool by Ryder**",
     "Fast Pool is mananged by Friedger. He has been a contributor to Stacks since 2018, and is based out of Europe.",
     "Friedger worked on the Android SDK back in 2018. Since then, Friedger has submitted many patches, test libraries and tools as they have become available. Friedger has developed Stacks apps, has mined Stacks earlier in 2022, and even deployed the [first user contract](https://explorer.stacks.co/txid/SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60.badges?chain=mainnet) on mainnet.",
@@ -43,7 +43,7 @@ theme = "lodi"
     "For cycle 56 and later, Bitcoin address:", "[**bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe**](https://www.blockchain.com/btc/address/bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe)",
     "For cycle 55 and earlier, Bitcoin address:", "[**33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq**](https://www.blockchain.com/btc/address/33WSGLeVoEpuZDjB54HKZ1y5YsERELoVNq)",
     "More FAQs about delegated stacking in general at [stacks101.com](https://stacks101.com/stx-stacking/delegation)."]
-    resume = "https://lockstacks.com"
+    resume = "https://fastpool.org/members"
 
 [params.process]
     enable = true

@@ -33,6 +33,7 @@ import {
 import { initialMembers } from './lib/memberlist';
 import { fetchDelegationState } from './lib/stackingState';
 import Landing from './pages/Landing';
+import DelegateAction from './components/DelegateAction';
 
 export default function App(props) {
   const { authOptions } = useConnect();
@@ -252,7 +253,11 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
             <br />
             <DelegationState delegationState={delegationState} />
             <br />
-            <PayoutState payoutState={payoutState} />
+            <br />
+            <h4>Delegate STX</h4>
+            <DelegateAction stackingStatus={stackingStatus} delegationState={delegationState} />
+            <br />
+            <PayoutState payoutState={false} />
             <br />
             <br />
             {authenticated && stxAddress === stxAddressToShow && (
