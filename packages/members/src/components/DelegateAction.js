@@ -39,8 +39,8 @@ export default function DelegateAction({ address }) {
                     <input
                         ref={amountRef}
                         defaultValue={suggestedAmount}
-                        placeholder={`${suggestedAmount} STX`}
-                    />
+                        placeholder={`${suggestedAmount}`}
+                    /> STX
                 </p>
 
                 <p>
