@@ -4,12 +4,11 @@
     {{ partial "head_casestudy.html" . }}
   </head>
   <body>
-    {{ partial "nav_members.html" . }}
-    {{ partial "alert.html" . }}
+    {{ partial "nav_subsection.html" . }} {{ partial "alert.html" . }}
     <section>
       <div class="content-case-study">{{ .Content }}</div>
     </section>
-    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .
-    }} {{ end }} {{ partial "scripts.html" . }}
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }}
+    {{ partial "scripts.html" . }}
   </body>
 </html>

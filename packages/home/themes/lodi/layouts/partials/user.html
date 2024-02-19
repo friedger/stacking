@@ -1,5 +1,6 @@
 <section class="cycle">
-  {{ if gt (len .) 0 }}
+  <h2>{{ .stacker }}</h2>
+  {{ if gt (len .cycles ) 0 }}
   <table>
     <thead>
       <tr>
@@ -10,7 +11,7 @@
         <th>Period</th>
       </tr>
     </thead>
-    {{ range sort . "cycle" }}
+    {{ range sort .cycles "cycle" "desc" }}
     <tr>
       <td>{{ .cycle }}</td>
       <td style="text-align: right">

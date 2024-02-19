@@ -24,13 +24,15 @@ function readFiles() {
       const content = fs
         .readFileSync(`${outputDirUsers}${stackerDetails.stacker}.json`, { flag: 'as+' })
         .toString();
-      const userData = JSON.parse(content ? content : '{}');
+      const userData = JSON.parse(content ? content : '{cycles:{}}');
+      if (userData.cycles === undefined) userData.cycles = {};
 
-      userData[cycleId] = { cycle: cycleData.cycle, ...stackerDetails };
-      const cycleIds = Object.keys(userData);
+      userData.cycles[cycleId] = { cycle: cycleData.cycle, ...stackerDetails };
+      userData.stacker = stackerDetails.stacker;
 
       fs.writeFileSync(`${outputDirUsers}${stackerDetails.stacker}.json`, JSON.stringify(userData));
 
+      const cycleIds = Object.keys(userData.cycles);
       ranking[stackerDetails.stacker] = {
         stacker: stackerDetails.stacker,
         count: cycleIds.length,
