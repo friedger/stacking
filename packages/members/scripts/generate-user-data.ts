@@ -36,6 +36,11 @@ function readFiles() {
         count: cycleIds.length,
         min: cycleIds[0],
         max: cycleIds[cycleIds.length - 1],
+        sortKey:
+          cycleIds.length.toString().padStart(4) +
+          (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
+          cycleIds[cycleIds.length - 1].toString().padStart(4) +
+          stackerDetails.stacker,
       };
     }
   });
