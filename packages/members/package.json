@@ -26,6 +26,7 @@
     "bn.js": "^5.2.1",
     "buffer-reverse": "1.0.1",
     "c32check": "2.0.0",
+    "caniuse-lite": "^1.0.30001588",
     "crypto-js": "4.1.1",
     "eslint-config-react-app": "7.0.1",
     "fs": "^0.0.1-security",
