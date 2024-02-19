@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_casestudy.html" . }}
+  </head>
+  <body>
+    {{ partial "nav_payouts.html" . }} {{ partial "alert.html" . }}
+
+    <section>
+      <h1>All Users</h1>
+    </section>
+
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th style="padding: 8px">Stackers</th>
+            <th style="padding: 8px">Number of cycles</th>
+            <th style="padding: 8px">First cycle</th>
+            <th style="padding: 8px">Last cycle</th>
+          </tr>
+        </thead>
+        {{ range sort $.Site.Data.ranking "count" "desc"}} {{ partial
+        "ranking_item.html" . }} {{ end }}
+      </table>
+    </section>
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

@@ -2,6 +2,7 @@ baseURL = "https://fastpool.org/"
 languageCode = "en-us"
 title = "Fast Pool"
 theme = "lodi"
+disablePathToLower = true
 
 [params]
     theme_color = "#574CDD"
