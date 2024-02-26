@@ -1,0 +1,29 @@
+<section class="cycle">
+  <h2>{{ .stacker }}</h2>
+  {{ if gt (len .cycles ) 0 }}
+  <table>
+    <thead>
+      <tr>
+        <th>Cycle</th>
+        <th>Amount</th>
+        <th>Timestamp</th>
+        <th>Locked</th>
+        <th>Period</th>
+      </tr>
+    </thead>
+    {{ range sort .cycles "cycle" "desc" }}
+    <tr>
+      <td>{{ .cycle }}</td>
+      <td style="text-align: right">
+        {{ div .amount 1000000 | lang.NumFmt 0 }}
+      </td>
+      <td>
+        <a href="https://explorer.stacks.co/txid/{{.txid}}">{{ .timestamp }}</a>
+      </td>
+      <td style="text-align: right">{{ .rewardCycle }}</td>
+      <td style="text-align: right">{{ .lockingPeriod }}</td>
+    </tr>
+    {{ end }}
+  </table>
+  {{ end }}
+</section>

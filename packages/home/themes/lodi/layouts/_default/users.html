@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_casestudy.html" . }}
+  </head>
+  <body>
+    {{ partial "nav_users.html" . }} {{ partial "alert.html" . }} {{ partial
+    "user.html" (index $.Site.Data.users (.Param "user"))}} {{ if
+    .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }} {{
+    partial "scripts.html" . }} {{partial "react-members.html" . }}
+  </body>
+</html>

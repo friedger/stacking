@@ -1,10 +1,11 @@
 rm -r public
 cd packages/home
+npx tsx ../members/scripts/generate-user-data.ts
 hugo -D
 cp public/members/index.html ../members/public
 cd ../members
-yarn
-SKIP_PREFLIGHT_CHECK=true yarn build
+npx yarn
+SKIP_PREFLIGHT_CHECK=true npx yarn build
 cd ../..
 cp -r packages/home/public .
 cp -r packages/members/build/static public

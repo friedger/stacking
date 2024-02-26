@@ -5,9 +5,8 @@
   </head>
   <body>
     <div>
-      {{ if .Site.Params.nav.enable }} {{ partial
-      "nav.html" . }} {{ end }}
-      {{ partial "alert.html" . }} {{ if .Site.Params.hero.enable }} {{ partial
+      {{ if .Site.Params.nav.enable }} {{ partial "nav.html" . }} {{ end }} {{
+      partial "alert.html" . }} {{ if .Site.Params.hero.enable }} {{ partial
       "hero.html" . }} {{ end }} {{ if .Site.Params.process.enable }} {{ partial
       "process.html" . }} {{ end }}
       <section data-scroll-index="3">
@@ -26,6 +25,15 @@
             <h2 class="subtitle">Manage your membership</h2>
           </div>
           <a href="/members/" class="read-more">Enter</a>
+        </div>
+      </section>
+      <section data-scroll-index="5">
+        <div class="process">
+          <div class="header">
+            <h1 class="title">All users</h1>
+            <h2 class="subtitle">See old and current users and rankings</h2>
+          </div>
+          <a href="/users/" class="read-more">View</a>
         </div>
       </section>
       {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end
