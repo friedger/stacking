@@ -16,7 +16,7 @@
     {{ range sort .members "stacker" }}
     <tr>
       <td>#{{ $.cycle }}</td>
-      <td>{{ .stacker }}</td>
+      <td><a href="/users/{{ .stacker }}">{{ .stacker }}</a></td>
       <td style="text-align: right">
         {{ div .amount 1000000 | lang.NumFmt 0 }}
       </td>
