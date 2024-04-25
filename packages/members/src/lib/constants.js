@@ -11,19 +11,18 @@ import { hexToBytes } from '@stacks/common';
 import { StacksMainnet } from '@stacks/network';
 import { bufferCV, tupleCV } from '@stacks/transactions';
 
-
 export const fastPool = {
-  stacks: "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.pox-fast-pool-v2",
+  stacks: 'SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.pox4-fast-pool-v3',
   // bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe
   rewardPoxAddrCV: tupleCV({
-    hashbytes: bufferCV(hexToBytes("83ed66860315e334010bbfb76eb3eef887efee0a")),
-    version: bufferCV(hexToBytes("04")),
+    hashbytes: bufferCV(hexToBytes('83ed66860315e334010bbfb76eb3eef887efee0a')),
+    version: bufferCV(hexToBytes('04')),
   }),
 };
 
 export const fastPoolPayout = {
-  stacks: "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.fp-payout-v1",
-}
+  stacks: 'SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.fp-payout-v1',
+};
 
 export const CONTRACT_ADDRESS = 'SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60';
 export const POOL_REGISTRY_CONTRACT_NAME = 'pool-registry-v1';
