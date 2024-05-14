@@ -4,15 +4,18 @@
     {{ partial "head_casestudy.html" . }}
   </head>
   <body>
-    {{ partial "nav_payouts.html" . }}
-    {{ partial "alert.html" . }}
+    {{ partial "nav_payouts.html" . }} {{ partial "alert.html" . }}
 
     <section>
       <h1>All Cycles</h1>
       <div>
-        Users delegate to Fast Pool since cycle #56. Before it was Friedger Pool.
-        At the end of each cycle, the rewards are
-        distributed to all stackers. See details below.
+        Users delegate to Fast Pool since cycle #56. Before it was Friedger
+        Pool. At the end of each cycle, the rewards are distributed to all
+        stackers. See details below.
+      </div>
+      <div>
+        Total distributed rewards until today: {{ div $.Site.Data.stats.payout
+        1000000 | lang.NumFmt 0 }} STX
       </div>
     </section>
 
