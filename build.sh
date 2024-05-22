@@ -11,3 +11,4 @@ cd ../..
 cp -r packages/home/public .
 cp -r packages/members/build/static public
 cp packages/members/build/* public/members
+cp -r packages/when/dist/* public/when

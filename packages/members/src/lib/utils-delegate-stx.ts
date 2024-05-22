@@ -1,21 +1,15 @@
 import { Dispatch, SetStateAction } from 'react';
-import { NavigateFunction } from 'react-router-dom';
 
 import { ContractCallRegularOptions, openContractCall } from '@stacks/connect';
-import { StacksNetwork, StacksNetworkName } from '@stacks/network';
-import { PoxInfo, StackingClient, poxAddressToTuple } from '@stacks/stacking';
-import { noneCV, someCV, uintCV } from '@stacks/transactions';
-import { principalCV } from '@stacks/transactions/dist/clarity/types/principalCV';
+import { StacksNetwork } from '@stacks/network';
+import { StackingClient } from '@stacks/stacking';
+import { uintCV } from '@stacks/transactions';
+import { InputProps } from '@stacks/ui';
 import { fastPoolContract, stxToMicroStx } from './delegation';
-import { InputElementProps, InputProps, InputPropsBase } from '@stacks/ui';
 
-function getOptions(
-  amount: string,
-  network: StacksNetwork
-): ContractCallRegularOptions {
-
-  const [contractAddress, contractName] = fastPoolContract.split(".");
-  const functionArgs = [uintCV(stxToMicroStx(amount).toString())]
+function getOptions(amount: string, network: StacksNetwork): ContractCallRegularOptions {
+  const [contractAddress, contractName] = fastPoolContract.split('.');
+  const functionArgs = [uintCV(stxToMicroStx(amount).toString())];
   return {
     contractAddress,
     contractName,
@@ -29,7 +23,7 @@ interface CreateHandleSubmitArgs {
   client: StackingClient;
   network: StacksNetwork;
   setIsContractCallExtensionPageOpen: Dispatch<SetStateAction<boolean>>;
-  amountRef: React.MutableRefObject<InputProps>
+  amountRef: React.MutableRefObject<InputProps>;
 }
 export function createHandleSubmit({
   client,

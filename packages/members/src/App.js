@@ -11,7 +11,7 @@ import {
   hexToCV,
   makeStandardSTXPostCondition,
   standardPrincipalCV,
-  uintCV
+  uintCV,
 } from '@stacks/transactions';
 import { useAtom } from 'jotai';
 import { useEffect, useRef, useState } from 'react';
@@ -85,7 +85,7 @@ function Content({ stxAddress, stxAddressToShow, userSession }) {
   const [currentReceiver, setCurrentReceiver] = useState();
   const [claimableNftOwner, setClaimableNftOwner] = useState();
   const [delegationState, setDelegationState] = useState();
-  const [payoutState, setPayoutState] = useState();
+  const [, setPayoutState] = useState();
   const amountRef = useRef();
   const receiverRef = useRef();
 
