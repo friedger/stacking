@@ -8,9 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@solid-primitives/refs':
+        specifier: ^1.0.8
+        version: 1.0.8(solid-js@1.8.11)
       '@stacks/blockchain-api-client':
         specifier: ^7.10.0
         version: 7.10.0
+      chart.js:
+        specifier: ^4.4.3
+        version: 4.4.3
+      solid-chartjs:
+        specifier: ^1.3.9
+        version: 1.3.9(@solid-primitives/refs@1.0.8(solid-js@1.8.11))(chart.js@4.4.3)(solid-js@1.8.11)
       solid-js:
         specifier: ^1.8.11
         version: 1.8.11
@@ -435,6 +444,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.18':
     resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==}
 
+  '@kurkle/color@0.3.2':
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
+
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -573,8 +585,8 @@ packages:
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@solid-primitives/refs@1.0.6':
-    resolution: {integrity: sha512-ruh4YdVMxThEVnvqbpeLXKojW442vpFU8q7dSKtElGOTa31aKOAkRb9BTbdaTwVjN4BEq79fiiYIXozJNl4dSw==}
+  '@solid-primitives/refs@1.0.8':
+    resolution: {integrity: sha512-+jIsWG8/nYvhaCoG2Vg6CJOLgTmPKFbaCrNQKWfChalgUf9WrVxWw0CdJb3yX15n5lUcQ0jBo6qYtuVVmBLpBw==}
     peerDependencies:
       solid-js: ^1.6.12
 
@@ -610,6 +622,11 @@ packages:
 
   '@solid-primitives/utils@6.2.2':
     resolution: {integrity: sha512-11ypVbp987XxETeRqY5Y3OmmTpm8/jZqJXRvo6AyqBthzkvvjEdReuUMU2yVb+pwWGxfZpWHZ6EUCcGXUMhfwg==}
+    peerDependencies:
+      solid-js: ^1.6.12
+
+  '@solid-primitives/utils@6.2.3':
+    resolution: {integrity: sha512-CqAwKb2T5Vi72+rhebSsqNZ9o67buYRdEJrIFzRXz3U59QqezuuxPsyzTSVCacwS5Pf109VRsgCJQoxKRoECZQ==}
     peerDependencies:
       solid-js: ^1.6.12
 
@@ -849,6 +866,10 @@ packages:
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
+
+  chart.js@4.4.3:
+    resolution: {integrity: sha512-qK1gkGSRYcJzqrrzdR6a+I0vQ4/R+SoODXyAjscQ/4mzuNzySaMCd+hyVxitSY1+L2fjPD1Gbn+ibNqRmwQeLw==}
+    engines: {pnpm: '>=8'}
 
   check-error@1.0.3:
     resolution: {integrity: sha512-iKEoDYaRmd1mxM90a2OEfWhjsjPpYPuQ+lMYsoxB126+t8fw7ySEO48nmDg5COTjxDI65/Y2OWpeEHk3ZOe8zg==}
@@ -1679,6 +1700,13 @@ packages:
     resolution: {integrity: sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==}
     engines: {node: '>=10.0.0'}
 
+  solid-chartjs@1.3.9:
+    resolution: {integrity: sha512-Sd1nEyyutuKTdJqx6Nbz/4ewj9IFSBbXxW8qgsN2JJ380ksOkh3Sa28oMPYwDiUeQRYCmk7MFAULFFwNffihMg==}
+    peerDependencies:
+      '@solid-primitives/refs': ^1.0.3
+      chart.js: ^4.3.0
+      solid-js: ^1.7.5
+
   solid-devtools@0.29.2:
     resolution: {integrity: sha512-sfGLBSIQ3E5dFha5UCE5wKnz+War99JNAOggfBbwhltXL8lbIG1PnKKB9N2pvloZuFzMtT/u1Qbb/ubqXnw2Sg==}
     peerDependencies:
@@ -2386,6 +2414,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
+  '@kurkle/color@0.3.2': {}
+
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -2469,7 +2499,7 @@ snapshots:
       '@solid-primitives/event-bus': 1.0.9(solid-js@1.8.11)
       '@solid-primitives/event-listener': 2.3.1(solid-js@1.8.11)
       '@solid-primitives/media': 2.2.6(solid-js@1.8.11)
-      '@solid-primitives/refs': 1.0.6(solid-js@1.8.11)
+      '@solid-primitives/refs': 1.0.8(solid-js@1.8.11)
       '@solid-primitives/rootless': 1.4.3(solid-js@1.8.11)
       '@solid-primitives/scheduled': 1.4.2(solid-js@1.8.11)
       '@solid-primitives/static-store': 0.0.5(solid-js@1.8.11)
@@ -2519,9 +2549,9 @@ snapshots:
     dependencies:
       solid-js: 1.8.11
 
-  '@solid-primitives/refs@1.0.6(solid-js@1.8.11)':
+  '@solid-primitives/refs@1.0.8(solid-js@1.8.11)':
     dependencies:
-      '@solid-primitives/utils': 6.2.2(solid-js@1.8.11)
+      '@solid-primitives/utils': 6.2.3(solid-js@1.8.11)
       solid-js: 1.8.11
 
   '@solid-primitives/resize-observer@2.0.23(solid-js@1.8.11)':
@@ -2558,6 +2588,10 @@ snapshots:
       solid-js: 1.8.11
 
   '@solid-primitives/utils@6.2.2(solid-js@1.8.11)':
+    dependencies:
+      solid-js: 1.8.11
+
+  '@solid-primitives/utils@6.2.3(solid-js@1.8.11)':
     dependencies:
       solid-js: 1.8.11
 
@@ -2835,6 +2869,10 @@ snapshots:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+
+  chart.js@4.4.3:
+    dependencies:
+      '@kurkle/color': 0.3.2
 
   check-error@1.0.3:
     dependencies:
@@ -3698,6 +3736,12 @@ snapshots:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+
+  solid-chartjs@1.3.9(@solid-primitives/refs@1.0.8(solid-js@1.8.11))(chart.js@4.4.3)(solid-js@1.8.11):
+    dependencies:
+      '@solid-primitives/refs': 1.0.8(solid-js@1.8.11)
+      chart.js: 4.4.3
+      solid-js: 1.8.11
 
   solid-devtools@0.29.2(solid-js@1.8.11)(vite@5.0.11(@types/node@20.3.1)):
     dependencies:

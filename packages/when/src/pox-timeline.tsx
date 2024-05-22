@@ -2,7 +2,9 @@ import {
   CoreNodeInfoResponse,
   CoreNodePoxResponse,
 } from "@stacks/blockchain-api-client";
-import { JSXElement } from "solid-js";
+import { For, JSXElement, Show, onMount } from "solid-js";
+import { Chart, Title, Tooltip, Legend, Colors } from "chart.js";
+import { Doughnut } from "solid-chartjs";
 
 export const PoxTimeline = ({
   poxInfo,
@@ -14,81 +16,81 @@ export const PoxTimeline = ({
 }) => {
   const { responsePox, responseCore } = poxInfo;
   const currentHeight = responseCore.burn_block_height;
+  const events = [
+    {
+      label: "Miners start PoX Cycle",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id,
+    },
+    {
+      label: "Fast Pool ends rewards distribution",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        432,
+    },
+    {
+      label: "Fast Pool members can extend stacking",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length / 2,
+    },
+    {
+      label: "Fast Pool aggregates partial commits (estimated)",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        (responsePox.reward_cycle_length / 3) * 2,
+    },
+    {
+      label: "Lisa closes for next cycle",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length -
+        400,
+    },
+    {
+      label: "Fast Pool closes for next cycle (estimated)",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length -
+        50,
+    },
+  ];
+  const indexForCurrentHeight = events.findIndex(
+    (e) => e.height < currentHeight
+  );
+  events.splice(indexForCurrentHeight + 1, 0, {
+    label: "Current block height",
+    height: currentHeight,
+  });
+
   return (
-    <Table>
-      <Row>
-        <Label>
-          Current Cycle
-          <br />
-          Current Block Height
-        </Label>
-        <Value>
-          {responsePox.reward_cycle_id}
-          <br />
-          <b>{responseCore.burn_block_height}</b>
-        </Value>
-      </Row>
-      <BlockHeight
-        label="Miners start PoX Cycle"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id
-        }
-        currentHeight={currentHeight}
-      />
-
-      <BlockHeight
-        label="Fast Pool ends rewards distribution"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-          432
-        }
-        currentHeight={currentHeight}
-      />
-
-      <BlockHeight
-        label="Fast Pool members can extend stacking"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-          responsePox.reward_cycle_length / 2
-        }
-        currentHeight={currentHeight}
-      />
-
-      <BlockHeight
-        label="Fast Pool aggregates partial commits (estimated)"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-          (responsePox.reward_cycle_length / 3) * 2
-        }
-        currentHeight={currentHeight}
-      />
-
-      <BlockHeight
-        label="Lisa closes for this cycle"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-          responsePox.reward_cycle_length -
-          400
-        }
-        currentHeight={currentHeight}
-      />
-
-      <BlockHeight
-        label="Fast Pool closes for this cycle (estimated)"
-        height={
-          responsePox.first_burnchain_block_height +
-          responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-          responsePox.reward_cycle_length -
-          50
-        }
-        currentHeight={currentHeight}
-      />
-    </Table>
+    <>
+      <Table>
+        <Row>
+          <Label>Current Cycle</Label>
+          <Value>{responsePox.reward_cycle_id}</Value>
+        </Row>
+        <For each={events}>
+          {(event, index) => {
+            return (
+              <>
+                <BlockHeight
+                  label={event.label}
+                  height={event.height}
+                  currentHeight={currentHeight}
+                />
+              </>
+            );
+          }}
+        </For>
+      </Table>
+    </>
   );
 };
 
@@ -157,20 +159,26 @@ const BlockHeight = ({
         <Value past>{height}</Value>
       </Row>
     );
+  } else if (height === currentHeight) {
+    return (
+      <Row>
+        <Label>{label}</Label>
+        <Value>{height === currentHeight ? <b>{height}</b> : height}</Value>
+      </Row>
+    );
   } else {
+    const blocksLeft = height - currentHeight;
+    const days = (blocksLeft * 10) / (60 * 24);
+    const hours = (blocksLeft * 10) / 60 - Math.floor(days) * 24;
     return (
       <Row>
         <Label>{label}</Label>
         <Value>
           {height} <br />
           <p class="text-xs">
-            in {height - currentHeight} blocks or{" "}
-            {(((height - currentHeight) * 11) / (60 * 24)).toFixed(0)} days and{" "}
-            {(
-              ((height - currentHeight) * 11) / 60 -
-              Math.floor(((height - currentHeight) * 11) / (60 * 24)) * 24
-            ).toFixed(2)}{" "}
-            hours
+            in {blocksLeft} blocks or{" "}
+            {days > 0 ? <>{days.toFixed(0)} days and </> : null}
+            {hours.toFixed(2)} hours
           </p>
         </Value>
       </Row>

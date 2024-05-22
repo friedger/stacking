@@ -5,6 +5,7 @@ import {
 } from "@stacks/blockchain-api-client";
 import { createSignal, createResource, Switch, Match, Show } from "solid-js";
 import { PoxTimeline } from "./pox-timeline";
+import { PoxChart } from "./pox-chart";
 const basePath = "https://api.hiro.so"; //"http://192.168.0.208:3999"
 const config = new Configuration({ basePath });
 const infoApi = new InfoApi(config);
@@ -39,7 +40,17 @@ export const When = () => {
               <p class="px-4 sm:px-0">Error: {poxInfo.error()}</p>
             </Match>
             <Match when={poxInfo()}>
-              <PoxTimeline poxInfo={poxInfo()!} />
+              <div class="grid place-items-center">
+                <PoxChart
+                  currentHeight={
+                    poxInfo()!.responseCore.burn_block_height -
+                    poxInfo()!.responsePox.first_burnchain_block_height -
+                    poxInfo()!.responsePox.reward_cycle_length *
+                      poxInfo()!.responsePox.reward_cycle_id
+                  }
+                />
+                <PoxTimeline poxInfo={poxInfo()!} />
+              </div>
             </Match>
           </Switch>
         </div>
