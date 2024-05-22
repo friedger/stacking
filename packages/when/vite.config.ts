@@ -1,11 +1,12 @@
 /// <reference types="vitest" />
 /// <reference types="vite/client" />
 
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
+import { defineConfig } from "vite";
+import solidPlugin from "vite-plugin-solid";
 // import devtools from 'solid-devtools/vite';
 
 export default defineConfig({
+  base: "/when",
   plugins: [
     /* 
     Uncomment the following line to enable solid-devtools.
@@ -18,17 +19,17 @@ export default defineConfig({
     port: 3000,
   },
   test: {
-    environment: 'jsdom',
+    environment: "jsdom",
     globals: true,
-    setupFiles: ['node_modules/@testing-library/jest-dom/vitest'],
+    setupFiles: ["node_modules/@testing-library/jest-dom/vitest"],
     // if you have few tests, try commenting this
     // out to improve performance:
     isolate: false,
   },
   build: {
-    target: 'esnext',
+    target: "esnext",
   },
   resolve: {
-    conditions: ['development', 'browser'],
+    conditions: ["development", "browser"],
   },
 });
