@@ -3,13 +3,10 @@ import * as fs from 'fs';
 // and parse json
 function readFiles() {
   console.log(import.meta.url);
-  const inputDirCycles =
-    '/home/friedger/_repos/github/friedger/stacking/packages/home/data/cycles/';
-  const outputDirUsers = '/home/friedger/_repos/github/friedger/stacking/packages/home/data/users/';
-  const outputDirContent =
-    '/home/friedger/_repos/github/friedger/stacking/packages/home/content/users/';
-  const outputRanking =
-    '/home/friedger/_repos/github/friedger/stacking/packages/home/data/ranking.json';
+  const inputDirCycles = __dirname + '/../../../packages/home/data/cycles/';
+  const outputDirUsers = __dirname + '/../../../packages/home/data/users/';
+  const outputDirContent = __dirname + '/../../../packages/home/content/users/';
+  const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
   console.log('read');
   const ranking = {};
   fs.readdirSync(inputDirCycles).forEach(function (filename) {

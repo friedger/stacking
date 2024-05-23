@@ -15,7 +15,7 @@
     <tr>
       <td>{{ .cycle }}</td>
       <td style="text-align: right">
-        {{ div .amount 1000000 | lang.NumFmt 0 }}
+        {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}
       </td>
       <td>
         <a href="https://explorer.stacks.co/txid/{{.txid}}">{{ .timestamp }}</a>

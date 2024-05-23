@@ -4,8 +4,7 @@
     {{ partial "head_casestudy.html" . }}
   </head>
   <body>
-    {{ partial "nav_cycles.html" . }}
-    {{ partial "alert.html" . }}
+    {{ partial "nav_cycles.html" . }} {{ partial "alert.html" . }}
     <section>
       <h1>On-Chain Cycle Data</h1>
       <div>
@@ -14,7 +13,7 @@
       </div>
     </section>
 
-    {{ range sort $.Site.Data.cycles "cycle" "desc"}} {{ partial "cycle.html" .
+    {{ range sort $.Site.Data.cycles "cycle" "desc" }} {{ partial "cycle.html" .
     }} {{ end }} {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .
     }} {{ end }} {{ partial "scripts.html" . }} {{partial "react-members.html" .
     }}

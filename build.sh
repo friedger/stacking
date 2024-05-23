@@ -1,6 +1,6 @@
 rm -r public
 cd packages/home
-#npx tsx ../members/scripts/generate-user-data.ts
+npx tsx ../members/scripts/generate-user-data.ts
 npx tsx ../members/scripts/generate-stats.ts
 hugo -D
 cp public/members/index.html ../members/public

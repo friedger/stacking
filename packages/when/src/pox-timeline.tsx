@@ -110,15 +110,15 @@ const Row = ({ children }: { children: JSXElement }) => {
 };
 const Label = ({
   children,
-  past,
+  passed: passed,
 }: {
-  past?: boolean;
+  passed?: boolean;
   children: JSXElement;
 }) => {
   return (
     <dt
       class={`text-sm font-medium leading-6 ${
-        past ? "text-gray-500" : "text-gray-900"
+        passed ? "text-gray-500" : "text-gray-900"
       }`}
     >
       {children}
@@ -127,15 +127,15 @@ const Label = ({
 };
 const Value = ({
   children,
-  past,
+  passed: passed,
 }: {
-  past?: boolean;
+  passed?: boolean;
   children: JSXElement;
 }) => {
   return (
     <dd
       class={`mt-1 text-sm leading-6 ${
-        past ? "text-gray-500" : "text-gray-700"
+        passed ? "text-gray-500" : "text-gray-700"
       } sm:col-span-2 sm:mt-0`}
     >
       {children}
@@ -155,8 +155,8 @@ const BlockHeight = ({
   if (height < currentHeight) {
     return (
       <Row>
-        <Label past>{label}</Label>
-        <Value past>{height}</Value>
+        <Label passed>{label}</Label>
+        <Value passed>{height}</Value>
       </Row>
     );
   } else if (height === currentHeight) {

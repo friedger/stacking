@@ -1,8 +1,9 @@
-<section class="cycle" data-scroll-index={{ .cycle }}>
+<section class="cycle" data-scroll-index="{{ .cycle }}">
   <h2>Cycle {{ .cycle }}</h2>
-  {{.count}} addresses with {{ div .total 1000000 | lang.NumFmt 0 }} STX locked
-  {{ if .payout }} <br/>Payout: {{div .payout 1000000 | lang.NumFmt 6 }} STX ({{ div .payout .total |  mul 100 | lang.NumFmt 2}}%) {{ end}}
-  {{ if gt (len .members) 0 }}
+  {{.count}} addresses with {{ div .total 1000000 | lang.FormatNumberCustom 0 }}
+  STX locked {{ if .payout }} <br />Payout: {{div .payout 1000000 |
+  lang.FormatNumberCustom 6 }} STX ({{ div .payout .total | mul 100 |
+  lang.FormatNumberCustom 2 }}%) {{ end}} {{ if gt (len .members) 0 }}
   <table>
     <thead>
       <tr>
@@ -18,7 +19,7 @@
       <td>#{{ $.cycle }}</td>
       <td><a href="/users/{{ .stacker }}">{{ .stacker }}</a></td>
       <td style="text-align: right">
-        {{ div .amount 1000000 | lang.NumFmt 0 }}
+        {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}
       </td>
       <td>
         <a href="https://explorer.stacks.co/txid/{{.txid}}">{{ .timestamp }}</a>
@@ -27,10 +28,7 @@
     </tr>
     {{ end }}
   </table>
-  {{ end }}
-  {{ if .nopayout}}
-  <section>
-    {{.nopayout}}
-  </section>
+  {{ end }} {{ if .nopayout}}
+  <section>{{.nopayout}}</section>
   {{ end }}
 </section>
