@@ -1,5 +1,4 @@
 import { ClarityType, hexToCV } from '@stacks/transactions';
-import BN from 'bn.js';
 
 export function tokenAmountToNumber(ustx) {
   if (typeof ustx === 'object' && ustx.data) {
@@ -12,8 +11,7 @@ export function tokenAmountToNumber(ustx) {
   } else if (typeof ustx == 'object' && ustx.words) {
     return ustx.toNumber();
   } else if (typeof ustx === 'string') {
-    const bn = new BN(ustx);
-    return bn.toNumber();
+    return parseInt(ustx);
   } else if (typeof ustx === 'number') {
     return ustx;
   } else {

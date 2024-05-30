@@ -65,14 +65,13 @@ export const FPWR_04_DEPOT_CONTRACT = {
   name: 'fpwr-v04-depot',
 };
 
-export const authOrigin = 'https://app.blockstack.org';
+export const authOrigin = 'https://fastpool.org';
 export const chainSuffix = '?chain=mainnet';
 export const STACK_API_URL = 'https://api.mainnet.hiro.so';
 export const STACKS_API_WS_URL = 'ws://api.mainnet.hiro.so/';
 export const STACKS_API_ACCOUNTS_URL = `${STACK_API_URL}/v2/accounts`;
 
-export const NETWORK = new StacksMainnet();
-NETWORK.coreApiUrl = STACK_API_URL;
+export const NETWORK = new StacksMainnet({url: STACK_API_URL});
 
 const basePath = STACK_API_URL;
 const config = new Configuration({ basePath });

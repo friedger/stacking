@@ -1,8 +1,8 @@
-import { useCallback } from 'react';
+import { AuthOptions, FinishedAuthData, showConnect } from '@stacks/connect';
 import { AppConfig, UserSession } from '@stacks/connect-react';
-import { showConnect } from '@stacks/connect';
-import { authOrigin } from './constants';
 import { atom, useAtom, useSetAtom } from 'jotai';
+import { useCallback } from 'react';
+import { authOrigin } from './constants';
 
 const appConfig = new AppConfig(['store_write', 'publish_data']);
 export const userSessionState = atom(new UserSession({ appConfig }));
@@ -14,13 +14,13 @@ export const useConnect = () => {
   const setUserData = useSetAtom(userDataState);
   const setAuthResponse = useSetAtom(authResponseState);
 
-  const onFinish = async payload => {
+  const onFinish = async (payload: FinishedAuthData) => {
     setAuthResponse(payload.authResponse);
     const userData = await payload.userSession.loadUserData();
     setUserData(userData);
   };
 
-  const authOptions = {
+  const authOptions: AuthOptions = {
     authOrigin: authOrigin,
     onFinish,
     userSession, // usersession is already in state, provide it here

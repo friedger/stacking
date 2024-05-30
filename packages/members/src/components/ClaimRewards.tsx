@@ -10,7 +10,6 @@ import {
   PostConditionMode,
 } from '@stacks/transactions';
 import { TxStatus } from './TxStatus';
-import BN from 'bn.js';
 import { AmountBTC, tokenAmountToNumber } from './Amount';
 
 export function ClaimRewards({

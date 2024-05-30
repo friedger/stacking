@@ -21,5 +21,5 @@ const App = () => {
 // Render to #root
 ReactDOM.render(
   React.createElement(App, null),
-  document.getElementById("react")
+  document.getElementById("root")
 );
