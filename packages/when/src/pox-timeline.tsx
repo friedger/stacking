@@ -31,7 +31,7 @@ export const PoxTimeline = ({
         432,
     },
     {
-      label: "Fast Pool members can extend stacking",
+      label: "Fast Pool starts extending stacking, everyone can extend",
       height:
         responsePox.first_burnchain_block_height +
         responsePox.reward_cycle_length * responsePox.reward_cycle_id +
@@ -53,12 +53,20 @@ export const PoxTimeline = ({
         400,
     },
     {
-      label: "Fast Pool closes for next cycle (estimated)",
+      label:
+        "Fast Pool closes for next cycle (estimated), last aggregate partial commit",
       height:
         responsePox.first_burnchain_block_height +
         responsePox.reward_cycle_length * responsePox.reward_cycle_id +
         responsePox.reward_cycle_length -
         50,
+    },
+    {
+      label: "Begin of prepare phase, no more stacking possible",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length,
     },
   ];
   const indexForCurrentHeight = events.findIndex(
