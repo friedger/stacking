@@ -62,9 +62,9 @@ export const PoxTimeline = ({
     },
   ];
   const indexForCurrentHeight = events.findIndex(
-    (e) => e.height < currentHeight
+    (e) => e.height > currentHeight
   );
-  events.splice(indexForCurrentHeight + 1, 0, {
+  events.splice(indexForCurrentHeight, 0, {
     label: "Current block height",
     height: currentHeight,
   });

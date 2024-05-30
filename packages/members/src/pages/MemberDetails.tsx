@@ -6,6 +6,7 @@ import {
 import { verifyMessageSignatureRsv } from '@stacks/encryption';
 import { StackerInfo, StackingClient } from '@stacks/stacking';
 import {
+  AddressVersion,
   ClarityType,
   ClarityValue,
   FungibleConditionCode,
@@ -13,11 +14,13 @@ import {
   ResponseOkCV,
   SomeCV,
   callReadOnlyFunction,
+  createStacksPublicKey,
   cvToHex,
   cvToString,
   hexToCV,
   makeStandardSTXPostCondition,
   principalCV,
+  publicKeyToAddress,
   standardPrincipalCV,
   uintCV,
 } from '@stacks/transactions';
@@ -227,7 +230,11 @@ export const MemberDetails = ({
     );
     console.log({ signature, message, publicKey });
     const valid = verifyMessageSignatureRsv({ signature, message, publicKey });
-    setStatus(valid ? 'Signature is valid' : 'Signature is NOT valid');
+    setStatus(
+      valid
+        ? `Signature is valid from ${publicKeyToAddress(AddressVersion.MainnetSingleSig, createStacksPublicKey(publicKey))}`
+        : 'Signature is NOT valid'
+    );
   };
 
   return (
