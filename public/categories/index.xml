@@ -4,8 +4,7 @@
     <title>Categories on Fast Pool</title>
     <link>https://fastpool.org/categories/</link>
     <description>Recent content in Categories on Fast Pool</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://fastpool.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://fastpool.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
