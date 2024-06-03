@@ -2,9 +2,7 @@ import {
   CoreNodeInfoResponse,
   CoreNodePoxResponse,
 } from "@stacks/blockchain-api-client";
-import { For, JSXElement, Show, onMount } from "solid-js";
-import { Chart, Title, Tooltip, Legend, Colors } from "chart.js";
-import { Doughnut } from "solid-chartjs";
+import { For, JSXElement } from "solid-js";
 
 export const PoxTimeline = ({
   poxInfo,
@@ -59,14 +57,15 @@ export const PoxTimeline = ({
         responsePox.first_burnchain_block_height +
         responsePox.reward_cycle_length * responsePox.reward_cycle_id +
         responsePox.reward_cycle_length -
-        50,
+        200,
     },
     {
       label: "Begin of prepare phase, no more stacking possible",
       height:
         responsePox.first_burnchain_block_height +
         responsePox.reward_cycle_length * responsePox.reward_cycle_id +
-        responsePox.reward_cycle_length,
+        responsePox.reward_cycle_length -
+        100,
     },
   ];
   const indexForCurrentHeight = events.findIndex(
