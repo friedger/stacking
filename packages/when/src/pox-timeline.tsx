@@ -67,10 +67,26 @@ export const PoxTimeline = ({
         responsePox.reward_cycle_length -
         100,
     },
+    {
+      label: "End of cycle",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length,
+    },
+    {
+      label: "Automatic unlock (if locking period ended)",
+      height:
+        responsePox.first_burnchain_block_height +
+        responsePox.reward_cycle_length * responsePox.reward_cycle_id +
+        responsePox.reward_cycle_length +
+        1,
+    },
   ];
-  const indexForCurrentHeight = events.findIndex(
-    (e) => e.height > currentHeight
-  );
+  let indexForCurrentHeight = events.findIndex((e) => e.height > currentHeight);
+  if (indexForCurrentHeight < 0) {
+    indexForCurrentHeight = events.length;
+  }
   events.splice(indexForCurrentHeight, 0, {
     label: "Current block height",
     height: currentHeight,
