@@ -1,6 +1,6 @@
 #!/bin/bash
 # Basic while loop
 cd packages/home
-counter=86
+counter=87
 hugo new cycles/$counter.md
 echo All done

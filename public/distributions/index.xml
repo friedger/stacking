@@ -4,22 +4,30 @@
     <title>Distributions on Fast Pool</title>
     <link>https://fastpool.org/distributions/</link>
     <description>Recent content in Distributions on Fast Pool</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://fastpool.org/distributions/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://fastpool.org/distributions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Distributions</title>
       <link>https://fastpool.org/distributions/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://fastpool.org/distributions/1/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Distributions|#85</title>
       <link>https://fastpool.org/distributions/85/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://fastpool.org/distributions/85/</guid>
-      <description>We received 4.02195 BTC rewards.&#xA;Payout in STX and BTC We introduced a new distribution flow in BTC on individual requests. For cycle 85, we used&#xA;1.41758709 BTC for BTC distribution and 2.60436290 BTC for STX distribution. Consolidation part 1 Swapped 2.78998365 BTC to 96,986.2032 BTC&#xA;Consolidation: https://mempool.space/tx/72df70922364da3cbabe182ea32858e34cd96f4661dc2bb51be91ee7a830f77b&#xA;Swapping: 17029.7516 + 17034.2926 + 17191.5346 + 17238.8339 + 10106.1462 + 18385.6443&#xA;Balance between STX and BTC rewards STX: 969862032 × 260436290 ÷ 278998365 = 90533.</description>
+      <description>We received 4.02195 BTC rewards.
+Payout in STX and BTC We introduced a new distribution flow in BTC on individual requests. For cycle 85, we used
+ 1.41758709 BTC for BTC distribution and 2.60436290 BTC for STX distribution.  Consolidation part 1 Swapped 2.78998365 BTC to 96,986.2032 BTC
+Consolidation: https://mempool.space/tx/72df70922364da3cbabe182ea32858e34cd96f4661dc2bb51be91ee7a830f77b
+Swapping: 17029.7516 + 17034.2926 + 17191.5346 + 17238.8339 + 10106.1462 + 18385.6443
+Balance between STX and BTC rewards STX: 969862032 × 260436290 ÷ 278998365 = 90533.</description>
     </item>
+    
   </channel>
 </rss>
