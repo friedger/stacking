@@ -31,7 +31,7 @@
     "caniuse-lite": "^1.0.30001588",
     "crypto-js": "4.2.0",
     "eslint-config-react-app": "7.0.1",
-    "fs": "^0.0.1-security",
+    "fs": "0.0.1-security",
     "jdenticon": "3.3.0",
     "jotai": "2.8.2",
     "merkletreejs": "0.3.11",

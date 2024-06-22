@@ -2,32 +2,409 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distributions on Fast Pool</title>
-    <link>https://fastpool.org/distributions/</link>
+    <link>http://localhost:1313/distributions/</link>
     <description>Recent content in Distributions on Fast Pool</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://fastpool.org/distributions/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/distributions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cycle #31</title>
+      <link>http://localhost:1313/distributions/31/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/31/</guid>
+      <description>Cycle #31 was the first cycle where rewards were paid in xBTC to members that set their settings to xBTC at https://pool.friedger.de/members&#xA;For cycle #31, Friedger Pool received 1.52453855 BTC rewards. We wrapped these to xBTC (-0.2% wrapping fee) and distributed xBTC to 7 members. Remaining rewards were swapped via Alex Go in 2 txs:&#xA;https://explorer.stacks.co/txid/0x207d9e6e6e892b59d7a288a0cad48d2c1b6128cb761e78f666ac8398c4f8de37?chain=mainnet&#xA;https://explorer.stacks.co/txid/0x6fbd9b8dff6cecfbc60ae42fee64f72afe7a78ecd2146cc7c8f8774e0894bc3d?chain=mainnet&#xA;The exchange rate was 2887 sats/stx.&#xA;7 members received a total of 0.</description>
+    </item>
+    <item>
+      <title>Cycle #32</title>
+      <link>http://localhost:1313/distributions/32/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/32/</guid>
+      <description>May 8th, 2022&#xA;1.60294115 BTC were transferred (fees: 68,017sats) and converted to 1.599 xBTC (fees: 0.00320453)&#xA;1.599 xBTC were split into payouts a) for Boombox Edition #10 b) xBTC receivers and c) the remaining members. xBTC was converted to STX at 2447. This results to the following rewards:&#xA;a) 107 Boombox owners received in total 545.939308 STX (1,335,913 sats)&#xA;b) 9 xBTC receivers shared 0.00841761 xBTC&#xA;c) 1642 members would have received in total 64,455.</description>
+    </item>
+    <item>
+      <title>Cycle #33</title>
+      <link>http://localhost:1313/distributions/33/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/33/</guid>
+      <description>Cycle #33 finished at block&#xA;During the cycle the price of BTC/USD, and many other crypto currencies went down. Therefore, we exchanged stacking rewards (0.56801045 BTC) half way through.&#xA;Transferred To wrapped: 0.56801045BTC (0.57068295 BTC - 0.00267250&amp;nbsp;BTC fees)&#xA;.. and to friedgerpool.btc 0.5669 xBTC (tx)&#xA;Converted on Alex: 0.5669&amp;nbsp;xBTC →&amp;nbsp;30,618.234&amp;nbsp;STX (1851 sats/stx) (tx)&#xA;The wrapping happened at the end of the cycle:&#xA;Transferred to wrapped 0.64100222 xBTC&#xA;...and to friedgerpool.</description>
+    </item>
+    <item>
+      <title>Cycle #34</title>
+      <link>http://localhost:1313/distributions/34/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/34/</guid>
+      <description>Cycle #34 finished at block 62793&#xA;Total rewards 1.16925205 BTC</description>
+    </item>
+    <item>
+      <title>Cycle #35</title>
+      <link>http://localhost:1313/distributions/35/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/35/</guid>
+      <description>Cycle #35 ended at block 64656.&#xA;From the Friedger Pool dashboard on stacksonchain you can see that the total rewards received were 1.16919895 BTC&#xA;the total rewards distributed were 59,598.244130 STX and 0.00707862 xBTC&#xA;DetailsIn one transactions rewards for Friedger Pool and the Stacks Advocate Pool have been wrapped. This includes a 0.2% fee. (For details of the wrap check the Bitcoin txs of address 3NoFby5gyf3xXWjSKwcHmr4x6KijvHoiZS.) This results in 1.</description>
+    </item>
+    <item>
+      <title>Cycle #36</title>
+      <link>http://localhost:1313/distributions/36/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/36/</guid>
+      <description>Last Minute Action15 minutes before the start of cycle #36, we managed to add another 46 addresses and around 400k STX to the pool.&#xA;Reward DistributionRewards received: 1.63641730 BTC wrapped into 1.63314446 xBTC&#xA;Total number of members: 1826&#xA;17 members received 0.00707435 xBTC.&#xA;The remaining 1.62607 xBTC were converted to 81,551.338154 STX at a rate of 1993 sats/stx.&#xA;98 Boombox owners at block #66497 received 320.846062 STX. The remaining 1711 members received 81,268.</description>
+    </item>
+    <item>
+      <title>Cycle #37</title>
+      <link>http://localhost:1313/distributions/37/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/37/</guid>
+      <description>Details can be verified e.g. on the stacks on chain dashboard: https://stacksonchain.com/dashboards/Friedger-Pool/21&#xA;First, the total stacking rewards of 1.05152455 BTC were wrapped to 1.04874993 xbtc rewards including a 0.2% wrapping fee by wrapped.com:&#xA;https://explorer.stacks.co/txid/0xd733546ba4aed7ce46ad70a9b6fdfe1043391bcf9ea943fee155c8f2c7e69c71?chain=mainnet&#xA;Second, the 1.04875000 xBTC rewards were swapped to 53,536.106783 STX on alex go. That is a rate of 1959 sats/stx:&#xA;https://explorer.stacks.co/txid/0x0147c5515c0c13a8dba086aa39f66f92163a8b0fc64d222a8ad90737f41203ec?chain=mainnet&#xA;17 members received rewards in xBTC (total of 0.00580174 xBTC), 1530 members received rewards in STX (total of 53,239.</description>
+    </item>
+    <item>
+      <title>Cycle #38</title>
+      <link>http://localhost:1313/distributions/38/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/38/</guid>
+      <description>We received 1.0575175 BTC stacking rewards in cycle #38.&#xA;After fees, we had 1.05477437 xBTC. We swapped 1.04458 xBTC for 50,539.069593 STX at Alex, that is a rate of 2066 sats/stx.&#xA;We distributed 0.01019145 xBTC to members who chose to receive xBTC.&#xA;644.297925 STX to Boombox #13 holders.&#xA;49,916.346767 STX to the remaining pool members.&#xA;Overall that is a theoretical yield of 0.31% for one cycle.</description>
+    </item>
+    <item>
+      <title>Cycle #39</title>
+      <link>http://localhost:1313/distributions/39/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/39/</guid>
+      <description>We received 1.28520088 xBTC wrapped rewards. One part was converted to 62,782.608161 STX and distributed to 1259 members. The remaining 0.01196958 xBTC were distributed to 20 members.&#xA;Th rewards were 0.41% of the total stacked stx for cycle #39.</description>
+    </item>
+    <item>
+      <title>Cycle #40</title>
+      <link>http://localhost:1313/distributions/40/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/40/</guid>
+      <description>Stacking rewards of 1.32165105 BTC have beend wrapped to 1.31835429 xBTC.&#xA;1.30504 xBTC were swapped to 70,044.123526 STX at a rate of 1863 sats/stx. The theoretical total rewards are therefore 70,765.125603 STX.&#xA;743.732666 STX were sent to 120 Boombox owners.&#xA;69,304.528376 STX were sent to 1713 members.&#xA;0.013355186 xBTC (=716.864536 STX) sent to 28 members.&#xA;This time, we sent the wrong STX amounts to the pool address: 700.743967 STX (for boomboxes) and 69,349.</description>
+    </item>
+    <item>
+      <title>Cycle #41</title>
+      <link>http://localhost:1313/distributions/41/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/41/</guid>
+      <description>1.29705810 BTC in stacking rewards were wrapped to 1.29373355 xBTC. These were converted to 73,038.660774 STX on alexgo. That is a rate of 1771 sats/stx.&#xA;72,192.744519 STX to 1594 members and 0.01520004 xBTC (858.274655 STX) to 30 members were distributed.&#xA;That is a theoretical total of 73,051.019198 STX (0.41% of total stacked STX).</description>
+    </item>
+    <item>
+      <title>Cycle #42</title>
+      <link>http://localhost:1313/distributions/42/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/42/</guid>
+      <description>Rewards of 0.89986085 BTC have been wrapped to 0.89749191 xBTC and exchanged at a rate of 1699 sats/STX. That is a theoretical total of 52.824,715126 STX.&#xA;0.01134697 xBTC have been distributed to 30 members.&#xA;0.88614000 xBTC have been distributed to 1519 members (51,614.113829 STX) and 104 Boombox owners (542.739136 STX).&#xA;Note, the Boombox 15th Edition was finalized before the start of the cycle #42 through a job contract, not through boom-admin-v3.</description>
+    </item>
+    <item>
+      <title>Cycle #43</title>
+      <link>http://localhost:1313/distributions/43/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/43/</guid>
+      <description>We received 0.84728440 BTC in stacking rewards. The total was transferred to the wrapping service (0.84677031 plus 0.00051409 BTC in fees) and wrapped to 0.84507677 xBTC.&#xA;30 members received total rewards of 0.00835798 xBTC. 1495 members received total rewards of 50,557.026446 STX (we converted 0.83672 xBTC to 50,543.030305 STX at rate of 1655 sats/stx).&#xA;The theoretical total was 51,062.040483 STX (0.29%)</description>
+    </item>
+    <item>
+      <title>Cycle #44</title>
+      <link>http://localhost:1313/distributions/44/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/44/</guid>
+      <description>Update 27.10.2022: The conversion rate from xBTC to STX was wrongly calculated. We used the minimum STX amount of 57,160.867228, not the actual amount of 59,233.832647. Therefore, we distributed another round of rewards for pool members that received rewards in STX. Pool members receiving rewards in xBTC have received the correct amount in the first batch of distribution. The two xBTC transactions failed as expected. Boombox holders receive the correct amount in one transaction.</description>
+    </item>
+    <item>
+      <title>Cycle #45</title>
+      <link>http://localhost:1313/distributions/45/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/45/</guid>
+      <description>Rewards for cycle #45 are 0.88500460 BTC&#xA;These have been send to wrapped (0.88434621 BTC + 65,839 sats fees) to 0.88257752 xBTC, including wrapping fee of 0.2%.&#xA;xBTC has been distributed as 0.00790222 xBTC to 33 members 57506.594130 STX (0.87467530 xbtc converted) to 1826 members At an exchange rate of 1521 sats/stx, the theoretical rewards are 58,026.135437 STX which is 0.30% of the locked STX for cycle #45.</description>
+    </item>
+    <item>
+      <title>Cycle #46</title>
+      <link>http://localhost:1313/distributions/46/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/46/</guid>
+      <description>Rewards received 0.75409890 BTC, wrapped to 0.75191552 xBTC.&#xA;xBTC was swapped at 1464 sats/stx (https://explorer.stacks.co/txid/0x36af1eb31e9505f10965124dd9e04d5021074bdffe910b15fcae5d158be8e96c?chain=mainnet)&#xA;Rewards were distributed as&#xA;0.00666964 xBTC to 34 pool members,&#xA;50,427.265382 STX to 1836 pool members,&#xA;477.508144 STX to 92 Boombox holders at block 84709.</description>
+    </item>
+    <item>
+      <title>Cycle #47</title>
+      <link>http://localhost:1313/distributions/47/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/47/</guid>
+      <description>0.85475 BTC rewards were wrapped to 0.85248183 xBTC.&#xA;(0.85419021 BTC + 55,979 sats network fee - 0.2% wrapping fees)&#xA;33 members received 0.00719718 xBTC&#xA;1839 members received 47,354.882283 STX (converted at an exchange rate of 1785 sats/stx)&#xA;The theoretical total distribution is 47,758.085714 STX or 0.26% of total stacked amount.</description>
+    </item>
+    <item>
+      <title>Cycle #48</title>
+      <link>http://localhost:1313/distributions/48/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/48/</guid>
+      <description>Rewards: 1.03704541 BTC - 70,104 sats fees = 1.03634437 to wrap&#xA;Wrapped rewards: 1.03427169 xBTC (after wrapping fees of 0.2%)&#xA;30 members received 0.00871450 xBTC&#xA;1692 members received 72,252.997897 STX, exchanged at 1414 sats/stx&#xA;83 Boombox owners (at block height 88495) received 275.799256 STX Achieved APY in 2022This is the last payout of the year. Looking back, the total achieved APY with a 12-cycle locking period and 1 cool down cycle at cycle #37 is: 8.</description>
+    </item>
+    <item>
+      <title>Cycle #49</title>
+      <link>http://localhost:1313/distributions/49/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/49/</guid>
+      <description>Rewards received: 0.96931329 BTC&#xA;0.96856597 BTC (fees: 74732 sats) have been wrapped to 0.96662884 xBTC (fees: 0.2%)&#xA;30 members have received 0.00740363 xBTC.&#xA;1666 members have received 72,176.464429 STX (converted at 1329).</description>
+    </item>
+    <item>
+      <title>Cycle #50</title>
+      <link>http://localhost:1313/distributions/50/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/50/</guid>
+      <description>Total rewards 1.01771931 BTC wrapped into 1.01496432 xBTC (1.01699831 converted; 0.00072100 transfer fee; 0.2% wrapping fee)&#xA;These were distributed as follows:&#xA;25 pool members received 0.00454997 xBTC 1750 pool members received 80,408.970997 STX&#xA;76 Boomboxes received 295.050849 STX&#xA;The exchange rate was 1252 sats/stx&#xA;The theoretical payout in STX was 81,067.437699 STX. That is 0.4% of the total stacked STX. The rewards where transferred to the payout account in several transactions due to a wrong comma position when calculating the exchange rate and due to a missing boundary for cycle #50 (some members of cycle #51 where included in the calculations.</description>
+    </item>
+    <item>
+      <title>Cycle #51</title>
+      <link>http://localhost:1313/distributions/51/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/51/</guid>
+      <description>We received rewards of 0.92209339 BTC&#xA;These were wrapped with network fees of 0.00070921 BTC to 0.91954142 xBTC (= 0.92138418&amp;nbsp;BTC - 0.2% wrapping fee).&#xA;26 pool members received 0.00443631 xBTC&#xA;1583 pool members received 68,745.217667 STX&#xA;76 Boombox owners at block height 94117 received 265.440929 STX&#xA;1 pool member was a contract and received 1.792947 STX (see&#xA;https://explorer.stacks.co/txid/0xa239f5b50cc5d14c3cd4950c90f592ad07d582b86e5b63a56ace6e5139ccedef?chain=mainnet )&#xA;The theoretical total rewards were 69,347.015082 STX which corresponds to 0.</description>
+    </item>
+    <item>
+      <title>Cycle #52</title>
+      <link>http://localhost:1313/distributions/52/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/52/</guid>
+      <description>We received 0.90402924 BTC stacking rewards. These were wrapped after btc network fees (0.00168888 BTC) and wrapping fees (0.2%) into 0.90053568 xBTC. xBTC was exchanged to STX at a rate of 1451 sats/stx. The rewards were distributed as follows:&#xA;21 members received a total of 0.00270100 xBTC&#xA;1540 pool members received a total of 61,641.351023 STX&#xA;76 Boombox owners received a total of 235.608236 STX&#xA;The theoretical total rewards are 62,063.</description>
+    </item>
+    <item>
+      <title>Cycle #53</title>
+      <link>http://localhost:1313/distributions/53/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/53/</guid>
+      <description>We received 1.60010304 BTC stacking rewards. These were wrapped after btc network fees (0.00191252 BTC) and wrapping fees (0.2%) into 1.59499178 xBTC.&#xA;xBTC was exchanged to STX at a rate of 3594 sats/stx.&#xA;The rewards were distributed as follows:&#xA;26 members received a total of 0.00595096 xBTC&#xA;1525 pool members received a total of 44,041.553469 STX&#xA;76 Boombox owners at block height #97376 received a total of 172.158896 STX</description>
+    </item>
+    <item>
+      <title>Cycle #54</title>
+      <link>http://localhost:1313/distributions/54/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/54/</guid>
+      <description>Total rewards: 3,38715798 BTC wrapped in 4 transactions to 3,36248156 xBTC (see below)&#xA;Swapped 3,35709942 xBTC to 96,346.083329 STX and distributed the rewards to 1700 members, 76 Boombox owners and 3 contracts.&#xA;Distributed as xBTC to 27 members: 0.00509150 (wrongly sent 0.00538214)&#xA;4 Wrapping and Swapping Transactions1) Sent 1.00672315 BTC including fees.&#xA;0.998 xBTC / 35,609.223111 STX = 2802 (https://explorer.stacks.co/txid/0x277d9af6040d31e981555cc565a1d0d6825f26ca099bf560facfc2debdd462fb?chain=mainnet)&#xA;2) Sent 1.00530790 BTC including fees.&#xA;0.998 xBTC / 28,936.</description>
+    </item>
+    <item>
+      <title>Cycle #55</title>
+      <link>http://localhost:1313/distributions/55/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/55/</guid>
+      <description>The received rewards of 3.4467113 BTC were wrapped to 3.43094748 xBTC. See below for details of wrapping and swapping.&#xA;29 pool members received 0.00656676 xBTC&#xA;1413 pool members recived 37,541.767155 STX&#xA;76 Boombox owners at block #100597 received 2 city coin contracts received 36,583.295214 STX (NYC) and 24,130.341569 STX (MIA).&#xA;A theoretical total of 98,618.783558 STX (0.24%).&#xA;Wrapping and Exchange txs94ed45374241797c4dc253cd9cf1f8b5969f08cad7f962dfbbd104ed1f6bed36&#xA;wrapped: 1 BTC&#xA;fees: 0.00277645 BTC&#xA;received: 0.998 xBTC</description>
+    </item>
+    <item>
+      <title>Cycle #56</title>
+      <link>http://localhost:1313/distributions/56/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/56/</guid>
+      <description>Wrapped rewards 0.3369142212 xBTC&#xA;Converted to 11,771.882395 STX&#xA;All 164 pool members have total received rewards of 11,771.882319 STX (0.34%).&#xA;Distribution in xBTC will be available in the next cycles.</description>
+    </item>
+    <item>
+      <title>Cycle #57</title>
+      <link>http://localhost:1313/distributions/57/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/57/</guid>
+      <description>According to Stacks on Chain’s Fast Pool dashboard, Fast Pool received 0.35939700 BTC. However, the balance was 0.35908130. The difference of 31570 sats were the network fees for reward distribution of cycle #56. For this cycle, fees of 0.00243344 BTC are paid from the rewards of cycle #57 directly.&#xA;The amount of 0.35664786 BTC (rewards - fees) were wrapped to 0.35593456 BTC.&#xA;The wrapped rewards were swapped to 13,985.869562 STX at 2545 sats/stx one block after the activation of Stacks 2.</description>
+    </item>
+    <item>
+      <title>Cycle #58 (Proof of Burn)</title>
+      <link>http://localhost:1313/distributions/58/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/58/</guid>
+      <description>Due to an issue in Stacks 2.2, stacking was disabled with the activation of Stacks 2.3.&#xA;The means no pool during cycle #58, no action required. We just need to wait for Stacks 2.4</description>
+    </item>
+    <item>
+      <title>Cycle #59 (Proof of Burn)</title>
+      <link>http://localhost:1313/distributions/59/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/59/</guid>
+      <description>Due to an issue in Stacks 2.2, stacking was disabled with the activation of Stacks 2.3.&#xA;The means no pool during cycle #59, no action required. We just need to wait for Stacks 2.4 that was activated on May 27th, 2023. Back to stacking for cycle #60.</description>
+    </item>
+    <item>
+      <title>Cycle #60</title>
+      <link>http://localhost:1313/distributions/60/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/60/</guid>
+      <description>For cycle #60, we had 370 reward slots of which 348 were filled. We received 2.256078 BTC, that were wrapped, swapped and distributed in two parts:&#xA;1 BTC (+ 0.005215 BTC transaction fees) into 0.998 xBTC.&#xA;0.998 xBTC into 40,305.003364 STX.&#xA;10,064.081239 STX were distributed to all pool members but the two City Coin treasuries on June, 8th 2023.&#xA;1.24456300 (+ 0.00673415 BTC transaction fees; 0,00043415 BTC taken from rewards of cycle #61 due to replace-by-fee) into 1.</description>
+    </item>
+    <item>
+      <title>Cycle #61</title>
+      <link>http://localhost:1313/distributions/61/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/61/</guid>
+      <description>We received 2.20034700 BTC in rewards for cycle #61&#xA;These ( minus 0.00043415 BTC replace-by-fees for cycle #60 and minus 0.01313836 BTC transfer fees = 2.18677449 BTC) were converted to 2.18242732 xBTC and swapped to 91,709.649069 STX.&#xA;The rewards were distributed to 562 pool members and 2 city coin contracts.&#xA;The rewards are 0.23% of the stacked amount at an exchange rate of 2399 (220034700/91,709.649069).</description>
+    </item>
+    <item>
+      <title>Cycle #62</title>
+      <link>http://localhost:1313/distributions/62/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/62/</guid>
+      <description>The total rewards are 1.92135300 BTC.&#xA;We converted 1 BTC (fees: 0.001811 BTC) to 0.998 xBTC and then swapped it to 44,673.429295 STX on 7th July 2023.&#xA;We wrapped the remaining rewards of 0.91766368 BTC + 0.00185189 BTC fees to 0.915828353 xBTC and then swapped it to 42,687.432522 STX on 11th July 2023.&#xA;0.00002643 BTC are missing. Either they were used for previous cycle replace-by-fee or the rewards table has calculated a wrong value.</description>
+    </item>
+    <item>
+      <title>Cycle #63</title>
+      <link>http://localhost:1313/distributions/63/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/63/</guid>
+      <description>We recieved 1.68114300 BTC. The usual wrapping service wrapped.com was not available. Therefore, we used letsexchange.io:&#xA;1.67500000 converted to 79,359.498472 STX&#xA;29,944.317395 STX were distributed to 783 pool members. The memo says “reward cycle #64 payout”, but it is actually for cycle #63.&#xA;49,415.180707 STX were distributed to City Coin stackers (NYC: 29,773.591836 STX and MIA: 19,641.588871 STX).&#xA;With a total locked amount of 41,287,199.907396 STX the rewards are 0.</description>
+    </item>
+    <item>
+      <title>Cycle #64</title>
+      <link>http://localhost:1313/distributions/64/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/64/</guid>
+      <description>We received 1.40316900 BTC stacking rewards.&#xA;Rewards were wrapped to 1.39652180 xBTC:&#xA;btc transfer tx: https://mempool.space/tx/00c7077e1d1c054cc393349662b3e5439da53a970d3ddfe79f2456c0638fd29e,&#xA;xbtc mint tx: https://explorer.hiro.so/txid/0xf4ef3ed4c957b2489982c7163ab74624f8e715b9bff0c29135c8c1a3f637e137?chain=mainnet&#xA;xBTC were swapped to 68,049.011569 STX at a rate of 2052 sats/stx:&#xA;https://explorer.hiro.so/txid/0xd385f044b4eb0d3d5efcb0caef0ea202e75cbae931ca063fef9624e78ccd8d8c?chain=mainnet&#xA;68.049,011142 STX were distributed to 2 city coin contracts and 860 pool members.</description>
+    </item>
+    <item>
+      <title>Cycle #65</title>
+      <link>http://localhost:1313/distributions/65/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/65/</guid>
+      <description>We received 1.378423 BTC stacking rewards.&#xA;Rewards were swapped to 75,511.50 STX using letsexchange.io at a rate of 1818 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/69bc2d1a7cc183ff46746ba216c4da041f496b2cdedf3293dcdaaf873327d242,&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0xfaeb4ab0ad3af02f633e8e6a144a6c397b8e5245b75488489884bddea258ffca?chain=mainnet&#xA;75,511.499551 STX were distributed to 2 city coin contracts and 921 pool members.</description>
+    </item>
+    <item>
+      <title>Cycle #66</title>
+      <link>http://localhost:1313/distributions/66/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/66/</guid>
+      <description>We received 1.63340800 BTC stacking rewards.&#xA;Rewards were wrapped (-0.2%) at wrapped.com and swapped at alexgo to 87,952.050405 STX at an effective rate of 1857 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/e56010df6b0897c01aa1108bac9cf354fe909b247d406c00ea9ab206a0935a67&#xA;stx transfer to pool: https://explorer.hiro.so/txid/2a153fa5fef3efa40d388fe965b78cbe12e0fd65f9ab8af4e5d4f2bf41a2c218?chain=mainnet and https://explorer.hiro.so/txid/0xffac6b6fc3dbfe408b0bf66937bb20500ce2bbb54ae8e2850f424251a97eb2c6?chain=mainnet&#xA;87,952.049941 STX were distributed to 2 city coin contracts and 925 pool members.</description>
+    </item>
+    <item>
+      <title>Cycle #67</title>
+      <link>http://localhost:1313/distributions/67/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/67/</guid>
+      <description>We received 1.16520600 BTC stacking rewards.&#xA;Rewards were wrapped (-0.2%) at wrapped.com and swapped at alexgo to 62,539.984736 STX at an effective rate of 1863 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/019c0ec2cd016b8d95fbb383d900fee6566afa6d9a819d70823e11c1b40d8b88&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0x3a0d5f0f9ea27e9189cbff0df77a07c47461ec7b48ad7b80baa419e9056a3c12?chain=mainnet and https://explorer.hiro.so/txid/0xf69cdbb2237a8038e7277ce809504479b96d03284c2a4c1518ff151fabd88e45?chain=mainnet&#xA;62,539.984267 STX were distributed to 2 city coin contracts and 965 pool members.</description>
+    </item>
+    <item>
+      <title>Cycle #68</title>
+      <link>http://localhost:1313/distributions/68/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/68/</guid>
+      <description>We received 1.19079700 BTC stacking rewards.&#xA;Rewards were exchanged to 65,774.50 STX at letsexchange.io at an effective rate of 1810 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/b538a9321a5ab12efc99d0bbc97861ea35aa71a3105bc5974221109f817fe476&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0xf427ea81af1d6ec595a868db04082c92a6a7dd25e2e702f21e943b752d58559f?chain=mainnet and https://explorer.hiro.so/txid/0x01e92511fb69ca16de525f52b5d028b7b1c21620c3d6dcd8489b880fb2a54e6f?chain=mainnet&#xA;65,774.499530 STX were distributed to 2 city coin contracts and 978 pool members.&#xA;The story of exchangeThe transaction fees on Bitcoin went up from 2sats/b to 5sats/b just after I submitted the exchange transaction at 2.99sats/b. So, it took a while until confirmed.</description>
+    </item>
+    <item>
+      <title>Cycle #69</title>
+      <link>http://localhost:1313/distributions/69/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/69/</guid>
+      <description>We received 1.35589400 BTC stacking rewards.&#xA;Rewards were exchanged to 65,242.386638 STX at using wrapped.com and alexgo at an effective rate of 2078 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/0d7c3f5ab9dff961fccf6f79ab18ac05835300277ab3db05db3ef9cf6aed147e&#xA;sbtc transfer to pool proxy address (fastpool.btc): https://explorer.hiro.so/txid/0xd2e9d74368a48ef78fff822245f692513d32f9146db46749e532ad21817b9c1d?chain=mainnet&#xA;swap xBTC to STX: https://explorer.hiro.so/txid/0x1ad54b9dd06b021d3d749e85cf9a45675955d225de5ea1e471b6872b2f18d976?chain=mainnet&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0x3808e55f9f4ec1d4208144d5c10837e1f9b98cd61c00b9e834e74ed60cb3b91b?chain=mainnet&#xA;65,242.386158 STX were distributed to 2 city coin contracts and 998 pool members based on a 45,246,259.113913 stacked STX.&#xA;Missing 17 Members17 pool members did not received rewards due to a limitation of the distribution scripts to 1000 pool members.</description>
+    </item>
+    <item>
+      <title>Cycle #70</title>
+      <link>http://localhost:1313/distributions/70/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/70/</guid>
+      <description>We received 1.20943200 BTC stacking rewards.&#xA;Rewards were exchanged to 65,139.199900 STX at letsexchange.io at an effective rate of 1856 sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/7c946a7f23efb9b880cb7d8b476e0e8ff5a6d6cc4e184bd3a82c2f59a7ab9b01&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0x40a83b21e176a3678bf2d1a5f1656a173b278eca2c0b4cc1e33c3ec0aba1a6cf?chain=mainnet&#xA;64,901.035949 STX were distributed to 2 city coin contracts and 1010 pool members.&#xA;238.163406 STX were distributed to 17 pool members who did not receive their rewards during cycle #69. The rewards for cycle #70 are used because all other pool members received more than they should have.</description>
+    </item>
+    <item>
+      <title>Cycle #71</title>
+      <link>http://localhost:1313/distributions/71/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/71/</guid>
+      <description>We received 1.35696200 BTC stacking rewards.&#xA;Rewards were exchanged to 65,242.386638 STX at using wrapped.com (1.289733364 xbtc; 6,464,400 sats tx fees + 0.2% wrapping fees) and alexgo at an effective rate of X sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/20e9f243ea19b540e86f1c7d7e71450c3325ec51cd9e2613682e8df109692fae&#xA;xBTC transfer to pool proxy address (fastpool.btc): https://explorer.hiro.so/txid/0xb3d4c5b9b065f2f17e86ba0ee807dd2e76f4007a345599b702ba978e4ad0339d?chain=mainnet&#xA;swap xBTC to STX: https://explorer.hiro.so/txid/82a6f3af927db81221ed4235955bcda75dbc1384e90f00d8bd54714e79876ea8?chain=mainnet&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0x709ca63fdde9d4f0d82f08b2b62328a404b662ddcdaf56cd13c7f274c5b7932f?chain=mainnet&#xA;71,525.184958 STX were distributed to 2 city coin contracts and 1065 pool members based on a 45.</description>
+    </item>
+    <item>
+      <title>Cycle #72</title>
+      <link>http://localhost:1313/distributions/72/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/72/</guid>
+      <description>We received 1.33633000 BTC stacking rewards.&#xA;Rewards were exchanged to 59,201.513795 STX at using wrapped.com (1.31280968 xbtc; 2,088,943 sats tx fees + 0.2% wrapping fees) and alexgo at an effective rate of X sats/stx:&#xA;btc transfer from pool: https://mempool.space/tx/20205a948d22518cb02abb89a3898e18ac961f38abc092834e4211e5492c9e66&#xA;xBTC transfer to pool proxy address (fastpool.btc): https://explorer.stacks.co/txid/0x264a4eda173ecda971958aab42728d733f627c1f8fa21ec07bd1247c67c55bbd?chain=mainnet&#xA;swap 1.26951 xBTC to STX: https://explorer.hiro.so/txid/0xd68e886531b483a47b47f5848ddd7728a2e86e31587749de11e99b975061eb2c?chain=mainnet&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0x6b1553425fe2578199956788b360e7abc32e1d76e69b4abf2d918647201dfca1?chain=mainnet&#xA;xBTC to pool reserver: https://explorer.hiro.so/txid/0xd34e3256412b97e1d3733a8023c4555a3899800300084ca0c6e67aaa71277cbb?chain=mainnet&#xA;59,201.513240 STX were distributed to 2 city coin contracts and 1083 pool members based on a 46,085,201 stacked STX.</description>
+    </item>
+    <item>
+      <title>Cycle #73</title>
+      <link>http://localhost:1313/distributions/73/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/73/</guid>
+      <description>We received 1.41746000 BTC stacking rewards.&#xA;Rewards were exchanged to 46,570.249928 STX at using wrapped.com and alexgo at an effective rate of 3044 sats/stx:&#xA;btc transfer from pool (1.34148490 BTC + 0.07597710 BTC fees): https://mempool.space/tx/d6872724a8a3589290b0f685fb7eef4ab85bed2600dd9bb9ea656cefafb2b1ff&#xA;xbtc transfer to pool proxy address (fastpool.btc) (1,33880193 xBTC): https://explorer.hiro.so/txid/0x77ff3eee859347cba0c7cbe73e1f0496d951ee9b36940f032984eb453b430ede?chain=mainnet&#xA;swap 1.3255 xBTC to STX: https://explorer.hiro.so/txid/0x5d79768c4a9fbf6513a91ef0d2ed5716d3bc038722d7e3d5bff79277d14e1b0a?chain=mainnet&#xA;stx transfer to pool: https://explorer.hiro.so/txid/0xc050f30cf34a2f5b2f22b35b6d77ff549448209ac30a2e81fcddf541eef3fd89?chain=mainnet&#xA;xBTC to pool reserve: https://explorer.hiro.so/txid/0xd34e3256412b97e1d3733a8023c4555a3899800300084ca0c6e67aaa71277cbb?chain=mainnet&#xA;46,570.249395 STX were distributed to 2 city coin contracts and 1076 pool members based on a 46,593,865.</description>
+    </item>
+    <item>
+      <title>Cycle #74</title>
+      <link>http://localhost:1313/distributions/74/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/74/</guid>
+      <description>We received 2.51421144 BTC stacking rewards.&#xA;Rewards were exchanged to STX at using xlink bridge (aBTC) and alexgo swap at an effective rate of 4075 sats/stx:&#xA;BTC transfer from pool to proxy address (fastpool.btc) (2.43989094 BTC + 0.07432050 BTC BTC fees): https://mempool.space/tx/f91215aa1657f73d77fdcf632fd951f84ad66f081bfa2b1f184803eaea1362b6&#xA;BTC to aBTC swap (X aBTC): https://mempool.space/tx/e6193db3df6d60c038dc5d843f7a30281a1b49e2e8e187bbe47dea08a673095f&#xA;swap 2.43956594 aBTC to STX: https://explorer.alexlab.co/txid/c3ba603fb7b2e3d49297bf0ccf5e482728770dbbe3b27d9ab6f1a1476ff0447f?chain=mainnet&#xA;61,692.52 stx transferred to pool: https://explorer.hiro.so/txid/b99e4ad2b1e474ed58c58e30a0c3ee0500d588164e1e3f2be625728ac112b529?chain=mainnet&#xA;3240 STX to pool reserve: https://explorer.hiro.so/txid/0x4218cd563a6a852ff5fe12f5f4d58791f420355f76be11a0fe2c5c2306edc5bb?chain=mainnet&#xA;61,692.519972 STX were distributed to 2 city coin contracts and 1117 pool members based on 46,591,197.</description>
+    </item>
+    <item>
+      <title>Cycle #75</title>
+      <link>http://localhost:1313/distributions/75/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/75/</guid>
+      <description>We have received 5.26166854 BTC as rewards.&#xA;Hard times to Lock for #75The last cycle ended with network congestions due to slow miners and many transactions from STX20 activity. It was difficult to get all pool members into the next cycle. However, we managed to lock 43m STX. Some pools missed their final commit transaction and had to skip the cycle. Thanks to our self-service feature, we could lock early and try to add more members while new miners tried to clear the mempool.</description>
+    </item>
+    <item>
+      <title>Cycle #76</title>
+      <link>http://localhost:1313/distributions/76/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/76/</guid>
+      <description>We have received 2.66135200 BTC as rewards.&#xA;Dust transactionsThere are many dust rewards of 200 sats from F2Pool bitcoin miner. We started to ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address. For this cycle, there were 40 transactions of 200 sats. This is something to keep in mind when doing accounting.&#xA;Rewards Part 1Once we received 2.</description>
+    </item>
+    <item>
+      <title>Cycle #77</title>
+      <link>http://localhost:1313/distributions/77/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/77/</guid>
+      <description>We have received 2.63061350 BTC as rewards.&#xA;Dust transactionsThere are many dust rewards of 200 sats from F2Pool bitcoin miner. We started to ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address. For this cycle, there were 52,150 sats left in the wallet after reward distribution. This is something to keep in mind when doing accounting.</description>
+    </item>
+    <item>
+      <title>Cycle #78</title>
+      <link>http://localhost:1313/distributions/78/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/78/</guid>
+      <description>We have received 2.09651550 BTC as rewards.&#xA;Dust transactionsThere are many dust rewards of 200 sats and 550 sats. We started to ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address. Fpr this cycle, there were 63,600 sats left in the wallet after reward distribution. This is something to keep in mind when doing accounting.</description>
+    </item>
+    <item>
+      <title>Cycle #79</title>
+      <link>http://localhost:1313/distributions/79/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/79/</guid>
+      <description>We have received 2.170202 BTC as rewards.&#xA;Dust transactionsThere are many dust rewards of 200 sats and 550 sats. We started to ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address. For this cycle, there were 73,800 sats left in the wallet after reward distribution. This is something to keep in mind when doing accounting.</description>
+    </item>
+    <item>
+      <title>Cycle #80</title>
+      <link>http://localhost:1313/distributions/80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/80/</guid>
+      <description>We have received 2.055507 BTC as rewards.&#xA;Dust transactionsThere are many dust rewards of 200 sats and 550 sats. We started to ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address. For this cycle, there were 79,000 sats left in the wallet after reward distribution. This is something to keep in mind when doing accounting.</description>
+    </item>
+    <item>
+      <title>Cycle #81  - Liquid Stacking with LISA</title>
+      <link>http://localhost:1313/distributions/81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/81/</guid>
+      <description>We have received 1.306026 BTC as rewards.&#xA;Liquid Stacking With LISAThis cycle, we started to support the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend. Lisa used two smart contract as pool members (similar to city coin pool members). Rewards were distributed in a single send-many transaction for Lisa pool members.&#xA;We encourage pool members to check out the documenation and learn more about liquid stacking at https://docs.</description>
+    </item>
+    <item>
+      <title>Cycle #82</title>
+      <link>http://localhost:1313/distributions/82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/82/</guid>
+      <description>We have received 1.188436 BTC as rewards.&#xA;Liquid Stacking With LISAThis cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,032,192.727200 STX to Fast Pool. Lisa used 5 smart contract as pool members (similar to city coin pool members). Rewards were distributed in aBTC in a single send-many transaction for Lisa pool members.&#xA;The share of Lisa was 2,231608% of the pool. Based on this number, the rewards were calculated and distributed in two transactions:</description>
+    </item>
+    <item>
+      <title>Cycle #83</title>
+      <link>http://localhost:1313/distributions/83/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/83/</guid>
+      <description>We received 5.44506600 BTC as rewards.&#xA;Delay in Rewards distributionThis cycle we received inscriptions with the rewards. This resulted in change of the distribution flow. See section about aBTC and sBTC below.&#xA;Liquid Stacking With LISAThis cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 2,737,552.746444 STX to Fast Pool. Lisa used 5 smart contract as pool members (similar to city coin pool members).</description>
+    </item>
+    <item>
+      <title>Cycle #84</title>
+      <link>http://localhost:1313/distributions/84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/84/</guid>
+      <description>We received 2.27728526 BTC as rewards.&#xA;Security NoticeThe recent incident at Alex showed how important security management is. Note, that Fast Pool does not manage your STX tokens. They stay in your wallet, with your private keys. Fast Pool manages BTC rewards from your stacking and distributes these in STX. We use different private keys, sponsored txs to reduce and other methods to reduce any risks for the rewards. Due to the incident, we did not use aBTC to wrap, instead we used simpleswap.</description>
+    </item>
+    <item>
+      <title>Cycle #85</title>
+      <link>http://localhost:1313/distributions/85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/85/</guid>
+      <description>We received 4.02195000 BTC as rewards.&#xA;Payout in STX and BTCWe introduced a new distribution flow in BTC on individual requests. The BTC rewards were split proportionally.&#xA;For cycle 85, we used&#xA;1.41758709 BTC for BTC distribution and&#xA;2.60436290 BTC for STX distribution.&#xA;Liquid Stacking With LISAThis cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 4,005,986.256201 STX to Fast Pool. Lisa used 4 smart contract as pool members (similar to city coin pool members).</description>
+    </item>
+    <item>
+      <title>Cycle #86</title>
+      <link>http://localhost:1313/distributions/86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/distributions/86/</guid>
+      <description>We received 3.75284 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 86, we used&#xA;1.31639870 BTC for BTC distribution and&#xA;2.43644129 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats and 550 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
+    </item>
     <item>
       <title>Distributions</title>
-      <link>https://fastpool.org/distributions/1/</link>
+      <link>http://localhost:1313/distributions/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fastpool.org/distributions/1/</guid>
+      <guid>http://localhost:1313/distributions/1/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Distributions|#85</title>
-      <link>https://fastpool.org/distributions/85/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fastpool.org/distributions/85/</guid>
-      <description>We received 4.02195 BTC rewards.
-Payout in STX and BTC We introduced a new distribution flow in BTC on individual requests. For cycle 85, we used
- 1.41758709 BTC for BTC distribution and 2.60436290 BTC for STX distribution.  Consolidation part 1 Swapped 2.78998365 BTC to 96,986.2032 BTC
-Consolidation: https://mempool.space/tx/72df70922364da3cbabe182ea32858e34cd96f4661dc2bb51be91ee7a830f77b
-Swapping: 17029.7516 + 17034.2926 + 17191.5346 + 17238.8339 + 10106.1462 + 18385.6443
-Balance between STX and BTC rewards STX: 969862032 × 260436290 ÷ 278998365 = 90533.</description>
-    </item>
-    
   </channel>
 </rss>

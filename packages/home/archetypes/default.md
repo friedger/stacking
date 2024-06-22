@@ -37,7 +37,13 @@ case_summary: "Cope is an application that helps users track their mental health
 team: ["Alexis Collado", "Carlos Arcenas", "Kat Uytiepo", "John Palomo"]
 
 # Roles of your team members
-roles: ["Branding and Identity", "User Interface Design", "Prototyping", "User Research"]
+roles:
+  [
+    "Branding and Identity",
+    "User Interface Design",
+    "Prototyping",
+    "User Research",
+  ]
 
 # Methods your team members used
 methods: ["Sketching", "Mockups", "Guerilla Testing"]
@@ -46,15 +52,15 @@ methods: ["Sketching", "Mockups", "Guerilla Testing"]
 # img is the svg that's part of the button. You can use eyeball.svg or download.svg
 # Place your custom svgs into /static/svg
 button_links:
-    - link: "https://marvelapp.com/g4b64e/screen/14364499"
-      img: "eyeball.svg"
-      text: "View Prototype"
-    - link: "http://copenow.co/"
-      img: "eyeball.svg"
-      text: "View Landing Page"
-    - link: "cope.pdf"
-      img: "download.svg"
-      text: "Download Feature Sets"
+  - link: "https://marvelapp.com/g4b64e/screen/14364499"
+    img: "eyeball.svg"
+    text: "View Prototype"
+  - link: "http://copenow.co/"
+    img: "eyeball.svg"
+    text: "View Landing Page"
+  - link: "cope.pdf"
+    img: "download.svg"
+    text: "Download Feature Sets"
 
 # Testimonial text
 testimonial: "Alexis designed everything for Cope from the ground up. What I really like about him is his true understanding and grasp of what makes a great UI great. He knows that the user experience needs a lot of refining from customers and he isn't shy to take feedback even if it's critical. Alexis is one of those rare people who just gets it."
@@ -69,8 +75,6 @@ testimonial_author: "John Robert Palomo"
 # Testimonial subtitle, usually position of the testimonial author
 testimonial_subtitle: "Co-founder, Cope"
 
-date: {{ .Date }}
+date: { { .Date } }
 draft: false
-
-# Write the content of your case study below the three dashed lines. You can use markdown and raw HTML.
 ---
