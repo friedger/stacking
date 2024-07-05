@@ -4,8 +4,7 @@
     <title>Tags on Fast Pool</title>
     <link>https://fastpool.org/tags/</link>
     <description>Recent content in Tags on Fast Pool</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://fastpool.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://fastpool.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
