@@ -1,0 +1,32 @@
+{
+  "totalRewards": 3.582525,
+  "btcRewardsForBtcReceivers": 1.18967384,
+  "btcRewardsForStxReceivers": 2.39285115,
+  "dustUtxos": 76400,
+  "lisa": {
+    "delegatedStx": 1390000,
+    "rewards": 5317600435,
+    "txUrl": "https://explorer.hiro.so/txid/0x1741218e6f9cb3c86338ed6cb27a1769de8ba7a97ab17b3b2244c355e7c686cc?chain=mainnet"
+  },
+  "consolidations": [
+    {
+      "description": "after 1 week",
+      "totalAmount": 2.13448106,
+      "amountBtcReceivers": 0.67337128,
+      "amountFPReserver": 0.03544059,
+      "amountToProxy": 1.42569578,
+      "txUrl": "https://mempool.space/tx/4b3f9e00d6f3af346a10110d36db9463e83904fcada1ce88d1415fa87b78f71c",
+      "swaps": {
+        "totalSTX": 52239.2028,
+        "details": [
+          {
+            "amountBtc": 0.5,
+            "amountStx": 18463.4692,
+            "txUrlBtc": "https://mempool.space/tx/f766e6839809cd0c2b40dc5c732ba05aa606e82ed16630cf887f4e59f60963dd",
+            "txUrlStx": "https://explorer.hiro.so/txid/0x539bce8568a4960a4f27a6ec0bb4b5f3277962e078f62daac486082db5148b94?chain=mainnet"
+          }
+        ]
+      }
+    }
+  ]
+}

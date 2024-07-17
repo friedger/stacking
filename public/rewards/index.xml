@@ -155,6 +155,13 @@
       <description>We received rewards of 0.92209339 BTC&#xA;These were wrapped with network fees of 0.00070921 BTC to 0.91954142 xBTC (= 0.92138418&amp;nbsp;BTC - 0.2% wrapping fee).&#xA;26 pool members received 0.00443631 xBTC&#xA;1583 pool members received 68,745.217667 STX&#xA;76 Boombox owners at block height 94117 received 265.440929 STX&#xA;1 pool member was a contract and received 1.792947 STX (see&#xA;https://explorer.stacks.co/txid/0xa239f5b50cc5d14c3cd4950c90f592ad07d582b86e5b63a56ace6e5139ccedef?chain=mainnet )&#xA;The theoretical total rewards were 69,347.015082 STX which corresponds to 0.</description>
     </item>
     <item>
+      <title>Cycle #52</title>
+      <link>https://fastpool.org/rewards/52/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/52/</guid>
+      <description>We received 0.90402924 BTC stacking rewards. These were wrapped after btc network fees (0.00168888 BTC) and wrapping fees (0.2%) into 0.90053568 xBTC. xBTC was exchanged to STX at a rate of 1451 sats/stx. The rewards were distributed as follows:&#xA;21 members received a total of 0.00270100 xBTC&#xA;1540 pool members received a total of 61,641.351023 STX&#xA;76 Boombox owners received a total of 235.608236 STX&#xA;The theoretical total rewards are 62,063.</description>
+    </item>
+    <item>
       <title>Cycle #53</title>
       <link>https://fastpool.org/rewards/53/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -393,11 +400,11 @@
       <description>We received 3.75284 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 86, we used&#xA;1.31639870 BTC for BTC distribution and&#xA;2.43644129 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats and 550 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
     </item>
     <item>
-      <title>Cycle 52</title>
-      <link>https://fastpool.org/rewards/52/</link>
+      <title>Cycle #87</title>
+      <link>https://fastpool.org/rewards/87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fastpool.org/rewards/52/</guid>
-      <description>We received 0.90402924 BTC stacking rewards. These were wrapped after btc network fees (0.00168888 BTC) and wrapping fees (0.2%) into 0.90053568 xBTC.&#xA;xBTC was exchanged to STX at a rate of 1451 sats/stx.&#xA;The rewards were distributed as follows:&#xA;21 members received a total of 0.00270100 xBTC&#xA;1540 pool members received a total of 61,641.351023 STX&#xA;76 Boombox owners received a total of 235.608236 STX&#xA;The theoretical total rewards are 62,063.</description>
+      <guid>https://fastpool.org/rewards/87/</guid>
+      <description>We received 3.582525 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 87, we used&#xA;1.18967384 BTC for BTC distribution and&#xA;2.39285115 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats and 550 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
     </item>
   </channel>
 </rss>
