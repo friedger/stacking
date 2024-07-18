@@ -7,8 +7,11 @@ function readFiles() {
   const outputDirUsers = __dirname + '/../../../packages/home/data/users/';
   const outputDirContent = __dirname + '/../../../packages/home/content/users/';
   const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
+  const outputDropout = __dirname + '/../../../packages/home/data/dropout.json';
+
   console.log('read');
   const ranking = {};
+  const dropOuts = {};
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
     if (cycleData.members === undefined) {
@@ -41,10 +44,18 @@ function readFiles() {
           cycleIds[cycleIds.length - 1].toString().padStart(4) +
           stackerDetails.stacker,
       };
+      if (cycleIds[cycleIds.length - 1] === '88') {
+        dropOuts[stackerDetails.stacker] = {
+          min: cycleIds[0],
+          max: cycleIds[cycleIds.length - 1],
+          amount: userData.cycles['88'].amount,
+        };
+      }
     }
   });
 
   fs.writeFileSync(`${outputRanking}`, JSON.stringify(ranking));
+  fs.writeFileSync(`${outputDropout}`, JSON.stringify(dropOuts));
 
   for (let user of Object.keys(ranking)) {
     const userStat = ranking[user];
