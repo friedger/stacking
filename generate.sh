@@ -1,6 +1,9 @@
 #!/bin/bash
-# Basic while loop
 cd packages/home
-counter=89
-hugo new cycles/$counter.md
+counter=90
+while [ $counter -le 100 ]
+do
+  hugo new cycles/$counter.md
+  ((counter++))
+done
 echo All done
