@@ -62,43 +62,59 @@
 
     <section>
       <div class="content-case-study">
-<p>We received 3.93405 BTC as rewards.</p>
+<p>We received 3.41614 BTC as rewards.</p>
 <h3>Payout in STX and BTC</h3>
 <p>
   We introduced a distribution flow in BTC on individual requests. The BTC
   rewards were split proportionally.
 </p>
-<p>For cycle 88, we used</p>
+<p>
+  For cycle 90, we used this flow only for the first distribution of the cycle
+</p>
 <ul>
-  <li><p>1.26577632 BTC for BTC distribution and</p></li>
-  <li><p>2.66827367 BTC for STX distribution.</p></li>
+  <li><p>0.58233765 BTC for BTC distribution and</p></li>
+  <li>
+    <p>
+      1.55510424 BTC for STX distribution for the first part of the
+      distribution.
+    </p>
+  </li>
 </ul>
 
 <h3>Dust transactions</h3>
 <p>
-  There are many dust rewards of 200 sats. We ignore these utxos because
-  consolidating them is more expensive then their value. That means that a few
-  sats will rest in the pox reward address. For this cycle, there were 76,400
-  sats left in the wallet after reward distribution. This is something to keep
-  in mind when doing accounting.
+  There are many dust rewards of 200 sats. We ignore these utxos usually.
+  However, some dust utxos were spent during the second distribution. This was
+  due to a new distribution process and will be fixed for the next cycles.
 </p>
 
 <h3>Liquid Stacking With LISA</h3>
 <p>
   This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s
-  backend delegated 1,360,000 STX to Fast Pool. Lisa used 4 smart contract as
-  pool members. The share of Lisa was 5.629643% of the STX part of the pool.
+  backend delegated 1,740,000 STX to Fast Pool. Lisa used 5 smart contract as
+  pool members. The share of Lisa was 5.984850% of the STX part of the pool.
 </p>
 <p>The rewards were distributed with the normal distribution flow:</p>
 <ul>
   <li>
     <p>
-      4,996.265914 STX:
+      3,534.085596 STX:
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
-        href="https://explorer.hiro.so/txid/0x91eed00e8417fe649b14c5bc9ae5016b4dc22d0f42dd357e9678a839d0547035?chain=mainnet"
-        >https://explorer.hiro.so/txid/0x91eed00e8417fe649b14c5bc9ae5016b4dc22d0f42dd357e9678a839d0547035?chain=mainnet</a
+        href="https://explorer.hiro.so/txid/0xfa1e883a1fd36bdb8173f329f42b8ea54c90d6f2286650b1e8c6dcab157fbe31?chain=mainnet"
+        >https://explorer.hiro.so/txid/0xfa1e883a1fd36bdb8173f329f42b8ea54c90d6f2286650b1e8c6dcab157fbe31?chain=mainnet</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>
+      X STX:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://explorer.hiro.so/txid/0xfa1e883a1fd36bdb8173f329f42b8ea54c90d6f2286650b1e8c6dcab157fbe31?chain=mainnet"
+        >https://explorer.hiro.so/txid/0xfa1e883a1fd36bdb8173f329f42b8ea54c90d6f2286650b1e8c6dcab157fbe31?chain=mainnet</a
       >
     </p>
   </li>
@@ -116,177 +132,157 @@
 
 <h3>Consolidation and Swapping</h3>
 <p>
-  After 1 week, we consolidated the rewards until then, a total of 3.03631890
-  BTC.
-</p>
-<p>
-  At the end, we consolidated the remaining rewards of 0.89214024 BTC and
-  distributed 1.20248750 BTC to pool members who registered for BTC rewards and
-  0.06328881 BTC to the Fast Pool reserve. The remaining 2.66266362 BTC were
-  swapped to 92,447.120327 STX.
+  After 1 week, we consolidated the rewards until then, a total of 2.170741 BTC
+  and distributed 0.58233765 BTC to pool members who registered for BTC rewards
+  and 0.03064935 BTC to the Fast Pool reserve. The remaining 1.55509426 BTC were
+  swapped to 62,104.4543 STX.
 </p>
 <ul>
   <li>
     <p>
-      3.03631890 to proxy (after 1 week):
+      2.16810240 to proxy:
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
-        href="https://mempool.space/tx/04d042cecbf2ae8fc752bf68b97f3b0f9059df9b8c4f048906dcc1e023537618"
-        >https://mempool.space/tx/04d042cecbf2ae8fc752bf68b97f3b0f9059df9b8c4f048906dcc1e023537618</a
+        href="https://mempool.space/tx/45b21af864a19e0941ae86d117db0151f8a2f4dbf8bda6b12b5f10583b29a0d3"
+        >https://mempool.space/tx/45b21af864a19e0941ae86d117db0151f8a2f4dbf8bda6b12b5f10583b29a0d3</a
       >
     </p>
   </li>
   <li>
     <p>
-      0.89214024 to proxy (after the end of the cycle):
+      0.58233765 to btc reward receivers:
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
-        href="https://mempool.space/tx/65573e0dee0ad782d06812eb36859a3045b69c96618b1ca5a4cf5209bc156b89"
-        >https://mempool.space/tx/65573e0dee0ad782d06812eb36859a3045b69c96618b1ca5a4cf5209bc156b89</a
+        href="https://mempool.space/tx/d8bcc6c4ba04fe1cd225d2efc0e1f4560f7ed9c83b3643c44a7174035a89bfa8"
+        >https://mempool.space/tx/d8bcc6c4ba04fe1cd225d2efc0e1f4560f7ed9c83b3643c44a7174035a89bfa8</a
       >
     </p>
+  </li>
+  <li>
+    <p>
+      0.03064935 to Fast Pool reserve:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/30abb4c7b9f454034c944568609ce7336de350d49d79d7c1afad294a6ab90ce6"
+        >https://mempool.space/tx/30abb4c7b9f454034c944568609ce7336de350d49d79d7c1afad294a6ab90ce6</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>0.5 swapped to 20,185.5994 STX:</p>
+
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://mempool.space/tx/38e1900b7bb71496fd7e331678da143a8684ef1c329b0baeb111f1c1354e049c"
+          >https://mempool.space/tx/38e1900b7bb71496fd7e331678da143a8684ef1c329b0baeb111f1c1354e049c</a
+        >
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://explorer.stacks.co/txid/0x20bf8191891301bebc28e7d9ab32f2ec2d8f88c946e2b3bfb487c48730ebfc9b"
+          >https://explorer.stacks.co/txid/0x20bf8191891301bebc28e7d9ab32f2ec2d8f88c946e2b3bfb487c48730ebfc9b</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>1.05509426 swapped to 41,918.8549 STX:</p>
+    <ul>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://mempool.space/tx/e445d7f6b87fcae5c436bb53bdc9fc2da7917a22e0ab353ff42e98bb83e14be5"
+          >https://mempool.space/tx/e445d7f6b87fcae5c436bb53bdc9fc2da7917a22e0ab353ff42e98bb83e14be5</a
+        >
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://explorer.stacks.co/txid/0x37c03969b4bcc642423be8726e1c51fcecc855454a9c4e4a4cf011793694cc9b"
+          >https://explorer.stacks.co/txid/0x37c03969b4bcc642423be8726e1c51fcecc855454a9c4e4a4cf011793694cc9b</a
+        >
+      </li>
+    </ul>
   </li>
 </ul>
 <p>
-  The following swaps were executed via simpleswap.io and one swap via xlink and
-  alex swap:
+  One week after the end of the cycle, we consolidated the remaining rewards of
+  1.245399 BTC. The total amount of 1.25236934 BTC were swapped to 42,802.1353
+  STX. An extra 0.00856600 BTC was added due to the late distribution and an
+  unlucky coin selection that included BTC rewards from cycle #91. These will be
+  returned from Fast pool treasury for rewards of cycle #91.
+</p>
+<p>
+  The late distribution was caused by the new distribution process. To
+  compensate for the late distribution, we have not deducted any fees and added
+  a 5% bonus of 2,140.106765 STX for this second distribution.
+</p>
+<p>
+  32,235.734013 STX were distributed to pool members receiving rewards in STX
+  and 12,706.508052 STX to pool members receiving rewards in BTC that were
+  exceptionally distributed in STX.
 </p>
 <ul>
   <li>
-    <p>0.5 BTC to 17,343.5568 STX:</p>
+    <p>
+      1.24377 to proxy (after 1 week):
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/4eef627b1b6718ebd207a41ea26785535c0f11e22b37993172f38ecc5364eef0"
+        >https://mempool.space/tx/4eef627b1b6718ebd207a41ea26785535c0f11e22b37993172f38ecc5364eef0</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>0.5 swapped to 17,284.1413 STX:</p>
     <ul>
       <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://mempool.space/tx/ca0f6fcebd375086dcf16a78ce2c8242af72fafee1bf8bb1d727d8ef94abccf5"
-            >https://mempool.space/tx/ca0f6fcebd375086dcf16a78ce2c8242af72fafee1bf8bb1d727d8ef94abccf5</a
-          >
-        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://mempool.space/tx/7d70fb1e1e9b1ee3f5c9894ca4f090072a9cb552f739ecd2bc094f5100d90997"
+          >https://mempool.space/tx/7d70fb1e1e9b1ee3f5c9894ca4f090072a9cb552f739ecd2bc094f5100d90997</a
+        >
       </li>
       <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0x85591cc1badd903a7adef789f307b9aecb9a270cecf118718c4db5c0ad04fd3f?chain=mainnet"
-            >https://explorer.hiro.so/txid/0x85591cc1badd903a7adef789f307b9aecb9a270cecf118718c4db5c0ad04fd3f?chain=mainnet</a
-          >
-        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://explorer.hiro.so/txid/0xf4cdf007bdb8397c78aaef2ca070449d965f758c000a9a860d59eb48def3c642?chain=mainnet"
+          >https://explorer.hiro.so/txid/0xf4cdf007bdb8397c78aaef2ca070449d965f758c000a9a860d59eb48def3c642?chain=mainnet</a
+        >
       </li>
     </ul>
   </li>
   <li>
-    <p>0.5 BTC to 0.5 aBTC to 17,115.758527 STX (xlink and alex swap):</p>
+    <p>0.75236934 swapped to 25,517.994 STX:</p>
     <ul>
       <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://mempool.space/tx/1f4c4cbe4235564c24b0f933b2d3e9423824e3c9dd6d4eaa7f784ad3bd76c761"
-            >https://mempool.space/tx/1f4c4cbe4235564c24b0f933b2d3e9423824e3c9dd6d4eaa7f784ad3bd76c761</a
-          >
-        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://mempool.space/tx/fd34d5913642bb47a35468ec8de7a95c23eca7777451fecf0161842a8f730045"
+          >https://mempool.space/tx/fd34d5913642bb47a35468ec8de7a95c23eca7777451fecf0161842a8f730045</a
+        >
       </li>
       <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0xf27f7c36879d2b64be10e148e1125588cdf8b3f33abeb3405923675e98f7ecc1?chain=mainnet"
-            >https://explorer.hiro.so/txid/0xf27f7c36879d2b64be10e148e1125588cdf8b3f33abeb3405923675e98f7ecc1?chain=mainnet</a
-          >
-        </p>
-      </li>
-      <li>
-        <p>
-          aBTC to STX:
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0xf80b1335cd6fb1e366150dbb4600a88122cf9f0852b1b6bfdb2711b3132cf527?chain=mainnet"
-            >https://explorer.hiro.so/txid/0xf80b1335cd6fb1e366150dbb4600a88122cf9f0852b1b6bfdb2711b3132cf527?chain=mainnet</a
-          >
-        </p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>0.5 BTC to 17,486.2 STX:</p>
-    <ul>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://mempool.space/tx/7e924799d2eefcc69d51fcd28fe7f8d3ea071008fb597a9f76fe75d6440b8dc5"
-            >https://mempool.space/tx/7e924799d2eefcc69d51fcd28fe7f8d3ea071008fb597a9f76fe75d6440b8dc5</a
-          >
-        </p>
-      </li>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0xecda22a6aed9547495407d300a3ca91bb03ab0786ccecc22069f8678506b663b?chain=mainnet"
-            >https://explorer.hiro.so/txid/0xecda22a6aed9547495407d300a3ca91bb03ab0786ccecc22069f8678506b663b?chain=mainnet</a
-          >
-        </p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>0.5 BTC to 17,466.7043 STX:</p>
-    <ul>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://mempool.space/tx/1fe33afb5bc8533859656a95e403a887c8311b477b6ea498faffcecaea74d0d8"
-            >https://mempool.space/tx/1fe33afb5bc8533859656a95e403a887c8311b477b6ea498faffcecaea74d0d8</a
-          >
-        </p>
-      </li>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0xd2bedb0d9c0ad049ec13bac7eeb3af00ab78020c591276abeeb2de7fb1dccd95?chain=mainnet"
-            >https://explorer.hiro.so/txid/0xd2bedb0d9c0ad049ec13bac7eeb3af00ab78020c591276abeeb2de7fb1dccd95?chain=mainnet</a
-          >
-        </p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>0.66262695 BTC to 23,034.9007 STX:</p>
-    <ul>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://mempool.space/tx/388a668f6138cb21b239b2c3eed83d868fafb7c4885ddb257cbf926206b31f8f"
-            >https://mempool.space/tx/388a668f6138cb21b239b2c3eed83d868fafb7c4885ddb257cbf926206b31f8f</a
-          >
-        </p>
-      </li>
-      <li>
-        <p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://explorer.hiro.so/txid/0x5255b432dc3e5c2b10209d77d173b1f5e4ce91d7c6a3a3cb0c62dcbbfcb3d03d?chain=mainnet"
-            >https://explorer.hiro.so/txid/0x5255b432dc3e5c2b10209d77d173b1f5e4ce91d7c6a3a3cb0c62dcbbfcb3d03d?chain=mainnet</a
-          >
-        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          href="https://explorer.hiro.so/txid/0x555a2e6acdd5fd70c0a387073deccc7f390afe2ba0fe3b58a5d150c815917b14?chain=mainnet"
+          >https://explorer.hiro.so/txid/0x555a2e6acdd5fd70c0a387073deccc7f390afe2ba0fe3b58a5d150c815917b14?chain=mainnet</a
+        >
       </li>
     </ul>
   </li>
@@ -294,21 +290,23 @@
 
 <h3>Total Rewards</h3>
 <p>
-  A total of 88,749.235215 STX were distributed to 582 pool members and 4
-  contracts. The distribution was based on 24,157,833.532583 STX stacked to
+  A total of 91,286.255984 STX were distributed to 652 pool members and 5
+  contracts. The distribution was based on 29,073,406.954268 STX stacked to
   receive STX rewards.
 </p>
 <p>
-  A total of 1.20248750 BTC were distributed to 1 pool member from the proxy btc
-  address. The distribution was based on 11,459,999 STX stacked to receive BTC
-  rewards.
+  If all BTC rewards for pool members receiving BTC rewards were distributed the
+  total would have been 0.91755212 BTC. However, only 0.58233765 BTC were
+  distributed in BTC, the remainder was distributed in STX, and 12,706.508052
+  STX were send to 1 pool member. The distribution was based on 11,459,999 STX
+  stacked to receive BTC rewards.
 </p>
 <p>
   If all BTC rewards were distributed as STX rewards the total would have been
-  130,850.119637 STX based on 35,617,832.532583 STX stacked.
+  127,268.980813 STX based on 35,617,832.532583 STX stacked.
 </p>
 
-<h3>Preparing for Nakamoto Release (4.5% reserve)</h3>
+<h3>Preparing for Nakamoto Release (2.5% reserve)</h3>
 <p>
   This year, the Nakamoto hard fork will bring sBTC. This means that we will
   wrap BTC to sBTC, then exchange to STX and distribute.
@@ -316,20 +314,21 @@
 <p>
   However, stackers need to do more work eventually, run stacks and a signer
   node. We successfully started to be signer for Stacks 2.5 and are registered
-  since cycle #84 as signer.
+  since cycle #84 as signer. We voted during cycle #90 for an initially
+  simplified implementation of block signing.
 </p>
 <p>
   For cycle #90, we transferred
   <a
     target="_blank"
     rel="noopener noreferrer nofollow"
-    href="https://explorer.hiro.so/txid/0x00e6255c8eeb9755554b7d641b38804e388d545a6d1fb57820310a4f5b9e437d?chain=mainnet"
-    >3,697.884813 STX</a
+    href="https://explorer.hiro.so/txid/0xf99376ed0f17bd5ffc0e1c46b8a5f95211405a05eee63000d754af30d961b05f?chain=mainnet"
+    >3,053.932329 STX</a
   >
-  from STX distribution and 0.06328881 BTC from BTC distribution to the reserve
-  (see above). That is a around than 4.5% of the theoretical total STX rewards
-  after converting BTC to STX at the exchange rate of 2880 sats/stx
-  (2,66,266,362 sats / 92,447.120327 STX).
+  from STX distribution and 0.03064935 BTC from BTC distribution to the reserve
+  (see above). That is a around than 2.5% of the theoretical total STX rewards
+  after converting BTC to STX at the exchange rate of 2676 sats/stx
+  (2,80,746,360 sats / 104,906.5896 STX).
 </p>
 <h3>Swapping using simpleswap</h3>
 <p>

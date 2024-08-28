@@ -432,14 +432,14 @@
       <link>https://fastpool.org/rewards/90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/90/</guid>
-      <description>We received 3.93405 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 88, we used&#xA;1.26577632 BTC for BTC distribution and&#xA;2.66827367 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
+      <description>We received 3.41614 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 90, we used this flow only for the first distribution of the cycle 0.58233765 BTC for BTC distribution and&#xA;1.55510424 BTC for STX distribution for the first part of the distribution. Dust transactions There are many dust rewards of 200 sats.</description>
     </item>
     <item>
       <title>Cycle #91</title>
       <link>https://fastpool.org/rewards/91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/91/</guid>
-      <description>We received 3.93405 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 88, we used&#xA;1.26577632 BTC for BTC distribution and&#xA;2.66827367 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
+      <description>Cycle #91 and any reward distribution is still in progress.</description>
     </item>
   </channel>
 </rss>
