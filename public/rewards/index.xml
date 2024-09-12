@@ -439,7 +439,14 @@
       <link>https://fastpool.org/rewards/91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/91/</guid>
-      <description>Cycle #91 and any reward distribution is still in progress.</description>
+      <description>We received 5.318425 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 91, we used&#xA;1.18171076 BTC for BTC distribution and&#xA;4.13671423 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
+    </item>
+    <item>
+      <title>Cycle #92</title>
+      <link>https://fastpool.org/rewards/92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/92/</guid>
+      <description>Cycle #92 and any reward distribution is still in progress. Consolidation and Swapping After 1 week, we consolidated the rewards until then, a total of 1.97279772 BTC. We distributed 0.41220113 BTC to pool members who registered for BTC rewards and 0.02169479 BTC to the Fast Pool reserve. The remaining 1.53890180 BTC were swapped to 60,477.734646 STX. Thereof, 58,058.624906 STX were distributed to 697 members and 2,419.109385 STX to the Fast Pool reserve.</description>
     </item>
   </channel>
 </rss>

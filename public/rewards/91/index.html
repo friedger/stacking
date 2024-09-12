@@ -62,7 +62,292 @@
 
     <section>
       <div class="content-case-study">
-<p>Cycle #91 and any reward distribution is still in progress.</p>
+<p>We received 5.318425 BTC as rewards.</p>
+<h3>Payout in STX and BTC</h3>
+<p>
+  We introduced a distribution flow in BTC on individual requests. The BTC
+  rewards were split proportionally.
+</p>
+<p>For cycle 91, we used</p>
+<ul>
+  <li><p>1.18171076 BTC for BTC distribution and</p></li>
+  <li>
+    <p>4.13671423 BTC for STX distribution.</p>
+  </li>
+</ul>
+
+<h3>Dust transactions</h3>
+<p>
+  There are many dust rewards of 200 sats. We ignore these utxos because
+  consolidating them is more expensive then their value. That means that a few
+  sats will rest in the pox reward address. For this cycle, there were 59,800
+  sats left in the wallet after reward distribution. This is something to keep
+  in mind when doing accounting.
+</p>
+
+<h3>Liquid Stacking With LISA</h3>
+<p>
+  This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s
+  backend delegated 1,640,000 STX to Fast Pool. Lisa used 4 smart contract as
+  pool members. The share of Lisa was 4.088038% of the STX part of the pool.
+</p>
+<p>The rewards were distributed with the normal distribution flow:</p>
+<ul>
+  <li>
+    <p>
+      6,034.838138 STX:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://explorer.hiro.so/txid/0x708eabaf6051f4d8918f487c05d64f2f4f9527b465c2c03f4a56794e730d263b?chain=mainnet"
+        >https://explorer.hiro.so/txid/0x708eabaf6051f4d8918f487c05d64f2f4f9527b465c2c03f4a56794e730d263b?chain=mainnet</a
+      >
+    </p>
+  </li>
+</ul>
+<p>
+  We encourage pool members to check out the documentation and learn more about
+  liquid stacking at
+  <a
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    href="https://docs.lisalab.io/"
+    >https://docs.lisalab.io/</a
+  >
+</p>
+
+<h3>Consolidation and Swapping</h3>
+<p>
+  At the end of the cycle, we consolidated the rewards in 3 transactions because
+  there were too many reward inputs to fit into a single consolidation
+  transactions. Therefore, we split it in two. Then we consolidated the
+  remaining inputs after the end of the cycle. We distributed 1.12262522 BTC to
+  1 pool member who registered for BTC rewards and 0.05908553 BTC to the Fast
+  Pool reserve. The remaining 4.13671423 BTC were swapped to 152,187.48964 STX
+  and 147,621.86495 STX were distributed to 682 pool members.
+</p>
+<ul>
+  <li>
+    <p>
+      2.08067900 to proxy:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/e7b66f0acc63199e8c0e7fe8c96787f4a7e116456e8efe58802f2af7c8ccf836"
+        >https://mempool.space/tx/e7b66f0acc63199e8c0e7fe8c96787f4a7e116456e8efe58802f2af7c8ccf836</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>
+      2.96636385 to proxy:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/6c71e89ad48dc936c9f8c79a3370a63a981a99666b724a6930caa3d5bf1d0f1f"
+        >https://mempool.space/tx/6c71e89ad48dc936c9f8c79a3370a63a981a99666b724a6930caa3d5bf1d0f1f</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>
+      0.25660292 to proxy:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/b536683e4be301531193e7167194bb187ebb9d665725ad07ddea056fc44a607b"
+        >https://mempool.space/tx/b536683e4be301531193e7167194bb187ebb9d665725ad07ddea056fc44a607b</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>
+      1.12262522 to btc reward receivers, 0.05908553 to Fast Pool reserve:
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://mempool.space/tx/e6bf98c6442f59692e7f9b01c7bf6382366ff08b28b5e9949ecb9aa0d123e30c"
+        >https://mempool.space/tx/e6bf98c6442f59692e7f9b01c7bf6382366ff08b28b5e9949ecb9aa0d123e30c</a
+      >
+    </p>
+  </li>
+  <li>
+    <p>0.5 swapped to 18,067.6037 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/1d1fdc9631a86f5295b788da19193fd20b488447af0fd97a9befcafa998cab5a"
+          >https://mempool.space/tx/1d1fdc9631a86f5295b788da19193fd20b488447af0fd97a9befcafa998cab5a</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0x6080500f10f90d1e5368dadea3be118399ee0614326490554d0cd6fea7604037"
+          >0x6080500f10f90d1e5368dadea3be118399ee0614326490554d0cd6fea7604037</a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>0.5 swapped to 18,247.2309 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/93c2b10a0e944d02e89a757a558fbc6d65b0518470d10445a3f2e6ac7b6eb16f"
+          >https://mempool.space/tx/93c2b10a0e944d02e89a757a558fbc6d65b0518470d10445a3f2e6ac7b6eb16f</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0xb58db2fa106104e91a167e772c5496b16af777b953043e7828ddc0799df561e2"
+          >0xb58db2fa106104e91a167e772c5496b16af777b953043e7828ddc0799df561e2</a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>0.5 swapped to 18,511.5253 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/596e60ad38e750157a771a93b8657c3c0ecf2cfbc64a8c90dc8aef29823edbea"
+          >https://mempool.space/tx/596e60ad38e750157a771a93b8657c3c0ecf2cfbc64a8c90dc8aef29823edbea</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0x143e33b37f3703ab5db7444a02ddc2459a495474b7d4429f859644aab603a230"
+          >0x143e33b37f3703ab5db7444a02ddc2459a495474b7d4429f859644aab603a230</a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>0.5 swapped to 18,525.0967 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/26da3d62ab3acf17cad3ae8de1ae137955d718bfdebf1f2e4aebdbd082f5562d"
+          >https://mempool.space/tx/26da3d62ab3acf17cad3ae8de1ae137955d718bfdebf1f2e4aebdbd082f5562d</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0xe04dd8ee5b7095c5f9e8b146524a2e31113b45040a8bffae4f936d71ec307045"
+          >0xe04dd8ee5b7095c5f9e8b146524a2e31113b45040a8bffae4f936d71ec307045</a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>0.5 swapped to 18,572.6609 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/47a2b03189fa49162db82851e9e749ebd76520fcf07401dccd131dff2ac1b1ee"
+          >https://mempool.space/tx/47a2b03189fa49162db82851e9e749ebd76520fcf07401dccd131dff2ac1b1ee</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0x1d7d8097fc7cd576096618d1e166eb6322674940758a4ba75c67866d255bb7f1"
+          >0x1d7d8097fc7cd576096618d1e166eb6322674940758a4ba75c67866d255bb7f1</a
+        >
+      </li>
+    </ul>
+  </li>
+<li>
+  <p>0.5 swapped to 18,469.0655 STX:</p>
+  <ul>
+    <li>
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/8b19b9b4325b3fe505399d7871372a1db9cadd98a85de4120145caa2f60d72e0"
+        >https://mempool.space/tx/8b19b9b4325b3fe505399d7871372a1db9cadd98a85de4120145caa2f60d72e0</a
+      >
+    </li>
+    <li>
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0x2a8e73e442cb45e16831d097388cf2a99376b6cbfc292a81e99d91aaf8abac8a"
+        >0x2a8e73e442cb45e16831d097388cf2a99376b6cbfc292a81e99d91aaf8abac8a</a
+      >
+    </li>
+  </ul>
+</li>
+
+  <li>
+    <p>0.5 swapped to 18,530.5061 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/e3c272f0ba8e03a055c60d34dde5e3f3641bc794b193284e807ad9733ca09f0a"
+          >https://mempool.space/tx/e3c272f0ba8e03a055c60d34dde5e3f3641bc794b193284e807ad9733ca09f0a</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0x5846678061ebf936e8db95c719d3f5813f1050b3fefae7a98f586a148b04ee7a"
+          >0x5846678061ebf936e8db95c719d3f5813f1050b3fefae7a98f586a148b04ee7a</a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>0.62186833 swapped to 23,263.80054 STX:</p>
+    <ul>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://mempool.space/tx/e13b9e71ec429f63a8023e9ec50a78567c385fccd5f055691046156b8bc5bded"
+          >https://mempool.space/tx/e13b9e71ec429f63a8023e9ec50a78567c385fccd5f055691046156b8bc5bded</a
+        >
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/0xc14be154320e0bc58feb731b7f7ca350916364f695ba1499ab5e7dcc53e07cf2"
+          >0xc14be154320e0bc58feb731b7f7ca350916364f695ba1499ab5e7dcc53e07cf2</a
+        >
+      </li>
+    </ul>
+  </li>
+
+</ul>
+
+<h3>Total Rewards</h3>
+<p>
+  A total of 147,621.86495 STX were distributed to 677 pool members and 5
+  contracts. The distribution was based on 40,117,042.559387 STX stacked to
+  receive STX rewards.
+</p>
+<p>
+  A total of 1.12262522 BTC were distributed to 1 pool member from the proxy btc
+  address. The distribution was based on 11,459,999 STX stacked to receive BTC
+  rewards.
+</p>
+<p>
+  If all BTC rewards were distributed as STX rewards the total would have been
+  189,792.132666 STX based on 51,577,041.559387 STX stacked.
+</p>
+
+<h3>Preparing for Nakamoto Release (3.5% reserve)</h3>
+<p>
+  This year, the Nakamoto hard fork will bring sBTC. This means that we will
+  wrap BTC to sBTC, then exchange to STX and distribute.
+</p>
+<p>
+  However, stackers need to do more work eventually, run stacks and a signer
+  node. We successfully started to be signer for Stacks 2.5 and are registered
+  since cycle #84 as signer. We voted during cycle #90 for an initially
+  simplified implementation of block signing.
+</p>
+<p>
+  For cycle #91, we transferred
+  <a
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    href="https://explorer.hiro.so/txid/0x7ff159154edd820d078f6e26a6b20b4acd8678eee0226eb7ee7735edb0ec7f49?chain=mainnet"
+    >4,565.624689 STX</a
+  >
+  from STX distribution and 0.05908553 BTC from BTC distribution to the reserve
+  (see above). That is a around than 3.5% of the theoretical total STX rewards
+  after converting BTC to STX at the exchange rate of 2718 sats/stx
+  (4,13,671,423 sats / 152,187.48964 STX).
+</p>
+<h3>Swapping using simpleswap</h3>
+<p>
+  Swapping using simpleswap is not as transparent as using aBTC via Xlink
+  bridge. Therefore, here is a screenshot with the exchange ids. Two swaps are
+  missing because one was done via the simpleswap api (ejv3q9mojldsb6tr) and one
+  accidentially as an anonymous user:
+</p>
+<img src="/img/cycles/91-simpleswap.png" />
 </div>
     </section>
 
