@@ -448,5 +448,12 @@
       <guid>https://fastpool.org/rewards/92/</guid>
       <description>We received 5.00645000 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 92, we used&#xA;1.10111557 BTC for BTC distribution and&#xA;3.90533442 BTC for STX distribution.&#xA;Dust transactions There are many dust rewards of 200 sats. We ignore these utxos because consolidating them is more expensive then their value. That means that a few sats will rest in the pox reward address.</description>
     </item>
+    <item>
+      <title>Cycle #93</title>
+      <link>https://fastpool.org/rewards/93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/93/</guid>
+      <description>We received 5.79150000 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 93, we used&#xA;1.26906392 BTC for BTC distribution and&#xA;4.52243607 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions. They were consolidated accidentially in the first consolidation of cycle 93. Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,640,000 STX to Fast Pool.</description>
+    </item>
   </channel>
 </rss>
