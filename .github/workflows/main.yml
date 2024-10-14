@@ -39,8 +39,8 @@ jobs:
           pnpm run build
           cd ../..
           cp -r packages/home/public .
-          cp -r packages/members/build/static public
-          cp packages/members/build/* public/members | true
+          cp -r packages/members/dist/* public/members | true
+          cp -r packages/when/dist/* public/when | true
       - name: Netlify Actions
         uses: nwtgck/actions-netlify@v2.1.0
         with:
