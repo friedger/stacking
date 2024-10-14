@@ -35,8 +35,8 @@ jobs:
           hugo --minify
           cp public/members/index.html ../members/public
           cd ../members
-          yarn
-          SKIP_PREFLIGHT_CHECK=true yarn build
+          pnpm install
+          pnpm run build
           cd ../..
           cp -r packages/home/public .
           cp -r packages/members/build/static public
