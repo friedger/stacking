@@ -1,0 +1,89 @@
+{
+  "totalRewards": 534412500,
+  "distributions": [
+    {
+      "date": "2024-10-20",
+      "consolidation": [
+        {
+          "txid": "https://mempool.space/tx/437073c16b588f817b73a1e11cb82a025b5138a3fef46ca4743b9c20c0e4294c"
+        }
+      ],
+      "btcRewards": [
+        {
+          "txid": "https://mempool.space/tx/4929c39544477c1e63d42f4a658805ef0b2aa1545017406b75e25e3cb25a2de6"
+        }
+      ],
+      "btcStxSwaps": [
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/02284250147df238311b00c31bb8a9ac246842f409e8538941fbc6f46d6622c2",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/df81dac24ffa23ba09153f9a206e25b24920dde89cea87b21e4fc43bb3b635d7",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/6f2b50fd3d636cee9ac8bff1deaf6354cd47288b042e20a1309f863ea706d33e",
+          "btc": 0.41141053
+        }
+      ]
+    },
+    {
+      "date": "24-10-28",
+      "consolidation": [
+        {
+          "txid": "https://mempool.space/tx/4d3eb0ca0774dc23eac3a185ca590868fdfab4630199077caeb2a0528dd82f64"
+        },
+        {
+          "txid": "https://mempool.space/tx/5360c61744e6fb844db138678758381d7affa836b0aded822fdf22339729f6b0"
+        },
+        {
+          "txid": "https://mempool.space/tx/b9964611f07da474b203840727ce756c47fb54716578d01005432d6e57d9f760"
+        }
+      ],
+      "btcRewards": [
+        {
+          "txid": "https://mempool.space/tx/4f678b8b713b54e942f52fa42a7a2438ef4dfef2240abf4c2578ab0f79503381"
+        },
+        {
+          "txid": "https://mempool.space/tx/c91b22c1931e397a40af6996a9f6a3b84867cb1e1c46aac53aeb13e099629c41"
+        }
+      ],
+      "btcStxSwaps": [
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/f01471d3411b44fd14fca6096056a922470b428707d09489319192cd03d24f5c",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/2d3545f4378d81c7d45d705f0ffb0ae8438a41934a4210ac7e2759cc2b02c426",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/f1c7b465f3432c8f8662861e3eb4428c5dc0aa9c83ede4c4fd02fb8f7405ade0",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/19b23736d462fb99282d5eac05b3b2531f301cf0c475c673616368ccdb3dd85d",
+          "btc": 0.5
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/15eab494e3dbc6c51a3b3e83cc408782d1fa499f43d51935295d3591dc708a40",
+          "btc": 0.24876831
+        },
+        {
+          "id": "",
+          "btcTxid": "https://mempool.space/tx/74891dbc896eb7f1f807336da6908ff9f04f8a42fd7e913c58bbd29147617d3d",
+          "btc": 0.01711508
+        }
+      ]
+    }
+  ]
+}
