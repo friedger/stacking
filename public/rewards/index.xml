@@ -462,5 +462,19 @@
       <guid>https://fastpool.org/rewards/94/</guid>
       <description>We received 5.05206500 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 94, we used&#xA;1.11179467 BTC for BTC distribution and&#xA;3.94027032 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions. They were consolidated accidentially in the first consolidation of cycle 93. Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,260,000 STX to Fast Pool.</description>
     </item>
+    <item>
+      <title>Cycle #95</title>
+      <link>https://fastpool.org/rewards/95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/95/</guid>
+      <description>We received 5.34412500 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 95, we used&#xA;1.16025782 BTC for BTC distribution and&#xA;4.17736660 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions.&#xA;Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,580,000 STX to Fast Pool.</description>
+    </item>
+    <item>
+      <title>Cycle #96</title>
+      <link>https://fastpool.org/rewards/96/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/96/</guid>
+      <description>We received 4.73241000 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 95, we used&#xA;1.02457164 BTC for BTC distribution and&#xA;3.70783835 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions.&#xA;Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,580,000 STX to Fast Pool.</description>
+    </item>
   </channel>
 </rss>
