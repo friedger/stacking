@@ -7,16 +7,17 @@ case_feature_img: "/img/cycles/96.jpg"
 case_summary: "Rewards"
 layout: "rewards"
 draft: false
+thumbnail: "/img/cycles/96.jpg"
 ---
 
 <p>We received 4.73241000 BTC as rewards.</p>
 
 <h3>Payout in STX and BTC</h3>
 <p>
-  We introduced a distribution flow in BTC on individual requests. The BTC
-  rewards were split proportionally.
+  The BTC rewards were split proportionally to pool members registered for
+  rewards in STX, the default, and for rewards in BTC.
 </p>
-<p>For cycle 95, we used</p>
+<p>For cycle 96, we used</p>
 <ul>
   <li>
     <p>1.02457164 BTC for BTC distribution and</p>
@@ -56,141 +57,105 @@ draft: false
 <p>
   After 1 week, we consolidated the rewards until then, a total of 2.29373549
   BTC. We distributed 0.47176628 BTC to pool members who registered for BTC
-  rewards and 0.02654325 BTC to the Fast Pool reserve. The remaining 1.X BTC
-  were swapped to X STX. Thereof, 76,324.140962 STX were distributed to 753
-  members.
+  rewards and 0.02482980 BTC to the Fast Pool reserve. The remaining 1.79712163
+  BTC were swapped to 79,504.313894 STX. Thereof, 76,324.140962 STX were
+  distributed to 753 members.
 </p>
 <ul>
-  {{% toproxy btc="2.44231457"
+  {{% toproxy btc="2.29373549"
   btctx="https://mempool.space/tx/f0dd6fcd8ea982b379b9fd910bdd7f7ea3042584c47037890203ab4b61a191fd"
-  %}} {{% payoutbtc members="0.47176628 " reserve="0.02482980"
+  %}} {{% payoutbtc members="0.47176628" reserve="0.02482980"
   btctx="https://mempool.space/tx/ed6f2d5f8e2ab549755f2aa866d31a253f986fcd50927753807ab02c519824b1"
   %}}
   <!-- swaps -->
-  {{% swap btc="0.5" stx=""
-  btctx="https://mempool.space/tx/02284250147df238311b00c31bb8a9ac246842f409e8538941fbc6f46d6622c2"
-  stxtx="" %}} {{% swap btc="0.5" stx="17743.854855"
-  btctx="https://mempool.space/tx/df81dac24ffa23ba09153f9a206e25b24920dde89cea87b21e4fc43bb3b635d7"
-  stxtx="0x8c2424de58ee1be61297ee64e7f88127993bd6756905ce4f9002c5fde929b1eb" %}}
-  {{% swap btc="0.5" stx="17792.829728"
-  btctx="https://mempool.space/tx/0571e1bec3db63d9bf942c66e461de0455c0a2c20d867b92cc807500acff7c63"
-  stxtx="0xd8a4a5d4b1f5e9f1bcd41890ba87eb2e6a8b0d9e93d8dedc95b5a9063c1405ca" %}}
-  {{% swap btc="0.41141053" stx="14669.550129"
-  btctx="https://mempool.space/tx/6f2b50fd3d636cee9ac8bff1deaf6354cd47288b042e20a1309f863ea706d33e"
-  stxtx="0x91920296430eb48b31681b0291c45e77918273250c1599e9e38a1f302b402059" %}}
+  {{% swap btc="0.5" stx="21,643.253245"
+  btctx="https://mempool.space/tx/bebce85c5899a9acc4e8b293f4fc276cfd045e998afe2ad8e4a8215de6a3c326"
+  stxtx="0xfee3ef6d207f6cc0c5ff5da348a519286eaa38a2be43007377e42bbf3d3697ed" %}}
+  {{% swap btc="0.5" stx="21,726.87057"
+  btctx="https://mempool.space/tx/ef2cb6d8fe205771aab8efaf06acabd4059e560b8556cab19b00b51f902b1fd0"
+  stxtx="0x29d7345bec682257a82a240fbdda41e42c69ff6e9221bfe7d7ae30324ab1e955" %}}
+  {{% swapABtc btc="0.79711709" abtc="0.79509891"
+  btctx="https://mempool.space/tx/7458ede9597add52971f5b96067645fbf33f2c04429c55c8dc8ab8658c83dd0d"
+  stxtx="0x45342422dfbc12b29d569f8ccd11f6706ea43eceb23bc8081df915f6afbe2305" %}}
+  {{% swapABtcToStx abtc="0.5" stx="22,844.315684"
+  stxtx="0x440cd058d21a4c0797b1d413b5d0b921246bdd28adf95d5f98a1965e3b770fe6" %}}
+  {{% swapABtcToStx abtc="0.29509891" stx="13,289.874395"
+  stxtx="0x5777c19800ec75f73d2bfddd0b9fb07a3177588356c85ae226fb9caf4144973b" %}}
 </ul>
 
 <p>
-  During the last week of the cycle, we consolidated the rewards of 2.89530986
-  in 3 transactions. We distributed 0.59789530 BTC to pool members who
-  registered for BTC rewards and 0.03146817 BTC to the Fast Pool reserve. The
-  remaining 2.26594639 BTC were swapped to 86,396.401035 STX. Thereof,
-  82,940.544993 STX were distributed to 734 members.
+  During the last week of the cycle, we consolidated the rewards of 2.42819182
+  BTC. We distributed 0.49942165 BTC to pool members who registered for BTC
+  rewards and 0.12140981 BTC to the Fast Pool reserve (fees for all pool
+  members). The remaining 1.80735773 BTC were swapped to 79,849.072815 STX that
+  were distributed to 753 members.
 </p>
 <ul>
-  {{% toproxy btc="1.44222352"
+  {{% toproxy btc="2.42819182"
   btctx="https://mempool.space/tx/4d3eb0ca0774dc23eac3a185ca590868fdfab4630199077caeb2a0528dd82f64"
-  %}} {{% toproxy btc="1.43120602"
-  btctx="https://mempool.space/tx/5360c61744e6fb844db138678758381d7affa836b0aded822fdf22339729f6b0"
-  %}} {{% toproxy btc="0.02188032"
-  btctx="https://mempool.space/tx/b9964611f07da474b203840727ce756c47fb54716578d01005432d6e57d9f760"
   %}}
   <!-- payout to btc receivers-->
-  {{% payoutbtc members="0.59337691" reserve="0.03123036"
-  btctx="https://mempool.space/tx/19b23736d462fb99282d5eac05b3b2531f301cf0c475c673616368ccdb3dd85d"
-  %}} {{% payoutbtc members="0.00451839" reserve="0.00023781"
-  btctx="https://mempool.space/tx/c91b22c1931e397a40af6996a9f6a3b84867cb1e1c46aac53aeb13e099629c41"
+  {{% payoutbtc members="0.49942165" reserve="0.12140981"
+  btctx="https://mempool.space/tx/2ba54477221874ff9358758067673fb1a8fb311538e1c05939c73f326f128b26"
   %}}
 
   <!-- swaps -->
-  {{% swap btc="0.5" stx="18,444.203107"
-  btctx="https://mempool.space/tx/f01471d3411b44fd14fca6096056a922470b428707d09489319192cd03d24f5c"
-  stxtx="0xefee46a3a07d7b6a1a1f0c82bd03d511c523b1d674526ae4d5b75558331666e2" %}}
-  {{% swap btc="0.5" stx="18,443.182106"
-  btctx="https://mempool.space/tx/2d3545f4378d81c7d45d705f0ffb0ae8438a41934a4210ac7e2759cc2b02c426"
-  stxtx="0x37df850900c61d0765b8fa5a6ec8c87c876088402dfe4aeb058811e546953592" %}}
-  {{% swap btc="0.5" stx="19,652.123579"
-  btctx="https://mempool.space/tx/f1c7b465f3432c8f8662861e3eb4428c5dc0aa9c83ede4c4fd02fb8f7405ade0"
-  stxtx="0x4e09bc2f5ddae51fcfa60d04132f7dc6d730b3d5b16480b84746747a49e9d34d" %}}
-  {{% swap btc="0.5" stx="19,635.231699"
-  btctx="https://mempool.space/tx/19b23736d462fb99282d5eac05b3b2531f301cf0c475c673616368ccdb3dd85d"
-  stxtx="0x250fa4fa647bc31ae828a76911ecd8ba9eb18c57d8f9bb3ccce9f3f7c346b987" %}}
-  {{% swap btc="0.24876831" stx="9,567.094345"
-  btctx="https://mempool.space/tx/15eab494e3dbc6c51a3b3e83cc408782d1fa499f43d51935295d3591dc708a40"
-  stxtx="0x10c89203d56eca9df8785618e2a578ed1e4fb26ddeede48fced60320b3597fef" %}}
-  {{% swap btc="0.01711508" stx="654.566199"
-  btctx="https://mempool.space/tx/74891dbc896eb7f1f807336da6908ff9f04f8a42fd7e913c58bbd29147617d3d"
-  stxtx="0x7f351d61c8b27863c02e6cdcb48668fe22a2537cfe3f5d44d882ee6b3bee22a5" %}}
+  {{% swap btc="0.5" stx="21023539286"
+  btctx="https://mempool.space/tx/1369863c709a433f3d3fa15d7401369970e10c3d81b21a1b68792b46d324c0ba"
+  stxtx="0x4d0f8d82d7307d630a6e372298a25c412f6def99cdc7bfc5012597ffa7c57a33" %}}
+  {{% swap btc="0.5" stx="21995702804"
+  btctx="https://mempool.space/tx/ef8d300c9feded82454e38b72b01007ebb81ee9cbe53850a0fcdb28b94ba051c"
+  stxtx="0x3c66fead96085f73a9cc9a574d8f86c3a089440b0cd9ac1686b07a0307f32493" %}}
+  {{% swap btc="0.5" stx="22875517941"
+  btctx="https://mempool.space/tx/74c61e951378bd1730ebd783212143cb94e70c4ff6c3002f9f35b2d327a6e29f"
+  stxtx="0x3e7cfbe0a11927733e936e22cb5eeac81afe6b9f68747d837ec08352ca5977f2" %}}
+  {{% swap btc="0.30732540" stx="13,954.312784"
+  btctx="https://mempool.space/tx/8d437f8bc75e77309bc02e0a5c3724f53885fc1728fa502b40738c3f11a63bd4"
+  stxtx="0x724e3381be7e12a450c2d27aa733b1893ca9655d56b79093c5d5c9274e5c78a3" %}}
 </ul>
 
 <h3>Total Rewards</h3>
 <p>
-  A total of 148,148.033728 STX were distributed to 734 pool members and 7
-  contracts. The distribution was based on 41,339,542.193990 STX stacked to
+  A total of 156,173.213777 STX were distributed to 746 pool members and 7
+  contracts. The distribution was based on 41,552,393.215034 STX stacked to
   receive STX rewards.
 </p>
 <p>
-  A total of 1.10224492 BTC were distributed to 1 pool member from the proxy btc
+  A total of 0.97118793 BTC were distributed to 1 pool member from the proxy btc
   address. The distribution was based on 11,482,001 STX stacked to receive BTC
   rewards.
 </p>
 <p>
   If all BTC rewards were distributed as STX rewards the total would have been
-  189,295.946383 STX based on 52,821,543.193990 STX stacked.
+  199,327.912171 STX based on 53,034,394.215034 STX stacked.
 </p>
 
-<h3>Preparing for Nakamoto Release (4.3% reserve)</h3>
+<h3>Compensation as Stacks Signer after Nakamoto Release (4.7% reserve)</h3>
 <p>
-  This was the last cycle before the Nakamoto hard fork. We now run successfully
-  a signer that continously mock-signes Stack blocks until the hard fork. Then
-  fast blocks will be signed.
+  This was the first cycle after the Nakamoto hard fork. We run successfully a
+  signer that continously signes Stack blocks. We coordinate closely with the
+  Stacks team that monitors the signers behaviour. We responded quickly to new
+  version updates and best practice recommendations. Our signer runs at a good
+  health level.
 </p>
 <p>
-  For cycle #95, we transferred
+  For cycle #96, we transferred
   <a
     target="_blank"
     rel="noopener noreferrer nofollow"
-    href="https://explorer.hiro.so/txid/0xf69a98ba21603d29b6ffd70b06f888db5f8b8a2cd8241ed908ac002b28e8971a?chain=mainnet"
-    >2,716.978697 STX</a
+    href="https://explorer.hiro.so/txid/0xbad52e3c6b9de775c8e700591cb98eb5276d427cb0636b5d834c876f5d564109?chain=mainnet"
+    >3,180.172555 STX</a
   >
-  and
-  <a
-    target="_blank"
-    rel="noopener noreferrer nofollow"
-    href="https://explorer.hiro.so/txid/0x8c16937ded30a73fc6f5407bb656b30714923d41f310e9d34d12c5bae3792aec?chain=mainnet"
-    >3,455.856042 STX</a
-  >
-  from STX distribution and 0.05801142 BTC from BTC distribution to the reserve
-  (see above). That is 8,230.707034 STX or around 4.3% of the theoretical total
-  STX rewards after converting BTC to STX at the exchange rate of 2819 sats/stx
-  (4,17,736,660 sats / 148,148.033728 STX).
+  from STX distribution and 0.02482980 BTC from BTC distribution to the reserve
+  (see above) of the first distribution. For the second distribution, we
+  transferred the fees in BTC only (0.12140981, see above). The total
+  corresponds to 9,340.223523 STX or around 4.7% of the theoretical total STX
+  rewards after converting BTC to STX at the exchange rate of 2374 sats/stx
+  (3,70,783,835 sats / 156,173.213777 STX).
 </p>
 
-<h3>Swapping using Simpleswap</h3>
-The first swaps were created using simpleswap API, therefore, no screenshot.
-Instead the list of swap ids is below. The last swaps were created using the
-simpleswap UI. Screenshot is shown at the bottom.
-<ul>
-  <li>
-    <a href="https://simpleswap.io/exchange?id=9s7pc6pq9zp9fks0"
-      >9s7pc6pq9zp9fks0</a
-    >
-  </li>
-  <li>
-    <a href="https://simpleswap.io/exchange?id=cmr0f1lvsh3qk22a"
-      >cmr0f1lvsh3qk22a</a
-    >
-  </li>
-  <li>
-    <a href="https://simpleswap.io/exchange?id=9vkyatdfza48xful"
-      >9vkyatdfza48xful</a
-    >
-  </li>
-  <li>
-    <a href="https://simpleswap.io/exchange?id=ht37v8gr87t3ddia"
-      >ht37v8gr87t3ddia</a
-    >
-  </li>
-</ul>
+<h3>Swapping using Simpleswap and Xlink</h3>
+The swaps were created using the simpleswap UI and Xlink. The Xlink swaps are
+referenced above. For the simpleswap swaps, a screenshot is shown below.
 
-<img src="/img/cycles/95-simpleswap.png" />
+<img src="/img/cycles/96-simpleswap.png" />

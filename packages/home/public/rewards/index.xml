@@ -474,7 +474,7 @@
       <link>https://fastpool.org/rewards/96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/96/</guid>
-      <description>We received 4.73241000 BTC as rewards.&#xA;Payout in STX and BTC We introduced a distribution flow in BTC on individual requests. The BTC rewards were split proportionally. For cycle 95, we used&#xA;1.02457164 BTC for BTC distribution and&#xA;3.70783835 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions.&#xA;Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,580,000 STX to Fast Pool.</description>
+      <description>We received 4.73241000 BTC as rewards.&#xA;Payout in STX and BTC The BTC rewards were split proportionally to pool members registered for rewards in STX, the default, and for rewards in BTC. For cycle 96, we used&#xA;1.02457164 BTC for BTC distribution and&#xA;3.70783835 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet does not contain any dust transactions.&#xA;Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,580,000 STX to Fast Pool.</description>
     </item>
   </channel>
 </rss>
