@@ -41,12 +41,12 @@ export default function DelegateAction({
     <div className="DelegateAction">
       <div>
         <p>
-          To join the pool, you need to allow Fast pool to manage your stacking. This needs to be
-          done only once.
+          To join the pool, you need to allow the pool ({poolContract}) to manage your stacking.
+          This needs to be done only once.
         </p>
         <p>
           <button className="btn btn-outline-primary" type="button" onClick={handleAllowPool}>
-            Allow Fast Pool to manage your stacking
+            Allow pool to manage your stacking
           </button>
         </p>
         <p>
