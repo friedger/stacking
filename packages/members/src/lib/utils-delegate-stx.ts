@@ -3,13 +3,21 @@ import { Dispatch, SetStateAction } from 'react';
 import { ContractCallRegularOptions, openContractCall } from '@stacks/connect';
 import { StacksNetwork } from '@stacks/network';
 import { StackingClient } from '@stacks/stacking';
-import { uintCV } from '@stacks/transactions';
+import { bufferCVFromString, uintCV } from '@stacks/transactions';
 import { InputProps } from '@stacks/ui';
-import { fastPoolContract, stxToMicroStx } from './delegation';
+import { multiPoolContract, stxToMicroStx } from './delegation';
 
-function getOptions(amount: string, network: StacksNetwork): ContractCallRegularOptions {
-  const [contractAddress, contractName] = fastPoolContract.split('.');
-  const functionArgs = [uintCV(stxToMicroStx(amount).toString())];
+function getOptions(
+  amount: string,
+  poolContract: string,
+  network: StacksNetwork
+): ContractCallRegularOptions {
+  const [contractAddress, contractName] = poolContract.split('.');
+  const functionArgs =
+    poolContract === multiPoolContract
+      ? [uintCV(stxToMicroStx(amount).toString()), bufferCVFromString('')]
+      : [uintCV(stxToMicroStx(amount).toString())];
+
   return {
     contractAddress,
     contractName,
@@ -22,12 +30,14 @@ function getOptions(amount: string, network: StacksNetwork): ContractCallRegular
 interface CreateHandleSubmitArgs {
   client: StackingClient;
   network: StacksNetwork;
+  poolContract: string;
   setIsContractCallExtensionPageOpen: Dispatch<SetStateAction<boolean>>;
   amountRef: React.MutableRefObject<InputProps>;
 }
 export function createHandleSubmit({
   client,
   network,
+  poolContract,
   setIsContractCallExtensionPageOpen,
   amountRef,
 }: CreateHandleSubmitArgs) {
@@ -38,7 +48,7 @@ export function createHandleSubmit({
       client.getStackingContract(),
     ]);
 
-    const delegateStxOptions = getOptions(amountRef.current.value as string, network);
+    const delegateStxOptions = getOptions(amountRef.current.value as string, poolContract, network);
 
     openContractCall({
       ...delegateStxOptions,

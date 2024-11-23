@@ -40,6 +40,7 @@ import {
 } from '../lib/constants';
 import { initialMembers } from '../lib/memberlist.ts';
 import { fetchDelegationState } from '../lib/stackingState.ts';
+import { fastPoolContract, multiPoolContract } from '../lib/delegation.ts';
 
 export const MemberDetails = ({
   stxAddressToShow,
@@ -250,10 +251,14 @@ export const MemberDetails = ({
         <br />
         {authenticated && stxAddress === stxAddressToShow && (
           <>
-            <h4>Delegate STX</h4>
-            <DelegateAction address={stxAddress} />
+            <h4>Delegate STX to Fast Pool (pool is full)</h4>
+            <DelegateAction address={stxAddress} poolContract={fastPoolContract} />
             <br />
             <PayoutState payoutState={false} />
+            <br />
+            <br />
+            <h4>Delegate STX to Multi Pool</h4>
+            <DelegateAction address={stxAddress} poolContract={multiPoolContract} />
             <br />
             <br />
             <h4>Friedger Pool NFT</h4>

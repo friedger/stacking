@@ -4,7 +4,13 @@ import { createHandleSubmit as createHandleSubmitAllowFastPool } from '../lib/ut
 import { createHandleSubmit as createHandleSubmitDelegateStx } from '../lib/utils-delegate-stx';
 import { StackingClient } from '@stacks/stacking';
 
-export default function DelegateAction({ address }: { address: string }) {
+export default function DelegateAction({
+  address,
+  poolContract,
+}: {
+  address: string;
+  poolContract: string;
+}) {
   const amountRef = useRef();
   const [suggestedAmount, setSuggestedAmount] = useState(250);
 
@@ -17,15 +23,16 @@ export default function DelegateAction({ address }: { address: string }) {
     return false;
   };
 
-  const handleAllowFastPool = createHandleSubmitAllowFastPool({
-    client,
+  const handleAllowPool = createHandleSubmitAllowFastPool({
     network,
+    poolContract,
     setIsContractCallExtensionPageOpen,
   });
 
   const handleDelegateStx = createHandleSubmitDelegateStx({
     client,
     network,
+    poolContract,
     setIsContractCallExtensionPageOpen,
     amountRef,
   });
@@ -38,7 +45,7 @@ export default function DelegateAction({ address }: { address: string }) {
           done only once.
         </p>
         <p>
-          <button className="btn btn-outline-primary" type="button" onClick={handleAllowFastPool}>
+          <button className="btn btn-outline-primary" type="button" onClick={handleAllowPool}>
             Allow Fast Pool to manage your stacking
           </button>
         </p>

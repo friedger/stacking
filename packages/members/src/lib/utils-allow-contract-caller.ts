@@ -2,16 +2,16 @@ import { Dispatch, SetStateAction } from 'react';
 
 import { ContractCallRegularOptions, openContractCall } from '@stacks/connect';
 import { StacksNetwork } from '@stacks/network';
-import { StackingClient } from '@stacks/stacking';
 import { noneCV, principalCV } from '@stacks/transactions';
-import { fastPoolContract, stackingContract } from './delegation';
+import { stackingContract } from './delegation';
 
 function getOptions(
   stackingContract: string,
+  poolContract: string,
   network: StacksNetwork
 ): ContractCallRegularOptions {
   const [contractAddress, contractName] = stackingContract.split('.');
-  const functionArgs = [principalCV(fastPoolContract), noneCV()];
+  const functionArgs = [principalCV(poolContract), noneCV()];
   return {
     contractAddress,
     contractName,
@@ -25,21 +25,19 @@ export interface HandleAllowContractCallerArgs {
   onFinish: () => void;
 }
 interface CreateHandleSubmitArgs {
-  client: StackingClient;
   network: StacksNetwork;
+  poolContract: string;
   setIsContractCallExtensionPageOpen: Dispatch<SetStateAction<boolean>>;
 }
 export function createHandleSubmit({
-  client,
   network,
+  poolContract,
   setIsContractCallExtensionPageOpen,
 }: CreateHandleSubmitArgs) {
-  return async function handleSubmit({
-    onFinish,
-  }: HandleAllowContractCallerArgs) {
+  return async function handleSubmit({ onFinish }: HandleAllowContractCallerArgs) {
     // TODO: handle thrown errors
 
-    const allowContractCallerOptions = getOptions(stackingContract, network);
+    const allowContractCallerOptions = getOptions(stackingContract, poolContract, network);
 
     openContractCall({
       ...allowContractCallerOptions,
