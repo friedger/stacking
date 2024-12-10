@@ -1,5 +1,9 @@
-<section class="cycle" data-scroll-index="{{ .cycle }}">
-  <h2>Cycle {{ .cycle }}</h2>
+<section class="cycle" data-scroll-index="{{ .cycle | lang.FormatNumber 0 }}">
+  <h2>
+    {{if eq ((math.Sub (float .cycle) (math.Floor (float .cycle))) |
+    lang.FormatNumber 1) "0.1"}}Multi Pool - {{end}}Cycle {{ .cycle |
+    lang.FormatNumber 0}}
+  </h2>
   {{if .total}} {{.count}} addresses with {{ div .total 1000000 |
   lang.FormatNumberCustom 0 }} STX locked {{ if .payout }} <br />Payout: {{div
   .payout 1000000 | lang.FormatNumberCustom 6 }} STX ({{ div .payout .total |
@@ -16,7 +20,7 @@
     </thead>
     {{ range sort .members "stacker" }}
     <tr>
-      <td>#{{ $.cycle }}</td>
+      <td>#{{ $.cycle | lang.FormatNumber 0}}</td>
       <td><a href="/users/{{ .stacker }}">{{ .stacker }}</a></td>
       <td style="text-align: right">
         {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}

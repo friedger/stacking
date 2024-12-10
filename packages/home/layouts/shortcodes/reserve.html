@@ -1,0 +1,13 @@
+{{ $exchangerate := (math.Floor (div (float ( .Get "swappedsats" )) (float (.Get
+"swappedstx" ))))}} {{ $stxrewards := ( div (float ( .Get "satstoreserve" ))
+$exchangerate )}} {{ $percent := ( mul (div $stxrewards (float ( .Get "totalstx"
+))) 100 ) }}
+<p>
+  For cycle #{{ .Get "cycle" }}, we transferred {{ div (float (.Get
+  "satstoreserve")) 1e8 }} BTC from BTC distribution to the reserve (see above).
+  The total corresponds to {{ $stxrewards | lang.FormatNumber 6 }} STX or around
+  {{ $percent | lang.FormatNumber 1 }}% of the theoretical total STX rewards
+  after converting BTC to STX at the exchange rate of {{ $exchangerate }}
+  sats/stx ({{ .Get "swappedsats" }} sats / {{ .Get "swappedstx" |
+  lang.FormatNumber 6 }} STX).
+</p>

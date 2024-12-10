@@ -5,7 +5,17 @@
 {{ else }}
 <tr>
   <td style="text-align: center; padding: 8px">
-    <a href="/cycles/{{ .cycle }}">{{ .cycle }}</a>
+    {{if eq (math.Sub .cycle (math.Floor .cycle )) 0.0 }}
+    <a href="/cycles/{{ .cycle }}"
+      >{{ .cycle }}{{ if ge .cycle 99}} Fast{{end}}</a
+    >
+    {{ else if eq ((math.Sub .cycle (math.Floor .cycle )) | lang.FormatNumber 1)
+    "0.1" }}
+    <a href="/mp/cycles/{{ math.Floor .cycle }}"
+      >{{ .cycle | lang.FormatNumber 0 }} Multi</a
+    >
+    {{ else }} {{ (math.Sub .cycle (math.Floor .cycle )) | lang.FormatNumber 1
+    }} {{ eq (math.Sub .cycle (math.Floor .cycle )) 0.0}} {{ end }}
   </td>
   <td style="text-align: right; padding: 8px">
     {{ div .total 1000000 | lang.FormatNumberCustom 0 }}
