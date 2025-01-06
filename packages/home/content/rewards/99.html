@@ -1,0 +1,170 @@
+---
+weight: 1
+title: "Cycle #99"
+description: "Cycle #99"
+nav_heading: "Rewards"
+case_feature_img: "/img/cycles/99.jpg"
+case_summary: "Rewards"
+layout: "rewards"
+draft: false
+thumbnail: "/img/cycles/99.jpg"
+---
+
+<p>We received X BTC as rewards.</p>
+
+<h3>Payout in STX and BTC</h3>
+<p>
+  The BTC rewards were split proportionally to pool members registered for
+  rewards in STX, the default, and for rewards in BTC.
+</p>
+<p>For cycle 99, we used</p>
+<ul>
+  <li>
+    <p>X BTC for BTC distribution and</p>
+  </li>
+  <li>
+    <p>X BTC for STX distribution.</p>
+  </li>
+</ul>
+
+<h3>Dust transactions</h3>
+<p>
+  Currently, the wallet contains 1200 sats in dust transactions of 400 sats.
+</p>
+
+<h3>Liquid Stacking With LISA</h3>
+<p>
+  This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s
+  backend delegated 1,410,000 STX to Fast Pool. Lisa used 3 smart contract as
+  pool members.
+</p>
+<p>The rewards were distributed with the normal distribution flow:</p>
+<ul>
+  {{% tolisa stx="1,489.773082"
+  stxtx="0x466fd690077770a3314381c42103c48f184ca5d9c5e2b07a892a099879c4d37a" %}}
+  {{% tolisa stx="3,154.159639"
+  stxtx="0x506fffd6874b2973920e7b82826cc35afb9e4e9d9ffe3e53defd381cbc95e29b" %}}
+</ul>
+
+<p>
+  We encourage pool members to check out the documentation and learn more about
+  liquid stacking at
+  <a
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    href="https://docs.lisalab.io/"
+    >https://docs.lisalab.io/</a
+  >
+</p>
+
+<h3>Consolidation and Swapping</h3>
+<p>
+  After 1 week, we consolidated the rewards until then, a total of 4.25562571
+  BTC. We distributed 0.71478620 BTC to pool members who registered for BTC
+  rewards and 0.19150315 BTC to the Fast Pool reserve (fees for all pool
+  members, 4.5%). The remaining 3.34928057 BTC were swapped to X STX that were
+  distributed to 805 members. 1.5 BTC were swapped via simpleswap to
+  76,925.055871 STX, the rest via Stacks mining. The miner used 1.84078894 BTC
+  until Bitcoin block 875756 (1.84921989 BTC received, balance 843,095 sats) and
+  65,152.338093 STX were mined and matured until Stacks block 368870 (BTC block
+  875839).
+</p>
+<ul>
+  {{% toproxy btc="1.75986828"
+  btctx="https://mempool.space/tx/dadb7eaf92aee7af0d1262cc5f26790aa147ba4a92db994286390cf481304fe0"
+  %}} {{% toproxy btc="2.49575743"
+  btctx="https://mempool.space/tx/e6a0ee57d3034fae56489971d13d692d1ea92c7bcdcb835108d3fd1f466de38a"
+  %}} {{% payoutbtc members="0.71478620" reserve="0.19150315"
+  btctx="https://mempool.space/tx/0cbc1ca064f7c6a091175e846ff73fff204e83745ff781eaa1eba84f7b36bb79"
+  %}}
+  <!-- swaps -->
+  {{% swap btc="0.5" stx="25,006.892"
+  btctx="https://mempool.space/tx/0cbc1ca064f7c6a091175e846ff73fff204e83745ff781eaa1eba84f7b36bb79"
+  stxtx="0x37061db483c0bf22ea6aa8a4a8373f81d8511461cd71a72e396a3db89104eb50" %}}
+</ul>
+
+<p>
+  During the last week of the cycle, we consolidated the rewards of 3.74973942
+  BTC. We distributed 0.63934240 BTC to pool members who registered for BTC
+  rewards and 0.18748697 BTC to the Fast Pool reserve (fees for all pool
+  members). The remaining 2.92288309 BTC were swapped to X STX that were
+  distributed to 769 members.
+</p>
+<p>
+  The last btc were swapped at BTC block 876397
+  (https://mempool.space/tx/35b1740811ae169ef946091cac09bd57251c02dcb16c2ed149794becb0323217).
+  Last Block mined was 385658.
+</p>
+<p>total swapped 198,580.354189 STX</p>
+<ul>
+  {{% toproxy btc="2.00076747"
+  btctx="https://mempool.space/tx/a3cc653335567b0070f658fcbc4f9b535e1d829df6e8197d5155d23155e8b315"
+  %}} {{% toproxy btc="1.74897195"
+  btctx="https://mempool.space/tx/d51729a144b5a3f89bb5a9b25497f3add7a67aaa29e44f41aa7210954ebef80f"
+  %}}
+  <!-- payout to btc receivers-->
+  {{% payoutbtc members="0.63934240" reserve="0.18748697"
+  btctx="https://mempool.space/tx/2bd8a0f96d03827a3f1b0da1e581c72ee3d8eb186a02449d8f77efb777d8bb2b"
+  %}}
+
+  <!-- swaps -->
+  {{% swap btc="0.5" stx="19,549.589765"
+  btctx="https://mempool.space/tx/d7f17d326aca342b892060fc7c8cb4e4f1f921bb8b0d8c6fa2dbbbf734d76f38"
+  stxtx="0x2b1f7d66748181fb48815641272dd459bea21ebbf15d7bf7cb427143ea2c915e" %}}
+  {{% swap btc="0.5" stx="19,529.480996"
+  btctx="https://mempool.space/tx/da8310798950390f5f8681b11f153b052a3ec900f77b53c8a2a7bacc90a1170d"
+  stxtx="0x25b79bc84269bdc6c0248acf60aa1c8df5a8eb1401566e56e5eea40961b23a79" %}}
+  {{% swap btc="0.5" stx="19,552.411171"
+  btctx="https://mempool.space/tx/d1cf7dabaa2d63866d861e9cc6ea5b6461b503ac837d2888b55471499c5c139b"
+  stxtx="0xfe50be815cfa231573b31003f4627363a8cd74d737eb600f7c05f929a102675e" %}}
+  {{% swap btc="0.5" stx="19,474.64692"
+  btctx="https://mempool.space/tx/f5d76118c7040051b42df4dab0adf45efb2253088f96e00eda17d542c729db6c"
+  stxtx="0x384f9d47ceed13c91dd57e1dcaefa857cc6c0c8f5ecc94d10d294d0750d8ad4e" %}}
+  {{% swapABtc btc="0.92274500" abtc="0.92274500"
+  btctx="https://mempool.space/tx/9cff707746bab8f9a9b928e3a6ae46e3b12a76797e7e898265f8d5ad5f6a80ac"
+  stxtx="0x224aa1554ae5023e32492ab66917947fb44b15e1a353a9c372852865d3f561ef" %}}
+  {{% swapABtcToStx abtc="0.92274500" stx="39,319.816959"
+  stxtx="0xecf006caf622fa445346ac578e72627b644c1e2f87b437e3a8a10c937e03e14a" %}}
+</ul>
+
+<h3>Total Rewards</h3>
+<p>
+  A total of 172,888.583155 STX were distributed to 764 pool members and 5
+  contracts. The distribution was based on 52,492,772.234729 STX stacked to
+  receive STX rewards.
+</p>
+<p>
+  A total of 0.98060786 BTC were distributed to 1 pool member from the proxy btc
+  address. The distribution was based on 11,482,001 STX stacked to receive BTC
+  rewards.
+</p>
+<p>
+  If all BTC rewards were distributed as STX rewards the total would have been
+  210,705.349632 STX based on 63,974,773.234729 STX stacked.
+</p>
+
+<h3>Compensation as Stacks Signer after Nakamoto Release (5.0% reserve)</h3>
+<p>
+  This was the third cycle after the Nakamoto hard fork. We run successfully a
+  signer that continously signes Stack blocks. Our signer runs at a good health
+  level. We setup a sBTC signer on testnet and are preparing the sBTC signer for
+  mainnet.
+</p>
+{{% reserve cycle="99" satstoreserve="28756296"
+stackedstxforstx="52492772.234729" swappedsats="471904049"
+swappedstx="172888.583155" totalstx="210705.349632" %}}
+
+<h3>Swapping using Simpleswap and Xlink</h3>
+<p>
+  The swaps were created using the simpleswap UI as well as XLink. A screenshot
+  of simpleswap is shown below. It includes all swaps but one. The extra swap
+  has
+  <a
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    href="https://simpleswap.io/exchange?id=i8tj4gfvtg4qc2pa"
+    >simpleswap id "i8tj4gfvtg4qc2pa"</a
+  >.
+</p>
+
+<img src="/img/cycles/99-simpleswap.png" />
