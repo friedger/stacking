@@ -61,3 +61,8 @@ subtitle = "Learn more"
 
 [params.footer]
 enable = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

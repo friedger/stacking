@@ -497,5 +497,26 @@
       <guid>https://fastpool.org/rewards/99/</guid>
       <description>We received 5.72580400 BTC as rewards.&#xA;Payout in STX and BTC The BTC rewards were split proportionally to pool members registered for rewards in STX, the default, and for rewards in BTC. For cycle 99, we used&#xA;1.01233817 BTC for BTC distribution and&#xA;4.71346582 BTC for STX distribution.&#xA;Dust transactions Currently, the wallet contains no dust transactions.&#xA;Liquid Stacking With LISA This cycle, the Liquid Stacking service LISA with FAST Pool as part of Lisa’s backend delegated 1,410,000 STX to Fast Pool.</description>
     </item>
+    <item>
+      <title>Fast Pool - Cycle #100</title>
+      <link>https://fastpool.org/rewards/100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/100/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/100-md-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/100-md-swap/</guid>
+      <description>Consolidation and Swapping At the end of the cycle, we consolidated the rewards of 0.06350000 BTC.&#xA;0. 06341953 BTC to proxy: https://mempool.space/tx/9e79c9ec388230cfb32941f74408f1550447336bb57419c56c0fc61423ad1a5e We swapped the BTC rewards in 1 transaction using simpleswap.&#xA;0.06341621 BTC swapped to 3,463.951144 STX:&#xA;https://mempool.space/tx/df358e9373aa674911dc066b70ad196f6ac1132ffd27a96642a2b3bb87797f0f 0xa38979b241c9697105e990b7877638885666910e0263dfae3d830bf3937c21f1 A screenshot of simpleswap is shown below.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/100-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/100-swap/</guid>
+      <description>Consolidation and Swapping We used all BTC stacking rewards available for STX distribution after fees to mine STX. We mined X blocks and received 148,755.88906 STX as rewards.</description>
+    </item>
   </channel>
 </rss>

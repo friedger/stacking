@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head_casestudy.html" . }}
+  </head>
+  <body>
+    {{ partial "nav_rewards.html" . }}
+    <!-- alert -->
+    {{ partial "alert.html" . }}
+    <title>Multi Pool {{ .Param "cycle"}}</title>
+    <!-- data -->
+    {{ partial "rewards.html" (index $.Site.Data.rewards (print "payout-mp-"
+    (.Param "cycle") "-all" )) }}
+    <!-- footer -->
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

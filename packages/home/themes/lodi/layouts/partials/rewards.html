@@ -1,0 +1,48 @@
+<p>
+  We received {{ div (add (.info.rewardsBTCForBTCReceivers | int)
+  (.info.rewardsBTCForSTXReceivers | int)) 1e8 | lang.FormatNumberCustom 8 }}
+  BTC as stacking rewards.
+</p>
+
+{{ if gt .info.numberOfBtcReceivers 0}}
+<h3>Payout in STX and BTC</h3>
+The BTC rewards were split proportionally to pool members registered for rewards
+in STX, the default, and for rewards in BTC. For cycle {{ .cycle }}, we used
+<ul>
+  <li>
+    {{div .info.rewardsBTCForBTCReceivers 1e8 | lang.FormatNumberCustom 8}} BTC
+    for BTC distribution and
+  </li>
+  <li>
+    {{div .info.rewardsBTCForSTXReceivers 1e8 | lang.FormatNumberCustom 8}} BTC
+    for STX distribution.
+  </li>
+</ul>
+{{ end }}
+
+<h3>Total Rewards</h3>
+<p>
+  We distributed a total of {{ div (.transferStx.totalDistributedRewards | int)
+  1e6 | lang.FormatNumberCustom 6 }} STX to {{ .info.numberOfStxReceivers}} pool
+  members based on a total amount of {{ div (.info.totalStackedStxReceivers |
+  int) 1e6 | lang.FormatNumberCustom 6}} stacked STX.
+</p>
+{{ if gt .info.numberOfBtcReceivers 0}}
+<p>
+  We distributed a total of {{ div (index .transferBtc.outputs 0).rewards 1e8 |
+  lang.FormatNumberCustom 8}} BTC to {{ .info.numberOfBtcReceivers }} pool
+  member based on {{ div .info.totalStackedBtcReceivers 1e6 |
+  lang.FormatNumberCustom 6}} stacked STX.
+</p>
+<p>
+  This corresponds to {{ div .info.theoreticalStxRewards 1e6 |
+  lang.FormatNumberCustom 6 }} STX rewards or {{ div .info.theoreticalStxRewards
+  .info.totalStacked | mul 100 | lang.FormatNumberCustom 2}}% of the total {{
+  div (.info.totalStacked | int) 1e6 | lang.FormatNumberCustom 6 }} stacked STX.
+</p>
+{{ else if gt .info.theoreticalStxRewards 0}}
+<p>
+  This corresponds to {{ div .info.theoreticalStxRewards .info.totalStacked |
+  mul 100 | lang.FormatNumberCustom 2}}% of the total stacked STX.
+</p>
+{{end}}
