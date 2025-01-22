@@ -505,18 +505,39 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #101</title>
+      <link>https://fastpool.org/rewards/101/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/101/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/100-md-swap/</guid>
-      <description>Consolidation and Swapping At the end of the cycle, we consolidated the rewards of 0.06350000 BTC.&#xA;0. 06341953 BTC to proxy: https://mempool.space/tx/9e79c9ec388230cfb32941f74408f1550447336bb57419c56c0fc61423ad1a5e We swapped the BTC rewards in 1 transaction using simpleswap.&#xA;0.06341621 BTC swapped to 3,463.951144 STX:&#xA;https://mempool.space/tx/df358e9373aa674911dc066b70ad196f6ac1132ffd27a96642a2b3bb87797f0f 0xa38979b241c9697105e990b7877638885666910e0263dfae3d830bf3937c21f1 A screenshot of simpleswap is shown below.</description>
+      <description>Consolidation and Swapping At the end of the cycle, we consolidated the rewards of 0.06350000 BTC.&#xA;0.06341953 BTC to proxy: https://mempool.space/tx/9e79c9ec388230cfb32941f74408f1550447336bb57419c56c0fc61423ad1a5e We swapped the BTC rewards in 1 transaction using simpleswap.&#xA;0.06341621 BTC swapped to 3,463.951144 STX:&#xA;https://mempool.space/tx/df358e9373aa674911dc066b70ad196f6ac1132ffd27a96642a2b3bb87797f0f 0xa38979b241c9697105e990b7877638885666910e0263dfae3d830bf3937c21f1 A screenshot of simpleswap is shown below.</description>
     </item>
     <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/100-swap/</guid>
-      <description>Consolidation and Swapping We used all BTC stacking rewards available for STX distribution after fees to mine STX. We mined X blocks and received 148,755.88906 STX as rewards.</description>
+      <description>Consolidation and Swapping We consolidated rewards address continously and transferred a total of 3.05762016 BTC to the proxy address. We distributed 0.63586529 BTC to pool members who registered for BTC rewards and 0.13778910 BTC to the Fast Pool reserve (fees for all pool members, 4.5%). The remaining 2.28393047 BTC were sent to the miner and converted to STX. We bid for 1059 blocks and received 148,755.88906 STX as rewards.&#xA;0.58479648 BTC to proxy: https://mempool.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/101-md-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/101-md-swap/</guid>
+      <description>Consolidation and Swapping We consolidated rewards address continously and transferred a total of 0.08222244 BTC to the proxy or miner address.&#xA;0.05694226 BTC to proxy: https://mempool.space/tx/eeec543f3ae176848b5e498194f6643e07b80c4b389726358fa8f8f3daf3808b 0.02528018 BTC to proxy: https://mempool.space/tx/81ac415e1c96a3b14ccbe0bfad9112dc500eb44c4633552d9e72940e250ff00c We swapped the last BTC rewards in 1 transaction using simpleswap.&#xA;0.02527689 BTC swapped to STX:&#xA;https://mempool.space/tx/faf40a880d7c0ba6bad87bffcba4454dcb375cc09466a36780f1954757f52665 0xa38979b241c9697105e990b7877638885666910e0263dfae3d830bf3937c21f1 A screenshot of simpleswap is shown below.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/101-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/101-swap/</guid>
+      <description>Consolidation and Swapping We consolidated rewards address continously and transferred a total of 2.76300198 BTC to the proxy address. We distributed 0.57784414 BTC to pool members who registered for BTC rewards and 0.12453300 BTC to the Fast Pool reserve (fees for all pool members, 4.5%). The remaining 2.06062484 BTC were sent to the miner and converted to STX. We bid for 956 blocks and received 138,184.190542 STX as rewards.&#xA;0.74063847 BTC to proxy: https://mempool.</description>
     </item>
   </channel>
 </rss>

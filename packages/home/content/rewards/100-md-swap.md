@@ -6,7 +6,7 @@
 At the end of the cycle, we consolidated the rewards of 0.06350000 BTC.
 
 <ul>
-{{% toproxy btc="0. 06341953"
+{{% toproxy btc="0.06341953"
   btctx="https://mempool.space/tx/9e79c9ec388230cfb32941f74408f1550447336bb57419c56c0fc61423ad1a5e"
  %}}
 </ul>
