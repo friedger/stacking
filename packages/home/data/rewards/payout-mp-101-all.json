@@ -1,63 +1,59 @@
 {
-  "result": {
-    "transferStx": {
-      "totalDistributedRewards": 0,
-      "poolAddress": "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP"
-    },
-    "transferBtc": {
-      "outputs": [
-        {
-          "btcAddr": "bc1qjfphatmmrrflycaycce8jn5ds49jutzern4pal",
-          "rewards": 411750
-        }
-      ]
-    },
-    "stats": {
-      "statsCityCoins": {
-        "payoutFlow": "CityCoins",
-        "totalStackedSTXReceivers": 1722303586695,
-        "precentage": 5.80617730651622e-13,
-        "numberOfPaidStackers": 0,
-        "distributedRewards": 0,
-        "stackedSTX": 0
-      },
-      "statsLisa": {
-        "payoutFlow": "Lisa",
-        "totalStackedSTXReceivers": 1722303586695,
-        "precentage": 5.80617730651622e-13,
-        "numberOfPaidStackers": 0,
-        "distributedRewards": 0,
-        "stackedSTX": 0
-      },
-      "statsStandard": {
-        "payoutFlow": "Standard",
-        "totalStackedSTXReceivers": 1722303586695,
-        "precentage": 5.80617730651622e-13,
-        "numberOfPaidStackers": 5,
-        "distributedRewards": 0,
-        "stackedSTX": 1722303586695
-      }
-    },
-    "info": {
-      "numberOfStackers": 5,
-      "numberOfStxReceivers": 5,
-      "numberOfBtcReceivers": 0,
-      "totalStacked": 1722303586695,
-      "totalStackedStxReceivers": 1722303586695,
-      "totalStackedBtcReceivers": 0,
-      "theoreticalStxRewardsForBtcReceivers": 0,
-      "theoreticalStxRewards": 1,
-      "checksumStacked": 0,
-      "rewardsBTCForBTCReceivers": 0,
-      "rewardsBTCForSTXReceivers": 8235000,
-      "checksumRewards": 0,
-      "exchangeRate": 8235000000000
-    },
-    "poolHelperAddress": "SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60",
-    "nonces": { "nonce": 453, "sponsorNonce": 7767 },
-    "fees": { "feesFromBtcReceivers": 0, "feesFromBtcReceiversInStx": 0 }
+  "cycle": 101,
+  "transferStx": {
+    "totalDistributedRewards": 5675623171,
+    "poolAddress": "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP"
   },
-  "rewardCycle": 101,
-  "rewardsInBtc": "0.08235000",
-  "stxPartRewardsInUstx": "1"
+  "transferBtc": {
+    "outputs": [
+      {
+        "btcAddr": "bc1qjfphatmmrrflycaycce8jn5ds49jutzern4pal",
+        "rewards": 411750
+      }
+    ]
+  },
+  "stats": {
+    "statsCityCoins": {
+      "payoutFlow": "CityCoins",
+      "totalStackedSTXReceivers": 1722303586695,
+      "precentage": 5.80617730651622e-13,
+      "numberOfPaidStackers": 0,
+      "distributedRewards": 0,
+      "stackedSTX": 0
+    },
+    "statsLisa": {
+      "payoutFlow": "Lisa",
+      "totalStackedSTXReceivers": 1722303586695,
+      "precentage": 5.80617730651622e-13,
+      "numberOfPaidStackers": 0,
+      "distributedRewards": 0,
+      "stackedSTX": 0
+    },
+    "statsStandard": {
+      "payoutFlow": "Standard",
+      "totalStackedSTXReceivers": 1722303586695,
+      "precentage": 5.80617730651622e-13,
+      "numberOfPaidStackers": 5,
+      "distributedRewards": 0,
+      "stackedSTX": 1722303586695
+    }
+  },
+  "info": {
+    "numberOfStackers": 5,
+    "numberOfStxReceivers": 5,
+    "numberOfBtcReceivers": 0,
+    "totalStacked": 1722303586695,
+    "totalStackedStxReceivers": 1722303586695,
+    "totalStackedBtcReceivers": 0,
+    "theoreticalStxRewardsForBtcReceivers": 0,
+    "theoreticalStxRewards": 5675623171,
+    "checksumStacked": 0,
+    "rewardsBTCForBTCReceivers": 0,
+    "rewardsBTCForSTXReceivers": 8235000,
+    "checksumRewards": 0,
+    "exchangeRate": 8235000000000
+  },
+  "poolHelperAddress": "SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60",
+  "nonces": { "nonce": 453, "sponsorNonce": 7767 },
+  "fees": { "feesFromBtcReceivers": 0, "feesFromBtcReceiversInStx": 0 }
 }
