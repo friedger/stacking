@@ -15,9 +15,9 @@ We consolidated rewards address continously and transferred a total of 0.0822224
 We swapped the last BTC rewards in 1 transaction using simpleswap.
 
 <ul>
-{{% swap btc="0.02527689" stx=""
+{{% swap btc="0.02527689" stx="1,803.714632"
   btctx="https://mempool.space/tx/faf40a880d7c0ba6bad87bffcba4454dcb375cc09466a36780f1954757f52665"
-  stxtx="0xa38979b241c9697105e990b7877638885666910e0263dfae3d830bf3937c21f1" %}}
+  stxtx="0x84ca47a3fdf395f2042235f17cc557cfdc77f338a230fc99bae7e472b8020277" %}}
 </ul>
 
 A screenshot of simpleswap is shown below.
