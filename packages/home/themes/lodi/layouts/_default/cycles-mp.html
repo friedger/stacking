@@ -4,11 +4,14 @@
     {{ partial "head_casestudy.html" . }}
   </head>
   <body>
-    {{ partial "nav_cycles.html" . }} {{ partial "alert.html" . }} {{ partial
-    "cycle.html" (index $.Site.Data.cycles (print "members-mp-" (.Param "cycle")
-    )) }}
+    {{ partial "nav_cycles.html" . }}
+    {{ partial "alert.html" . }}
+    {{ partial "cycle.html" (index $.Site.Data.cycles (print "members-mp-" (.Param "cycle"))) }}
     <!-- footer -->
-    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }}
-    {{ partial "scripts.html" . }} {{partial "react-members.html" . }}
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+    {{ partial "scripts.html" . }}
+    {{ partial "react-members.html" . }}
   </body>
 </html>

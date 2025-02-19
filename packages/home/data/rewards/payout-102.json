@@ -1,0 +1,72 @@
+{
+  "transferStx": {
+    "totalDistributedRewards": 152839765519,
+    "poolAddress": "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP"
+  },
+  "transferBtc": {
+    "outputs": [
+      {
+        "btcAddr": "bc1qk4jnd4jqd9he65la0nz6xnz6g3772l89eaem0t",
+        "rewards": 44036660
+      },
+      {
+        "btcAddr": "bc1qjfphatmmrrflycaycce8jn5ds49jutzern4pal",
+        "rewards": 0,
+        "calculated-fees": 10659125
+      }
+    ]
+  },
+  "stats": {
+    "statsCityCoins": {
+      "payoutFlow": "CityCoins",
+      "totalStackedSTXReceivers": 41323402203904,
+      "precentage": 0.0036986249382331975,
+      "numberOfPaidStackers": 2,
+      "distributedRewards": 39240167915,
+      "stackedSTX": 10609393645189
+    },
+    "statsLisa": {
+      "payoutFlow": "Lisa",
+      "totalStackedSTXReceivers": 41323402203904,
+      "precentage": 0.0036986249382331975,
+      "numberOfPaidStackers": 5,
+      "distributedRewards": 5492458030,
+      "stackedSTX": 1485000000000
+    },
+    "statsStandard": {
+      "payoutFlow": "Standard",
+      "totalStackedSTXReceivers": 41323402203904,
+      "precentage": 0.0036986249382331975,
+      "numberOfPaidStackers": 787,
+      "distributedRewards": 108107139574,
+      "stackedSTX": 29229008558715
+    }
+  },
+  "info": {
+    "numberOfStackers": 795,
+    "numberOfStxReceivers": 794,
+    "numberOfBtcReceivers": 1,
+    "totalStacked": 52805403203904,
+    "totalStackedStxReceivers": 41323402203904,
+    "totalStackedBtcReceivers": 11482001000000,
+    "theoreticalStxRewardsForBtcReceivers": 38051001025,
+    "theoreticalStxRewards": 190890766544,
+    "checksumStacked": 0,
+    "rewardsBTCForBTCReceivers": 42494499,
+    "rewardsBTCForSTXReceivers": 170688000,
+    "checksumRewards": 1,
+    "exchangeRate": 1116,
+    "original": {
+      "theoreticalStxRewards": 195307381163,
+      "rewardsBTCForBTCReceivers": 46354379,
+      "rewardsBTCForSTXReceivers": 166828120,
+      "exchangeRate": 1092
+    }
+  },
+  "poolHelperAddress": "SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60",
+  "nonces": { "nonce": 463, "sponsorNonce": 8064 },
+  "fees": {
+    "feesFromBtcReceivers": 2317718,
+    "feesFromBtcReceiversInStx": 2122.453250915751
+  }
+}

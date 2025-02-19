@@ -1,4 +1,6 @@
 rm -r public
+mkdir -p public/when
+
 cd packages/home
 # generate data
 npx tsx ../members/scripts/generate-user-data.ts

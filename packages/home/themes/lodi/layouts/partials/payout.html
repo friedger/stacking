@@ -1,49 +1,79 @@
 {{ if .comment }}
-<tr>
-  <td colspan="4" style="text-align: center"><em>{{ .comment }}</em></td>
-</tr>
+  <tr>
+    <td colspan="4" style="text-align: center">
+      <em>
+        {{ .comment }}
+      </em>
+    </td>
+  </tr>
 {{ else }}
-<tr>
-  <td style="text-align: center; padding: 8px">
-    {{if eq (math.Sub (float .cycle) (math.Floor (float .cycle) )) 0.0 }}
-    <a href="/cycles/{{ .cycle }}"
-      >{{ .cycle }}{{ if ge .cycle 99}} fast{{end}}</a
-    >
-    {{ else if eq ((math.Sub (float .cycle) (math.Floor (float .cycle) )) |
-    lang.FormatNumber 1) "0.1" }}
-    <a href="/mp/cycles/{{ math.Floor .cycle }}"
-      >{{ .cycle | lang.FormatNumber 0 }} multi</a
-    >
-    {{ else }} {{ (math.Sub (float .cycle) (math.Floor (float .cycle) )) |
-    lang.FormatNumber 1 }} {{ eq (math.Sub (float .cycle) (math.Floor (float
-    .cycle) )) 0.0}} {{ end }}
-  </td>
-  <td style="text-align: right; padding: 8px">
-    {{ div .total 1000000 | lang.FormatNumberCustom 0 }}
-  </td>
-  <td style="text-align: right; padding: 8px">{{ .count }}</td>
-  {{ if .nopayout }}
-  <td colspan="2" style="text-align: center"><em>{{ .nopayout }}</em></td>
-  {{ else }}
-  <td style="text-align: right; padding: 8px">
-    {{ if .payout }} {{ if ge .cycle 31 }} {{if eq (math.Sub (float .cycle)
+  {{ $cycleDecimal := math.Sub (float .cycle) (math.Floor (float .cycle)) }}
+  {{ if and (eq ($cycleDecimal | lang.FormatNumber 1) "0.1") (ge (math.Floor .cycle) 102) }}
+    <!-- multi pool -->
+
+      {{ else }}
+      <tr>
+        <td style="text-align: center; padding: 8px">
+          {{ if eq $cycleDecimal 0.0 }}
+            <a href="/cycles/{{ .cycle }}">
+              {{ .cycle }}
+              {{ if and (ge .cycle 99) (le .cycle 101) }}
+                (v1)
+              {{ end }}
+            </a>
+          {{ else if eq ($cycleDecimal | lang.FormatNumber 1) "0.1" }}
+            <a href="/mp/cycles/{{ math.Floor .cycle }}">
+              {{ .cycle | lang.FormatNumber 0 }}
+              (v2)
+            </a>
+          {{ else }}
+            {{ $cycleDecimal | lang.FormatNumber 1 }}
+            {{ eq $cycleDecimal 0.0 }}
+          {{ end }}
+        </td>
+        <td style="text-align: right; padding: 8px">
+          {{ div .total 1000000 | lang.FormatNumberCustom 0 }}
+        </td>
+        <td style="text-align: right; padding: 8px">
+          {{ .count }}
+        </td>
+        {{ if .nopayout }}
+          <td colspan="2" style="text-align: center">
+            <em>
+              {{ .nopayout }}
+            </em>
+          </td>
+        {{ else }}
+          <td style="text-align: right; padding: 8px">
+            {{ if .payout }}
+              {{ if ge .cycle 31 }}
+                {{ if eq (math.Sub (float .cycle)
     (math.Floor (float .cycle) )) 0.0 }}
-    <a href="/rewards/{{ .cycle}}"
-      >{{div .payout 1000000 | lang.FormatNumberCustom 0 }}</a
-    >
-    {{ else if eq ((math.Sub (float .cycle) (math.Floor (float .cycle) )) |
+                  <a href="/rewards/{{ .cycle }}">
+                    {{ div .payout 1000000 | lang.FormatNumberCustom 0 }}
+                  </a>
+                {{ else if eq ((math.Sub (float .cycle) (math.Floor (float .cycle) )) |
     lang.FormatNumber 1) "0.1" }}
-    <a href="/mp/rewards/{{ math.Floor .cycle}}"
-      >{{div .payout 1000000 | lang.FormatNumberCustom 0 }}</a
-    >
-    {{ else }} {{div .payout 1000000 | lang.FormatNumberCustom 0 }} {{ end }} {{
-    else }} {{div .payout 1000000 | lang.FormatNumberCustom 0 }} {{ end }} {{
-    end }}
-  </td>
-  <td style="text-align: right; padding: 8px">
-    {{ if .payout }}{{ div .payout .total | mul 100 | lang.FormatNumberCustom
-    2}}%{{ end}}
-  </td>
+                  <a href="/mp/rewards/{{ math.Floor .cycle }}">
+                    {{ div .payout 1000000 | lang.FormatNumberCustom 0 }}
+                  </a>
+                {{ else }}
+                  {{ div .payout 1000000 | lang.FormatNumberCustom 0 }}
+                {{ end }}
+              {{ else }}
+                {{ div .payout 1000000 | lang.FormatNumberCustom 0 }}
+              {{ end }}
+            {{ end }}
+          </td>
+          <td style="text-align: right; padding: 8px">
+            {{ if .payout }}
+              {{ div .payout .total | mul 100 | lang.FormatNumberCustom
+    2 }}
+              %
+            {{ end }}
+          </td>
+        {{ end }}
+      </tr>
+    {{ end }}
   {{ end }}
-</tr>
-{{ end }}
+  

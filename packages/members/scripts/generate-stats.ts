@@ -8,18 +8,22 @@ function readFiles() {
   console.log('read');
   const stats = { payout: 0, payoutFriedgerPool: 0, payoutFastPool: 0 };
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
-    const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
-    if (cycleData.payout === undefined) {
-      console.log(cycleData.cycle, 'No payout', filename);
-      return;
-    }
-    const cycleId = parseInt(cycleData.cycle);
+    try {
+      const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
+      if (cycleData.payout === undefined) {
+        console.log(cycleData.cycle, 'No payout', filename);
+        return;
+      }
+      const cycleId = parseInt(cycleData.cycle);
 
-    stats.payout += cycleData.payout;
-    if (cycleId < 56) {
-      stats.payoutFriedgerPool += cycleData.payout;
-    } else {
-      stats.payoutFastPool += cycleData.payout;
+      stats.payout += cycleData.payout;
+      if (cycleId < 56) {
+        stats.payoutFriedgerPool += cycleData.payout;
+      } else {
+        stats.payoutFastPool += cycleData.payout;
+      }
+    } catch (e) {
+      console.log('error', filename, e);
     }
   });
 

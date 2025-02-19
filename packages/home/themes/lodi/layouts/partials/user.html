@@ -15,7 +15,7 @@
     <tr>
       <td>
         {{ .cycle | lang.FormatNumber 0}} {{if eq (math.Sub .cycle (math.Floor
-        .cycle )) 0.0 }}{{if gt .cycle 99}} Fast{{end}}{{else}} Multi{{end}}
+        .cycle )) 0.0 }}{{if gt .cycle 99}} v1{{end}}{{else}} v2{{end}}
       </td>
       <td style="text-align: right">
         {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}

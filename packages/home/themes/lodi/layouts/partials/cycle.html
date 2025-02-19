@@ -1,40 +1,90 @@
 <section class="cycle" data-scroll-index="{{ .cycle | lang.FormatNumber 0 }}">
   <h2>
-    {{if eq ((math.Sub (float .cycle) (math.Floor (float .cycle))) |
-    lang.FormatNumber 1) "0.1"}}Multi Pool - {{end}}Cycle {{ .cycle |
-    lang.FormatNumber 0}}
-  </h2>
-  {{if .total}} {{.count}} addresses with {{ div .total 1000000 |
-  lang.FormatNumberCustom 0 }} STX locked {{ if .payout }} <br />Payout: {{div
-  .payout 1000000 | lang.FormatNumberCustom 6 }} STX ({{ div .payout .total |
-  mul 100 | lang.FormatNumberCustom 2 }}%) {{ end}} {{ if gt (len .members) 0 }}
-  <table>
-    <thead>
-      <tr>
-        <th>Cycle</th>
-        <th>Stacker</th>
-        <th>Amount</th>
-        <th>Timestamp</th>
-        <th>Locked (Until)</th>
-      </tr>
-    </thead>
-    {{ range sort .members "stacker" }}
-    <tr>
-      <td>#{{ $.cycle | lang.FormatNumber 0}}</td>
-      <td><a href="/users/{{ .stacker }}">{{ .stacker }}</a></td>
-      <td style="text-align: right">
-        {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}
-      </td>
-      <td>
-        <a href="https://explorer.stacks.co/txid/{{.txid}}">{{ .timestamp }}</a>
-      </td>
-      <td style="text-align: right">{{ .lockingPeriod }} ({{ .unlock }})</td>
-    </tr>
+    {{ if eq ((math.Sub (float .cycle) (math.Floor (float .cycle))) |
+    lang.FormatNumber 1) "0.1" }}
+      Multi Pool -
     {{ end }}
-  </table>
-  {{ end }} {{ else }}
-  <section>Not yet completed.</section>
-  {{ end }} {{ if .nopayout}}
-  <section>{{.nopayout}}</section>
+    Cycle
+    {{ .cycle |
+    lang.FormatNumber 0 }}
+  </h2>
+  {{ if .total }}
+    {{ .count }}
+    addresses with
+    {{ div .total 1000000 |
+  lang.FormatNumberCustom 0 }}
+    STX locked
+    {{ if .payout }}
+      <br/>
+      Payout:
+      {{ div
+  .payout 1000000 | lang.FormatNumberCustom 6 }}
+      STX (
+      {{ div .payout .total |
+  mul 100 | lang.FormatNumberCustom 2 }}
+      %)
+    {{ end }}
+    {{ if gt (len .members) 0 }}
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Cycle
+            </th>
+            <th>
+              Stacker
+            </th>
+            <th>
+              Amount
+            </th>
+            <th>
+              Timestamp
+            </th>
+            <th>
+              Locked (Until)
+            </th>
+          </tr>
+        </thead>
+        {{ range sort .members "stacker" }}
+          <tr>
+            <td>
+              #
+              {{ $.cycle | lang.FormatNumber 0 }}
+            </td>
+            <td>
+              <a href="/users/{{ .stacker }}">
+                {{ .stacker }}
+                {{ if eq .pool "v2" }}
+                  (v2)
+                {{ end }}
+              </a>
+            </td>
+            <td style="text-align: right">
+              {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}
+            </td>
+            <td>
+              <a href="https://explorer.stacks.co/txid/{{ .txid }}">
+                {{ .timestamp }}
+              </a>
+            </td>
+            <td style="text-align: right">
+              {{ .lockingPeriod }}
+              (
+              {{ .unlock }}
+              )
+            </td>
+          </tr>
+        {{ end }}
+      </table>
+    {{ end }}
+  {{ else }}
+    <section>
+      Not yet completed.
+    </section>
+  {{ end }}
+  {{ if .nopayout }}
+    <section>
+      {{ .nopayout }}
+    </section>
   {{ end }}
 </section>
