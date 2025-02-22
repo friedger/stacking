@@ -1,6 +1,6 @@
 #!/bin/bash
 cd packages/home
-counter=101
+counter=103
 while [ $counter -le 110 ]
 do
   hugo new cycles/$counter.md

@@ -519,6 +519,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #103</title>
+      <link>https://fastpool.org/rewards/103/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/103/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -551,7 +558,21 @@
       <link>https://fastpool.org/rewards/102-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/102-swap/</guid>
-      <description>Consolidation and Swapping We consolidated rewards address continously and transferred a total of 2.12865701 BTC to the proxy address and miner address.&#xA;We distributed 0.42494499 BTC to pool members who registered for BTC rewards. For this transfer, 0.01698778 BTC were taken from the reserve, as we used more BTC for mining than available.&#xA;The total of 1.72068347 BTC were sent to the miner and converted to STX. We bid for 992 blocks and received 152,839.</description>
+      <description>Consolidation and Swapping We consolidated rewards address continously and transferred a total of 2.12865701 BTC to the proxy address and miner address.&#xA;We distributed 0.42494499 BTC to pool members who registered for BTC rewards. For this transfer, 0.01698778 BTC were taken from the reserve, as we used more BTC for mining than available.&#xA;The total of 1.72068347 BTC were sent to the miner and converted to STX. We bid for 992 blocks between block 880507 and 882010.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/103-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/103-swap/</guid>
+      <description>Consolidation and Swapping We consolidated the rewards address continuously and transferred a total of 2.10940500 BTC to the proxy address and miner address.&#xA;We distributed 0.42558256 BTC to pool members who registered for BTC rewards and 0.09492322 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&#xA;The total of 1.19383517 BTC was used by the miner to converted to STX. We bid for 748 blocks between block 882587 and 884708.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/104-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/104-swap/</guid>
+      <description>Transactions for Fast Pool v1:&#xA;0.22377036 BTC to proxy: https://mempool.space/tx/c2d60e1556e0d1a71141b6b3dda53c9155a26c304f5158e8d818ee82363c24a2 </description>
     </item>
   </channel>
 </rss>

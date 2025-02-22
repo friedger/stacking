@@ -7,7 +7,7 @@ We consolidated rewards address continously and transferred a total of 2.1286570
 
 We distributed 0.42494499 BTC to pool members who registered for BTC rewards. For this transfer, 0.01698778 BTC were taken from the reserve, as we used more BTC for mining than available.
 
-The total of 1.72068347 BTC were sent to the miner and converted to STX. We bid for 992 blocks and received 152,839.765924 STX as rewards.
+The total of 1.72068347 BTC were sent to the miner and converted to STX. We bid for 992 blocks between block 880507 and 882010. We received 152,839.765924 STX as rewards.
 
 Transactions for Fast Pool v1:
 
