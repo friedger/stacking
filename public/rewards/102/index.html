@@ -66,7 +66,7 @@
       <section>
         <h2>Fast Pool</h2>
         <p>
-  We received 2.13182499
+  We received 2.14724660
   BTC as stacking rewards.
 </p>
 
@@ -76,7 +76,7 @@ The BTC rewards were split proportionally to pool members registered for rewards
 in STX, the default, and for rewards in BTC. For cycle , we used
 <ul>
   <li>
-    0.42494499 BTC
+    0.44036660 BTC
     for BTC distribution and
   </li>
   <li>
@@ -97,15 +97,16 @@ in STX, the default, and for rewards in BTC. For cycle , we used
   member based on 11,482,001.000000 stacked STX.
 </p>
 <p>
-  This corresponds to 190,890.766544 STX rewards or 0.36% of the total 52,805,403.203904 stacked STX.
+  This corresponds to 192,271.669276 STX rewards or 0.36% of the total 52,805,403.203904 stacked STX.
 </p>
 
 
         
          <h3 id="consolidation-and-swapping">Consolidation and Swapping</h3>
 <p>We consolidated rewards address continously and transferred a total of 2.12865701 BTC to the proxy address and miner address.</p>
-<p>We distributed 0.42494499 BTC to pool members who registered for BTC rewards. For this transfer, 0.01698778 BTC were taken from the reserve, as we used more BTC for mining than available.</p>
+<p>We distributed 0.44036660 BTC to pool members who registered for BTC rewards in two transactions. For the first transfer, 0.01698778 BTC were taken from the reserve, as we used more BTC for mining than available. Furthermore, the calculations for combined reward distributions of Fast Pool v1 and v2 (aka Multi Pool) were wrong. Therefore, 0,01542161 BTC were taken from the reserve for the second transfer.</p>
 <p>The total of 1.72068347 BTC were sent to the miner and converted to STX. We bid for 992 blocks between block 880507 and 882010. We received 152,839.765924 STX as rewards.</p>
+<p>Note: Due to the extra BTC spent on mining, the theoretical rewards divided by total stacked STX does not reflect the percentage for STX rewards receivers. Instead the actual rewards for STX reward receivers only should be considered.</p>
 <p>Transactions for Fast Pool v1:</p>
 <ul>
 <li>
@@ -295,13 +296,26 @@ in STX, the default, and for rewards in BTC. For cycle , we used
 <ul>
 <li>
   <p>
-    0.42494499  to btc reward receivers:
+    0.42494499 BTC to btc reward receivers:
     <ul><li>
     <a
       target="_blank"
       rel="noopener noreferrer nofollow"
       href="https://mempool.space/tx/f12e3d1adab401a3658352f1e3a0ca05a56de649c0ab55d319d88d68d99ea865"
       >https://mempool.space/tx/f12e3d1adab401a3658352f1e3a0ca05a56de649c0ab55d319d88d68d99ea865</a
+    >
+  </li></ul>
+  </p>
+</li>
+<li>
+  <p>
+    0.01541723 BTC to btc reward receivers:
+    <ul><li>
+    <a
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      href="https://mempool.space/tx/a201753b81c2b40828e0f1753edd29fe0dd134f6add18defd39e6606326e0dd2"
+      >https://mempool.space/tx/a201753b81c2b40828e0f1753edd29fe0dd134f6add18defd39e6606326e0dd2</a
     >
   </li></ul>
   </p>
