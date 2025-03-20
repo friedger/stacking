@@ -7,7 +7,7 @@ We consolidated the rewards address continuously and transferred a total of 1.30
 
 We distributed 0.27761973 BTC to pool members who registered for BTC rewards and 0.06114386 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).
 
-The remaining BTC of 1.01979039 BTC were swapped to 133.656,591948 STX in 3 transactions using simpleswap.
+The remaining BTC of 1.01979039 BTC were swapped to 133,656.591948 STX in 3 transactions using simpleswap.
 
 Transactions for Fast Pool v1:
 
@@ -68,14 +68,14 @@ Transactions to and from proxy address:
 </li>
 </ul>
 
-### Compensation as Stacks Signer after Nakamoto Release (4.8% reserve)
+### Compensation as Stacks Signer after Nakamoto Release (4.7% reserve)
 
-{{% reserve cycle="104" satstoreserve="7015061"
-stackedstxforstx="42982102.564259" swappedsats="116155327"
-swappedstx="124718.952919" totalstx="158035.684290" %}}
+{{% reserve cycle="105" satstoreserve="6114386"
+stackedstxforstx="42185108.231171" swappedsats="101979039"
+swappedstx="133656.591948" totalstx="170035.427673" %}}
 
 ### Swapping using Simpleswap
 
 A screenshot of simpleswaps is shown below.
 
-![Simpleswap cycle 104](/img/cycles/104-simpleswap.png)
+![Simpleswap cycle 105](/img/cycles/105-simpleswap.png)
