@@ -4225,9 +4225,9 @@
       "rewardCycle": 107,
       "lockingPeriod": 1,
       "stacker": "SP30JZHPM23NN4KRNBZWCKRW6HGKN7EYKFKP9HBBN",
-      "amount": 26038000000,
-      "txid": "0x91fdf4eccf5b16ce8e3f73a1da59e69125e1413b1aad1973c23d2ec117a409b6",
-      "timestamp": "2025-04-01T12:06:44.000Z",
+      "amount": 26107000000,
+      "txid": "0x0ee817ffd873e5e665ee5be54542cf7cb0fb5dc5492498d624d7755c27d7047b",
+      "timestamp": "2025-04-02T12:38:43.000Z",
       "unlock": 892850,
       "pool": "v1"
     },
@@ -4855,9 +4855,9 @@
       "rewardCycle": 107,
       "lockingPeriod": 1,
       "stacker": "SP3AC45A1WQKNAA4QW9RWJ8WDS4JBJWM1Z8W5F1E2",
-      "amount": 417295390608,
-      "txid": "0x8168b5c19a03b9d765e261a4ba0ded7bcf273655724d48c4189a785b55f87f58",
-      "timestamp": "2025-03-21T03:38:36.000Z",
+      "amount": 418421000000,
+      "txid": "0x6df751c58debf16ab3a6dfa610c013da5a385ade1fb6226a52d068503917bba0",
+      "timestamp": "2025-04-02T17:12:07.000Z",
       "unlock": 892850,
       "pool": "v1"
     },
@@ -5265,9 +5265,9 @@
       "rewardCycle": 107,
       "lockingPeriod": 1,
       "stacker": "SP3HW48QH3DGTV3AHN7Y0ZG7GGQBMFT0BDYHYE17A",
-      "amount": 89415734103,
-      "txid": "0xa2f6c41eeb63902d699f7a65fcf68c328b3bb7ba8adb000ec5ab34c962c92234",
-      "timestamp": "2025-03-20T23:50:45.000Z",
+      "amount": 89656927833,
+      "txid": "0xf591ee89965420e83313627aaa7d68c93955cf3518680bd2f63dc094fa3844f2",
+      "timestamp": "2025-04-02T15:16:35.000Z",
       "unlock": 892850,
       "pool": "v1"
     },
@@ -5425,9 +5425,9 @@
       "rewardCycle": 107,
       "lockingPeriod": 1,
       "stacker": "SP3KRY7RCJSY58086B6XAPCE75DFKH07GH6YT8DAN",
-      "amount": 7814701690,
-      "txid": "0x655dc1d35adcac60516995996f1d95e1e4106ac60cf0f9d4b2a0bc10f157ea2f",
-      "timestamp": "2025-03-29T22:56:54.000Z",
+      "amount": 8906875590,
+      "txid": "0x0eb6c782a999c04c7322df40c797bad3372d4391385589e7eafc5b5ce797afaa",
+      "timestamp": "2025-04-02T13:59:30.000Z",
       "unlock": 892850,
       "pool": "v1"
     },
@@ -8253,5 +8253,5 @@
     }
   ],
   "count": 825,
-  "total": 54023830181999
+  "total": 54026358159021
 }
