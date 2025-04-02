@@ -7,7 +7,7 @@
 {{ if gt .info.numberOfBtcReceivers 0}}
 <h3>Payout in STX and BTC</h3>
 The BTC rewards were split proportionally to pool members registered for rewards
-in STX, the default, and for rewards in BTC. For cycle {{ .cycle }}, we used
+in STX, the default, and for rewards in BTC. For cycle #{{ .cycle }}, we used
 <ul>
   <li>
     {{div .info.rewardsBTCForBTCReceivers 1e8 | lang.FormatNumberCustom 8}} BTC
