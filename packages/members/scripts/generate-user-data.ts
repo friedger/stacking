@@ -8,7 +8,13 @@ function readFiles() {
   const outputDirContent = __dirname + '/../../../packages/home/content/users/';
   const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
 
+  //const hackers = fs.readFileSync(__dirname + '/../hackers.json').toString();
+  //const hackersData = JSON.parse(hackers).data;
+  const hackersData = [];
+
   console.log('processing cycle data');
+  console.log('hackers', hackersData.length);
+
   const ranking = {};
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
@@ -48,7 +54,14 @@ function readFiles() {
 
   for (let user of Object.keys(ranking)) {
     const userStat = ranking[user];
-    console.log(`${user}, ${userStat.count}, ${userStat.min}, ${userStat.max}`);
+    const isHackers = hackersData.find(h => h === user);
+    if (isHackers) {
+      console.log('***');
+      console.log(`${user}, ${userStat.count}, ${userStat.min}, ${userStat.max}`);
+      console.log('***');
+    } else {
+      //console.log(`${user}, ${userStat.count}, ${userStat.min}, ${userStat.max}`);
+    }
     fs.writeFileSync(
       `${outputDirContent}${user}.md`,
       `---
