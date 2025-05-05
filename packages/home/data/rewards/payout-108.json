@@ -1,0 +1,78 @@
+{
+  "transferStx": {
+    "totalDistributedRewards": 132798081763,
+    "poolAddress": "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP"
+  },
+  "transferBtc": {
+    "outputs": [
+      {
+        "btcAddr": "bc1qk4jnd4jqd9he65la0nz6xnz6g3772l89eaem0t",
+        "rewards": 26834934,
+        "rewardsBTC": 28099408,
+        "feesMultiplier": 45000
+      },
+      {
+        "btcAddr": "bc1qjfphatmmrrflycaycce8jn5ds49jutzern4pal",
+        "rewards": 6499372,
+        "rewardsBTC": 144430500,
+        "feesMultiplier": 45000
+      }
+    ]
+  },
+  "stats": {
+    "statsCityCoins": {
+      "payoutFlow": "CityCoins",
+      "totalStackedSTXReceivers": 47535296367713,
+      "precentage": 0.0027936731716308246,
+      "numberOfPaidStackers": 2,
+      "distributedRewards": 30217505847,
+      "stackedSTX": 10816406927664
+    },
+    "statsLisa": {
+      "payoutFlow": "Lisa",
+      "totalStackedSTXReceivers": 47535296367713,
+      "precentage": 0.0027936731716308246,
+      "numberOfPaidStackers": 8,
+      "distributedRewards": 4874959680,
+      "stackedSTX": 1745000000000
+    },
+    "statsStandard": {
+      "payoutFlow": "Standard",
+      "totalStackedSTXReceivers": 47535296367713,
+      "precentage": 0.0027936731716308246,
+      "numberOfPaidStackers": 818,
+      "distributedRewards": 97705616236,
+      "stackedSTX": 34973889440049
+    }
+  },
+  "info": {
+    "numberOfStackers": 829,
+    "numberOfStxReceivers": 828,
+    "numberOfBtcReceivers": 1,
+    "totalStacked": 59017297367713,
+    "totalStackedStxReceivers": 47535296367713,
+    "totalStackedBtcReceivers": 11482001000000,
+    "theoreticalStxRewardsForBtcReceivers": 32076958150,
+    "theoreticalStxRewards": 164875040318,
+    "checksumStacked": 0,
+    "rewardsBTCForBTCReceivers": 28099408,
+    "rewardsBTCForSTXReceivers": 116331091,
+    "checksumRewards": 1,
+    "exchangeRate": 876
+  },
+  "poolHelperAddress": "SP1K1A1PMGW2ZJCNF46NWZWHG8TS1D23EGH1KNK60",
+  "nonces": {
+    "nonce": 529,
+    "sponsorNonce": 9055
+  },
+  "fees": {
+    "feesFromBtcReceivers": 1404970,
+    "feesFromBtcReceiversInStx": 1603.8474885844748
+  },
+  "meta": {
+    "rewardCycle": 108,
+    "rewardsInBtc": "1.44430500",
+    "stxPartRewardsInUstx": "132798082168"
+  },
+  "cycle": 108
+}

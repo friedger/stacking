@@ -62,16 +62,19 @@ function readFiles() {
     } else {
       //console.log(`${user}, ${userStat.count}, ${userStat.min}, ${userStat.max}`);
     }
-    fs.writeFileSync(
-      `${outputDirContent}${user}.md`,
-      `---
+    const userFilename = `${outputDirContent}${user}.md`;
+    if (!fs.existsSync(userFilename)) {
+      fs.writeFileSync(
+        userFilename,
+        `---
 title: "${user}"
 date: ${new Date().toISOString()}
 user: ${user}
 layout: "users"
 ---
     `
-    );
+      );
+    }
   }
 }
 
