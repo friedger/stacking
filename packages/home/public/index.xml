@@ -6,7 +6,7 @@
     <description>Recent content on Fast Pool</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 06:00:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 11:45:18 +0000</lastBuildDate>
     <atom:link href="https://fastpool.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycle #31</title>
@@ -569,6 +569,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #109</title>
+      <link>https://fastpool.org/rewards/109/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/109/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Members&#39; Area</title>
       <link>https://fastpool.org/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -587,6 +594,41 @@
       <link>https://fastpool.org/payouts/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/payouts/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SM1CNBS7YR62S4XQW7Y84V2E7DXYW6QVS707AW1MP</title>
+      <link>https://fastpool.org/users/SM1CNBS7YR62S4XQW7Y84V2E7DXYW6QVS707AW1MP/</link>
+      <pubDate>Sun, 18 May 2025 11:45:18 +0000</pubDate>
+      <guid>https://fastpool.org/users/SM1CNBS7YR62S4XQW7Y84V2E7DXYW6QVS707AW1MP/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP1F2ZQ2WNWZEHKGPT8JZCW6N78HFE9K6WCVF5Q4C</title>
+      <link>https://fastpool.org/users/SP1F2ZQ2WNWZEHKGPT8JZCW6N78HFE9K6WCVF5Q4C/</link>
+      <pubDate>Sun, 18 May 2025 11:45:18 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP1F2ZQ2WNWZEHKGPT8JZCW6N78HFE9K6WCVF5Q4C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP2AXBH2RG8FBPG1QXK6RB1Y32NNVK1DPQW9EYPMP</title>
+      <link>https://fastpool.org/users/SP2AXBH2RG8FBPG1QXK6RB1Y32NNVK1DPQW9EYPMP/</link>
+      <pubDate>Sun, 18 May 2025 11:45:18 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP2AXBH2RG8FBPG1QXK6RB1Y32NNVK1DPQW9EYPMP/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP2MQDK785KR240V704PBW15VVNZQ4HBTQQ5M1XA5</title>
+      <link>https://fastpool.org/users/SP2MQDK785KR240V704PBW15VVNZQ4HBTQQ5M1XA5/</link>
+      <pubDate>Sun, 18 May 2025 11:45:18 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP2MQDK785KR240V704PBW15VVNZQ4HBTQQ5M1XA5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP36V3JY1PBJYSTK166JM2E0H99DHKHPE5V2ZV4KA</title>
+      <link>https://fastpool.org/users/SP36V3JY1PBJYSTK166JM2E0H99DHKHPE5V2ZV4KA/</link>
+      <pubDate>Sun, 18 May 2025 11:45:18 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP36V3JY1PBJYSTK166JM2E0H99DHKHPE5V2ZV4KA/</guid>
       <description></description>
     </item>
     <item>
@@ -47019,6 +47061,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/108-swap/</guid>
       <description>Consolidation and Swapping We consolidated the rewards address continuously and transferred a total of 1.44129890 BTC to the proxy address.&#xA;We distributed 0.26834934 BTC to pool members who registered for BTC rewards and 0.06499372 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&#xA;The remaining BTC of 1.10794368 BTC were swapped to 132,798.082168 STX in 2 transactions using simpleswap.&#xA;Transactions for Fast Pool v1:&#xA;0.50058706 BTC to proxy: https://mempool.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/109-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/109-swap/</guid>
+      <description>Consolidation and Swapping We consolidated the rewards address continuously and transferred a total of 1.75537355 BTC to the proxy address.&#xA;We distributed 0.32419129 BTC to pool members who registered for BTC rewards and 0.08791900 BTC to the Fast Pool reserve (fees for all pool members).&#xA;The remaining BTC of 1.34326326 BTC were swapped to 151,309.363574 STX in 2 transactions using simpleswap.&#xA;Transactions for Fast Pool v1:&#xA;0.83992286 BTC to proxy: https://mempool.</description>
     </item>
     <item>
       <title>Expired Delegations</title>

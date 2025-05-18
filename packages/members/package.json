@@ -35,6 +35,7 @@
     "jdenticon": "3.3.0",
     "jotai": "2.8.2",
     "merkletreejs": "0.3.11",
+    "node-fetch": "^3.3.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-jdenticon": "1.1.0",

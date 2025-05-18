@@ -561,6 +561,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #109</title>
+      <link>https://fastpool.org/rewards/109/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/109/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -636,6 +643,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/108-swap/</guid>
       <description>Consolidation and Swapping We consolidated the rewards address continuously and transferred a total of 1.44129890 BTC to the proxy address.&#xA;We distributed 0.26834934 BTC to pool members who registered for BTC rewards and 0.06499372 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&#xA;The remaining BTC of 1.10794368 BTC were swapped to 132,798.082168 STX in 2 transactions using simpleswap.&#xA;Transactions for Fast Pool v1:&#xA;0.50058706 BTC to proxy: https://mempool.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/109-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/109-swap/</guid>
+      <description>Consolidation and Swapping We consolidated the rewards address continuously and transferred a total of 1.75537355 BTC to the proxy address.&#xA;We distributed 0.32419129 BTC to pool members who registered for BTC rewards and 0.08791900 BTC to the Fast Pool reserve (fees for all pool members).&#xA;The remaining BTC of 1.34326326 BTC were swapped to 151,309.363574 STX in 2 transactions using simpleswap.&#xA;Transactions for Fast Pool v1:&#xA;0.83992286 BTC to proxy: https://mempool.</description>
     </item>
   </channel>
 </rss>
