@@ -2,18 +2,24 @@
   "name": "friedger-pool",
   "private": true,
   "scripts": {
-    "members": "esbuild assets/members.tsx --bundle --outfile=out.js --platform=node"
+    "members": "esbuild assets/members.tsx --bundle --outfile=out.js --platform=node",
+    "tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/main.min.css --minify"
   },
   "main": "index.ts",
   "devDependencies": {
-    "esbuild": "^0.18.10",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "0.25.5",
+    "postcss": "8.5.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.8"
   },
   "dependencies": {
     "@stacks/connect": "^7.3.1",
+    "@tailwindcss/cli": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/node": "^20.3.2",
     "install": "^0.13.0",
-    "npm": "^9.7.2"
+    "postcss-cli": "^11.0.1"
   }
 }

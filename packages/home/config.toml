@@ -19,7 +19,7 @@ enable = true
 [params.hero]
 enable = true
 avatar = "friedger.jpg"
-subtitle = "Join the FAST stacking pool"
+subtitle = "Fast Pool, the oldest stacking pool on Stacks"
 hero_right = [
     "**Fast Pool by Ryder**",
     "Fast Pool is a SELF-SERVICE stacking pool. This site provides data analytics of self-service pools. The data is mananged by Friedger. He has been a contributor to Stacks since 2018, and is based out of Europe.",

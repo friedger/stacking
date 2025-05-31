@@ -1,8 +1,9 @@
-import fs from 'fs';
+import fs, { read, readFileSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 import { txsProxy109 } from './txs-proxy-109.ts';
 import { accountsApi, transactionsApi } from './../src/lib/constants.ts';
 const FAST_POOL_V1 = 'bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe';
+const FAST_POOL_V1_CHANGE = 'bc1qs3rq94gjs849uslyaenhfkka0cwjkk6djflyqc';
 const FAST_POOL_V2 = 'bc1q7w0jpwwjyq48qhyecnuwazfqv56880q67pmtfc';
 const PROXY_ADDRESS = 'bc1quj0ysumcxjs9qklfhjnukcrhwmkwttd0etm5nl';
 const RESERVE_ADDRESS = 'bc1qjfphatmmrrflycaycce8jn5ds49jutzern4pal';
@@ -96,7 +97,11 @@ async function main(
   possibleTxs.reverse();
   console.log(`Found ${possibleTxs.map(tx => tx.txid)} as possible transactions`);
 
-  const v1Txs = possibleTxs.filter(tx => tx.vin[0].prevout.scriptpubkey_address === FAST_POOL_V1);
+  const v1Txs = possibleTxs.filter(
+    tx =>
+      tx.vin[0].prevout.scriptpubkey_address === FAST_POOL_V1 ||
+      tx.vin[0].prevout.scriptpubkey_address === FAST_POOL_V1_CHANGE
+  );
   const v2Txs = possibleTxs.filter(tx => tx.vin[0].prevout.scriptpubkey_address === FAST_POOL_V2);
 
   console.log(`Found ${v1Txs.map(tx => tx.txid)} as v1 possible transactions`);
@@ -234,15 +239,24 @@ A screenshot of simpleswaps is shown below.
   console.log(`Generated ${outputFile}`);
 }
 
-async function getBtcData() {
+async function getBtcData(cycleId: number) {
+  const filename = __dirname + `/../../../packages/members/scripts/txs-proxy-${cycleId}.json`;
+  // Check if file exists
+  if (fs.existsSync(filename)) {
+    console.log(`Using cached btc transactions from ${filename}`);
+    const data = readFileSync(filename, 'utf-8');
+    return JSON.parse(data) as Tx[];
+  }
+  console.log(`Fetching latest btc transactions for cycle ${cycleId}...`);
   // Get latest transactions
-  // const [proxyTxs] = await Promise.all([
-  //   //getLatestTx(FAST_POOL_V1),
-  //   //getLatestTx(FAST_POOL_V2),
-  //   getLatestTxs(PROXY_ADDRESS),
-  // ]);
-  // return proxyTxs;
-  return txsProxy109;
+  const [proxyTxs] = await Promise.all([
+    //getLatestTx(FAST_POOL_V1),
+    //getLatestTx(FAST_POOL_V2),
+    getLatestTxs(PROXY_ADDRESS),
+  ]);
+  writeFileSync(filename, JSON.stringify(proxyTxs));
+  return proxyTxs;
+  //return txsProxy109;
 }
 
 async function getStxSwapTransactions(cycleId: number) {
@@ -267,7 +281,10 @@ async function getStxSwapTransactions(cycleId: number) {
 }
 
 const generateMd = async (cycleId: number) => {
-  const [proxyTxs, stxSwapTxs] = await Promise.all([getBtcData(), getStxSwapTransactions(cycleId)]);
+  const [proxyTxs, stxSwapTxs] = await Promise.all([
+    getBtcData(cycleId),
+    getStxSwapTransactions(cycleId),
+  ]);
   main(cycleId, {
     //   swapTxs: [
     //     '798db8e94caaa3aeb25584a964d9c323e7a8fcfcb0b75d189bd03756fac2d7a8',
@@ -279,4 +296,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(109).catch(console.error);
+generateMd(110).catch(console.error);

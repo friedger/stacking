@@ -164,6 +164,8 @@
   </url><url>
     <loc>https://fastpool.org/rewards/109/</loc>
   </url><url>
+    <loc>https://fastpool.org/rewards/110/</loc>
+  </url><url>
     <loc>https://fastpool.org/members/</loc>
   </url><url>
     <loc>https://fastpool.org/mp/rewards/99/</loc>
@@ -171,7 +173,28 @@
     <loc>https://fastpool.org/payouts/1/</loc>
   </url><url>
     <loc>https://fastpool.org/</loc>
-    <lastmod>2025-05-18T11:45:18+00:00</lastmod>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SM776ZBWZXXJRH8GV0PPRMSM550D553B334A1VKN/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP1SWDQSKKMTQJHAV2SBG16TC69KRNTR3RQ5K74R8/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP1VZ3YGJKKC8JSSWMS4EZDXXJM7QWRBEZ0AQW1MZ/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP2KT5QAA7WP41DC83BR5J6T8TZXSDX7YXFFSPXV/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP2ST6HZCCM226H7DRJP5EZE6Y0SB2CT9WW1VZF1W/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP2Y8413YYHHEY7XVV9Z9NSHJCN5Y4AVPA70P11FJ/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP3W8Q6MPMYJBGEE1EBH81HZ38WND1Q6HYVNYYEWG/</loc>
+    <lastmod>2025-05-31T06:07:26+00:00</lastmod>
   </url><url>
     <loc>https://fastpool.org/users/SM1CNBS7YR62S4XQW7Y84V2E7DXYW6QVS707AW1MP/</loc>
     <lastmod>2025-05-18T11:45:18+00:00</lastmod>
@@ -19724,6 +19747,9 @@
     <loc>https://fastpool.org/cycles/109/</loc>
     <lastmod>2025-05-03T10:00:01+01:00</lastmod>
   </url><url>
+    <loc>https://fastpool.org/cycles/110/</loc>
+    <lastmod>2025-05-03T10:00:01+01:00</lastmod>
+  </url><url>
     <loc>https://fastpool.org/cycles/108/</loc>
     <lastmod>2025-04-13T10:00:01+01:00</lastmod>
   </url><url>
@@ -20089,6 +20115,8 @@
     <loc>https://fastpool.org/rewards/108-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/109-swap/</loc>
+  </url><url>
+    <loc>https://fastpool.org/rewards/110-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/categories/</loc>
   </url><url>
