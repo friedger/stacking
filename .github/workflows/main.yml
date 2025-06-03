@@ -34,6 +34,7 @@ jobs:
       - name: Build static
         run: |
           cd packages/home
+          pnpm install
           hugo --minify
           cp public/members/index.html ../members/public
           cd ../members
