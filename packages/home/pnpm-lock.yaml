@@ -11,9 +11,6 @@ importers:
       '@stacks/connect':
         specifier: ^7.3.1
         version: 7.10.2
-      '@tailwindcss/cli':
-        specifier: ^4.1.8
-        version: 4.1.8
       '@tailwindcss/postcss':
         specifier: ^4.1.7
         version: 4.1.7
@@ -27,6 +24,9 @@ importers:
         specifier: ^11.0.1
         version: 11.0.1(jiti@2.4.2)(postcss@8.5.4)
     devDependencies:
+      '@tailwindcss/cli':
+        specifier: ^4.1.8
+        version: 4.1.8
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.4)
@@ -36,6 +36,12 @@ importers:
       postcss:
         specifier: 8.5.4
         version: 8.5.4
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
+      prettier-plugin-go-template:
+        specifier: ^0.0.15
+        version: 0.0.15(prettier@3.5.3)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -910,6 +916,17 @@ packages:
     resolution: {integrity: sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==}
     engines: {node: ^10 || ^12 || >=14}
 
+  prettier-plugin-go-template@0.0.15:
+    resolution: {integrity: sha512-WqU92E1NokWYNZ9mLE6ijoRg6LtIGdLMePt2C7UBDjXeDH9okcRI3zRqtnWR4s5AloiqyvZ66jNBAa9tmRY5EQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   pretty-hrtime@1.0.3:
     resolution: {integrity: sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==}
     engines: {node: '>= 0.8'}
@@ -990,6 +1007,10 @@ packages:
 
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+
+  ulid@2.4.0:
+    resolution: {integrity: sha512-fIRiVTJNcSRmXKPZtGzFQv9WRrZ3M9eoptl/teFJvjOzmpU+/K/JH6HZ8deBfb5vMEpicJcLn7JmvdknlMq7Zg==}
+    hasBin: true
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
@@ -1805,6 +1826,13 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  prettier-plugin-go-template@0.0.15(prettier@3.5.3):
+    dependencies:
+      prettier: 3.5.3
+      ulid: 2.4.0
+
+  prettier@3.5.3: {}
+
   pretty-hrtime@1.0.3: {}
 
   react-dom@18.3.1(react@18.3.1):
@@ -1880,6 +1908,8 @@ snapshots:
       is-number: 7.0.0
 
   tr46@0.0.3: {}
+
+  ulid@2.4.0: {}
 
   undici-types@5.26.5: {}
 
