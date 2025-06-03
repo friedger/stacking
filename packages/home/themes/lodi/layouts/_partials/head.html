@@ -30,5 +30,5 @@
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
 />
-{{ $styles := resources.Get "css/main.css" | postCSS | minify }}
+{{ $styles := resources.Get "css/main.css" | minify }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" />

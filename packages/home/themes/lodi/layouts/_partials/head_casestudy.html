@@ -28,5 +28,5 @@
   href="https://fonts.googleapis.com/css?family=Merriweather"
   rel="stylesheet"
 />
-{{ $styles := resources.Get "css/main.css" | postCSS | minify }}
+{{ $styles := resources.Get "css/main.css" | minify }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" />
