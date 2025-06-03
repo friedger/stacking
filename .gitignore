@@ -1,3 +1,5 @@
 node_modules
 packages/members/build
 packages/members/dist
+# Local Netlify folder
+.netlify

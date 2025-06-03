@@ -1,13 +1,19 @@
 <li>
-  <p>{{ .Get "btc" }} BTC swapped to {{ .Get "stx" }} STX:</p>
+  {{ .Get "btc" }} BTC swapped to {{ .Get "stx" }} STX:
   <ul>
     <li>
-      <a target="_blank" rel="noopener noreferrer nofollow" href="{{ .Get "btctx" }}"
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="{{ .Get "btctx" }}"
         >{{ .Get "btctx" }}</a
       >
     </li>
     <li>
-      <a target="_blank" rel="noopener noreferrer nofollow" href="https://explorer.stacks.co/txid/{{ .Get "stxtx" }}"
+      <a
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        href="https://explorer.stacks.co/txid/{{ .Get "stxtx" }}"
         >{{ .Get "stxtx" }}</a
       >
     </li>

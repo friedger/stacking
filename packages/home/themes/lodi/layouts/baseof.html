@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partialCached "css.html" . }}
+        {{ block "head" . }}
+        {{ partial "head_casestudy.html" . }}
+    {{ end }}
+</head><body>
+{{ block "nav" . }}{{ end }}{{ block "alert" . }}{{ partial "alert.html" . }}{{ end }}{{ block "main" . }}{{ end }}{{ if .Site.Params.footer.enable }}{{ partial "footer.html" . }}{{ end }}{{ partial "scripts.html" . }}</body></html>

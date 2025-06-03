@@ -1,0 +1,37 @@
+{{ define "nav" }}
+  {{ partial "nav_subsection.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+  <section>
+    <h1>
+      All Users
+    </h1>
+  </section>
+
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th style="padding: 8px">
+            Stackers
+          </th>
+          <th style="padding: 8px">
+            Number of cycles
+          </th>
+          <th style="padding: 8px">
+            First cycle
+          </th>
+          <th style="padding: 8px">
+            Last cycle
+          </th>
+        </tr>
+      </thead>
+      {{ range sort $.Site.Data.ranking "sortKey" "desc" }}
+        {{ partial
+          "ranking_item.html" . }}
+      {{ end }}
+    </table>
+  </section>
+{{ end }}

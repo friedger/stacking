@@ -1,0 +1,42 @@
+{{ define "nav" }}
+  {{ partial "nav_rewards.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  <div style="padding: 20px">
+    <div class="flex justify-center mb-6">
+      <img
+        class="w-1/2 max-w-md"
+        src="{{ .Param "case_feature_img" }}"
+        alt="{{ print "Cycle #" ( .Param "cycle" ) }}"
+      />
+    </div>
+
+    <h1 class="flex justify-center">
+      Rewards Cycle #
+      {{ .Param "cycle" }}
+    </h1>
+    <!-- data Fast Pool -->
+    <section>
+      <h2>Fast Pool</h2>
+      {{ partial "rewards.html" (index $.Site.Data.rewards (print "payout-"
+        (.Param "cycle") "-all" ))
+      }}
+      <!-- swap details-->
+      {{ with .GetPage (print (.Param "cycle") "-swap.md") }}
+        {{ .Content }}
+      {{ end }}
+    </section>
+    <!-- data Multi Pool-->
+    <section>
+      <h2>Multi Pool</h2>
+      {{ partial "rewards.html" (index $.Site.Data.rewards (print "payout-mp-"
+        (.Param "cycle") "-all" ))
+      }}
+      <!-- swap details-->
+      {{ with .GetPage (print (.Param "cycle") "-md-swap.md") }}
+        {{ .Content }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

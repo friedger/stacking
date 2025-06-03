@@ -1,0 +1,18 @@
+{{ define "nav" }}
+  {{ partial "nav_distributions.html" . }}
+{{ end }}
+{{ define "main" }}
+  <section>
+    <h1>
+      Reward Distribution
+    </h1>
+    <div>
+      Rewards earned through stacking, distributed via Fast Pool.
+    </div>
+  </section>
+
+  {{ range sort $.Site.Data.distribution "year" "desc" }}
+    {{ partial "distribution.html" . }}
+  {{ end }}
+
+{{ end }}

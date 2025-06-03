@@ -1,3 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+a {
+  @apply text-blue-700 hover:text-blue-500;
+}
+
+h2 {
+  @apply text-2xl font-bold text-blue-900 mb-4;
+}
+
+h3 {
+  @apply text-lg font-semibold text-blue-800 mb-2;
+}
+
+section {
+  @apply bg-white rounded-lg shadow p-6 mb-8;
+}
+
+p {
+  @apply mb-2 text-gray-800;
+}
+
+ul {
+  @apply list-disc list-inside ml-6 bg-gray-50 rounded p-2;
+}

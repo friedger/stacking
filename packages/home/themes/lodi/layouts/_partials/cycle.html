@@ -8,22 +8,24 @@
     {{ .cycle |
     lang.FormatNumber 0 }}
   </h2>
-  {{ if .total }}
-    {{ .count }}
-    addresses with
-    {{ div .total 1000000 |
+  <div class="mb-4">
+    {{ if .total }}
+      {{ .count }}
+      addresses with
+      {{ div .total 1000000 |
   lang.FormatNumberCustom 0 }}
-    STX locked
-    {{ if .payout }}
-      <br/>
-      Payout:
-      {{ div
+      STX locked
+      {{ if .payout }}
+        <br/>
+        Payout:
+        {{ div
   .payout 1000000 | lang.FormatNumberCustom 6 }}
-      STX (
-      {{ div .payout .total |
+        STX (
+        {{ div .payout .total |
   mul 100 | lang.FormatNumberCustom 2 }}
-      %)
-    {{ end }}
+        %)
+      {{ end }}
+    </div>
     {{ if gt (len .members) 0 }}
       <table>
         <thead>

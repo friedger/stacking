@@ -1,0 +1,7 @@
+{{ define "nav" }}
+  {{ partial "nav_cycles.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "cycle.html" (index $.Site.Data.cycles (print "members-mp-" (.Param "cycle"))) }}
+{{ end }}

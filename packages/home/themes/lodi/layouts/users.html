@@ -1,0 +1,7 @@
+{{ define "nav" }}
+  {{ partial "nav_users.html" . }}
+{{ end }}
+{{ define "main" }}
+  {{ partial
+    "user.html" (index $.Site.Data.users (.Param "user")) }}
+{{ end }}
