@@ -6,7 +6,7 @@
     <description>Recent content on Fast Pool</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 06:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 11:14:33 +0000</lastBuildDate>
     <atom:link href="https://fastpool.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycle #31</title>
@@ -583,6 +583,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #111</title>
+      <link>https://fastpool.org/rewards/111/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/111/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Members&#39; Area</title>
       <link>https://fastpool.org/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -601,6 +608,55 @@
       <link>https://fastpool.org/payouts/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/payouts/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP11WDGSAWB46K97CG4P3W0R83V79QGM4KHYMXNVP</title>
+      <link>https://fastpool.org/users/SP11WDGSAWB46K97CG4P3W0R83V79QGM4KHYMXNVP/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP11WDGSAWB46K97CG4P3W0R83V79QGM4KHYMXNVP/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP16SSCXH0AQ1KQY690HG2ZH3Z7F7K6ETE6WPHBKK</title>
+      <link>https://fastpool.org/users/SP16SSCXH0AQ1KQY690HG2ZH3Z7F7K6ETE6WPHBKK/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP16SSCXH0AQ1KQY690HG2ZH3Z7F7K6ETE6WPHBKK/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP1HP3N87EPA285B92SS9F6CZY4HM1NN82JHZGQMW</title>
+      <link>https://fastpool.org/users/SP1HP3N87EPA285B92SS9F6CZY4HM1NN82JHZGQMW/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP1HP3N87EPA285B92SS9F6CZY4HM1NN82JHZGQMW/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP1N6QNB5B05T7ZZZSKMS7TDQ5R5176WFSXVTV4ZS</title>
+      <link>https://fastpool.org/users/SP1N6QNB5B05T7ZZZSKMS7TDQ5R5176WFSXVTV4ZS/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP1N6QNB5B05T7ZZZSKMS7TDQ5R5176WFSXVTV4ZS/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP245NQ59JQYTCDS1H5KRMEX9541NFZFZ2B89JCQ5</title>
+      <link>https://fastpool.org/users/SP245NQ59JQYTCDS1H5KRMEX9541NFZFZ2B89JCQ5/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP245NQ59JQYTCDS1H5KRMEX9541NFZFZ2B89JCQ5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP2CEK2H1Q4EE4FZYP5SPSH78TCCS4QJTCCJ2Y41F</title>
+      <link>https://fastpool.org/users/SP2CEK2H1Q4EE4FZYP5SPSH78TCCS4QJTCCJ2Y41F/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP2CEK2H1Q4EE4FZYP5SPSH78TCCS4QJTCCJ2Y41F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP3F2W2J9QPZPV3EWWEA09KWK61V6PTD006B911MG</title>
+      <link>https://fastpool.org/users/SP3F2W2J9QPZPV3EWWEA09KWK61V6PTD006B911MG/</link>
+      <pubDate>Mon, 16 Jun 2025 11:14:33 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP3F2W2J9QPZPV3EWWEA09KWK61V6PTD006B911MG/</guid>
       <description></description>
     </item>
     <item>
@@ -47145,6 +47201,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/110-swap/</guid>
       <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 1.84930680 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.34625718 BTC to pool members who registered for BTC rewards and 0.07408970 BTC to the Fast Pool reserve (fees for all pool members, 4.0% STX, 4.5% BTC).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 1.42895992 BTC were swapped to 197,754.630284 STX in 3 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v1:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/111-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/111-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 1.26929634 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.23712613 BTC to pool members who registered for BTC rewards and 0.05723392 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.97493629 BTC were swapped to 158,235.087339 STX in 2 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v1:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;  0.74324561 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/1e3f734c28a8a8b2aa5292c7489bd169eb3c05fb0fd98057629f468c6cc8b185&#34;&#xA;        &gt;https://mempool.space/tx/1e3f734c28a8a8b2aa5292c7489bd169eb3c05fb0fd98057629f468c6cc8b185&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;  0.36929092 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/690237e146f2b8887f59f85eb296e5b745c495c07ff25cf7fc6a6eb58fe18919&#34;&#xA;        &gt;https://mempool.space/tx/690237e146f2b8887f59f85eb296e5b745c495c07ff25cf7fc6a6eb58fe18919&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v2:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Expired Delegations</title>
