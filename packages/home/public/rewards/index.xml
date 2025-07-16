@@ -589,6 +589,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #113</title>
+      <link>https://fastpool.org/rewards/113/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/113/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -692,6 +699,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/112-swap/</guid>
       <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 1.30364528 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.28758390 BTC to pool members who registered for BTC rewards and 0.06737355 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.64068384 BTC were swapped to 183,486.076376 STX in 2 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v1:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;  0.50000000 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/a47553f98ecef12b6a4051088bad854d486d7288570b4331f0033017d2a2b1db&#34;&#xA;        &gt;https://mempool.space/tx/a47553f98ecef12b6a4051088bad854d486d7288570b4331f0033017d2a2b1db&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;  0.50000000 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/e45d15fbdc1b6aa151e62e77b8213dee7891d0141056e49f30dc125cbf33ce45&#34;&#xA;        &gt;https://mempool.space/tx/e45d15fbdc1b6aa151e62e77b8213dee7891d0141056e49f30dc125cbf33ce45&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;  0.30364528 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/e04bb07dae7d3f081128e91caa12b1c69472a6390ce9e02aca7111becfd30e3a&#34;&#xA;        &gt;https://mempool.space/tx/e04bb07dae7d3f081128e91caa12b1c69472a6390ce9e02aca7111becfd30e3a&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v2:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/113-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/113-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 1.05278165 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.20588180 BTC to pool members who registered for BTC rewards and 0.04745553 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.79944432 BTC were swapped to 114,549.381536 STX in 2 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v1:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;  0.52736933 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/93bfb0fd5b899a31213fef45fae741a2c9e04f823da81f51cd245b348bac39f7&#34;&#xA;        &gt;https://mempool.space/tx/93bfb0fd5b899a31213fef45fae741a2c9e04f823da81f51cd245b348bac39f7&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;  0.38804556 BTC to proxy:&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&#xA;      &lt;a&#xA;        target=&#34;_blank&#34;&#xA;        rel=&#34;noopener noreferrer nofollow&#34;&#xA;        href=&#34;https://mempool.space/tx/d712ca6c2fd921163d9dde6d7baa387791280d7bbccdb6df6baeba6fcabf43b0&#34;&#xA;        &gt;https://mempool.space/tx/d712ca6c2fd921163d9dde6d7baa387791280d7bbccdb6df6baeba6fcabf43b0&lt;/a&#xA;      &gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Transactions for Fast Pool v2:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
