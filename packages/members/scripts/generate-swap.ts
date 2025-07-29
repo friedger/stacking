@@ -140,7 +140,9 @@ async function main(
     { maximumFractionDigits: 6 }
   );
   const distributedBtc = btcFromSats(payouts.transferBtc.outputs[0].rewards);
-  const reserveBtc = btcFromSats(payouts.transferBtc.outputs[1].rewards);
+  const reserveSats = payouts.transferBtc.outputs[payouts.transferBtc.outputs.length - 1].rewards;
+  const reserveBtc = btcFromSats(reserveSats);
+
   const stackedStxSTXReceivers = stxFromUstx(payouts.stats.statsStandard.totalStackedSTXReceivers);
   const theoreticalStxRewards = stxFromUstx(payouts.info.theoreticalStxRewards);
 
@@ -154,7 +156,7 @@ async function main(
     return acc + (vout ? vout.value : 0);
   }, 0);
 
-  const feesInStx = (payouts.transferBtc.outputs[1].rewards * swappedStx) / swappedSats;
+  const feesInStx = (reserveSats * swappedStx) / swappedSats;
   const feesPercentage = (feesInStx / payouts.info.theoreticalStxRewards) * 100;
   const feesPercentageFormatted = feesPercentage.toLocaleString(undefined, {
     maximumFractionDigits: 1,
@@ -224,7 +226,7 @@ ${remainingTxsWithStxSwap
 
 ### Compensation as Stacks Signer after Nakamoto Release (${feesPercentageFormatted}% reserve)
 
-{{% reserve cycle="${cycleId}" satstoreserve="${payouts.transferBtc.outputs[1].rewards}"
+{{% reserve cycle="${cycleId}" satstoreserve="${reserveSats}"
 stackedstxforstx="${stackedStxSTXReceivers}" swappedsats="${swappedSats}"
 swappedstx="${swappedStx / 1e6}" totalstx="${theoreticalStxRewards}" %}}
 
@@ -296,4 +298,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(113).catch(console.error);
+generateMd(114).catch(console.error);
