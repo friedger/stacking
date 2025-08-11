@@ -8,9 +8,9 @@ function readFiles() {
   const outputDirContent = __dirname + '/../../../packages/home/content/users/';
   const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
 
-  //const hackers = fs.readFileSync(__dirname + '/../hackers.json').toString();
-  //const hackersData = JSON.parse(hackers).data;
-  const hackersData = [];
+  const hackers = fs.readFileSync(__dirname + '/../hackers.json').toString();
+  const hackersData = JSON.parse(hackers).data;
+  //const hackersData = [];
 
   console.log('processing cycle data');
   console.log('hackers', hackersData.length);
@@ -32,7 +32,9 @@ function readFiles() {
 
       userData.cycles[cycleId] = { cycle: cycleData.cycle, ...stackerDetails };
       userData.stacker = stackerDetails.stacker;
-
+      const maxAmount = Object.keys(userData.cycles).reduce((max, cycle) => {
+        return Math.max(max, userData.cycles[cycle].amount || 0);
+      }, 0);
       fs.writeFileSync(stackerFilename, JSON.stringify(userData));
 
       const cycleIds = Object.keys(userData.cycles);
@@ -41,11 +43,13 @@ function readFiles() {
         count: cycleIds.length,
         min: cycleIds[0],
         max: cycleIds[cycleIds.length - 1],
+        maxAmount,
         sortKey:
-          cycleIds.length.toString().padStart(4) +
-          (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
-          cycleIds[cycleIds.length - 1].toString().padStart(4) +
-          stackerDetails.stacker,
+          // cycleIds.length.toString().padStart(4) +
+          // (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
+          // cycleIds[cycleIds.length - 1].toString().padStart(4) +
+          // stackerDetails.stacker,
+          maxAmount.toString().padStart(24) + stackerDetails.stacker,
       };
     }
   });

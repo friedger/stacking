@@ -204,7 +204,7 @@ Transactions to and from proxy address:
 ${remainingTxsWithStxSwap
   .map((txTuple, index) => {
     const tx = txTuple.tx;
-    if (isSwapTx(tx)) {
+    if (isSwapTx(tx) && txTuple.stxTx) {
       return `{{% swap btc="${btcFromSats(tx.vout[0].value)}" stx="${stxFromUstx(txTuple.stxTx.stx_received, true)}"
   btctx="https://mempool.space/tx/${tx.txid}"
   stxtx="${txTuple.stxTx.tx.tx_id}" %}}
@@ -298,4 +298,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(114).catch(console.error);
+generateMd(115).catch(console.error);
