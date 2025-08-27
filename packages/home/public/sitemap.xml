@@ -176,6 +176,8 @@
   </url><url>
     <loc>https://fastpool.org/rewards/115/</loc>
   </url><url>
+    <loc>https://fastpool.org/rewards/116/</loc>
+  </url><url>
     <loc>https://fastpool.org/members/</loc>
   </url><url>
     <loc>https://fastpool.org/mp/rewards/99/</loc>
@@ -183,7 +185,37 @@
     <loc>https://fastpool.org/payouts/1/</loc>
   </url><url>
     <loc>https://fastpool.org/</loc>
-    <lastmod>2025-08-11T10:29:07+00:00</lastmod>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP1YDTHJSPQR582NH1TGSQV7HCKCG082R490TBTJD/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP2J9YTFC1C38AAGBQTNQ3V4TDQ1Q2FE5S7XEEWR7/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP2Y86ECR9G4PE651TVYSPH3P8MVBFWXQYTJ0CYZ3/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP30Y2VTMG79TVATT1KGHCPHQE7WJMBZR2ZHW71FG/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP3SYWN5Z9W5KY5STEFRPSF31B9YGSES90WCGWRKD/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP3V9D6AJQ86WS7CFCNXTWZKP2XQGGCHTET0PQ6SG/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP68A2GDYFED1P932H1Z3J2NKP24D8WW486C6QWT/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SPAHF7NNC9ZRKK4MR8ZNQZS104CTC7BK3JAN8VRC/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SPSBPHH7FQMXEGJ56Q99F7583JG9XFVJN65AE2V0/</loc>
+    <lastmod>2025-08-27T20:09:20+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/cycles/117/</loc>
+    <lastmod>2025-08-27T10:00:01+01:00</lastmod>
   </url><url>
     <loc>https://fastpool.org/users/SM3KNVZS30WM7F89SXKVVFY4SN9RMPZZ9FX929N0V.fastpool-v2-member10/</loc>
     <lastmod>2025-08-11T10:29:07+00:00</lastmod>
@@ -21331,6 +21363,8 @@
     <loc>https://fastpool.org/rewards/114-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/115-swap/</loc>
+  </url><url>
+    <loc>https://fastpool.org/rewards/116-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/swap-115/</loc>
   </url><url>
