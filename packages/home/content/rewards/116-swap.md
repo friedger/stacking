@@ -5,7 +5,7 @@
 
 We continued to distribute rewards in sBTC and to distribute parts of rewards to curated projectsfor for users who registered during delegation to Fast Pool v2.
 
-For cycle #115, three user chose to receive sBTC and five users chose to give a share to ZeroAuthority DAO.
+For cycle #116, three user chose to receive sBTC and five users chose to give a share to ZeroAuthority DAO.
 
 These users were mainly testing version 2 of fastpool.org. For the next cycles, these options will be made more accessible.
 

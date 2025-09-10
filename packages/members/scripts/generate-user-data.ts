@@ -45,11 +45,11 @@ function readFiles() {
         max: cycleIds[cycleIds.length - 1],
         maxAmount,
         sortKey:
-          // cycleIds.length.toString().padStart(4) +
-          // (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
-          // cycleIds[cycleIds.length - 1].toString().padStart(4) +
-          // stackerDetails.stacker,
-          maxAmount.toString().padStart(24) + stackerDetails.stacker,
+          cycleIds.length.toString().padStart(4) +
+          (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
+          cycleIds[cycleIds.length - 1].toString().padStart(4) +
+          stackerDetails.stacker,
+        // maxAmount.toString().padStart(24) + stackerDetails.stacker,
       };
     }
   });
