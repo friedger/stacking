@@ -298,4 +298,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(117).catch(console.error);
+generateMd(118).catch(console.error);

@@ -6,7 +6,7 @@
     <description>Recent content on Fast Pool</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 12:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 10:01:40 +0000</lastBuildDate>
     <atom:link href="https://fastpool.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycle #31</title>
@@ -632,6 +632,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #118</title>
+      <link>https://fastpool.org/rewards/118/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/118/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Members&#39; Area</title>
       <link>https://fastpool.org/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -650,6 +657,27 @@
       <link>https://fastpool.org/payouts/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/payouts/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP14JRFP9P7Z9W325XNAX9A3DHWSXW7S4N6RB6V41</title>
+      <link>https://fastpool.org/users/SP14JRFP9P7Z9W325XNAX9A3DHWSXW7S4N6RB6V41/</link>
+      <pubDate>Wed, 24 Sep 2025 10:01:40 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP14JRFP9P7Z9W325XNAX9A3DHWSXW7S4N6RB6V41/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP1BN2V664W50A1HAWDHT2M83M3NMN0AG3B16R2SA</title>
+      <link>https://fastpool.org/users/SP1BN2V664W50A1HAWDHT2M83M3NMN0AG3B16R2SA/</link>
+      <pubDate>Wed, 24 Sep 2025 10:01:40 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP1BN2V664W50A1HAWDHT2M83M3NMN0AG3B16R2SA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cycle #119</title>
+      <link>https://fastpool.org/cycles/119/</link>
+      <pubDate>Mon, 22 Sep 2025 10:00:01 +0100</pubDate>
+      <guid>https://fastpool.org/cycles/119/</guid>
       <description></description>
     </item>
     <item>
@@ -50162,6 +50190,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/117-swap/</guid>
       <description>&lt;h3 id=&#34;distribution-in-sbtc-and-stacking-for-a-cause&#34;&gt;Distribution in sBTC and Stacking for a Cause&lt;/h3&gt;&#xA;&lt;p&gt;We continued to distribute rewards in sBTC and to distribute parts of rewards to curated projectsfor for users who registered during delegation to Fast Pool v2.&lt;/p&gt;&#xA;&lt;p&gt;For cycle #117, five user chose to receive sBTC and six users chose to give a share to ZeroAuthority DAO.&lt;/p&gt;&#xA;&lt;p&gt;These users were mainly testing version 2 of fastpool.org. For the next cycles, these options will be made more accessible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/118-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/118-swap/</guid>
+      <description>&lt;h3 id=&#34;distribution-in-sbtc-and-stacking-for-a-cause&#34;&gt;Distribution in sBTC and Stacking for a Cause&lt;/h3&gt;&#xA;&lt;p&gt;We continued to distribute rewards in sBTC and to distribute parts of rewards to curated projectsfor for users who registered during delegation to Fast Pool v2.&lt;/p&gt;&#xA;&lt;p&gt;For cycle #118, five user chose to receive sBTC and six users chose to give a share to ZeroAuthority DAO.&lt;/p&gt;&#xA;&lt;p&gt;These users were mainly testing version 2 of fastpool.org. For the next cycles, these options will be made more accessible.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

@@ -1,0 +1,9 @@
+{{ $sum := 0 }}
+{{ $outputs := .transferBtc.outputs }}
+{{ $lastIndex := sub (len $outputs) 1 }}
+{{ range $index, $output := $outputs }}
+  {{ if and (gt $index 0) (lt $index $lastIndex) }}
+    {{ $sum = add $sum $output.rewards }}
+  {{ end }}
+{{ end }}
+{{ return $sum }}

@@ -49,7 +49,6 @@ Transactions to and from proxy address:
   btctx="https://mempool.space/tx/d3d8479af5322b4d5f15e6380efde0604c0b7efeafbdf5bd1b4b5a4e858ef6e0"
   stxtx="0x6461bc1fbc49a0554675879172e28294595f8b29922dfa7ffa37bf38f08bdb2f" %}}
 
-<li>d3d8479af5322b4d5f15e6380efde0604c0b7efeafbdf5bd1b4b5a4e858ef6e0 (0.78412637 BTC)</li>
 </ul>
 
 ### Compensation as Stacks Signer after Nakamoto Release (4.7% reserve)
@@ -58,8 +57,8 @@ Transactions to and from proxy address:
 stackedstxforstx="47573886.112797" swappedsats="78412747"
 swappedstx="136558.082786" totalstx="169328.111689" %}}
 
-### Swapping using Simpleswap
+### Swapping over the counter
 
 A screenshot of the swap is shown below.
 
-![Simpleswap cycle 117](/img/cycles/117-otc.jpg)
+![Cycle 117](/img/cycles/117-otc.jpg)
