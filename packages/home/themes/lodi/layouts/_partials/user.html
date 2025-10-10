@@ -6,21 +6,12 @@
     <table>
       <thead>
         <tr>
-          <th>
-            Cycle
-          </th>
-          <th>
-            Amount
-          </th>
-          <th>
-            Timestamp
-          </th>
-          <th>
-            Locked
-          </th>
-          <th>
-            Period
-          </th>
+          <th>Cycle</th>
+          <th>Amount</th>
+          <th>Timestamp</th>
+          <th>Locked</th>
+          <th>Period</th>
+          <th>Rewards</th>
         </tr>
       </thead>
       {{ range sort .cycles "cycle" "desc" }}
@@ -28,7 +19,8 @@
           <td>
             {{ .cycle | lang.FormatNumber 0 }}
             {{ if eq (math.Sub .cycle (math.Floor
-        .cycle )) 0.0 }}
+              .cycle )) 0.0
+            }}
               {{ if gt .cycle 99 }}
                 v1
               {{ end }}
@@ -49,6 +41,9 @@
           </td>
           <td style="text-align: right">
             {{ .lockingPeriod }}
+          </td>
+          <td style="text-align: right">
+            {{ div .rewards 1000000 | lang.FormatNumberCustom 0 }}
           </td>
         </tr>
       {{ end }}

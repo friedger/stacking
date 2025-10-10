@@ -2,6 +2,8 @@ import fs, { read, readFileSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 import { txsProxy109 } from './txs-proxy-109.ts';
 import { accountsApi, transactionsApi } from './../src/lib/constants.ts';
+import { AmountBTC } from '../src/components/Amount';
+import { AddressTransactionWithTransfers } from '@stacks/blockchain-api-client';
 const FAST_POOL_V1 = 'bc1qs0kkdpsrzh3ngqgth7mkavlwlzr7lms2zv3wxe';
 const FAST_POOL_V1_CHANGE = 'bc1qs3rq94gjs849uslyaenhfkka0cwjkk6djflyqc';
 const FAST_POOL_V2 = 'bc1q7w0jpwwjyq48qhyecnuwazfqv56880q67pmtfc';
@@ -63,6 +65,16 @@ function stxFromUstx(ustx: number, locale: boolean = false) {
 function isSwapTx(tx: Tx) {
   return (
     tx.vin[0].prevout.scriptpubkey_address === PROXY_ADDRESS &&
+    tx.vout[0].scriptpubkey_type === 'v0_p2wpkh' &&
+    ((tx.vout.length === 2 && tx.vout[1].scriptpubkey_address === PROXY_ADDRESS) ||
+      tx.vout.length === 1)
+  );
+}
+
+function isBtcWrap(tx: Tx) {
+  return (
+    tx.vin[0].prevout.scriptpubkey_address === PROXY_ADDRESS &&
+    tx.vout[0].scriptpubkey_type === 'v1_p2tr' &&
     ((tx.vout.length === 2 && tx.vout[1].scriptpubkey_address === PROXY_ADDRESS) ||
       tx.vout.length === 1)
   );
@@ -80,7 +92,19 @@ function isMemberTx(tx: Tx) {
 
 async function main(
   cycleId: number,
-  { proxyTxs, stxSwapTxs }: { proxyTxs: Tx[]; stxSwapTxs: any[] }
+  {
+    proxyTxs,
+    stxSwapTxs,
+  }: {
+    proxyTxs: Tx[];
+    stxSwapTxs: {
+      txsWithTransfers: AddressTransactionWithTransfers[];
+      txsWithSbtcWrapFinalize: AddressTransactionWithTransfers[];
+      txsWithSbtcToDistribute: AddressTransactionWithTransfers[];
+      txsWithSbtcStxSwap: AddressTransactionWithTransfers[];
+      txsWithStxSbtcSwap: AddressTransactionWithTransfers[];
+    };
+  }
 ) {
   const outputFile = __dirname + `/../../../packages/home/content/rewards/${cycleId}-swap.md`;
   // Read payout data
@@ -121,9 +145,14 @@ async function main(
   for (let i: number = 0; i < remainingTxs.length; i++) {
     const tx = remainingTxs[i];
     if (isSwapTx(tx)) {
-      const stxTx = stxSwapTxs[swapIndex];
+      const stxTx = stxSwapTxs.txsWithTransfers[swapIndex];
       remainingTxsWithStxSwap.push({ tx, stxTx });
       swapIndex++;
+    } else if (isBtcWrap(tx)) {
+      const stxTx = stxSwapTxs.txsWithSbtcWrapFinalize.find(sbtcTx => {
+        return (sbtcTx.tx as any).contract_call.function_args[0].repr === `0x${tx.txid}`;
+      });
+      remainingTxsWithStxSwap.push({ tx, stxTx: stxTx || null });
     } else {
       remainingTxsWithStxSwap.push({ tx, stxTx: null });
     }
@@ -143,24 +172,58 @@ async function main(
   const reserveSats = payouts.transferBtc.outputs[payouts.transferBtc.outputs.length - 1].rewards;
   const reserveBtc = btcFromSats(reserveSats);
 
-  const stackedStxSTXReceivers = stxFromUstx(payouts.stats.statsStandard.totalStackedSTXReceivers);
+  const stackedStxSTXReceivers = stxFromUstx(
+    payouts.stats.statsStandard?.totalStackedSTXReceivers ||
+      payouts.stats.statsStandardStx.totalStackedSTXReceivers
+  );
   const theoreticalStxRewards = stxFromUstx(payouts.info.theoreticalStxRewards);
 
-  const swappedStx = stxSwapTxs.reduce((acc, tx) => {
-    const amount = Number(tx.stx_received);
-    return acc + amount;
-  }, 0);
+  // calculated swapped stx
+  const swappedStx =
+    // all simple swaps
+    stxSwapTxs.txsWithTransfers.reduce((acc, tx) => {
+      const amount = Number(tx.stx_received);
+      return acc + amount;
+    }, 0) +
+    // all sbtc to stx swaps
+    stxSwapTxs.txsWithSbtcStxSwap.reduce((acc, tx) => {
+      const amount = Number(tx.stx_received);
+      return acc + amount;
+    }, 0) -
+    // minus stx to sbtc swaps
+    stxSwapTxs.txsWithStxSbtcSwap.reduce((acc, tx) => {
+      const amount = Number(tx.stx_sent);
+      return acc + amount;
+    }, 0);
+  console.log(`Swapped ${swappedStx} ustx`);
 
-  const swappedSats = swapTxs.reduce((acc, tx) => {
-    const vout = tx.vout.find(vout => vout.scriptpubkey_address !== PROXY_ADDRESS);
-    return acc + (vout ? vout.value : 0);
-  }, 0);
+  // sum up all sats in swapTxs
+  const swappedSats =
+    swapTxs.reduce((acc, tx) => {
+      const vout = tx.vout.find(vout => vout.scriptpubkey_address !== PROXY_ADDRESS);
+      return acc + (vout ? vout.value : 0);
+    }, 0) +
+    stxSwapTxs.txsWithSbtcStxSwap.reduce((acc, tx: any) => {
+      const amount =
+        Number(tx.ft_transfers[0].amount) +
+        Number(tx.ft_transfers[1].amount) +
+        Number(tx.ft_transfers[2].amount);
+      return acc + amount;
+    }, 0) -
+    // minus stx to sbtc swaps
+    stxSwapTxs.txsWithStxSbtcSwap.reduce((acc, tx: any) => {
+      const amount = Number(tx.ft_transfers[0].amount);
+      return acc + amount;
+    }, 0);
+  console.log(`Swapped ${swappedSats} sats`);
 
   const feesInStx = (reserveSats * swappedStx) / swappedSats;
   const feesPercentage = (feesInStx / payouts.info.theoreticalStxRewards) * 100;
   const feesPercentageFormatted = feesPercentage.toLocaleString(undefined, {
     maximumFractionDigits: 1,
   });
+  const remainingBtc =
+    parseFloat(totalBtcAfterFees) - parseFloat(distributedBtc) - parseFloat(reserveBtc);
   // Compose markdown
   const md = `---
 ---
@@ -171,7 +234,11 @@ We consolidated the rewards address continuously and transferred a total of ${to
 
 We distributed ${distributedBtc} BTC to pool members who registered for BTC rewards and ${reserveBtc} BTC to the Fast Pool reserve (fees for all pool members, 4.5%).
 
-The remaining BTC of ${(parseFloat(totalBtcAfterFees) - parseFloat(distributedBtc) - parseFloat(reserveBtc)).toFixed(8)} BTC were swapped to ${stxPartRewards} STX in ${swapTxs.length} transactions using simpleswap.
+The remaining BTC of ${remainingBtc.toFixed(8)} BTC were swapped to ${stxPartRewards} STX in ${swapTxs.length} transactions using simpleswap.
+
+We swapped ${btcFromSats(swappedSats)} BTC to ${stxFromUstx(swappedStx, true)} STX using the sBTC-STX liquidity pools on the Stacks blockchain.
+
+The amount of ${(remainingBtc - swappedSats / 1e8).toFixed(8)} sBTC was sent to the users as sBTC rewards.
 
 Transactions for Fast Pool v1:
 
@@ -217,6 +284,10 @@ ${remainingTxsWithStxSwap
       )}"
   btctx="https://mempool.space/tx/${tx.txid}" %}}
   `;
+    } else if (isBtcWrap(tx) && txTuple.stxTx) {
+      return `{{% wrap btc="${btcFromSats(tx.vout[0].value)}"
+  btctx="https://mempool.space/tx/${tx.txid}" stxtx="${txTuple.stxTx.tx.tx_id}" %}}
+  `;
     } else {
       return `<li>${tx.txid} (${btcFromSats(tx.vout[0].value)} BTC)</li>`;
     }
@@ -235,6 +306,31 @@ swappedstx="${swappedStx / 1e6}" totalstx="${theoreticalStxRewards}" %}}
 A screenshot of simpleswaps is shown below.
 
 ![Simpleswap cycle ${cycleId}](/img/cycles/${cycleId}-simpleswap.png)
+
+### Swapping using sBTC-STX Pools
+We swapped ${btcFromSats(swappedSats)} BTC to ${stxFromUstx(swappedStx, true)} STX using the sBTC-STX liquidity pools on the Stacks blockchain.
+
+<ul>
+${stxSwapTxs.txsWithSbtcStxSwap
+  .map(
+    tx => `
+{{% swapSbtcToStx btc="${btcFromSats(Number(tx.ft_transfers![0].amount) + Number(tx.ft_transfers![1].amount) + Number(tx.ft_transfers![2].amount))}" stx="${stxFromUstx(Number(tx.stx_received), true)}"
+  stxtx="${(tx.tx as any).tx_id}" %}}
+  `
+  )
+  .join('\n')}
+</ul>
+
+<ul>
+${stxSwapTxs.txsWithStxSbtcSwap
+  .map(
+    tx => `
+{{% swapStxToSbtc btc="${btcFromSats(Number(tx.ft_transfers![0].amount))}" stx="${stxFromUstx(Number(tx.stx_sent), true)}"
+  stxtx="${(tx.tx as any).tx_id}" %}}
+  `
+  )
+  .join('\n')}
+</ul>
 `;
 
   fs.writeFileSync(outputFile, md);
@@ -266,20 +362,82 @@ async function getStxSwapTransactions(cycleId: number) {
   const res = await accountsApi.getAccountTransactionsWithTransfers({
     principal: 'SP3KJBWTS3K562BF5NXWG5JC8W90HEG7WPYH5B97X',
   });
-  const txs = res.results;
-
   const firstConsolidationPossible = 666050 + cycleId * 2100 + 500;
+
+  const txs = res.results.filter(
+    tx =>
+      (tx.tx as any).burn_block_height > firstConsolidationPossible &&
+      (tx.tx as any).tx_status === 'success'
+  );
+
   const txsWithTransfers = txs.filter(
     tx =>
       BigInt(tx.stx_received) > 0n &&
-      (tx.tx as any).burn_block_height > firstConsolidationPossible &&
       // try to filter only transfers from simple swap
       (tx.tx as any).tx_type === 'token_transfer' &&
-      ((tx.tx as any).token_transfer.memo as string).startsWith('0x313131') &&
-      (tx.tx as any).tx_status === 'success'
+      ((tx.tx as any).token_transfer.memo as string).startsWith('0x313131')
   );
   txsWithTransfers.reverse();
-  return txsWithTransfers;
+
+  const txsWithSbtcWrapFinalize = txs.filter(
+    tx =>
+      BigInt(tx.ft_transfers?.[0]?.amount || 0) > 0n &&
+      tx.ft_transfers?.[0]?.asset_identifier ===
+        'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token::sbtc-token' &&
+      tx.ft_transfers?.[0]?.recipient === 'SP3KJBWTS3K562BF5NXWG5JC8W90HEG7WPYH5B97X' &&
+      (tx.tx as any).tx_type === 'contract_call' &&
+      (tx.tx as any).contract_call.contract_id ===
+        'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-deposit' &&
+      (tx.tx as any).contract_call.function_name === 'complete-deposit-wrapper'
+  );
+  txsWithSbtcWrapFinalize.reverse();
+
+  const txsWithSbtcToDistribute = txs.filter(
+    tx =>
+      tx.ft_transfers?.length === 1 &&
+      BigInt(tx.ft_transfers?.[0]?.amount || 0) > 0n &&
+      tx.ft_transfers?.[0]?.asset_identifier ===
+        'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token::sbtc-token' &&
+      tx.ft_transfers?.[0]?.sender === 'SP3KJBWTS3K562BF5NXWG5JC8W90HEG7WPYH5B97X' &&
+      tx.ft_transfers?.[0]?.recipient === 'SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP'
+  );
+  txsWithSbtcToDistribute.reverse();
+
+  const txsWithSbtcStxSwap = txs.filter(
+    tx =>
+      tx.ft_transfers?.length === 3 &&
+      BigInt(tx.ft_transfers?.[1]?.amount || 0) > 0n &&
+      tx.ft_transfers?.[1]?.asset_identifier ===
+        'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token::sbtc-token' &&
+      tx.ft_transfers?.[1]?.sender === 'SP3KJBWTS3K562BF5NXWG5JC8W90HEG7WPYH5B97X' &&
+      tx.ft_transfers?.[1]?.recipient ===
+        'SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-pool-sbtc-stx-v-1-1'
+  );
+  txsWithSbtcStxSwap.reverse();
+
+  txs.filter((tx: any) => {
+    console.log(tx.tx.tx_id, tx.ft_transfers);
+    return tx.ft_transfers?.length === 3 && BigInt(tx.ft_transfers?.[1]?.amount || 0) > 0n;
+  });
+
+  const txsWithStxSbtcSwap = txs.filter(
+    tx =>
+      tx.ft_transfers?.length === 1 &&
+      BigInt(tx.ft_transfers?.[0]?.amount || 0) > 0n &&
+      tx.ft_transfers?.[0]?.asset_identifier ===
+        'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token::sbtc-token' &&
+      tx.ft_transfers?.[0]?.sender ===
+        'SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-pool-v1_0_0-0070' &&
+      tx.ft_transfers?.[0]?.recipient === 'SP3KJBWTS3K562BF5NXWG5JC8W90HEG7WPYH5B97X'
+  );
+  txsWithStxSbtcSwap.reverse();
+  return {
+    txsWithTransfers,
+    txsWithSbtcWrapFinalize,
+    txsWithSbtcToDistribute,
+    txsWithSbtcStxSwap,
+    txsWithStxSbtcSwap,
+  };
 }
 
 const generateMd = async (cycleId: number) => {
@@ -298,4 +456,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(118).catch(console.error);
+generateMd(119).catch(console.error);

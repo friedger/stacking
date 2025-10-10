@@ -29,8 +29,9 @@ function readFiles() {
       const content = fs.readFileSync(stackerFilename, { flag: 'as+' }).toString();
       const userData = JSON.parse(content ? content : '{"cycles":{}}');
       if (userData.cycles === undefined) userData.cycles = {};
-
-      userData.cycles[cycleId] = { cycle: cycleData.cycle, ...stackerDetails };
+      const rewards =
+        cycleData.payout || (0 * (stackerDetails.amount || 0)) / cycleData.totalStaked || 1;
+      userData.cycles[cycleId] = { cycle: cycleData.cycle, rewards, ...stackerDetails };
       userData.stacker = stackerDetails.stacker;
       const maxAmount = Object.keys(userData.cycles).reduce((max, cycle) => {
         return Math.max(max, userData.cycles[cycle].amount || 0);
