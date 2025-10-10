@@ -60,7 +60,7 @@
       {{ div (index .transferBtc.outputs 0).rewards 1e8 |
         lang.FormatNumberCustom 8
       }}
-      BTC to {{ sub .info.numberOfBtcReceivers 1 }} pool member based on
+      BTC to {{ .info.numberOfBtcReceivers }} pool member based on
       {{ div .info.totalStackedBtcReceivers 1e6 |
         lang.FormatNumberCustom 6
       }}

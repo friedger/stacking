@@ -314,7 +314,7 @@ We swapped ${btcFromSats(swappedSats)} BTC to ${stxFromUstx(swappedStx, true)} S
 ${stxSwapTxs.txsWithSbtcStxSwap
   .map(
     tx => `
-{{% swapSbtcToStx btc="${btcFromSats(Number(tx.ft_transfers![0].amount) + Number(tx.ft_transfers![1].amount) + Number(tx.ft_transfers![2].amount))}" stx="${stxFromUstx(Number(tx.stx_received), true)}"
+{{% swapSbtcToStx sbtc="${btcFromSats(Number(tx.ft_transfers![0].amount) + Number(tx.ft_transfers![1].amount) + Number(tx.ft_transfers![2].amount))}" stx="${stxFromUstx(Number(tx.stx_received), true)}"
   stxtx="${(tx.tx as any).tx_id}" %}}
   `
   )
@@ -325,7 +325,7 @@ ${stxSwapTxs.txsWithSbtcStxSwap
 ${stxSwapTxs.txsWithStxSbtcSwap
   .map(
     tx => `
-{{% swapStxToSbtc btc="${btcFromSats(Number(tx.ft_transfers![0].amount))}" stx="${stxFromUstx(Number(tx.stx_sent), true)}"
+{{% swapStxToSbtc sbtc="${btcFromSats(Number(tx.ft_transfers![0].amount))}" stx="${stxFromUstx(Number(tx.stx_sent), true)}"
   stxtx="${(tx.tx as any).tx_id}" %}}
   `
   )

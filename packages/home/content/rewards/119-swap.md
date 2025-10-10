@@ -53,47 +53,43 @@ Transactions to and from proxy address:
 stackedstxforstx="47696350.975155" swappedsats="79179015"
 swappedstx="155846.97736" totalstx="194333.435532" %}}
 
-### Swapping using Simpleswap
-
-A screenshot of simpleswaps is shown below.
-
-![Simpleswap cycle 119](/img/cycles/119-simpleswap.png)
-
 ### Swapping using sBTC-STX Pools
 
 We swapped 0.79179015 BTC to 155,846.97736 STX using the sBTC-STX liquidity pools on the Stacks blockchain.
 
 <ul>
 
-{{% swapSbtcToStx btc="0.10000000" stx="19,468.451947"
+{{% swapSbtcToStx sbtc="0.10000000" stx="19,468.451947"
   stxtx="0x66da34f43a7bfc84270eb6c1155cd55d12776f155f3dfa6784e7aa5d013b1cc7" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="19,352.627075"
+{{% swapSbtcToStx sbtc="0.10000000" stx="19,352.627075"
   stxtx="0x793a4c421cd1e8ae8ba4bad1d246ecee62589ba45256a7040661e7966f15b669" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="19,310.418708"
+{{% swapSbtcToStx sbtc="0.10000000" stx="19,310.418708"
   stxtx="0x198064f64d402cbcdffb3ca2332e0fc88a32538675a864054b798b8ecef51af4" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="19,246.845923"
+{{% swapSbtcToStx sbtc="0.10000000" stx="19,246.845923"
   stxtx="0x9fcc76ed807f52942d2717fe700d510b3b6bc653cfde5662f67b7562facd1600" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="19,282.358055"
+{{% swapSbtcToStx sbtc="0.10000000" stx="19,282.358055"
   stxtx="0xa3b19d2eb8561b9b651f36536f5692be74a4c4a4ca067b1ebb6046c5d88d0084" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="20,373.700205"
+{{% swapSbtcToStx sbtc="0.10000000" stx="20,373.700205"
   stxtx="0x92871d244807ee71a6a8dda50224c4c9e1f43db746d49affe3491e4b9dee7993" %}}
 
-{{% swapSbtcToStx btc="0.10000000" stx="20,202.609702"
+{{% swapSbtcToStx sbtc="0.10000000" stx="20,202.609702"
   stxtx="0xe6110035b6ce7eeb93c094a72b48eb91832da7e33c358845ce69df852eb20bbc" %}}
 
-{{% swapSbtcToStx btc="0.09672844" stx="19,624.968745"
+{{% swapSbtcToStx sbtc="0.09672844" stx="19,624.968745"
   stxtx="0x27bd7a2fa85c15995475be3bca198cdcdf1f3424e93481cd20728560c58655a3" %}}
 
 </ul>
 
+We swapped too much, therefore, the amount for users receiving sBTC rewards was swapped back:
+
 <ul>
 
-{{% swapStxToSbtc btc="0.00493829" stx="1,015.003"
+{{% swapStxToSbtc sbtc="0.00493829" stx="1,015.003"
   stxtx="0xb903087e411eb9f963889af5f8835db33342b0b0c66ee8f675fd0ebaf97a1597" %}}
 
 </ul>
