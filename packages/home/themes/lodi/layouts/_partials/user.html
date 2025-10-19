@@ -29,7 +29,7 @@
             {{ end }}
           </td>
           <td style="text-align: right">
-            {{ div .amount 1000000 | lang.FormatNumberCustom 0 }}
+            {{ div .amount 1000000 | lang.FormatNumberCustom 0 }} 
           </td>
           <td>
             <a href="https://explorer.stacks.co/txid/{{ .txid }}">
@@ -43,7 +43,7 @@
             {{ .lockingPeriod }}
           </td>
           <td style="text-align: right">
-            {{ div .rewards 1000000 | lang.FormatNumberCustom 0 }}
+           {{ if gt ( .rewards | default -1) 0 }}  {{ div .rewards 1000000 | lang.FormatNumberCustom 0 }} {{ end }}
           </td>
         </tr>
       {{ end }}

@@ -7,15 +7,27 @@ function readFiles() {
   const outputDirUsers = __dirname + '/../../../packages/home/data/users/';
   const outputDirContent = __dirname + '/../../../packages/home/content/users/';
   const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
+  const outputCycles = __dirname + '/../../../packages/home/data/cycles.json';
 
   const hackers = fs.readFileSync(__dirname + '/../hackers.json').toString();
-  const hackersData = JSON.parse(hackers).data;
+  const hackersData = JSON.parse(hackers).data as string[];
   //const hackersData = [];
 
   console.log('processing cycle data');
   console.log('hackers', hackersData.length);
 
-  const ranking = {};
+  const ranking: {
+    [key: string]: {
+      stacker: string;
+      count: number;
+      min: string;
+      max: string;
+      maxAmount: number;
+      totalRewards: number;
+      sortKey: string;
+    };
+  } = {};
+  const cycles: { [key: number]: { count: number; total: number; payout?: number } } = {};
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
     if (cycleData.members === undefined) {
@@ -26,16 +38,30 @@ function readFiles() {
 
     for (let stackerDetails of cycleData.members) {
       const stackerFilename = `${outputDirUsers}${stackerDetails.stacker}.json`;
-      const content = fs.readFileSync(stackerFilename, { flag: 'as+' }).toString();
+      
+      // read userData from file
+      const content = fs.existsSync(stackerFilename)
+        ? fs.readFileSync(stackerFilename).toString()
+        : undefined;
       const userData = JSON.parse(content ? content : '{"cycles":{}}');
       if (userData.cycles === undefined) userData.cycles = {};
-      const rewards =
-        cycleData.payout || (0 * (stackerDetails.amount || 0)) / cycleData.totalStaked || 1;
+
+      const rewards = cycleData.payout
+        ? Math.floor((cycleData.payout * (stackerDetails.amount || 0)) / (cycleData.total || 1))
+        : undefined;
       userData.cycles[cycleId] = { cycle: cycleData.cycle, rewards, ...stackerDetails };
       userData.stacker = stackerDetails.stacker;
-      const maxAmount = Object.keys(userData.cycles).reduce((max, cycle) => {
-        return Math.max(max, userData.cycles[cycle].amount || 0);
-      }, 0);
+      
+      const { maxAmount, totalRewards } = Object.keys(userData.cycles).reduce(
+        (summary, cycle) => {
+          return {
+            maxAmount: Math.max(summary.maxAmount, userData.cycles[cycle].amount || 0),
+            totalRewards: summary.totalRewards + (userData.cycles[cycle].rewards || 0),
+          };
+        },
+        { maxAmount: 0, totalRewards: 0 }
+      );
+      userData.totalRewards = totalRewards;
       fs.writeFileSync(stackerFilename, JSON.stringify(userData));
 
       const cycleIds = Object.keys(userData.cycles);
@@ -45,6 +71,7 @@ function readFiles() {
         min: cycleIds[0],
         max: cycleIds[cycleIds.length - 1],
         maxAmount,
+        totalRewards,
         sortKey:
           cycleIds.length.toString().padStart(4) +
           (9999 - parseInt(cycleIds[0])).toString().padStart(4) +
@@ -52,11 +79,17 @@ function readFiles() {
           stackerDetails.stacker,
         // maxAmount.toString().padStart(24) + stackerDetails.stacker,
       };
+
+      cycles[cycleId] = {
+        count: cycleData.count,
+        total: cycleData.total,
+        payout: cycleData.payout,
+      };
     }
   });
 
   fs.writeFileSync(`${outputRanking}`, JSON.stringify(ranking));
-
+  fs.writeFileSync(`${outputCycles}`, JSON.stringify(cycles));
   for (let user of Object.keys(ranking)) {
     const userStat = ranking[user];
     const isHackers = hackersData.find(h => h === user);
