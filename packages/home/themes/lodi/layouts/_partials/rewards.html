@@ -1,7 +1,7 @@
 <p>
   We received
   {{ div (add (.info.rewardsBTCForBTCReceivers | int)
-    (.info.rewardsBTCForSTXReceivers | int)) 1e8 | lang.FormatNumberCustom 8
+    (.info.rewardsBTCForSTXReceivers | int) (.info.rewardsBTCForSBTCReceivers | int)) 1e8 | lang.FormatNumberCustom 8
   }}
   BTC as stacking rewards.
 </p>
