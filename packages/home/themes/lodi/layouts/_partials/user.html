@@ -1,7 +1,8 @@
 <section class="cycle">
   <h2 class="text-2xl font-bold text-blue-900 mb-4">
-    {{ .stacker }}
+    <a href="https://explorer.hiro.so/address/{{ .stacker }}">{{ .stacker }}</a>
   </h2>
+  Total Rewards: {{.totalRewards}}
   {{ if gt (len .cycles ) 0 }}
     <table>
       <thead>
@@ -43,7 +44,7 @@
             {{ .lockingPeriod }}
           </td>
           <td style="text-align: right">
-           {{ if gt ( .rewards | default -1) 0 }}  {{ div .rewards 1000000 | lang.FormatNumberCustom 0 }} {{ end }}
+           {{ if gt ( .rewards | default -1) 0 }}  {{ div .rewards 1000000 | lang.FormatNumberCustom 6 }} {{ end }}
           </td>
         </tr>
       {{ end }}

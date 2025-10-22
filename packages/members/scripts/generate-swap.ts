@@ -234,7 +234,7 @@ We consolidated the rewards address continuously and transferred a total of ${to
 
 We distributed ${distributedBtc} BTC to pool members who registered for BTC rewards and ${reserveBtc} BTC to the Fast Pool reserve (fees for all pool members, 4.5%).
 
-The remaining BTC of ${remainingBtc.toFixed(8)} BTC were swapped to ${stxPartRewards} STX in ${swapTxs.length} transactions using simpleswap.
+The remaining BTC of ${remainingBtc.toFixed(8)} BTC were wrapped to swapped to ${stxPartRewards} STX in ${swapTxs.length} transactions using simpleswap.
 
 We swapped ${btcFromSats(swappedSats)} BTC to ${stxFromUstx(swappedStx, true)} STX using the sBTC-STX liquidity pools on the Stacks blockchain.
 
@@ -456,4 +456,4 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(119).catch(console.error);
+generateMd(121).catch(console.error);

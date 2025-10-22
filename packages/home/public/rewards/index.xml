@@ -800,6 +800,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://fastpool.org/rewards/120-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/120-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.81141732 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.15051616 BTC to pool members who registered for BTC rewards and 0.03657937 BTC to the Fast Pool reserve (fees for all pool members, 4.5%). More detailed, the BTC reward stackers received 0.14986852 BTC from the pool&amp;rsquo;s and 0.00064764 BTC from the pool reserve. (The first transaction was missing some rewards.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://fastpool.org/rewards/swap-115/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/swap-115/</guid>

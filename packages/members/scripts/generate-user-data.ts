@@ -8,6 +8,7 @@ function readFiles() {
   const outputDirContent = __dirname + '/../../../packages/home/content/users/';
   const outputRanking = __dirname + '/../../../packages/home/data/ranking.json';
   const outputCycles = __dirname + '/../../../packages/home/data/cycles.json';
+  const outputComments = __dirname + '/../../../packages/home/data/comments.json';
 
   const hackers = fs.readFileSync(__dirname + '/../hackers.json').toString();
   const hackersData = JSON.parse(hackers).data as string[];
@@ -28,17 +29,23 @@ function readFiles() {
     };
   } = {};
   const cycles: { [key: number]: { count: number; total: number; payout?: number } } = {};
+  const comments: {[key:number]: {comment: string}} = {};
+
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
+    const cycleId = parseInt(cycleData.cycle); // can be like 100 or 100.1 (mp/v2)
+
     if (cycleData.members === undefined) {
       console.log(cycleData.cycle, 'No members', filename);
+      if (cycleData.comment) {
+        comments[cycleId] = {comment : cycleData.comment};
+      }
       return;
     }
-    const cycleId = parseInt(cycleData.cycle);
 
     for (let stackerDetails of cycleData.members) {
       const stackerFilename = `${outputDirUsers}${stackerDetails.stacker}.json`;
-      
+
       // read userData from file
       const content = fs.existsSync(stackerFilename)
         ? fs.readFileSync(stackerFilename).toString()
@@ -51,7 +58,7 @@ function readFiles() {
         : undefined;
       userData.cycles[cycleId] = { cycle: cycleData.cycle, rewards, ...stackerDetails };
       userData.stacker = stackerDetails.stacker;
-      
+
       const { maxAmount, totalRewards } = Object.keys(userData.cycles).reduce(
         (summary, cycle) => {
           return {
@@ -80,16 +87,26 @@ function readFiles() {
         // maxAmount.toString().padStart(24) + stackerDetails.stacker,
       };
 
-      cycles[cycleId] = {
-        count: cycleData.count,
-        total: cycleData.total,
-        payout: cycleData.payout,
-      };
+      if (cycles[cycleId]) {
+        cycles[cycleId] = {
+          count: cycles[cycleId].count + cycleData.count,
+          total: cycles[cycleId].total + cycleData.total,
+          payout: cycles[cycleId].payout + cycleData.payout,
+        };
+      } else {
+        cycles[cycleId] = {
+          count: cycleData.count,
+          total: cycleData.total,
+          payout: cycleData.payout,
+        };
+      }
     }
   });
 
   fs.writeFileSync(`${outputRanking}`, JSON.stringify(ranking));
   fs.writeFileSync(`${outputCycles}`, JSON.stringify(cycles));
+  fs.writeFileSync(`${outputComments}`, JSON.stringify(comments));
+  
   for (let user of Object.keys(ranking)) {
     const userStat = ranking[user];
     const isHackers = hackersData.find(h => h === user);

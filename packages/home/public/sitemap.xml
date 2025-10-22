@@ -193,7 +193,10 @@
     <loc>https://fastpool.org/payouts/1/</loc>
   </url><url>
     <loc>https://fastpool.org/</loc>
-    <lastmod>2025-10-19T11:15:25+00:00</lastmod>
+    <lastmod>2025-10-21T13:47:07+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP1YGXYQ7TJ7VF2Y2ZF7ZS3NRV9D8PQEVPNKT2B4H/</loc>
+    <lastmod>2025-10-21T13:47:07+00:00</lastmod>
   </url><url>
     <loc>https://fastpool.org/users/SP1WQR8GYXEV6V8VGXHEZJQXAMTT01DEY15TTQ5SS/</loc>
     <lastmod>2025-10-19T11:15:25+00:00</lastmod>
@@ -21442,6 +21445,8 @@
     <loc>https://fastpool.org/rewards/118-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/119-swap/</loc>
+  </url><url>
+    <loc>https://fastpool.org/rewards/120-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/swap-115/</loc>
   </url><url>
