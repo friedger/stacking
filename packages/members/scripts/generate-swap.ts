@@ -456,4 +456,20 @@ const generateMd = async (cycleId: number) => {
   });
 };
 
-generateMd(121).catch(console.error);
+const cycleId = process.argv[2];
+
+if (!cycleId) {
+  console.error('Usage: npx tsx generate-swap <cycleId>');
+  console.error('Example: npx tsx generate-swap 121');
+  process.exit(1);
+}
+
+const cycleNumber = parseInt(cycleId, 10);
+
+if (isNaN(cycleNumber)) {
+  console.error('Error: cycleId must be a valid number');
+  console.error('Example: npx tsx generate-swap 121');
+  process.exit(1);
+}
+
+generateMd(cycleNumber).catch(console.error);
