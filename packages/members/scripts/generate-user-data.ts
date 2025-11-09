@@ -29,16 +29,16 @@ function readFiles() {
     };
   } = {};
   const cycles: { [key: number]: { count: number; total: number; payout?: number } } = {};
-  const comments: {[key:number]: {comment: string}} = {};
+  const comments: { [key: number]: { comment: string } } = {};
 
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
     const cycleId = parseInt(cycleData.cycle); // can be like 100 or 100.1 (mp/v2)
-
+    console.log(cycleId, filename)
     if (cycleData.members === undefined) {
       console.log(cycleData.cycle, 'No members', filename);
       if (cycleData.comment) {
-        comments[cycleId] = {comment : cycleData.comment};
+        comments[cycleId] = { comment: cycleData.comment };
       }
       return;
     }
@@ -86,27 +86,26 @@ function readFiles() {
           stackerDetails.stacker,
         // maxAmount.toString().padStart(24) + stackerDetails.stacker,
       };
-
-      if (cycles[cycleId]) {
-        cycles[cycleId] = {
-          count: cycles[cycleId].count + cycleData.count,
-          total: cycles[cycleId].total + cycleData.total,
-          payout: cycles[cycleId].payout + cycleData.payout,
-        };
-      } else {
-        cycles[cycleId] = {
-          count: cycleData.count,
-          total: cycleData.total,
-          payout: cycleData.payout,
-        };
-      }
+    }
+    if (cycles[cycleId]) {
+      cycles[cycleId] = {
+        count: cycles[cycleId].count + cycleData.count,
+        total: cycles[cycleId].total + cycleData.total,
+        payout: cycles[cycleId].payout + cycleData.payout,
+      };
+    } else {
+      cycles[cycleId] = {
+        count: cycleData.count,
+        total: cycleData.total,
+        payout: cycleData.payout,
+      };
     }
   });
 
   fs.writeFileSync(`${outputRanking}`, JSON.stringify(ranking));
   fs.writeFileSync(`${outputCycles}`, JSON.stringify(cycles));
   fs.writeFileSync(`${outputComments}`, JSON.stringify(comments));
-  
+
   for (let user of Object.keys(ranking)) {
     const userStat = ranking[user];
     const isHackers = hackersData.find(h => h === user);
