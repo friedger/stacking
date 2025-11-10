@@ -34,7 +34,6 @@ function readFiles() {
   fs.readdirSync(inputDirCycles).forEach(function (filename) {
     const cycleData = JSON.parse(fs.readFileSync(inputDirCycles + filename, 'utf-8'));
     const cycleId = parseInt(cycleData.cycle); // can be like 100 or 100.1 (mp/v2)
-    console.log(cycleId, filename)
     if (cycleData.members === undefined) {
       console.log(cycleData.cycle, 'No members', filename);
       if (cycleData.comment) {
