@@ -6,8 +6,15 @@
     <description>Recent content in All Cycles on Fast Pool</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 10:05:10 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 10:05:10 +0100</lastBuildDate>
     <atom:link href="https://fastpool.org/cycles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cycle #123</title>
+      <link>https://fastpool.org/cycles/123/</link>
+      <pubDate>Fri, 21 Nov 2025 10:05:10 +0100</pubDate>
+      <guid>https://fastpool.org/cycles/123/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cycle #122</title>
       <link>https://fastpool.org/cycles/122/</link>
