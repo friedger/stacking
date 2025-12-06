@@ -659,6 +659,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #123</title>
+      <link>https://fastpool.org/rewards/123/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/123/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -832,6 +839,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/122-swap/</guid>
       <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.65728618 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.12252923 BTC to pool members who registered for BTC rewards and 0.02945025 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.50530670 BTC were wrapped to swapped to 133,759.26335 STX in 5 transactions using bitflow.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.50170998 BTC to 133,759.26335 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/123-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/123-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.67575193 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.12658723 BTC to pool members who registered for BTC rewards and 0.03056449 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.51860021 BTC were wrapped to swapped to 153,650.931 STX in 10 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.51471129 BTC to 153,650.930738 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

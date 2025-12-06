@@ -2395,9 +2395,9 @@
       "rewardCycle": 123,
       "lockingPeriod": 1,
       "stacker": "SP25H156TNWPA5PPC08MXM2CK8ZF9NJP3KVSJQX43",
-      "amount": 82779879,
-      "txid": "0x2a103b97d2ed2c867b61896c9cdca6871e5fbaa2446d27adf9aa87ad69403466",
-      "timestamp": "2025-11-17T09:26:54.000Z",
+      "amount": 99000000,
+      "txid": "0xfc20ef07ec5f04c4e533161bf96598b5d44c10725badceb1f79aca2f44a132bf",
+      "timestamp": "2025-11-19T13:28:48.000Z",
       "unlock": 926450,
       "pool": "v1"
     },
@@ -3008,6 +3008,16 @@
       "amount": 629000000,
       "txid": "0x9d10f35e156f629c6a0c42db8ec40798df7d9fa99d0a20eaa741d7c8b76e7c1d",
       "timestamp": "2025-11-17T09:26:54.000Z",
+      "unlock": 926450,
+      "pool": "v1"
+    },
+    {
+      "rewardCycle": 123,
+      "lockingPeriod": 1,
+      "stacker": "SP2H0AT7Z64YRBQN2DAGHH3E9P3ZSJ287ZX3DJNAN",
+      "amount": 38911099,
+      "txid": "0xe49a5b870e330fdf4f4fa63f1706ef0fe0fe6e0ac7376a5d6ff3353587f22584",
+      "timestamp": "2025-11-18T23:44:53.000Z",
       "unlock": 926450,
       "pool": "v1"
     },
@@ -5745,9 +5755,9 @@
       "rewardCycle": 123,
       "lockingPeriod": 1,
       "stacker": "SP5ZCJAMPZYXDC9RG9RCG9BX6VD2WGXJ4SBZ8ZR6",
-      "amount": 6699000000,
-      "txid": "0x0936b0c94d9a491e466aa325e4802dd3e4db1d07603504310ee162d2191fc600",
-      "timestamp": "2025-11-17T09:26:54.000Z",
+      "amount": 9399000000,
+      "txid": "0x8f9020c19820133b5874f15b7648e330178ce16a0609d3a2a9429b538a752c25",
+      "timestamp": "2025-11-19T06:26:06.000Z",
       "unlock": 926450,
       "pool": "v1"
     },
@@ -7880,6 +7890,16 @@
     {
       "rewardCycle": 123,
       "lockingPeriod": 1,
+      "stacker": "SP3HX6659RJEFDYNY8X7GZP9DPCGVS8MCB5R2GEZQ",
+      "amount": 899000000,
+      "txid": "0x7c8f622c2ec14771d6ca76060a6052a8667728d0aa2f99a856c9752faac6bf20",
+      "timestamp": "2025-11-18T23:44:53.000Z",
+      "unlock": 926450,
+      "pool": "v2"
+    },
+    {
+      "rewardCycle": 123,
+      "lockingPeriod": 1,
       "stacker": "SP3JWSERFDACYF5S9MQVHGMQFP6BRT5JQTWS56JVP",
       "amount": 9996347080,
       "txid": "0xfebef8a9b3cab137de84733d1df15e23c46af4d63892b1bd8343a2adf1f3f94a",
@@ -7988,6 +8008,7 @@
       "pool": "v2"
     }
   ],
-  "count": 791,
-  "total": 58831336400312
+  "count": 793,
+  "total": 58834990531532,
+  "payout": 192337876332
 }
