@@ -6,7 +6,7 @@
     <description>Recent content on Fast Pool</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Dec 2025 19:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 07:57:23 +0000</lastBuildDate>
     <atom:link href="https://fastpool.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycle #31</title>
@@ -674,6 +674,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #124</title>
+      <link>https://fastpool.org/rewards/124/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/124/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Members&#39; Area</title>
       <link>https://fastpool.org/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -692,6 +699,48 @@
       <link>https://fastpool.org/payouts/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/payouts/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP12DVFEZGNNMR00RXMW0YACHJ387CPEA0KEK2T7G</title>
+      <link>https://fastpool.org/users/SP12DVFEZGNNMR00RXMW0YACHJ387CPEA0KEK2T7G/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP12DVFEZGNNMR00RXMW0YACHJ387CPEA0KEK2T7G/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP12Y7EZQ8KT061APCX962D42RQV7RP224SA9VYXW</title>
+      <link>https://fastpool.org/users/SP12Y7EZQ8KT061APCX962D42RQV7RP224SA9VYXW/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP12Y7EZQ8KT061APCX962D42RQV7RP224SA9VYXW/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP1N6QYMS4771B58J5WDQMX917F2ZQJVD48RJH047</title>
+      <link>https://fastpool.org/users/SP1N6QYMS4771B58J5WDQMX917F2ZQJVD48RJH047/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP1N6QYMS4771B58J5WDQMX917F2ZQJVD48RJH047/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP2RXQ8MC6Q87TP7DDFESXYGQMMV31SB24PGWS9FB</title>
+      <link>https://fastpool.org/users/SP2RXQ8MC6Q87TP7DDFESXYGQMMV31SB24PGWS9FB/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP2RXQ8MC6Q87TP7DDFESXYGQMMV31SB24PGWS9FB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SP3CTED2DNJHQJM7MAMEV3Q4KASYTWJZD4JM2D4B5</title>
+      <link>https://fastpool.org/users/SP3CTED2DNJHQJM7MAMEV3Q4KASYTWJZD4JM2D4B5/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SP3CTED2DNJHQJM7MAMEV3Q4KASYTWJZD4JM2D4B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPENESF0J5426GH4R3WRG85QGAPCAJFBQBDE7F4R</title>
+      <link>https://fastpool.org/users/SPENESF0J5426GH4R3WRG85QGAPCAJFBQBDE7F4R/</link>
+      <pubDate>Sun, 21 Dec 2025 07:57:23 +0000</pubDate>
+      <guid>https://fastpool.org/users/SPENESF0J5426GH4R3WRG85QGAPCAJFBQBDE7F4R/</guid>
       <description></description>
     </item>
     <item>
@@ -783,6 +832,13 @@
       <link>https://fastpool.org/cycles/124/</link>
       <pubDate>Sat, 06 Dec 2025 10:05:10 +0100</pubDate>
       <guid>https://fastpool.org/cycles/124/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cycle #125</title>
+      <link>https://fastpool.org/cycles/125/</link>
+      <pubDate>Sat, 06 Dec 2025 10:05:10 +0100</pubDate>
+      <guid>https://fastpool.org/cycles/125/</guid>
       <description></description>
     </item>
     <item>
@@ -50512,6 +50568,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/123-swap/</guid>
       <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.67575193 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.12658723 BTC to pool members who registered for BTC rewards and 0.03056449 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.51860021 BTC were wrapped to swapped to 153,650.931 STX in 10 transactions using simpleswap.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.51471129 BTC to 153,650.930738 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/124-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/124-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.65974497 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.12538136 BTC to pool members who registered for BTC rewards and 0.02974918 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.50461443 BTC were wrapped to sBTC in 2 transactions.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.50050073 BTC to 167,208.51119 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
