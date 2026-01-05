@@ -673,6 +673,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fast Pool - Cycle #125</title>
+      <link>https://fastpool.org/rewards/125/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/125/</guid>
+      <description></description>
+    </item>
+    <item>
       <title></title>
       <link>https://fastpool.org/rewards/100-md-swap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -860,6 +867,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fastpool.org/rewards/124-swap/</guid>
       <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.65974497 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.12538136 BTC to pool members who registered for BTC rewards and 0.02974918 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.50461443 BTC were wrapped to sBTC in 2 transactions.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.50050073 BTC to 167,208.51119 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fastpool.org/rewards/125-swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fastpool.org/rewards/125-swap/</guid>
+      <description>&lt;h3 id=&#34;consolidation-and-swapping&#34;&gt;Consolidation and Swapping&lt;/h3&gt;&#xA;&lt;p&gt;We consolidated the rewards address continuously and transferred a total of 0.54959216 BTC to the proxy address.&lt;/p&gt;&#xA;&lt;p&gt;We distributed 0.10459194 BTC to pool members who registered for BTC rewards and 0.02478971 BTC to the Fast Pool reserve (fees for all pool members, 4.5%).&lt;/p&gt;&#xA;&lt;p&gt;The remaining BTC of 0.42021051 BTC were wrapped 0.42019612 sBTC in 2 transaction.&lt;/p&gt;&#xA;&lt;p&gt;We swapped 0.41631780 BTC to 125,962.239975 STX using the sBTC-STX liquidity pools on the Stacks blockchain.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
