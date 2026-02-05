@@ -4245,9 +4245,9 @@
       "rewardCycle": 127,
       "lockingPeriod": 1,
       "stacker": "SP39PWER4NT0E7EK73354ZJKP9HCKBYGK72609M9G",
-      "amount": 143800000000,
-      "txid": "0x189df967c0adea8354f80753c7f26e365b8859f3b825c29ed7121f84aafc9013",
-      "timestamp": "2026-01-11T23:23:00.000Z",
+      "amount": 144193000000,
+      "txid": "0x5e4e38fe460a1b03548555a0d86a3522e971bbca7354743698aa180131ffe901",
+      "timestamp": "2026-01-17T15:24:14.000Z",
       "unlock": 934850,
       "pool": "v1"
     },
@@ -6385,9 +6385,9 @@
       "rewardCycle": 127,
       "lockingPeriod": 1,
       "stacker": "SPHEDJJYMMZRQNPT9KHH0PVVHF5EJ0B8G3G3VXYE",
-      "amount": 3929143198,
-      "txid": "0xc1776e85dc0f1a5e9648dbac1ab650a2a5f8cd7f59d913c56775e2df027a96b4",
-      "timestamp": "2026-01-07T22:21:59.000Z",
+      "amount": 4067333298,
+      "txid": "0x5dd17b4e61fcdfefc01e48ec310f09f44967635c6ed7b4a434c1978a90c3f541",
+      "timestamp": "2026-01-17T17:31:09.000Z",
       "unlock": 934850,
       "pool": "v1"
     },
@@ -8132,5 +8132,6 @@
     }
   ],
   "count": 801,
-  "total": 57413046808854
+  "total": 57413577998954,
+  "payout": 187303496675
 }
