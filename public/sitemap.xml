@@ -200,13 +200,42 @@
   </url><url>
     <loc>https://fastpool.org/rewards/127/</loc>
   </url><url>
+    <loc>https://fastpool.org/rewards/128/</loc>
+  </url><url>
     <loc>https://fastpool.org/members/</loc>
   </url><url>
     <loc>https://fastpool.org/mp/rewards/99/</loc>
   </url><url>
     <loc>https://fastpool.org/payouts/1/</loc>
   </url><url>
+    <loc>https://fastpool.org/cycles/129/</loc>
+    <lastmod>2026-02-16T10:05:10+01:00</lastmod>
+  </url><url>
     <loc>https://fastpool.org/</loc>
+    <lastmod>2026-02-16T10:05:10+01:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP18H0JAJ2S13M8RHBMD65ZMNRWWP88384MDSSRQY/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP1V7EWCX7595F0AWGJQ0ZAK3SZSDN9D6RP6BB4M4/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP203AM4W55AAXF68X0P1EKQHKV62Y57A1VD044SX/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP26M5FNTJ9YKMA9VC10EGB2YFFSSS1T60ME8N1GW/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP3M11YN9YSK4SA3P3FVJ1FCRWZ3Z90AQMDPEPD9Z/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SP5J710KFE9V93HWMPEDEDM7SBX3T9VNAKJDKVM4/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/users/SPT4SQP5RC1BFAJEQKBHZMXQ8NQ7G118F335BD85.BuildOnBitcoin/</loc>
+    <lastmod>2026-02-15T17:07:01+00:00</lastmod>
+  </url><url>
+    <loc>https://fastpool.org/cycles/128/</loc>
     <lastmod>2026-02-05T10:05:10+01:00</lastmod>
   </url><url>
     <loc>https://fastpool.org/users/SP17AM206D6XZ2REGWD7V2Q69TKK76GFGA6RFG55A/</loc>
@@ -21679,6 +21708,8 @@
     <loc>https://fastpool.org/rewards/126-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/127-swap/</loc>
+  </url><url>
+    <loc>https://fastpool.org/rewards/128-swap/</loc>
   </url><url>
     <loc>https://fastpool.org/rewards/swap-115/</loc>
   </url><url>
